@@ -1,4 +1,4 @@
-#CMU MLD Faculty, Student, and Alumni Web Scraping and Network Analysis 
+# CMU MLD Faculty, Student, and Alumni Web Scraping and Network Analysis 
 
 ## What is it
 
