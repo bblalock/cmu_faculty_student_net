@@ -5,8 +5,8 @@
 /dist/
 
 # Data
-/data/scraped/
-/data/transformed/
+/data/scraped/*.csv
+/data/transformed/*.csv
 
 # IDE
 .idea
