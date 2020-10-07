@@ -10,7 +10,7 @@ def strip_page_stop_words(s):
     return [word for word in tokens if word not in stopwords.words()]
 
 
-def scrape_thesis_abstract(page, alumni_list, faculty_list):
+def scrape_dissertation_abstract(page, alumni_list, faculty_list):
     if page['text'] == 'ERROR':
         return {'alumni_match': None,
                 'alumni_compared_line': None,
@@ -68,8 +68,8 @@ def scrape_thesis_abstract(page, alumni_list, faculty_list):
             }
 
 
-def scrape_thesis_abstracts(page_list, alumni_list, faculty_list):
+def scrape_dissertation_abstracts(page_list, alumni_list, faculty_list):
     for i, page in enumerate(page_list):
-        page = {**page, **scrape_thesis_abstract(page, alumni_list, faculty_list)}
+        page = {**page, **scrape_dissertation_abstract(page, alumni_list, faculty_list)}
         page_list[i] = page
     return page_list

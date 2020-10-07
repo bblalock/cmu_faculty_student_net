@@ -8,6 +8,7 @@ class CmuScraper:
     def __init__(self, test=False):
         self.test = test
         self.route_root = ROOT_DIR + "/data/raw/" if self.test else "https://www.ml.cmu.edu/people/"
+        self.output_dir = ROOT_DIR + "/data/scraped/"
         self.label = None
         self.soup = None
         self.url = None
@@ -34,5 +35,5 @@ class CmuScraper:
         if self.output_dataframe is None:
             self.get_output_dataframe()
         if loc is None:
-            loc = self.label + '.csv'
+            loc = self.output_dir + self.label + '.csv'
         self.output_dataframe.to_csv(loc, index=False)

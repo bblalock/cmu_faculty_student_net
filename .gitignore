@@ -4,6 +4,10 @@
 # Setuptools distribution folder.
 /dist/
 
+# Data
+/data/scraped/
+/data/transformed/
+
 # IDE
 .idea
 

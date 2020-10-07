@@ -8,8 +8,8 @@ from urllib.request import urlopen, Request
 from PyPDF2 import PdfFileReader
 from io import BytesIO
 
-from utils.thesis_pdfs import scrape_thesis_pages
-from utils.abstracts import scrape_thesis_abstracts
+from utils.dissertation_pdfs import scrape_dissertation_pages
+from utils.abstracts import scrape_dissertation_abstracts
 
 
 class AlumniPeoplePageScraper(CmuScraper):
@@ -45,25 +45,25 @@ class AlumniPeoplePageScraper(CmuScraper):
 class AlumniPdfThesisScraper(CmuScraper):
     def __init__(self, alumni_df, faculty_df):
         super().__init__()
-        self.label = 'phd_alumni'
+        self.label = 'dissertation_pdf_matches'
         self.route_root = 'https://www.ml.cmu.edu/research/'
         self.url = self.route_root + 'phd-dissertations.html'
         self.alumni_df = alumni_df
         self.faculty_df = faculty_df
-        self.thesis_pdfs = None
+        self.dissertation_pdfs = None
         self.alumni_faculty_matches = None
 
-    def get_thesis_pdfs(self):
+    def get_dissertation_pdfs(self):
         if self.soup is None:
             self._get_html_soup()
 
-        thesis_links = []
+        dissertation_links = []
         for link in self.soup.findAll('a', attrs={'href': re.compile("^http://")}):
-            thesis_links.append(link.get('href'))
-        thesis_links = list(set(thesis_links))
+            dissertation_links.append(link.get('href'))
+        dissertation_links = list(set(dissertation_links))
 
-        thesis_committee_pages = []
-        for link in thesis_links:
+        dissertation_committee_pages = []
+        for link in dissertation_links:
             remoteFile = urlopen(Request(link)).read()
             memoryFile = BytesIO(remoteFile)
             pdfFile = PdfFileReader(memoryFile)
@@ -78,22 +78,22 @@ class AlumniPdfThesisScraper(CmuScraper):
                     page = {'link': link,
                             'text': page,
                             }
-                    thesis_committee_pages.append(page)
+                    dissertation_committee_pages.append(page)
                 elif i >= num_pages - 1:
                     page = {'link': link,
                             'text': 'ERROR'
                             }
-                    thesis_committee_pages.append(page)
+                    dissertation_committee_pages.append(page)
 
                 i = i + 1
-        self.thesis_pdfs = thesis_committee_pages
+        self.dissertation_pdfs = dissertation_committee_pages
 
     def match_alumni_pdfs(self):
-        if self.thesis_pdfs is None:
-            self.get_thesis_pdfs()
+        if self.dissertation_pdfs is None:
+            self.get_dissertation_pdfs()
         alumnis = self.alumni_df.name.tolist()
         faculty = self.faculty_df.name.tolist()
-        alumni_matches = pd.DataFrame.from_dict(scrape_thesis_pages(self.thesis_pdfs, alumnis, faculty))
+        alumni_matches = pd.DataFrame.from_dict(scrape_dissertation_pages(self.dissertation_pdfs, alumnis, faculty))
         alumni_faculty_matches = alumni_matches.explode('alumni_match')
         alumni_faculty_matches = alumni_faculty_matches.explode('faculty_matches')
         alumni_faculty_matches['faculty_matches'] = alumni_faculty_matches['faculty_matches'].apply(
@@ -106,8 +106,8 @@ class AlumniPdfThesisScraper(CmuScraper):
         self.alumni_faculty_matches = alumni_faculty_matches
 
     def get_output_dataframe(self):
-        if self.thesis_pdfs is None:
-            self.get_thesis_pdfs()
+        if self.dissertation_pdfs is None:
+            self.get_dissertation_pdfs()
         if self.alumni_faculty_matches is None:
             self.match_alumni_pdfs()
         self.output_dataframe = self.alumni_faculty_matches
@@ -117,7 +117,7 @@ class AlumniPdfThesisScraper(CmuScraper):
 class AlumniAbstractScraper(CmuScraper):
     def __init__(self, alumni_df, faculty_df):
         super().__init__()
-        self.label = 'phd_alumni'
+        self.label = 'dissertation_abstracts_matches'
         self.route_root = "http://reports-archive.adm.cs.cmu.edu/anon/"
         self.url = "http://reports-archive.adm.cs.cmu.edu/anon/"
         self.alumni_df = alumni_df
@@ -149,7 +149,7 @@ class AlumniAbstractScraper(CmuScraper):
             self.get_abstracts()
         alumnis = self.alumni_df.name.tolist()
         faculty = self.faculty_df.name.tolist()
-        alumni_matches = pd.DataFrame.from_dict(scrape_thesis_abstracts(self.abstracts, alumnis, faculty))
+        alumni_matches = pd.DataFrame.from_dict(scrape_dissertation_abstracts(self.abstracts, alumnis, faculty))
         alumni_faculty_matches = alumni_matches.explode('alumni_match')
         alumni_faculty_matches = alumni_faculty_matches.explode('faculty_matches')
         alumni_faculty_matches['faculty_matches'] = alumni_faculty_matches['faculty_matches'].apply(
