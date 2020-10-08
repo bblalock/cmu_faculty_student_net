@@ -79,7 +79,10 @@ def initialize_cyto_children(elements):
                                                         className="card-title",
                                                         ),
                                                 html.Hr(className="my-1"),
-
+                                                html.H5("Clicking",
+                                                        className="card-title",
+                                                        ),
+                                                html.Hr(className="my-2"),
                                             ]
                                         ),
 
@@ -87,10 +90,10 @@ def initialize_cyto_children(elements):
                                     className='pretty_container card',
                                 )
                             ],
-                            className="col-3",
+                            className="col-2",
                             style={'display': 'inline-block',
                                    'verticalAlign': 'top',
-                                   'height': '100%',
+                                   # 'height': '100%',
                                    'padding': '0'
                                    }
                         ),
@@ -101,11 +104,9 @@ def initialize_cyto_children(elements):
                                     id='cmu_net_loading'
                                 ),
                             ],
-                            className="col-9",
-                            style={'display': 'inline-block',
-                                   'verticalAlign': 'top',
-                                   'height': '100%',
-                                   'padding': '0'
+                            id='cyto_canvas',
+                            className="pretty_card col-10",
+                            style={
                                    }
                         )
                     ],
