@@ -61,7 +61,7 @@ def set_node_community(G, name='community'):
         for v in v_c:
             # Add 1 to save 0 for external edges
             G.nodes[v][name] = c + 1
-            G.nodes[v][name + '_color'] = get_color(c + 1, len(communities))
+            G.nodes[v][name + '_color'] = get_color(c, len(communities))
 
 
 def set_edge_community(G, name='community'):
@@ -115,5 +115,6 @@ def get_node_edge_frame(node_df, edgelist_df, name_prefix=''):
 
     # Create node and edge_frame
     node_frame, edge_frame = create_node_edge_frame(G)
+    node_frame['display'] = node_frame.joint_degree.apply(lambda x: 'element' if x > 0 else 'none')
 
     return node_frame, edge_frame

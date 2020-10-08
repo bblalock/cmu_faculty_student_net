@@ -1,130 +1,74 @@
 import dash
-import pandas as pd
-import dash_html_components as html
 import dash_bootstrap_components as dbc
-from constants import DEFAULT_STYLESHEET
-from layout import get_layout
-from dash.dependencies import Input, Output
+
+from utils.cyto import format_cyto_edges, format_cyto_nodes
+from constants import ROOT_DIR
+import pandas as pd
+
 pd.set_option('mode.chained_assignment', None)
 
 app = dash.Dash(__name__,
                 external_stylesheets=[dbc.themes.JOURNAL]
                 )
-app.title = 'CMU NET'
-app.layout = html.Div(children=get_layout())
+server = app.server
 
-@app.callback(Output('cmu_net', 'stylesheet'),
-              [Input('cmu_net', 'tapNode')]
-              )
-def generate_stylesheet(node):
-    if (not node) or (node['classes'] != 'faculty_node'):
-        return DEFAULT_STYLESHEET
+node_frame = pd.read_csv(ROOT_DIR + '/data/app/joint_node_frame.csv')
+edge_frame = pd.read_csv(ROOT_DIR + '/data/app/joint_edge_frame.csv')
 
-    stylesheet = [
-        {
-            'selector': '.faculty_root_node',
-            'style': {'content': 'data(label)',
-                      'font-size': '50px',
-                      'text-transform': 'uppercase',
-                      'compound-sizing-wrt-labels': 'include',
-                      }
-        },
-        {
-            'selector': '.faculty_type_node',
-            'style': {'content': 'data(label)',
-                      'font-size': '30px',
-                      'text-transform': 'uppercase',
-                      'compound-sizing-wrt-labels': 'include',
-                      }
-        },
-        {
-            'selector': '.faculty_node',
-            'style': {'width': 'data(size)',
-                      'height': 'data(size)',
-                      'background-opacity': 0.1,
-                      }
-        },
-        {
-            'selector': '.co_advised_edge',
-            'style': {'line-style': 'solid',
-                      'width': 'data(width)',
-                      'opacity': 0.1,
-                      'curve-style': 'bezier',
-                      'line-color': 'blue'
-                      }
-        },
-        {
-            'selector': '.co_committee_edge',
-            'style': {'line-style': 'dashed',
-                      'width': 'data(width)',
-                      'opacity': 0.1,
-                      'curve-style': 'bezier',
-                      'line-color': 'grey'
-                      }
-        },
-        {
-            "selector": '.faculty_node[id = "{}"]'.format(node['data']['id']),
-            "style": {
-                'background-color': '#B10DC9',
-                "border-color": "purple",
-                "border-width": 2,
-                "border-opacity": 1,
-                "background-opacity": 0.4,
-                "label": "data(label)",
-                "text-opacity": 1,
-                "font-size": '26px',
-                'z-index': 9999
-            }
-        }
-    ]
+faculty_root_nodes = format_cyto_nodes(node_frame[['entity_type']].drop_duplicates(),
+                                       classes='faculty_root_node',
+                                       label='entity_type'
+                                       )
 
-    for edge in node['edgesData']:
-        if edge['source'] == node['data']['id']:
-            stylesheet.append({
-                "selector": '.faculty_node[id = "{}"]'.format(edge['target']),
-                "style": {
-                    'background-color': 'blue',
-                    'background-opacity': 0.4,
-                    "border-color": "blue",
-                    "border-width": 2,
-                    "border-opacity": 1,
-                    "label": "data(label)",
-                    "text-opacity": 1,
-                    "font-size": '26px'
-                }
-            })
-            stylesheet.append({
-                "selector": 'edge[id= "{}"]'.format(edge['id']),
-                "style": {
-                    "line-color": 'purple',
-                    'opacity': 0.4,
-                }
-            })
+faculty_type_nodes = format_cyto_nodes(node_frame[['entity_type', 'faculty_type']].drop_duplicates(),
+                                       parent='entity_type',
+                                       classes='faculty_type_node',
+                                       label='faculty_type'
+                                       )
 
-        if edge['target'] == node['data']['id']:
-            stylesheet.append({
-                "selector": '.faculty_node[id = "{}"]'.format(edge['source']),
-                "style": {
-                    'background-color': 'blue',
-                    'background-opacity': 0.4,
-                    "border-color": "blue",
-                    "border-width": 2,
-                    "border-opacity": 1,
-                    "label": "data(label)",
-                    "text-opacity": 1,
-                    "font-size": '26px'
-                }
-            })
-            stylesheet.append({
-                "selector": 'edge[id= "{}"]'.format(edge['id']),
-                "style": {
-                    "line-color": 'purple',
-                    'opacity': 0.4,
-                }
-            })
+faculty_nodes = format_cyto_nodes(node_frame,
+                                  parent='faculty_type',
+                                  classes='faculty_node',
+                                  size_by='joint_pagerank',
+                                  min_size=40,
+                                  max_size=120,
+                                  opacity_by='joint_pagerank',
+                                  min_opacity=0.3,
+                                  max_opacity=0.8,
+                                  font_size_by='join_pagerank',
+                                  font_min_size=20,
+                                  font_max_size=34,
+                                  )
 
-    return stylesheet
+faculty_co_advise_relations = format_cyto_edges(edge_frame[edge_frame.relationship == 'Co-Advised'],
+                                                classes='co_advised_edge',
+                                                size_by='weight',
+                                                min_size=5,
+                                                max_size=8,
+                                                opacity_by='weight',
+                                                min_opacity=0.4,
+                                                max_opacity=0.7,
+                                                font_size_by='weight',
+                                                font_min_size=18,
+                                                font_max_size=22,
+                                                )
 
-# Main
-if __name__ == "__main__":
-    app.run_server(debug=True)
+faculty_co_committee_relations = format_cyto_edges(edge_frame[edge_frame.relationship == 'Co-Committee'],
+                                                   classes='co_committee_edge',
+                                                   size_by='weight',
+                                                   min_size=3,
+                                                   max_size=6,
+                                                   opacity_by='weight',
+                                                   min_opacity=0.3,
+                                                   max_opacity=0.6,
+                                                   font_size_by='weight',
+                                                   font_min_size=12,
+                                                   font_max_size=16,
+                                                   )
+
+cyto_elements = [*faculty_root_nodes,
+                 *faculty_type_nodes,
+                 *faculty_nodes,
+                 *faculty_co_advise_relations,
+                 *faculty_co_committee_relations
+                 ]

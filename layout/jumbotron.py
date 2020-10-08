@@ -56,5 +56,5 @@ def get_children():
 
 
 def initialize_jumbo_children():
-    return get_children() + get_selector()
+    return get_children()# + get_selector()
 

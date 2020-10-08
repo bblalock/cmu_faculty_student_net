@@ -1,112 +1,112 @@
-id,entity_type,faculty_type,title,research_interests,label,parent,joint_degree,joint_pagerank,joint_community,joint_community_color
-Aaditya Ramdas,faculty,core,"Assistant Professor, Statistics & Machine Learning, Dietrich College of Humanities and Social Sciences & School of Computer Science","Multiple Hypothesis Testing, Sequential Estimation, Interactive Statistics, Nonparametric Inference",Aaditya Ramdas,core,1,0.003710518523832521,1,"rgb(55,126,184)"
-Aarti Singh,faculty,core,"Associate Professor, Machine Learning, School of Computer Science",,Aarti Singh,core,14,0.037036638820948306,1,"rgb(55,126,184)"
-Barnabás Póczos,faculty,core,"(ON LEAVE) Associate Professor Machine Learning, School of Computer Science","Machine Learning in Scientific Applications, Optimization, Statistical Machine Learning",Barnabás Póczos,core,14,0.036095670057314275,1,"rgb(55,126,184)"
-Eric Xing,faculty,core,"Professor, Machine Learning & Language Technologies Institute & Computational Biology/Associate Head for Research, Machine Learning, School of Computer Science",,Eric Xing,core,18,0.04282301670369788,1,"rgb(55,126,184)"
-Jeff Schneider,faculty,core,"Research Professor, Robotics Institute, School of Computer Science","Bayesian Optimization, Reinforcement Learning, Self-driving Cars",Jeff Schneider,core,13,0.025462527203539753,1,"rgb(55,126,184)"
-Larry Wasserman,faculty,core,"UPMC Professor, Statistics & Machine Learning, Dietrich College of Humanities and Social Sciences & School of Computer Science","Nonparametric Inference, Statistical Learning",Larry Wasserman,core,8,0.026477560873466952,1,"rgb(55,126,184)"
-Manuela Veloso,faculty,core,"(ON LEAVE) Herbert A. Simon University Professor, Computer Science & Machine Learning, School of Computer Science","AI Planning and Learning, Multiagent Systems",Manuela Veloso,core,16,0.03707269849293797,1,"rgb(55,126,184)"
-Michael Tarr,faculty,related,"Professor & Department Head, Psychology, Dietrich College of Humanities and Social Sciences",,Michael Tarr,related,3,0.008042525803655769,1,"rgb(55,126,184)"
-Nihar Shah,faculty,core,"Assistant Professor, Machine Learning & Computer Science, School of Computer Science","Fairness, Game Theory, Learning Theory",Nihar Shah,core,4,0.0072349431262817045,1,"rgb(55,126,184)"
-Robert Kass,faculty,core,"Professor, Center for the Neural Basis of Cognition & Statistics & Machine Learning, Dietrich College of Humanities and Social Sciences & School of Computer Science","ML in the Brain Sciences, Statistics in Neuroscience",Robert Kass,core,4,0.01270810343736457,1,"rgb(55,126,184)"
-Roni Rosenfeld,faculty,core,"Department Head, Machine Learning Department/Professor, Machine Learning, Language Technologies Institute, Computer Science, Computational Biology, School of Computer Science",Forecasting Epidemics,Roni Rosenfeld,core,28,0.11450837446990361,1,"rgb(55,126,184)"
-Ruslan Salakhutdinov,faculty,core,"UPMC Professor, Machine Learning, School of Computer Science",,Ruslan Salakhutdinov,core,15,0.047243460620465,1,"rgb(55,126,184)"
-Ryan Tibshirani,faculty,core,"Associate Department Head for Faculty and Climate, Machine Learning/Associate Professor, Statistics & Machine Learning, Dietrich College of Humanities and Social Sciences & School of Computer Science","Convex Optimization, Forecasting Epidemics, High-dimensional Statistics, Nonparametric Statistics",Ryan Tibshirani,core,10,0.02455025395402635,1,"rgb(55,126,184)"
-Sivaraman Balakrishnan,faculty,affiliated,"Assistant Professor, Statistics, Dietrich College of Humanities and Social Sciences",,Sivaraman Balakrishnan,affiliated,7,0.013219106154127469,1,"rgb(55,126,184)"
-Tom Mitchell,faculty,core,"Founders University Professor/Director of ML PhD Programs, Computer Science & Machine Learning, School of Computer Science","Conversational Machine Learning, Deep Learning Models of Human Neural Activity",Tom Mitchell,core,30,0.0976081599749851,1,"rgb(55,126,184)"
-Abhinav Gupta,faculty,affiliated,"Associate Professor, Robotics Institute, School of Computer Science",,Abhinav Gupta,affiliated,2,0.004640477958009349,1,"rgb(55,126,184)"
-Alex Hauptmann,faculty,related,"Research Professor, Language Technologies Institute, School of Computer Science",,Alex Hauptmann,related,3,0.006542707076544574,1,"rgb(55,126,184)"
-Ding Zhao,faculty,related,"Assistant Professor, Mechanical Engineering Department",,Ding Zhao,related,3,0.006542707076544573,1,"rgb(55,126,184)"
-Alex Smola,faculty,unknown,,,Alex Smola,unknown,1,0.00584359428383058,1,"rgb(55,126,184)"
-Katerina Fragkiadaki,faculty,core,"Assistant Professor/Director of ML Master's Programs, Machine Learning, School of Computer Science","Active Vision, Computer Vision",Katerina Fragkiadaki,core,3,0.011497123623725996,1,"rgb(55,126,184)"
-Alexandra Chouldechova,faculty,unknown,,,Alexandra Chouldechova,unknown,3,0.010003337280267819,1,"rgb(55,126,184)"
-Edward Kennedy,faculty,unknown,,,Edward Kennedy,unknown,2,0.006446262626639353,1,"rgb(55,126,184)"
-Zachary Lipton,faculty,core,Assistant Professor of Business Technologies and Machine Learning,"Machine Learning for Healthcare, Robustness under distribution shift, Ethics of Technology, Deep Learning",Zachary Lipton,core,4,0.017199832358271203,1,"rgb(55,126,184)"
-Ameet Talwalkar,faculty,core,"Assistant Professor, Machine Learning, School of Computer Science","Explainable ML, Auto ML, Meta Learning, Fairness, Parallel and Distributed Machine Learning, Systems and Machine Learning",Ameet Talwalkar,core,7,0.013688203686653752,1,"rgb(55,126,184)"
-Maria-Florina Balcan,faculty,core,"Professor, Computer Science & Machine Learning, School of Computer Science","Foundations of Machine Learning, Data Driven Algorithm Design, Computational and Data-driven approaches in game theory and economics, Interactive Learning, Lifelong Learning",Maria-Florina Balcan,core,6,0.011777594466539351,1,"rgb(55,126,184)"
-Zico Kolter,faculty,affiliated,"Assistant Professor, Computer Science, School of Computer Science",,Zico Kolter,affiliated,2,0.007693854635293694,1,"rgb(55,126,184)"
-Andrej Risteski,faculty,core,"Assistant Professor, Machine Learning, School of Computer Science","Machine Learning Theory, Theory of Unsupervised Learning, Theory of Deep Learning",Andrej Risteski,core,2,0.007526367968435247,1,"rgb(55,126,184)"
-Pradeep Ravikumar,faculty,core,"Associate Professor, Machine Learning, School of Computer Science","Explainable, Robust, Graceful AI, Statisical Machine Learning, Learning Theory",Pradeep Ravikumar,core,8,0.015139357419556214,1,"rgb(55,126,184)"
-Artur Dubrawski,faculty,affiliated,"Research Professor, Robotics Institute, School of Computer Science",,Artur Dubrawski,affiliated,5,0.009724000903869132,1,"rgb(55,126,184)"
-Geoffrey Gordon,faculty,core,"Professor, Machine Learning, School of Computer Science","Reinforcement Learning, Statistical Machine Learning, Optimization, Spectral Methods",Geoffrey Gordon,core,17,0.054326153917645455,1,"rgb(55,126,184)"
-Avniel S. Ghuman,faculty,unknown,,,Avniel S. Ghuman,unknown,1,0.017241379310344827,3,"rgb(152,78,163)"
-Max G'Sell,faculty,affiliated,"Assistant Professor, Statistics, Dietrich College of Humanities and Social Sciences",,Max G'Sell,affiliated,1,0.017241379310344827,3,"rgb(152,78,163)"
-Clark Glymour,faculty,affiliated,"Alumni University Professor, Philosophy, Dietrich College of Humanities and Social Sciences",,Clark Glymour,affiliated,10,0.01622535438560074,1,"rgb(55,126,184)"
-Kun Zhang,faculty,affiliated,"Assistant Professor, Philosophy, Dietrich College of Humanities and Social Sciences",,Kun Zhang,affiliated,10,0.01622535438560074,1,"rgb(55,126,184)"
-Seyoung Kim,faculty,affiliated,"Assistant Professor, Computational Biology, School of Computer Science",,Seyoung Kim,affiliated,10,0.01730922533265693,1,"rgb(55,126,184)"
-Brent Doiron ,faculty,unknown,,,Brent Doiron ,unknown,2,0.008442225082185834,2,"rgb(77,175,74)"
-Byron Yu,faculty,affiliated,"Associate Professor, Electrical & Computer Engineering & Biomedical Engineering, College of Engineering",,Byron Yu,affiliated,7,0.029345802160957574,2,"rgb(77,175,74)"
-Matthew Smith,faculty,unknown,,,Matthew Smith,unknown,2,0.008442225082185834,2,"rgb(77,175,74)"
-Marcel Just,faculty,related,"Director, Center for Cognitive Brain Imaging/ D O Hebb Professor, Psychology, Dietrich College of Humanities and Social Sciences",,Marcel Just,related,2,0.005945632363104697,2,"rgb(77,175,74)"
-Matthew Smith ,faculty,unknown,,,Matthew Smith ,unknown,1,0.004853961923177097,2,"rgb(77,175,74)"
-Steve Chase,faculty,unknown,,,Steve Chase,unknown,1,0.0071217169498024695,2,"rgb(77,175,74)"
-Christos Faloutsos,faculty,core,"Professor, Computer Science, School of Computer Science","Data Mining, Social Networks, Anomaly Detection",Christos Faloutsos,core,7,0.013818196027773457,1,"rgb(55,126,184)"
-Leman Akoglu,faculty,affiliated,"Assistant Professor, Information Systems, Heinz College of Information Systems and Public Policy",,Leman Akoglu,affiliated,3,0.005876944060971253,1,"rgb(55,126,184)"
-William Cohen,faculty,core,"(ON LEAVE) Professor, Machine Learning & Language Technologies Institute, School of Computer Science",,William Cohen,core,4,0.009071367897328304,1,"rgb(55,126,184)"
-Cosma Shalizi,faculty,core,"Associate Professor, Statistics, Dietrich College of Humanities and Social Sciences","Causal Inference, Network Analysis, Time Series",Cosma Shalizi,core,5,0.008967591180914013,1,"rgb(55,126,184)"
-Eduard Hovy,faculty,affiliated,"Research Professor, Language Technologies Institute, School of Computer Science",,Eduard Hovy,affiliated,2,0.005202348055422017,1,"rgb(55,126,184)"
-David Held,faculty,affiliated,"Assistant Professor, Robotics Institute, School of Computer Science",,David Held,affiliated,1,0.017241379310344827,4,"rgb(1,1,1)"
-Srinivasa Narasimhan,faculty,unknown,,,Srinivasa Narasimhan,unknown,1,0.017241379310344827,4,"rgb(1,1,1)"
-Ziv Bar-Joseph,faculty,core,"Professor, Computational Biology & Machine Learning, School of Computer Science","Computational Biology, Graphical Models, Time Series Analysis, Single Cell",Ziv Bar-Joseph,core,4,0.007680817824641001,1,"rgb(55,126,184)"
-Gary Miller,faculty,affiliated,"Professor, Computer Science, School of Computer Science",,Gary Miller,affiliated,1,0.0037114820150001135,1,"rgb(55,126,184)"
-Matt Gormley,faculty,core,"Assistant Teaching Professor/Director of ML Undergraduate Programs, Machine Learning, School of Computer Science","Deep Learning for Structured Prediction, Graphical Models, NLP",Matt Gormley,core,1,0.0035900347670015796,1,"rgb(55,126,184)"
-Reid Simmons,faculty,affiliated,"Research Professor, Robotics Institute & Computer Science, School of Computer Science",,Reid Simmons,affiliated,2,0.005690766413764127,1,"rgb(55,126,184)"
-Jeremy Weiss,faculty,affiliated,"Assistant Professor, Health Informatics, Heinz College of Information Systems and Public Policy",,Jeremy Weiss,affiliated,1,0.006239675719237599,1,"rgb(55,126,184)"
-Jing Lei,faculty,unknown,,,Jing Lei,unknown,1,0.0037455261306122275,1,"rgb(55,126,184)"
-Simon Lucey,faculty,affiliated,"Associate Research Professor, Robotics Institute, School of Computer Science",,Simon Lucey,affiliated,2,0.006868134890915329,1,"rgb(55,126,184)"
-Leila Wehbe,faculty,core,"Assistant Professor, Machine Learning, School of Computer Science","Computational Cognitive Neuroscience, Natural Language Processing, ML for Science",Leila Wehbe,core,2,0.005956611316905428,1,"rgb(55,126,184)"
-Louis-Philippe Morency,faculty,affiliated,"Assistant Professor, Language Technologies Institute, School of Computer Science",,Louis-Philippe Morency,affiliated,1,0.0035901121346280747,1,"rgb(55,126,184)"
-Roy Maxion,faculty,core,"Research Professor, Computer Science, School of Computer Science","Biometrics, Forensics, Keystroke Dynamics, Research Methods",Roy Maxion,core,2,0.004728243159860599,1,"rgb(55,126,184)"
-Tianqi Chen,faculty,core,"(Joining Fall 2020) Assistant Professor, Machine Learning & Computer Science, School of Computer Science","Machine Learning Systems, Large-scale machine learning, Knowledge Transfer",Tianqi Chen,core,0,0.0,0,"rgb(1,1,1)"
-Rayid Ghani,faculty,core,"Distinguished Career Professor, Machine Learning, School of Computer Science","Machine Learning for Social Good, Fairness, Bias, Equity, Interpretability, Explainable Machine Learning, Public Policy",Rayid Ghani,core,0,0.0,0,"rgb(1,1,1)"
-Hoda Heidari,faculty,core,"Assistant Professor, Machine Learning, School of Computer Science",,Hoda Heidari,core,0,0.0,0,"rgb(1,1,1)"
-Ann Lee,faculty,core,"(Associate Professor, Statistics & Machine, Dietrich College of Humanities and Social Sciences & School of Computer Science","Statistical Learning, Nonparametric Inference, Physical Sciences",Ann Lee,core,0,0.0,0,"rgb(1,1,1)"
-Yuanzhi Li,faculty,core,"Assistant Professor, Machine Learning, School of Computer Science",,Yuanzhi Li,core,0,0.0,0,"rgb(1,1,1)"
-Alan Montgomery,faculty,core,"Professor, Marketing, Tepper School of Business","Bayesian Methods, Gaussian Processes, Priors with Domain Knowledge",Alan Montgomery,core,0,0.0,0,"rgb(1,1,1)"
-Virginia Smith,faculty,core,"Assistant Professor, Machine Learning, School of Computer Science/ECE: Electrical & Computer Engineering","Large Scale Machine Learning, Optimization, Robust Machine Learning, Privacy-preserving ML",Virginia Smith,core,0,0.0,0,"rgb(1,1,1)"
-Pat Virtue,faculty,core,"Assistant Teaching Professor, School of Computer Science","Active Learning Teaching Methods, ML/AI Curriculum Development, AI Educational Outreach",Pat Virtue,core,0,0.0,0,"rgb(1,1,1)"
-Yiming Yang,faculty,core,"Professor, Language Technologies Institute & Machine Learning, School of Computer Science","Graph-based Learning, Deep Representation Learning/Architecture Search, Time Series",Yiming Yang,core,0,0.0,0,"rgb(1,1,1)"
-Chris Atkeson,faculty,affiliated,"Professor,  Robotics Institute & Human-Computer Interaction Institute, School of Computer Science",,Chris Atkeson,affiliated,0,0.0,0,"rgb(1,1,1)"
-Drew Bagnell,faculty,affiliated,"(ON-LEAVE) Associate Professor, Robotics Institute, School of Computer Science",,Drew Bagnell,affiliated,0,0.0,0,"rgb(1,1,1)"
-Kathleen Carley,faculty,affiliated,"Professor, Institute for Software Research, School of Computer Science",,Kathleen Carley,affiliated,0,0.0,0,"rgb(1,1,1)"
-George Chen,faculty,affiliated,"Assistant Professor, Information Systems, Heinz College of Information Systems and Public Policy",,George Chen,affiliated,0,0.0,0,"rgb(1,1,1)"
-Yuejie Chi,faculty,affiliated,"Associate Professor, Electrical & Computer Engineering, College of Engineering",,Yuejie Chi,affiliated,0,0.0,0,"rgb(1,1,1)"
-Roger Dannenberg,faculty,affiliated,"Professor, Computer Science, School of Computer Science",,Roger Dannenberg,affiliated,0,0.0,0,"rgb(1,1,1)"
-Fernando De la Torre,faculty,affiliated,"Associate Research Professor, Robotics Institute, School of Computer Science",,Fernando De la Torre,affiliated,0,0.0,0,"rgb(1,1,1)"
-William Eddy,faculty,affiliated,"John C. Warner Professor Emeritus, Statistics, Dietrich College of Humanities and Social Sciences",,William Eddy,affiliated,0,0.0,0,"rgb(1,1,1)"
-Fei Fang,faculty,affiliated,"Assistant Professor, Institute for Software Research, School of Computer Science",,Fei Fang,affiliated,0,0.0,0,"rgb(1,1,1)"
-Chris Genovese,faculty,affiliated,"Professor/Department Head, Statistics, Dietrich College of Humanities and Social Sciences",,Chris Genovese,affiliated,0,0.0,0,"rgb(1,1,1)"
-Seth Goldstein,faculty,affiliated,"Associate Professor, Computer Science, School of Computer Science",,Seth Goldstein,affiliated,0,0.0,0,"rgb(1,1,1)"
-Jiashun Jin,faculty,affiliated,"Professor, Statistics, Dietrich College of Humanities and Social Sciences",,Jiashun Jin,affiliated,0,0.0,0,"rgb(1,1,1)"
-Ken Koedinger,faculty,affiliated,"Hillman Professor, Human-Computer Interaction Institute, School of Computer Science",,Ken Koedinger,affiliated,0,0.0,0,"rgb(1,1,1)"
-Tai Sing Lee,faculty,affiliated,"Professor, Computer Science & Center for the Neural Basis of Cognition, School of Computer Science & Dietrich College of Humanities and Social Sciences",,Tai Sing Lee,affiliated,0,0.0,0,"rgb(1,1,1)"
-Jian Ma,faculty,affiliated,"Associate Professor, Computational Biology, School of Computer Science",,Jian Ma,affiliated,0,0.0,0,"rgb(1,1,1)"
-Deepak Pathak,faculty,affiliated,"Assistant Professor, Robotics Institute, School of Computer Science",,Deepak Pathak,affiliated,0,0.0,0,"rgb(1,1,1)"
-Benjamin Moseley,faculty,affiliated,"Assistant Professor, Operations Research, Tepper School of Business",,Benjamin Moseley,affiliated,0,0.0,0,"rgb(1,1,1)"
-Robert Murphy,faculty,affiliated,"Lane Professor of Computational Biology, Biological Sciences & Biomedical Engineering & Machine Learning, Mellon College of Science & School of Computer Science",,Robert Murphy,affiliated,0,0.0,0,"rgb(1,1,1)"
-Graham Neubig,faculty,affiliated,"Assistant Professor, Language Technology Institute, School of Computer Science",,Graham Neubig,affiliated,0,0.0,0,"rgb(1,1,1)"
-Bhiksha Raj,faculty,affiliated,"Professor, Language Technologies Institute, School of Computer Science",,Bhiksha Raj,affiliated,0,0.0,0,"rgb(1,1,1)"
-Alessandro Rinaldo,faculty,affiliated,"Associate Professor, Statistics, Dietrich College of Humanities and Social Sciences",,Alessandro Rinaldo,affiliated,0,0.0,0,"rgb(1,1,1)"
-Tuomas Sandholm,faculty,affiliated,"Professor, Computer Science, School of Computer Science",,Tuomas Sandholm,affiliated,0,0.0,0,"rgb(1,1,1)"
-Richard Scheines,faculty,affiliated,"Dean, Dietrich College/Professor, Philosophy, Dietrich College of Humanities & Social Sciences",,Richard Scheines,affiliated,0,0.0,0,"rgb(1,1,1)"
-Russell Schwartz,faculty,affiliated,"Professor and Head, Computational Biology Department Professor, Department of Biological Sciences Carnegie Mellon University",,Russell Schwartz,affiliated,0,0.0,0,"rgb(1,1,1)"
-Teddy Seidenfeld,faculty,affiliated,"Herbert A. Simon University Professor, Philosophy, Dietrich College of Humanities and Social Sciences",,Teddy Seidenfeld,affiliated,0,0.0,0,"rgb(1,1,1)"
-Katia Sycara,faculty,affiliated,"Research Professor, Robotics Institute, School of Computer Science",,Katia Sycara,affiliated,0,0.0,0,"rgb(1,1,1)"
-Conrad Tucker,faculty,affiliated,"Arthur Hamerschlag Career Development Professor, Mechanical Engineering",,Conrad Tucker,affiliated,0,0.0,0,"rgb(1,1,1)"
-Steven Wu,faculty,affiliated,"Assistant Professor, Institute for Software Research",,Steven Wu,affiliated,0,0.0,0,"rgb(1,1,1)"
-Jun-Yan Zhu,faculty,affiliated,"Assistant Professor, Robotics Institute, School of Computer Science",,Jun-Yan Zhu,affiliated,0,0.0,0,"rgb(1,1,1)"
-Amir Barati Farimani,faculty,related,"Assistant Professor, Mechanical Engineering",,Amir Barati Farimani,related,0,0.0,0,"rgb(1,1,1)"
-Alfred Blumstein,faculty,related,"J. Erik Jonsson University Professor Emeritus, Urban Systems & Operations Research, Heinz College of Information Systems and Public Policy",,Alfred Blumstein,related,0,0.0,0,"rgb(1,1,1)"
-Hartmut Geyer,faculty,related,"Associate Professor, Robotics Institute, School of Computer Science",,Hartmut Geyer,related,0,0.0,0,"rgb(1,1,1)"
-Joel Greenhouse,faculty,related,"Professor, Statistics, Dietrich College of Humanities and Social Sciences",,Joel Greenhouse,related,0,0.0,0,"rgb(1,1,1)"
-Brian Junker,faculty,related,"Professor, Statistics, Dietrich College of Humanities and Social Sciences",,Brian Junker,related,0,0.0,0,"rgb(1,1,1)"
-Jay Kadane,faculty,related,"Leonard J. Savage Professor Emeritus, Statistics, Dietrich College of Humanities and Social Sciences",,Jay Kadane,related,0,0.0,0,"rgb(1,1,1)"
-Ramayya Krishnan,faculty,related,"Professor & Dean, Engineering & Public Policy, Heinz College of Information Systems and Public Policy",,Ramayya Krishnan,related,0,0.0,0,"rgb(1,1,1)"
-Mark Schervish,faculty,related,"Professor, Statistics, Dietrich College of Humanities and Social Sciences",,Mark Schervish,related,0,0.0,0,"rgb(1,1,1)"
-Dave Touretzky,faculty,related,"Research Professor, Computer Science & Center for the Neural Basis of Cognition, School of Computer Science",,Dave Touretzky,related,0,0.0,0,"rgb(1,1,1)"
-Isabella Verdinelli,faculty,related,"Professor in Residence, Statistics, Dietrich College of Humanities and Social Sciences",,Isabella Verdinelli,related,0,0.0,0,"rgb(1,1,1)"
-Joel Welling,faculty,related,"Senior Scientific Specialist, Pittsburgh Supercomputing Center",,Joel Welling,related,0,0.0,0,"rgb(1,1,1)"
-Alex Waibel,faculty,related,"Professor, Language Technologies Institute, School of Computer Science",,Alex Waibel,related,0,0.0,0,"rgb(1,1,1)"
-Stephen Smith,faculty,unknown,,,Stephen Smith,unknown,0,0.0,0,"rgb(1,1,1)"
-Rahul Telang,faculty,unknown,,,Rahul Telang,unknown,0,0.0,0,"rgb(1,1,1)"
-Ariel Procaccia,faculty,unknown,,,Ariel Procaccia,unknown,0,0.0,0,"rgb(1,1,1)"
+id,entity_type,faculty_type,title,research_interests,label,parent,joint_degree,joint_pagerank,joint_community,joint_community_color,display
+Aaditya Ramdas,faculty,core,"Assistant Professor, Statistics & Machine Learning, Dietrich College of Humanities and Social Sciences & School of Computer Science","Multiple Hypothesis Testing, Sequential Estimation, Interactive Statistics, Nonparametric Inference",Aaditya Ramdas,core,1,0.003710518523832521,1,"rgb(228,26,28)",element
+Aarti Singh,faculty,core,"Associate Professor, Machine Learning, School of Computer Science",,Aarti Singh,core,14,0.037036638820948306,1,"rgb(228,26,28)",element
+Barnabás Póczos,faculty,core,"(ON LEAVE) Associate Professor Machine Learning, School of Computer Science","Machine Learning in Scientific Applications, Optimization, Statistical Machine Learning",Barnabás Póczos,core,14,0.036095670057314275,1,"rgb(228,26,28)",element
+Eric Xing,faculty,core,"Professor, Machine Learning & Language Technologies Institute & Computational Biology/Associate Head for Research, Machine Learning, School of Computer Science",,Eric Xing,core,18,0.04282301670369788,1,"rgb(228,26,28)",element
+Jeff Schneider,faculty,core,"Research Professor, Robotics Institute, School of Computer Science","Bayesian Optimization, Reinforcement Learning, Self-driving Cars",Jeff Schneider,core,13,0.025462527203539753,1,"rgb(228,26,28)",element
+Larry Wasserman,faculty,core,"UPMC Professor, Statistics & Machine Learning, Dietrich College of Humanities and Social Sciences & School of Computer Science","Nonparametric Inference, Statistical Learning",Larry Wasserman,core,8,0.026477560873466952,1,"rgb(228,26,28)",element
+Manuela Veloso,faculty,core,"(ON LEAVE) Herbert A. Simon University Professor, Computer Science & Machine Learning, School of Computer Science","AI Planning and Learning, Multiagent Systems",Manuela Veloso,core,16,0.03707269849293797,1,"rgb(228,26,28)",element
+Michael Tarr,faculty,related,"Professor & Department Head, Psychology, Dietrich College of Humanities and Social Sciences",,Michael Tarr,related,3,0.008042525803655769,1,"rgb(228,26,28)",element
+Nihar Shah,faculty,core,"Assistant Professor, Machine Learning & Computer Science, School of Computer Science","Fairness, Game Theory, Learning Theory",Nihar Shah,core,4,0.0072349431262817045,1,"rgb(228,26,28)",element
+Robert Kass,faculty,core,"Professor, Center for the Neural Basis of Cognition & Statistics & Machine Learning, Dietrich College of Humanities and Social Sciences & School of Computer Science","ML in the Brain Sciences, Statistics in Neuroscience",Robert Kass,core,4,0.01270810343736457,1,"rgb(228,26,28)",element
+Roni Rosenfeld,faculty,core,"Department Head, Machine Learning Department/Professor, Machine Learning, Language Technologies Institute, Computer Science, Computational Biology, School of Computer Science",Forecasting Epidemics,Roni Rosenfeld,core,28,0.11450837446990361,1,"rgb(228,26,28)",element
+Ruslan Salakhutdinov,faculty,core,"UPMC Professor, Machine Learning, School of Computer Science",,Ruslan Salakhutdinov,core,15,0.047243460620465,1,"rgb(228,26,28)",element
+Ryan Tibshirani,faculty,core,"Associate Department Head for Faculty and Climate, Machine Learning/Associate Professor, Statistics & Machine Learning, Dietrich College of Humanities and Social Sciences & School of Computer Science","Convex Optimization, Forecasting Epidemics, High-dimensional Statistics, Nonparametric Statistics",Ryan Tibshirani,core,10,0.02455025395402635,1,"rgb(228,26,28)",element
+Sivaraman Balakrishnan,faculty,affiliated,"Assistant Professor, Statistics, Dietrich College of Humanities and Social Sciences",,Sivaraman Balakrishnan,affiliated,7,0.013219106154127469,1,"rgb(228,26,28)",element
+Tom Mitchell,faculty,core,"Founders University Professor/Director of ML PhD Programs, Computer Science & Machine Learning, School of Computer Science","Conversational Machine Learning, Deep Learning Models of Human Neural Activity",Tom Mitchell,core,30,0.0976081599749851,1,"rgb(228,26,28)",element
+Abhinav Gupta,faculty,affiliated,"Associate Professor, Robotics Institute, School of Computer Science",,Abhinav Gupta,affiliated,2,0.004640477958009349,1,"rgb(228,26,28)",element
+Alex Hauptmann,faculty,related,"Research Professor, Language Technologies Institute, School of Computer Science",,Alex Hauptmann,related,3,0.006542707076544574,1,"rgb(228,26,28)",element
+Ding Zhao,faculty,related,"Assistant Professor, Mechanical Engineering Department",,Ding Zhao,related,3,0.006542707076544573,1,"rgb(228,26,28)",element
+Alex Smola,faculty,unknown,,,Alex Smola,unknown,1,0.00584359428383058,1,"rgb(228,26,28)",element
+Katerina Fragkiadaki,faculty,core,"Assistant Professor/Director of ML Master's Programs, Machine Learning, School of Computer Science","Active Vision, Computer Vision",Katerina Fragkiadaki,core,3,0.011497123623725996,1,"rgb(228,26,28)",element
+Alexandra Chouldechova,faculty,unknown,,,Alexandra Chouldechova,unknown,3,0.010003337280267819,1,"rgb(228,26,28)",element
+Edward Kennedy,faculty,unknown,,,Edward Kennedy,unknown,2,0.006446262626639353,1,"rgb(228,26,28)",element
+Zachary Lipton,faculty,core,Assistant Professor of Business Technologies and Machine Learning,"Machine Learning for Healthcare, Robustness under distribution shift, Ethics of Technology, Deep Learning",Zachary Lipton,core,4,0.017199832358271203,1,"rgb(228,26,28)",element
+Ameet Talwalkar,faculty,core,"Assistant Professor, Machine Learning, School of Computer Science","Explainable ML, Auto ML, Meta Learning, Fairness, Parallel and Distributed Machine Learning, Systems and Machine Learning",Ameet Talwalkar,core,7,0.013688203686653752,1,"rgb(228,26,28)",element
+Maria-Florina Balcan,faculty,core,"Professor, Computer Science & Machine Learning, School of Computer Science","Foundations of Machine Learning, Data Driven Algorithm Design, Computational and Data-driven approaches in game theory and economics, Interactive Learning, Lifelong Learning",Maria-Florina Balcan,core,6,0.011777594466539351,1,"rgb(228,26,28)",element
+Zico Kolter,faculty,affiliated,"Assistant Professor, Computer Science, School of Computer Science",,Zico Kolter,affiliated,2,0.007693854635293694,1,"rgb(228,26,28)",element
+Andrej Risteski,faculty,core,"Assistant Professor, Machine Learning, School of Computer Science","Machine Learning Theory, Theory of Unsupervised Learning, Theory of Deep Learning",Andrej Risteski,core,2,0.007526367968435247,1,"rgb(228,26,28)",element
+Pradeep Ravikumar,faculty,core,"Associate Professor, Machine Learning, School of Computer Science","Explainable, Robust, Graceful AI, Statisical Machine Learning, Learning Theory",Pradeep Ravikumar,core,8,0.015139357419556214,1,"rgb(228,26,28)",element
+Artur Dubrawski,faculty,affiliated,"Research Professor, Robotics Institute, School of Computer Science",,Artur Dubrawski,affiliated,5,0.009724000903869132,1,"rgb(228,26,28)",element
+Geoffrey Gordon,faculty,core,"Professor, Machine Learning, School of Computer Science","Reinforcement Learning, Statistical Machine Learning, Optimization, Spectral Methods",Geoffrey Gordon,core,17,0.054326153917645455,1,"rgb(228,26,28)",element
+Avniel S. Ghuman,faculty,unknown,,,Avniel S. Ghuman,unknown,1,0.017241379310344827,3,"rgb(77,175,74)",element
+Max G'Sell,faculty,affiliated,"Assistant Professor, Statistics, Dietrich College of Humanities and Social Sciences",,Max G'Sell,affiliated,1,0.017241379310344827,3,"rgb(77,175,74)",element
+Clark Glymour,faculty,affiliated,"Alumni University Professor, Philosophy, Dietrich College of Humanities and Social Sciences",,Clark Glymour,affiliated,10,0.01622535438560074,1,"rgb(228,26,28)",element
+Kun Zhang,faculty,affiliated,"Assistant Professor, Philosophy, Dietrich College of Humanities and Social Sciences",,Kun Zhang,affiliated,10,0.01622535438560074,1,"rgb(228,26,28)",element
+Seyoung Kim,faculty,affiliated,"Assistant Professor, Computational Biology, School of Computer Science",,Seyoung Kim,affiliated,10,0.01730922533265693,1,"rgb(228,26,28)",element
+Brent Doiron ,faculty,unknown,,,Brent Doiron ,unknown,2,0.008442225082185834,2,"rgb(55,126,184)",element
+Byron Yu,faculty,affiliated,"Associate Professor, Electrical & Computer Engineering & Biomedical Engineering, College of Engineering",,Byron Yu,affiliated,7,0.029345802160957574,2,"rgb(55,126,184)",element
+Matthew Smith,faculty,unknown,,,Matthew Smith,unknown,2,0.008442225082185834,2,"rgb(55,126,184)",element
+Marcel Just,faculty,related,"Director, Center for Cognitive Brain Imaging/ D O Hebb Professor, Psychology, Dietrich College of Humanities and Social Sciences",,Marcel Just,related,2,0.005945632363104697,2,"rgb(55,126,184)",element
+Matthew Smith ,faculty,unknown,,,Matthew Smith ,unknown,1,0.004853961923177097,2,"rgb(55,126,184)",element
+Steve Chase,faculty,unknown,,,Steve Chase,unknown,1,0.0071217169498024695,2,"rgb(55,126,184)",element
+Christos Faloutsos,faculty,core,"Professor, Computer Science, School of Computer Science","Data Mining, Social Networks, Anomaly Detection",Christos Faloutsos,core,7,0.013818196027773457,1,"rgb(228,26,28)",element
+Leman Akoglu,faculty,affiliated,"Assistant Professor, Information Systems, Heinz College of Information Systems and Public Policy",,Leman Akoglu,affiliated,3,0.005876944060971253,1,"rgb(228,26,28)",element
+William Cohen,faculty,core,"(ON LEAVE) Professor, Machine Learning & Language Technologies Institute, School of Computer Science",,William Cohen,core,4,0.009071367897328304,1,"rgb(228,26,28)",element
+Cosma Shalizi,faculty,core,"Associate Professor, Statistics, Dietrich College of Humanities and Social Sciences","Causal Inference, Network Analysis, Time Series",Cosma Shalizi,core,5,0.008967591180914013,1,"rgb(228,26,28)",element
+Eduard Hovy,faculty,affiliated,"Research Professor, Language Technologies Institute, School of Computer Science",,Eduard Hovy,affiliated,2,0.005202348055422017,1,"rgb(228,26,28)",element
+David Held,faculty,affiliated,"Assistant Professor, Robotics Institute, School of Computer Science",,David Held,affiliated,1,0.017241379310344827,4,"rgb(152,78,163)",element
+Srinivasa Narasimhan,faculty,unknown,,,Srinivasa Narasimhan,unknown,1,0.017241379310344827,4,"rgb(152,78,163)",element
+Ziv Bar-Joseph,faculty,core,"Professor, Computational Biology & Machine Learning, School of Computer Science","Computational Biology, Graphical Models, Time Series Analysis, Single Cell",Ziv Bar-Joseph,core,4,0.007680817824641001,1,"rgb(228,26,28)",element
+Gary Miller,faculty,affiliated,"Professor, Computer Science, School of Computer Science",,Gary Miller,affiliated,1,0.0037114820150001135,1,"rgb(228,26,28)",element
+Matt Gormley,faculty,core,"Assistant Teaching Professor/Director of ML Undergraduate Programs, Machine Learning, School of Computer Science","Deep Learning for Structured Prediction, Graphical Models, NLP",Matt Gormley,core,1,0.0035900347670015796,1,"rgb(228,26,28)",element
+Reid Simmons,faculty,affiliated,"Research Professor, Robotics Institute & Computer Science, School of Computer Science",,Reid Simmons,affiliated,2,0.005690766413764127,1,"rgb(228,26,28)",element
+Jeremy Weiss,faculty,affiliated,"Assistant Professor, Health Informatics, Heinz College of Information Systems and Public Policy",,Jeremy Weiss,affiliated,1,0.006239675719237599,1,"rgb(228,26,28)",element
+Jing Lei,faculty,unknown,,,Jing Lei,unknown,1,0.0037455261306122275,1,"rgb(228,26,28)",element
+Simon Lucey,faculty,affiliated,"Associate Research Professor, Robotics Institute, School of Computer Science",,Simon Lucey,affiliated,2,0.006868134890915329,1,"rgb(228,26,28)",element
+Leila Wehbe,faculty,core,"Assistant Professor, Machine Learning, School of Computer Science","Computational Cognitive Neuroscience, Natural Language Processing, ML for Science",Leila Wehbe,core,2,0.005956611316905428,1,"rgb(228,26,28)",element
+Louis-Philippe Morency,faculty,affiliated,"Assistant Professor, Language Technologies Institute, School of Computer Science",,Louis-Philippe Morency,affiliated,1,0.0035901121346280747,1,"rgb(228,26,28)",element
+Roy Maxion,faculty,core,"Research Professor, Computer Science, School of Computer Science","Biometrics, Forensics, Keystroke Dynamics, Research Methods",Roy Maxion,core,2,0.004728243159860599,1,"rgb(228,26,28)",element
+Tianqi Chen,faculty,core,"(Joining Fall 2020) Assistant Professor, Machine Learning & Computer Science, School of Computer Science","Machine Learning Systems, Large-scale machine learning, Knowledge Transfer",Tianqi Chen,core,0,0.0,0,"rgb(1,1,1)",none
+Rayid Ghani,faculty,core,"Distinguished Career Professor, Machine Learning, School of Computer Science","Machine Learning for Social Good, Fairness, Bias, Equity, Interpretability, Explainable Machine Learning, Public Policy",Rayid Ghani,core,0,0.0,0,"rgb(1,1,1)",none
+Hoda Heidari,faculty,core,"Assistant Professor, Machine Learning, School of Computer Science",,Hoda Heidari,core,0,0.0,0,"rgb(1,1,1)",none
+Ann Lee,faculty,core,"(Associate Professor, Statistics & Machine, Dietrich College of Humanities and Social Sciences & School of Computer Science","Statistical Learning, Nonparametric Inference, Physical Sciences",Ann Lee,core,0,0.0,0,"rgb(1,1,1)",none
+Yuanzhi Li,faculty,core,"Assistant Professor, Machine Learning, School of Computer Science",,Yuanzhi Li,core,0,0.0,0,"rgb(1,1,1)",none
+Alan Montgomery,faculty,core,"Professor, Marketing, Tepper School of Business","Bayesian Methods, Gaussian Processes, Priors with Domain Knowledge",Alan Montgomery,core,0,0.0,0,"rgb(1,1,1)",none
+Virginia Smith,faculty,core,"Assistant Professor, Machine Learning, School of Computer Science/ECE: Electrical & Computer Engineering","Large Scale Machine Learning, Optimization, Robust Machine Learning, Privacy-preserving ML",Virginia Smith,core,0,0.0,0,"rgb(1,1,1)",none
+Pat Virtue,faculty,core,"Assistant Teaching Professor, School of Computer Science","Active Learning Teaching Methods, ML/AI Curriculum Development, AI Educational Outreach",Pat Virtue,core,0,0.0,0,"rgb(1,1,1)",none
+Yiming Yang,faculty,core,"Professor, Language Technologies Institute & Machine Learning, School of Computer Science","Graph-based Learning, Deep Representation Learning/Architecture Search, Time Series",Yiming Yang,core,0,0.0,0,"rgb(1,1,1)",none
+Chris Atkeson,faculty,affiliated,"Professor,  Robotics Institute & Human-Computer Interaction Institute, School of Computer Science",,Chris Atkeson,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Drew Bagnell,faculty,affiliated,"(ON-LEAVE) Associate Professor, Robotics Institute, School of Computer Science",,Drew Bagnell,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Kathleen Carley,faculty,affiliated,"Professor, Institute for Software Research, School of Computer Science",,Kathleen Carley,affiliated,0,0.0,0,"rgb(1,1,1)",none
+George Chen,faculty,affiliated,"Assistant Professor, Information Systems, Heinz College of Information Systems and Public Policy",,George Chen,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Yuejie Chi,faculty,affiliated,"Associate Professor, Electrical & Computer Engineering, College of Engineering",,Yuejie Chi,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Roger Dannenberg,faculty,affiliated,"Professor, Computer Science, School of Computer Science",,Roger Dannenberg,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Fernando De la Torre,faculty,affiliated,"Associate Research Professor, Robotics Institute, School of Computer Science",,Fernando De la Torre,affiliated,0,0.0,0,"rgb(1,1,1)",none
+William Eddy,faculty,affiliated,"John C. Warner Professor Emeritus, Statistics, Dietrich College of Humanities and Social Sciences",,William Eddy,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Fei Fang,faculty,affiliated,"Assistant Professor, Institute for Software Research, School of Computer Science",,Fei Fang,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Chris Genovese,faculty,affiliated,"Professor/Department Head, Statistics, Dietrich College of Humanities and Social Sciences",,Chris Genovese,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Seth Goldstein,faculty,affiliated,"Associate Professor, Computer Science, School of Computer Science",,Seth Goldstein,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Jiashun Jin,faculty,affiliated,"Professor, Statistics, Dietrich College of Humanities and Social Sciences",,Jiashun Jin,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Ken Koedinger,faculty,affiliated,"Hillman Professor, Human-Computer Interaction Institute, School of Computer Science",,Ken Koedinger,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Tai Sing Lee,faculty,affiliated,"Professor, Computer Science & Center for the Neural Basis of Cognition, School of Computer Science & Dietrich College of Humanities and Social Sciences",,Tai Sing Lee,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Jian Ma,faculty,affiliated,"Associate Professor, Computational Biology, School of Computer Science",,Jian Ma,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Deepak Pathak,faculty,affiliated,"Assistant Professor, Robotics Institute, School of Computer Science",,Deepak Pathak,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Benjamin Moseley,faculty,affiliated,"Assistant Professor, Operations Research, Tepper School of Business",,Benjamin Moseley,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Robert Murphy,faculty,affiliated,"Lane Professor of Computational Biology, Biological Sciences & Biomedical Engineering & Machine Learning, Mellon College of Science & School of Computer Science",,Robert Murphy,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Graham Neubig,faculty,affiliated,"Assistant Professor, Language Technology Institute, School of Computer Science",,Graham Neubig,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Bhiksha Raj,faculty,affiliated,"Professor, Language Technologies Institute, School of Computer Science",,Bhiksha Raj,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Alessandro Rinaldo,faculty,affiliated,"Associate Professor, Statistics, Dietrich College of Humanities and Social Sciences",,Alessandro Rinaldo,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Tuomas Sandholm,faculty,affiliated,"Professor, Computer Science, School of Computer Science",,Tuomas Sandholm,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Richard Scheines,faculty,affiliated,"Dean, Dietrich College/Professor, Philosophy, Dietrich College of Humanities & Social Sciences",,Richard Scheines,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Russell Schwartz,faculty,affiliated,"Professor and Head, Computational Biology Department Professor, Department of Biological Sciences Carnegie Mellon University",,Russell Schwartz,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Teddy Seidenfeld,faculty,affiliated,"Herbert A. Simon University Professor, Philosophy, Dietrich College of Humanities and Social Sciences",,Teddy Seidenfeld,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Katia Sycara,faculty,affiliated,"Research Professor, Robotics Institute, School of Computer Science",,Katia Sycara,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Conrad Tucker,faculty,affiliated,"Arthur Hamerschlag Career Development Professor, Mechanical Engineering",,Conrad Tucker,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Steven Wu,faculty,affiliated,"Assistant Professor, Institute for Software Research",,Steven Wu,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Jun-Yan Zhu,faculty,affiliated,"Assistant Professor, Robotics Institute, School of Computer Science",,Jun-Yan Zhu,affiliated,0,0.0,0,"rgb(1,1,1)",none
+Amir Barati Farimani,faculty,related,"Assistant Professor, Mechanical Engineering",,Amir Barati Farimani,related,0,0.0,0,"rgb(1,1,1)",none
+Alfred Blumstein,faculty,related,"J. Erik Jonsson University Professor Emeritus, Urban Systems & Operations Research, Heinz College of Information Systems and Public Policy",,Alfred Blumstein,related,0,0.0,0,"rgb(1,1,1)",none
+Hartmut Geyer,faculty,related,"Associate Professor, Robotics Institute, School of Computer Science",,Hartmut Geyer,related,0,0.0,0,"rgb(1,1,1)",none
+Joel Greenhouse,faculty,related,"Professor, Statistics, Dietrich College of Humanities and Social Sciences",,Joel Greenhouse,related,0,0.0,0,"rgb(1,1,1)",none
+Brian Junker,faculty,related,"Professor, Statistics, Dietrich College of Humanities and Social Sciences",,Brian Junker,related,0,0.0,0,"rgb(1,1,1)",none
+Jay Kadane,faculty,related,"Leonard J. Savage Professor Emeritus, Statistics, Dietrich College of Humanities and Social Sciences",,Jay Kadane,related,0,0.0,0,"rgb(1,1,1)",none
+Ramayya Krishnan,faculty,related,"Professor & Dean, Engineering & Public Policy, Heinz College of Information Systems and Public Policy",,Ramayya Krishnan,related,0,0.0,0,"rgb(1,1,1)",none
+Mark Schervish,faculty,related,"Professor, Statistics, Dietrich College of Humanities and Social Sciences",,Mark Schervish,related,0,0.0,0,"rgb(1,1,1)",none
+Dave Touretzky,faculty,related,"Research Professor, Computer Science & Center for the Neural Basis of Cognition, School of Computer Science",,Dave Touretzky,related,0,0.0,0,"rgb(1,1,1)",none
+Isabella Verdinelli,faculty,related,"Professor in Residence, Statistics, Dietrich College of Humanities and Social Sciences",,Isabella Verdinelli,related,0,0.0,0,"rgb(1,1,1)",none
+Joel Welling,faculty,related,"Senior Scientific Specialist, Pittsburgh Supercomputing Center",,Joel Welling,related,0,0.0,0,"rgb(1,1,1)",none
+Alex Waibel,faculty,related,"Professor, Language Technologies Institute, School of Computer Science",,Alex Waibel,related,0,0.0,0,"rgb(1,1,1)",none
+Stephen Smith,faculty,unknown,,,Stephen Smith,unknown,0,0.0,0,"rgb(1,1,1)",none
+Rahul Telang,faculty,unknown,,,Rahul Telang,unknown,0,0.0,0,"rgb(1,1,1)",none
+Ariel Procaccia,faculty,unknown,,,Ariel Procaccia,unknown,0,0.0,0,"rgb(1,1,1)",none

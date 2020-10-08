@@ -4,7 +4,7 @@ from layout.navbar import navbar_children
 from layout.cyto import initialize_cyto_children
 
 
-def get_layout():
+def get_layout(elements):
     navbar = dbc.NavbarSimple(children=navbar_children,
                               brand="Benjamin Blalock",
                               brand_href="https://github.com/bblalock/cmu_faculty_student_net",
@@ -17,8 +17,8 @@ def get_layout():
     jumbotron = dbc.Jumbotron(initialize_jumbo_children(), id='jumbotron')
 
     card_container = dbc.Card(
-        children=initialize_cyto_children(),
-        color="light",
+        children=initialize_cyto_children(elements),
+        # color="dark",
         inverse=False,
         className='pretty_card',
         id='card_container'

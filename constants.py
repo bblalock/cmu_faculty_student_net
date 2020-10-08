@@ -6,10 +6,18 @@ NETWORK_HEIGHT = '1000px'
 
 DEFAULT_STYLESHEET = [
     {
+        'selector': 'node',
+        'style': {
+            'text-transform': 'uppercase',
+            'font-family': 'News Cycle, Arial Narrow Bold, sans-serif',
+            'font-weight': 700,
+            'display': 'element'
+        }
+    },
+    {
         'selector': '.faculty_root_node',
         'style': {'content': 'data(label)',
                   'font-size': '50px',
-                  'text-transform': 'uppercase',
                   'compound-sizing-wrt-labels': 'include',
                   "border-color": "black",
                   "border-width": 2,
@@ -22,7 +30,6 @@ DEFAULT_STYLESHEET = [
         'selector': '.faculty_type_node',
         'style': {'content': 'data(label)',
                   'font-size': '30px',
-                  'text-transform': 'uppercase',
                   'compound-sizing-wrt-labels': 'include',
                   "border-color": "black",
                   "border-width": 2,
@@ -42,35 +49,40 @@ DEFAULT_STYLESHEET = [
                   "border-color": "data(joint_community_color)",
                   "border-width": 2,
                   "border-opacity": 1,
-                  'min-zoomed-font-size': '16px',
+                  'min-zoomed-font-size': '22px',
+                  }
+    },
+    {
+        'selector': 'edge',
+        'style': {'width': 'data(width)',
+                  'opacity': 'data(opacity)',
+                  'curve-style': 'bezier',
+                  'text-transform': 'uppercase',
+                  'font-family': 'News Cycle, Arial Narrow Bold, sans-serif',
+                  'font-weight': 900,
+                  'text-opacity': 1,
+                  'line-color': "data(joint_community_color)",
+                  'color': 'data(joint_community_color)',
+                  'text-outline-color': "black",
+                  'text-outline-opacity': 1,
+                  'text-outline-width': 2,
+                  'font-size': 'data(label_size)',
+                  'text-rotation': 'autorotate',
+                  'label': 'data(relationship)',
+                  'min-zoomed-font-size': '36px'
                   }
     },
     {
         'selector': '.co_advised_edge',
-        'style': {'line-style': 'solid',
-                  'width': 'data(width)',
-                  'opacity': 'data(opacity)',
-                  'curve-style': 'bezier',
-                  'line-color': "data(joint_community_color)"
-                  }
+        'style': {'line-style': 'solid'}
     },
     {
         'selector': '.co_committee_edge',
-        'style': {'line-style': 'dashed',
-                  'width': 'data(width)',
-                  'opacity': 'data(opacity)',
-                  'curve-style': 'bezier',
-                  'line-color': "data(joint_community_color)"
-                  }
+        'style': {'line-style': 'dashed'}
     },
-    # {
-    #     "selector": '.faculty_type_node[id = "{}"]'.format('core'),
-    #     "style": {
-    #         'background-color': 'grey',
-    #         "background-opacity": 0.4
-    #     }
-    # }
 ]
+
+DEFAULT_STYLESHEET_DICT = {selector['selector']:selector for selector in DEFAULT_STYLESHEET }
 
 COSE_BILKENT_LAYOUT_OPTIONS = {
     'name': 'cose-bilkent',
@@ -87,7 +99,7 @@ COSE_BILKENT_LAYOUT_OPTIONS = {
     ## Whether to fit the network view after when done
     'fit': 'true',
     ## Padding on fit
-    'padding': 50,
+    'padding': 0,
     ## Whether to enable incremental mode
     'randomize': 'true',
     ## Node repulsion (non overlapping) multiplier
@@ -99,7 +111,7 @@ COSE_BILKENT_LAYOUT_OPTIONS = {
     ## Nesting factor (multiplier) to compute ideal edge length for inter-graph edges
     'nestingFactor': 0.0,
     ## Maximum number of iterations to perform
-    'numIter': 2500,
+    'numIter': 250,
     ## Whether to tile disconnected nodes
     'tile': 'true',
     ## Type of layout animation. The option set is {'during', 'end', false}
@@ -107,9 +119,9 @@ COSE_BILKENT_LAYOUT_OPTIONS = {
     ## Duration for animate:end
     'animationDuration': 500,
     ## Amount of vertical space to put between degree zero nodes during tiling (can also be a function)
-    'tilingPaddingVertical': 10,
+    'tilingPaddingVertical': 0,
     ## Amount of horizontal space to put between degree zero nodes during tiling (can also be a function)
-    'tilingPaddingHorizontal': 10,
+    'tilingPaddingHorizontal': 0,
     ## Gravity force (constant)
     'gravity': 0.5,
     ## Gravity range (constant) for compounds
