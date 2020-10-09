@@ -1,5 +1,5 @@
 from dash.dependencies import Input, Output, State
-from app import app, cyto_elements
+from app_setup import app, cyto_elements
 from functools import reduce
 
 

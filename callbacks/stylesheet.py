@@ -1,6 +1,6 @@
 from constants import DEFAULT_STYLESHEET
 from dash.dependencies import Input, Output
-from app import app
+from app_setup import app
 
 
 @app.callback(Output('cmu_net', 'stylesheet'),
