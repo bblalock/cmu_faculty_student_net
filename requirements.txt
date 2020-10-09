@@ -64,7 +64,6 @@ soupsieve==2.0.1
 toml==0.10.1
 tornado==6.0.4
 tqdm==4.49.0
-traitlets==5.0.4
 urllib3==1.25.10
 wcwidth==0.2.5
 Werkzeug==1.0.1
