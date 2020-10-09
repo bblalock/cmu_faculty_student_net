@@ -5,11 +5,11 @@ from app import app
 
 @app.callback(Output('cmu_net', 'stylesheet'),
               [Input('cmu_net', 'tapNode'),
-               Input('degree_zero_switch', 'on')
+               # Input('degree_zero_switch', 'on')
                ]
               )
-def generate_stylesheet(node, degree_switch):
-    if node and (node['classes'] == 'faculty_node'):
+def generate_stylesheet(node):
+    if node and ('faculty_node' in node['classes']):
         stylesheet = [
             {
                 'selector': 'node',
@@ -53,7 +53,7 @@ def generate_stylesheet(node, degree_switch):
                           }
             },
             {
-                "selector": '.faculty_node[id = "{}"]'.format(node['data']['id']),
+                "selector": 'node[id = "{}"]'.format(node['data']['id']),
                 "style": {
                     'content': 'data(label)',
                     'width': 'data(size)',
@@ -71,7 +71,7 @@ def generate_stylesheet(node, degree_switch):
         for edge in node['edgesData']:
             if edge['source'] == node['data']['id']:
                 stylesheet.append({
-                    "selector": '.faculty_node[id = "{}"]'.format(edge['target']),
+                    "selector": 'node[id = "{}"]'.format(edge['target']),
                     "style": {
                         'content': 'data(label)',
                         'width': 'data(size)',
@@ -109,7 +109,7 @@ def generate_stylesheet(node, degree_switch):
 
             if edge['target'] == node['data']['id']:
                 stylesheet.append({
-                    "selector": '.faculty_node[id = "{}"]'.format(edge['source']),
+                    "selector": 'node[id = "{}"]'.format(edge['source']),
                     "style": {
                         'content': 'data(label)',
                         'width': 'data(size)',
@@ -148,9 +148,10 @@ def generate_stylesheet(node, degree_switch):
     else:
         stylesheet_dict = {selector['selector']: selector for selector in DEFAULT_STYLESHEET}
 
-    if degree_switch:
-        stylesheet_dict['.faculty_node']['style']['display'] = 'element'
-    else:
-        stylesheet_dict['.faculty_node']['style']['display'] = 'data(display)'
+    stylesheet_dict['.faculty_node']['style']['display'] = 'data(display)'
+    # if degree_switch:
+    #     stylesheet_dict['.faculty_node']['style']['display'] = 'data(display)'
+    # else:
+    #     stylesheet_dict['.faculty_node']['style']['display'] = 'data(display)'
 
     return list(stylesheet_dict.values())

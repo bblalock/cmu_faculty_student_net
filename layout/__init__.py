@@ -18,7 +18,6 @@ def get_layout(elements):
 
     card_container = dbc.Card(
         children=initialize_cyto_children(elements),
-        # color="dark",
         inverse=False,
         className='pretty_card',
         id='card_container'

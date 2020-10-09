@@ -2,7 +2,7 @@ import os
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-NETWORK_HEIGHT = '1000px'
+NETWORK_HEIGHT = '1100px'
 
 DEFAULT_STYLESHEET = [
     {
@@ -11,7 +11,6 @@ DEFAULT_STYLESHEET = [
             'text-transform': 'uppercase',
             'font-family': 'News Cycle, Arial Narrow Bold, sans-serif',
             'font-weight': 700,
-            'display': 'element'
         }
     },
     {
@@ -50,6 +49,7 @@ DEFAULT_STYLESHEET = [
                   "border-width": 2,
                   "border-opacity": 1,
                   'min-zoomed-font-size': '22px',
+                  'display': 'data(display)'
                   }
     },
     {

@@ -3,26 +3,25 @@
     border-radius: 10px;
     position: relative;
     box-shadow: 2px 2px 10px 4px lightgrey;
+    height: 100%;
 }
 
 .card.pretty_card {
     margin: 0px 10px;
-    height: 100%;
 }
 
 #cyto_canvas {
     margin: 10px 0px;
     display: inline-block;
-    verticalAlign: top;
-    height: 100%;
+    vertical-align: top;
     padding: 0;
 }
 
 .pretty_container {
     border-radius: 10px;
-    margin: 10px;
+    margin: 10px 10px 10px 2px;
     position: relative;
-    box-shadow: 0px 0px 10px 0px lightgrey;
+    box-shadow: 0 10px 10px 0 lightgrey;
 }
 
 .pretty_container div.card-body {
@@ -33,14 +32,23 @@
     margin-top: 0.75rem;
 }
 
+.control-title {
+    margin: 0.75rem 0rem 0rem 0rem;
+}
+
 .card-body {
     padding: 3px;
 }
 
 #degree_zero_switch div {
     align-items: baseline;
+    display: inline-block;
 }
 
 .navbar-brand {
     font-size: 1.50rem;
+}
+
+label input {
+    margin: 0.2rem;
 }

@@ -1,18 +1,6 @@
-import dash_html_components as html
-import dash_core_components as dcc
+import dash_bootstrap_components as dbc
 
-#     children=[
-#         dbc.NavItem(dbc.NavLink("Page 1", href="#")),
-#         dbc.DropdownMenu(
-#             children=[
-#                 dbc.DropdownMenuItem("More pages", header=True),
-#                 dbc.DropdownMenuItem("Page 2", href="#"),
-#                 dbc.DropdownMenuItem("Page 3", href="#"),
-#             ],
-#             nav=True,
-#             in_navbar=True,
-#             label="More",
-#         ),
-#     ]
-
-navbar_children = []
+navbar_children = [
+    dbc.NavItem(dbc.NavLink("GITHUB", href="https://github.com/bblalock/cmu_faculty_student_net")),
+    dbc.NavItem(dbc.NavLink("RESUME", href='resumeDownload', external_link=True)),
+]

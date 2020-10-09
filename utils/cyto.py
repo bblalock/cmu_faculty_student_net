@@ -1,6 +1,7 @@
 import numpy as np
 import dash_cytoscape as cyto
 from constants import COSE_BILKENT_LAYOUT_OPTIONS, NETWORK_HEIGHT, DEFAULT_STYLESHEET
+from functools import reduce
 
 
 def scale_num(array, a, b):
@@ -11,20 +12,19 @@ def scale_num(array, a, b):
         return a
 
 
-def format_cyto_nodes(node_df,
-                      label='id',
-                      classes='cyto_node',
-                      parent=None,
-                      size_by=None,
-                      min_size=20,
-                      max_size=70,
-                      opacity_by=None,
-                      min_opacity=0.3,
-                      max_opacity=0.8,
-                      font_size_by=None,
-                      font_min_size=20,
-                      font_max_size=34,
-                      ):
+def add_node_formatting(node_df,
+                        label=None,
+                        parent=None,
+                        size_by=None,
+                        min_size=20,
+                        max_size=70,
+                        opacity_by=None,
+                        min_opacity=0.3,
+                        max_opacity=0.8,
+                        font_size_by=None,
+                        font_min_size=20,
+                        font_max_size=34,
+                        ):
     if label:
         node_df['label'] = node_df[label]
     if parent:
@@ -37,6 +37,18 @@ def format_cyto_nodes(node_df,
     if opacity_by:
         node_df['opacity'] = scale_num(node_df[opacity_by], min_opacity, max_opacity)
 
+    return node_df
+
+
+def format_cyto_nodes(node_df,
+                      label=None,
+                      classes='cyto_node',
+                      **kwargs
+                      ):
+    node_df = add_node_formatting(node_df,
+                                  label=label,
+                                  **kwargs
+                                  )
     nodes = node_df.rename(columns={label: 'id'}).to_dict('index')
     return [{'data': nodes[index], 'classes': classes} for index in nodes]
 
@@ -67,7 +79,9 @@ def format_cyto_edges(edge_df,
     return [{'data': edges[index], 'classes': classes} for index in edges]
 
 
-def cyto_network(elements):
+def cyto_network(elements, is_dict=True):
+    if is_dict:
+        elements = list(reduce(lambda a, b: a + b, elements.values()))
     g = cyto.Cytoscape(
         id='cmu_net',
         layout=COSE_BILKENT_LAYOUT_OPTIONS,
@@ -75,6 +89,7 @@ def cyto_network(elements):
         stylesheet=DEFAULT_STYLESHEET,
         elements=elements,
         autoRefreshLayout=True,
+        responsive=True
     )
 
     return g
