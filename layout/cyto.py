@@ -17,10 +17,6 @@ def initialize_cyto_children(elements):
                        ),
         dbc.CardBody(
             [
-                html.P(
-                    [],
-                ),
-                html.Hr(className="my-2"),
                 html.Div(
                     [
                         html.Div(
