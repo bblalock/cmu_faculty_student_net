@@ -8,7 +8,7 @@ import pandas as pd
 pd.set_option('mode.chained_assignment', None)
 
 app = dash.Dash(__name__,
-                external_stylesheets=[dbc.themes.CYBORG]
+                # external_stylesheets=[dbc.themes.CYBORG]
                 )
 
 

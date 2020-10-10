@@ -1,8 +1,8 @@
-html * {
-    /*font-size: 1rem !important;*/
-    color: #ffffff !important;
-    font-family: News Cycle, Arial Narrow Bold, sans-serif !important;
-}
+/*html * {*/
+/*    !*font-size: 1rem !important;*!*/
+/*    color: #ffffff !important;*/
+/*    font-family: News Cycle, Arial Narrow Bold, sans-serif !important;*/
+/*}*/
 
 .my-2 {
     border-color: white;
@@ -59,18 +59,18 @@ html * {
     display: inline-block;
 }
 
-.navbar {
-    /*font-size: 16px;*/
-    font-style: italic;
-    padding-top:  0.5rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    line-height: 1.1;
-}
+/*.navbar {*/
+/*    !*font-size: 16px;*!*/
+/*    !*font-style: italic;*!*/
+/*    padding-top:  0.5rem;*/
+/*    text-transform: uppercase;*/
+/*    font-weight: 700;*/
+/*    line-height: 1.1;*/
+/*}*/
 
-.navbar-brand {
-    font-size: 18px;
-}
+/*.navbar-brand {*/
+/*    font-size: 18px;*/
+/*}*/
 
 label input {
     margin: 0.2rem;
@@ -132,7 +132,7 @@ label input {
 
 .dash-bootstrap .has-value.Select--single > .Select-control .Select-value .Select-value-label,
 .dash-bootstrap .has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
-    color: #444;
+    color: #ffffff;
 }
 
 .dash-bootstrap .Select-multi-value-wrapper {

@@ -253,22 +253,22 @@ def generate_stylesheet(node, nodes_to_include):
         stylesheet_dict['.entity_root_node.faculty']['style']['border-width'] = 0
         stylesheet_dict['.entity_root_node.faculty']['style']['border-opacity'] = 0
         stylesheet_dict['.entity_root_node.faculty']['style']['content'] = ''
-        stylesheet_dict['.entity_root_node.faculty']['style']['display'] = 'none'
+        stylesheet_dict['.entity_root_node.faculty']['style']['visibility'] = 'hidden'
     else:
         stylesheet_dict['.entity_root_node.faculty']['style']['border-width'] = 2
         stylesheet_dict['.entity_root_node.faculty']['style']['border-opacity'] = 1
         stylesheet_dict['.entity_root_node.faculty']['style']['content'] = 'data(label)'
-        stylesheet_dict['.entity_root_node.faculty']['style']['display'] = 'element'
+        stylesheet_dict['.entity_root_node.faculty']['style']['visibility'] = 'visible'
 
     if not np.any(['student' in _ for _ in nodes_to_include]):
         stylesheet_dict['.entity_root_node.student']['style']['border-width'] = 0
         stylesheet_dict['.entity_root_node.student']['style']['border-opacity'] = 0
         stylesheet_dict['.entity_root_node.student']['style']['content'] = ''
-        stylesheet_dict['.entity_root_node.student']['style']['display'] = 'none'
+        stylesheet_dict['.entity_root_node.student']['style']['visibility'] = 'hidden'
     else:
         stylesheet_dict['.entity_root_node.student']['style']['border-width'] = 2
         stylesheet_dict['.entity_root_node.student']['style']['border-opacity'] = 1
         stylesheet_dict['.entity_root_node.student']['style']['content'] = 'data(label)'
-        stylesheet_dict['.entity_root_node.student']['style']['display'] = 'element'
+        stylesheet_dict['.entity_root_node.student']['style']['visibility'] = 'visible'
 
     return list(stylesheet_dict.values())

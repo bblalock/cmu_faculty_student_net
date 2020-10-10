@@ -21,7 +21,7 @@ def get_layout(elements):
         inverse=False,
         className='pretty_card',
         id='card_container',
-        color='light'
+        # color='dark'
     )
 
     layout_list = [

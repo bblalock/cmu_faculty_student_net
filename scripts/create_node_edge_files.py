@@ -3,7 +3,7 @@ from constants import ROOT_DIR
 from utils.network import cooccurrence_edgelist, get_node_edge_frame
 
 if __name__ == "__main__":
-    student_faculty_connections = pd.read_csv(ROOT_DIR + '/data/transformed/student_faculty_relationships.csv')
+    student_faculty_connections = pd.read_csv(ROOT_DIR + '/data/transformed/student_faculty_relationships.csv').dropna()
 
     bipartite_edges = student_faculty_connections.rename(
         columns={'student': 'target', 'faculty': 'source', 'edge_type': 'relationship'})
@@ -16,12 +16,12 @@ if __name__ == "__main__":
     ########################
     # Co-Occurrence Graphs #
     ########################
-    faculty_cooccurrence = cooccurrence_edgelist(student_faculty_connections, on='student')
+    faculty_cooccurrence = cooccurrence_edgelist(student_faculty_connections, on='student').dropna()
 
     student_cooccurrence = cooccurrence_edgelist(student_faculty_connections, on='faculty')
     student_cooccurrence = student_cooccurrence[(student_cooccurrence['relationship'] == 'Co-Advised') &
                                                 (student_cooccurrence['weight'] > 1)
-                                                ]
+                                                ].dropna()
     # student_cooccurrence = student_cooccurrence[student_cooccurrence.relationship == 'Co-Advised']
 
     #################

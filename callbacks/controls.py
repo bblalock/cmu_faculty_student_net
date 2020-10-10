@@ -23,12 +23,12 @@ def set_max_edge_weight(comm_value, adv_value, elements):
     marks = {'co_advised_edge': {0: {'label': '0', 'style': {'color': 'black'}},
                                  adv_value: {'label': str(adv_value), 'style': {'color': 'black'}},
                                  max_weight['co_advised_edge']: {'label': str(max_weight['co_advised_edge']),
-                                                                 'style': {'color': 'black'}}
+                                                                 'style': {'color': 'white'}}
                                  },
              'co_committee_edge': {0: {'label': '0', 'style': {'color': 'black'}},
                                    comm_value: {'label': str(comm_value), 'style': {'color': 'black'}},
                                    max_weight['co_committee_edge']: {'label': str(max_weight['co_committee_edge']),
-                                                                     'style': {'color': 'black'}}
+                                                                     'style': {'color': 'white'}}
                                    }
              }
 
