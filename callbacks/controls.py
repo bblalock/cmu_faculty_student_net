@@ -1,5 +1,5 @@
 import dash_core_components as dcc
-from dash.dependencies import Input, Output
+from dash.dependencies import Input, Output, State
 from app_setup import app, cyto_elements
 from utils.cyto import cyto_network
 
@@ -9,13 +9,14 @@ from utils.cyto import cyto_network
                Output('edge_weight_slider_adv', 'max'),
                Output('edge_weight_slider_adv', 'marks')
                ],
-              [Input('cmu_net', 'elements'),
+              [
                Input('edge_weight_slider_comm', 'value'),
                Input('edge_weight_slider_adv', 'value'),
-               ]
+               ],
+              [State('cmu_net', 'elements')]
               )
-def set_max_edge_weight(elements, comm_value, adv_value):
-    max_weight = {e_type: max([ele['data']['weight'] for ele in elements if ele['classes'] == e_type])
+def set_max_edge_weight(comm_value, adv_value, elements):
+    max_weight = {e_type: max([ele['data']['weight'] for ele in elements if e_type in ele['classes']])
                   for e_type in ['co_advised_edge', 'co_committee_edge']
                   }
 

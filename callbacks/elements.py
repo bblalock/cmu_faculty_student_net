@@ -21,26 +21,37 @@ def filter_graph(weight_filter_comm, weight_filter_adv,
                      'co_committee_edge': weight_filter_comm
                      }
 
-    min_weight = {e_type: min([ele['data']['weight'] for ele in elements if ele['classes'] == e_type])
+    min_weight = {e_type: min([ele['data']['weight'] for ele in elements if e_type in ele['classes']])
                   for e_type in edge_types
                   }
 
+    import numpy as np
     orig_elements = list(reduce(lambda a, b: a + b, cyto_elements.values()))
     nodes = [ele for ele in orig_elements
-             if 'edge' not in ele['classes']
+             if 'entity_node' in ele['classes']
              ]
 
+    # I need the bipartite edges to still be here so connected components will not float away in the layout
+    # edges = [ele for ele in orig_elements
+    #          if 'edge' in ele['classes'] and not np.any([ele['classes'] in edge_types])
+    #          ]
     edges = []
     for e_type in edge_types:
         if weight_filter[e_type] < min_weight[e_type]:
             edge = [ele for ele in orig_elements
-                    if ele['classes'] == e_type and ele['data']['weight'] >= weight_filter[e_type]
+                    if e_type in ele['classes'] and ele['data']['weight'] >= weight_filter[e_type]  # and ele in edges
                     ]
         else:
             edge = [ele for ele in elements
-                    if ele['classes'] == e_type and ele['data']['weight'] >= weight_filter[e_type]
+                    if e_type in ele['classes'] and ele['data']['weight'] >= weight_filter[e_type]  # and ele in edges
                     ]
         edges = edges + edge
+
+    if (np.any(['faculty' in _ for _ in nodes_to_include])) & (np.any(['student' in _ for _ in nodes_to_include])):
+        bipartite_edges = [ele for ele in orig_elements
+                           if ele['classes'] == 'advised_edge'
+                           ]
+        edges = edges + bipartite_edges
 
     non_zero_degree_nodes = set(list(reduce(lambda a, b: a + b,
                                             [
@@ -65,8 +76,16 @@ def filter_graph(weight_filter_comm, weight_filter_adv,
                 node['data']['display'] = 'none'
         else:
             node['data']['display'] = 'element'
-    # else:
-    #     node['data']['display'] = 'element'
 
+    root_nodes = [ele for ele in orig_elements
+                  if 'entity_root_node' in ele['classes']
+                  ]
 
-    return nodes + edges
+    type_nodes = [ele for ele in orig_elements
+                  if 'entity_type_node' in ele['classes']
+                  ]
+
+    cmp_root_nodes = root_nodes
+    cmp_type_nodes = type_nodes
+
+    return cmp_root_nodes + cmp_type_nodes + nodes + edges

@@ -6,10 +6,7 @@ from functools import reduce
 
 def scale_num(array, a, b):
     scaled = (b - a) * ((array - np.min(array)) / (np.max(array) - np.min(array))) + a
-    if scaled is not None:
-        return scaled
-    else:
-        return a
+    return scaled.fillna(a)
 
 
 def add_node_formatting(node_df,

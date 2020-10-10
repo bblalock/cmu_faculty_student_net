@@ -4,9 +4,14 @@ from utils.network import cooccurrence_edgelist, get_node_edge_frame
 
 if __name__ == "__main__":
     student_faculty_connections = pd.read_csv(ROOT_DIR + '/data/transformed/student_faculty_relationships.csv')
-    student_faculty_connections.rename(
-        columns={'student': 'source', 'faculty': 'target', 'edge_type': 'relationship'}
-    ).to_csv(ROOT_DIR + '/data/app/bipartite_edge_frame.csv', index=False)
+
+    bipartite_edges = student_faculty_connections.rename(
+        columns={'student': 'target', 'faculty': 'source', 'edge_type': 'relationship'})
+
+    bipartite_edges['weight'] = 1
+
+    bipartite_edges[['source', 'target', 'relationship', 'weight']].to_csv(
+        ROOT_DIR + '/data/app/bipartite_edge_frame.csv', index=False)
 
     ########################
     # Co-Occurrence Graphs #

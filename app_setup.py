@@ -27,13 +27,13 @@ faculty_node_frame = pd.read_csv(ROOT_DIR + '/data/app/faculty_node_frame.csv')
 faculty_edge_frame = pd.read_csv(ROOT_DIR + '/data/app/faculty_edge_frame.csv')
 
 faculty_root_nodes = format_cyto_nodes(faculty_node_frame[['entity_type']].drop_duplicates(),
-                                       classes='entity_root_node',
+                                       classes='entity_root_node faculty',
                                        label='entity_type'
                                        )
 
 faculty_type_nodes = format_cyto_nodes(faculty_node_frame[['entity_type', 'entity_subtype']].drop_duplicates(),
                                        parent='entity_type',
-                                       classes='entity_type_node',
+                                       classes='entity_type_node faculty',
                                        label='entity_subtype'
                                        )
 
@@ -71,7 +71,7 @@ unknown_faculty_nodes = format_cyto_nodes(faculty_node_frame[faculty_node_frame[
                                           )
 
 faculty_co_advise_relations = format_cyto_edges(faculty_edge_frame[faculty_edge_frame.relationship == 'Co-Advised'],
-                                                classes='co_advised_edge',
+                                                classes='co_advised_edge faculty',
                                                 size_by='weight',
                                                 min_size=5,
                                                 max_size=8,
@@ -85,7 +85,7 @@ faculty_co_advise_relations = format_cyto_edges(faculty_edge_frame[faculty_edge_
 
 faculty_co_committee_relations = format_cyto_edges(
     faculty_edge_frame[faculty_edge_frame.relationship == 'Co-Committee'],
-    classes='co_committee_edge',
+    classes='co_committee_edge faculty',
     size_by='weight',
     min_size=3,
     max_size=6,
@@ -101,15 +101,15 @@ student_node_frame = pd.read_csv(ROOT_DIR + '/data/app/student_node_frame.csv')
 student_edge_frame = pd.read_csv(ROOT_DIR + '/data/app/student_edge_frame.csv')
 
 student_root_nodes = format_cyto_nodes(student_node_frame[['entity_type']].drop_duplicates(),
-                                       classes='entity_root_node',
+                                       classes='entity_root_node student',
                                        label='entity_type'
                                        )
 
-# student_type_nodes = format_cyto_nodes(student_node_frame[['entity_type', 'entity_subtype']].drop_duplicates(),
-#                                        parent='entity_type',
-#                                        classes='entity_type_node',
-#                                        label='entity_subtype'
-#                                        )
+student_type_nodes = format_cyto_nodes(student_node_frame[['entity_type', 'entity_subtype']].drop_duplicates(),
+                                       parent='entity_type',
+                                       classes='entity_type_node student',
+                                       label='entity_subtype'
+                                       )
 
 student_node_frame = add_node_formatting(student_node_frame,
                                          label='id',
@@ -135,7 +135,7 @@ alumni_student_nodes = format_cyto_nodes(student_node_frame[student_node_frame['
                                          )
 
 student_co_advise_relations = format_cyto_edges(student_edge_frame[student_edge_frame.relationship == 'Co-Advised'],
-                                                classes='co_advised_edge',
+                                                classes='co_advised_edge student',
                                                 size_by='weight',
                                                 min_size=5,
                                                 max_size=8,
@@ -149,7 +149,7 @@ student_co_advise_relations = format_cyto_edges(student_edge_frame[student_edge_
 
 student_co_committee_relations = format_cyto_edges(
     student_edge_frame[student_edge_frame.relationship == 'Co-Committee'],
-    classes='co_committee_edge',
+    classes='co_committee_edge student',
     size_by='weight',
     min_size=3,
     max_size=6,
@@ -160,6 +160,23 @@ student_co_committee_relations = format_cyto_edges(
     font_min_size=12,
     font_max_size=16,
 )
+
+bipartite_edge_frame = pd.read_csv(ROOT_DIR + '/data/app/bipartite_edge_frame.csv')
+bipartite_advisor_relations = format_cyto_edges(
+    bipartite_edge_frame[bipartite_edge_frame.relationship == 'Advisor'],
+    classes='advised_edge',
+    size_by='weight',
+    min_size=4,
+    max_size=4,
+    opacity_by='weight',
+    min_opacity=0.5,
+    max_opacity=0.5,
+    font_size_by='weight',
+    font_min_size=26,
+    font_max_size=26,
+)
+
+# print(bipartite_advisor_relations)
 
 cyto_elements = {
     # faculty
@@ -172,11 +189,12 @@ cyto_elements = {
     'faculty_co_advised_edge': faculty_co_advise_relations,
     'faculty_co_committee_edge': faculty_co_committee_relations,
     # Students
-    # 'student_root_node': student_root_nodes,
-    # # 'student_type_node': student_type_nodes,
-    # 'current_students': current_student_nodes,
-    # 'alumni_students': alumni_student_nodes,
-    # 'student_co_advised_edge': student_co_advise_relations,
+    'student_root_node': student_root_nodes,
+    # 'student_type_node': student_type_nodes,
+    'current_students': current_student_nodes,
+    'alumni_students': alumni_student_nodes,
+    'student_co_advised_edge': student_co_advise_relations,
     # 'student_co_committee_edge': student_co_committee_relations,
-
+    # Bipartite Edges
+    'bipartite_advisor_edges': bipartite_advisor_relations
 }

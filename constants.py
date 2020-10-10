@@ -12,19 +12,29 @@ DEFAULT_STYLESHEET = [
             'font-family': 'News Cycle, Arial Narrow Bold, sans-serif',
             'font-weight': 700,
             'color': 'white',
-            # 'text-outline-color': 'rgb(255,255,255)'
         }
     },
     {
         'selector': '.entity_root_node',
-        'style': {'content': 'data(label)',
-                  'font-size': '50px',
+        'style': {'font-size': '50px',
                   'compound-sizing-wrt-labels': 'include',
                   "border-color": "white",
-                  "border-width": 2,
-                  "border-opacity": 1,
                   'background-color': 'white',
                   "background-opacity": 0.0
+                  }
+    },
+    {
+        'selector': '.entity_root_node.faculty',
+        'style': {'content': 'data(label)',
+                  "border-width": 2,
+                  "border-opacity": 1,
+                  }
+    },
+    {
+        'selector': '.entity_root_node.student',
+        'style': {'content': 'data(label)',
+                  "border-width": 2,
+                  "border-opacity": 1,
                   }
     },
     {
@@ -68,7 +78,7 @@ DEFAULT_STYLESHEET = [
                   'text-outline-color': "black",
                   'text-outline-opacity': 1,
                   'text-outline-width': 2,
-                  'font-size': 'data(label_size)',
+                  'font-size': '24px',
                   'text-rotation': 'autorotate',
                   'label': 'data(relationship)',
                   'min-zoomed-font-size': '36px'
@@ -82,6 +92,24 @@ DEFAULT_STYLESHEET = [
         'selector': '.co_committee_edge',
         'style': {'line-style': 'dashed'}
     },
+    {
+        'selector': '.advised_edge',
+        'style': {'line-style': 'solid',
+                  'width': 3,
+                  'opacity': 0.2,
+                  'line-color': "#A9A9A9",
+                  'color': 'white',
+                  'text-outline-color': "black",
+                  'text-outline-opacity': 1,
+                  'text-outline-width': 1,
+                  'min-zoomed-font-size': '30px',
+                  'target-arrow-shape': 'triangle',
+                  'target-arrow-color': 'white',
+                  'target-arrow-fill': 'filled',
+                  'arrow-scale': 3,
+                  }
+    },
+
 ]
 
 DEFAULT_STYLESHEET_DICT = {selector['selector']: selector for selector in DEFAULT_STYLESHEET}
@@ -105,7 +133,7 @@ COSE_BILKENT_LAYOUT_OPTIONS = {
     ## Whether to enable incremental mode
     'randomize': 'true',
     ## Node repulsion (non overlapping) multiplier
-    'nodeRepulsion': 4500,
+    'nodeRepulsion': 45,
     ## Ideal (intra-graph) edge length
     'idealEdgeLength': 0,
     ## Divisor to compute edge forces
@@ -115,7 +143,7 @@ COSE_BILKENT_LAYOUT_OPTIONS = {
     ## Maximum number of iterations to perform
     'numIter': 250,
     ## Whether to tile disconnected nodes
-    'tile': 'true',
+    'tile': 'False',
     ## Type of layout animation. The option set is {'during', 'end', false}
     'animate': 'false',
     ## Duration for animate:end

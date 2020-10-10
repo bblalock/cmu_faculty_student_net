@@ -52,16 +52,16 @@ grouping_controls = {
                     dcc.Dropdown(
                         id="groupby_dropdown",
                         options=[
-                                 {'label': 'Faculty Type',
-                                  'value': 'entity_type_node'
-                                  },
-                                 {'label': 'Student',
-                                  'value': 'student_root_node'
-                                  },
-                                 {'label': 'Student Type',
-                                  'value': 'student_type_node'
-                                  },
-                                 ],
+                            {'label': 'Faculty Type',
+                             'value': 'entity_type_node'
+                             },
+                            {'label': 'Student',
+                             'value': 'student_root_node'
+                             },
+                            {'label': 'Student Type',
+                             'value': 'student_type_node'
+                             },
+                        ],
                         value=['entity_type_node'],
                         multi=True, className="dash-bootstrap"
                     )
@@ -138,9 +138,9 @@ filter_controls = {
                                   'value': 'current_student'
                                   },
                                  ],
-                        # value=['alumni_student', 'current_student'],
                         value=['core_faculty', 'affiliated_faculty',
-                               'related_faculty', 'unknown_faculty'
+                               'related_faculty', 'unknown_faculty',
+                               'alumni_student', 'current_student'
                                ],
                         multi=True, className="dash-bootstrap"
 
@@ -150,7 +150,7 @@ filter_controls = {
                            ),
                     daq.BooleanSwitch(
                         id='degree_zero_switch',
-                        on=True,
+                        on=False,
                         style={'align-itmes': 'baseline'}, className="dash-bootstrap"
                     ),
                     html.H6("Edges",
@@ -204,4 +204,3 @@ controls_children = [
         control_components
     ),
 ]
-
