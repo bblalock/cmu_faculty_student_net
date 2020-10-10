@@ -7,11 +7,14 @@ from functools import reduce
               [Input('edge_weight_slider_comm', 'value'),
                Input('edge_weight_slider_adv', 'value'),
                Input('degree_zero_switch', 'on'),
-               Input('node_filter_dropdown', 'value')
+               Input('node_filter_dropdown', 'value'),
                ],
               [State('cmu_net', 'elements')]
               )
-def filter_graph(weight_filter_comm, weight_filter_adv, degree_switch, nodes_to_include, elements):
+def filter_graph(weight_filter_comm, weight_filter_adv,
+                 degree_switch, nodes_to_include,
+                 elements
+                 ):
     edge_types = ['co_advised_edge', 'co_committee_edge']
 
     weight_filter = {'co_advised_edge': weight_filter_adv,
@@ -25,7 +28,6 @@ def filter_graph(weight_filter_comm, weight_filter_adv, degree_switch, nodes_to_
     orig_elements = list(reduce(lambda a, b: a + b, cyto_elements.values()))
     nodes = [ele for ele in orig_elements
              if 'edge' not in ele['classes']
-
              ]
 
     edges = []
@@ -50,15 +52,21 @@ def filter_graph(weight_filter_comm, weight_filter_adv, degree_switch, nodes_to_
                                 )
 
     for node in nodes:
-        if 'faculty_node' in node['classes']:
+        if 'entity_node' in node['classes']:
             if node['classes'].split(' ')[1] in nodes_to_include:
-                if degree_switch or node['data']['id'] in non_zero_degree_nodes:
-                    node['data']['display'] = 'element'
+                if node['data']['id'] not in non_zero_degree_nodes:
+                    if degree_switch:
+                        node['data']['display'] = 'element'
+                    else:
+                        node['data']['display'] = 'none'
                 else:
-                    node['data']['display'] = 'none'
+                    node['data']['display'] = 'element'
             else:
                 node['data']['display'] = 'none'
         else:
             node['data']['display'] = 'element'
+    # else:
+    #     node['data']['display'] = 'element'
+
 
     return nodes + edges

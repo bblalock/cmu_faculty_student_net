@@ -39,14 +39,14 @@ if __name__ == "__main__":
         (current_phd_students.match.isna()) & (current_phd_students.advisor.notna()), ['advisor']]
     advisors_not_in_faculty_master.columns = ['name']
     advisors_not_in_faculty_master['entity_type'] = 'faculty'
-    advisors_not_in_faculty_master['faculty_type'] = 'unknown'
+    advisors_not_in_faculty_master['entity_subtype'] = 'unknown'
     advisors_not_in_faculty_master['title'] = np.nan
     advisors_not_in_faculty_master['research_interests'] = np.nan
     advisors_not_in_faculty_master = advisors_not_in_faculty_master[
-        ['entity_type', 'faculty_type', 'name', 'title', 'research_interests']]
+        ['entity_type', 'entity_subtype', 'name', 'title', 'research_interests']]
 
     faculty_master = pd.concat([faculty_master, advisors_not_in_faculty_master])
-    faculty_master = faculty_master[['name', 'entity_type', 'faculty_type', 'title', 'research_interests']].rename(columns={'name':'id'})
+    faculty_master = faculty_master[['name', 'entity_type', 'entity_subtype', 'title', 'research_interests']].rename(columns={'name':'id'})
 
     current_phd_students['match'] = current_phd_students.match.combine_first(current_phd_students.advisor)
 

@@ -20,14 +20,14 @@ def get_layout(elements):
         children=initialize_cyto_children(elements),
         inverse=False,
         className='pretty_card',
-        id='card_container'
+        id='card_container',
+        color='light'
     )
 
     layout_list = [
         navbar,
         jumbotron,
         card_container,
-
     ]
 
     return layout_list

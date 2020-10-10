@@ -33,7 +33,10 @@ class AlumniPeoplePageScraper(CmuScraper):
                     name = name[1]
                 except:
                     name = name[0]
-                alumni_row = {'name': name.text.strip(), 'entity_type': 'alumni'}
+                alumni_row = {'name': name.text.strip(),
+                              'entity_type': 'student',
+                              'entity_subtype': 'alumni'
+                              }
                 alumni_data.append(alumni_row)
         self.scraped_data = alumni_data
 

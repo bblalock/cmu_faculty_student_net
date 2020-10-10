@@ -11,7 +11,10 @@ cyto.load_extra_layouts()
 
 def initialize_cyto_children(elements):
     children = [
-        dbc.CardHeader(html.H3("Advisor-Advisee Social Network Relationships", className="card-title")),
+        dbc.CardHeader(html.H3("Advisor-Advisee Social Network Relationships",
+                               className="card-title"
+                               )
+                       ),
         dbc.CardBody(
             [
                 html.P(

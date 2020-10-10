@@ -43,6 +43,8 @@ class PhdStudentScraper(CmuScraper):
                     advisor = body[1].strip()
                     research_interests = body[0].strip()
 
+                student['entity_type'] = 'student'
+                student_row['entity_subtype'] = 'current_student'
                 student_row['advisor'] = advisor.replace(' & ', ' , ')
                 student_row['advisor'] = student_row['advisor']#.split(",")
                 student_row['research_interests'] = research_interests#.split(",")

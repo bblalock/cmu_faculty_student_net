@@ -11,14 +11,16 @@ DEFAULT_STYLESHEET = [
             'text-transform': 'uppercase',
             'font-family': 'News Cycle, Arial Narrow Bold, sans-serif',
             'font-weight': 700,
+            'color': 'white',
+            # 'text-outline-color': 'rgb(255,255,255)'
         }
     },
     {
-        'selector': '.faculty_root_node',
+        'selector': '.entity_root_node',
         'style': {'content': 'data(label)',
                   'font-size': '50px',
                   'compound-sizing-wrt-labels': 'include',
-                  "border-color": "black",
+                  "border-color": "white",
                   "border-width": 2,
                   "border-opacity": 1,
                   'background-color': 'white',
@@ -26,11 +28,11 @@ DEFAULT_STYLESHEET = [
                   }
     },
     {
-        'selector': '.faculty_type_node',
+        'selector': '.entity_type_node',
         'style': {'content': 'data(label)',
                   'font-size': '30px',
                   'compound-sizing-wrt-labels': 'include',
-                  "border-color": "black",
+                  "border-color": "white",
                   "border-width": 2,
                   "border-opacity": 1,
                   'background-color': 'grey',
@@ -38,14 +40,14 @@ DEFAULT_STYLESHEET = [
                   }
     },
     {
-        'selector': '.faculty_node',
+        'selector': '.entity_node',
         'style': {'content': 'data(label)',
                   'width': 'data(size)',
                   'height': 'data(size)',
                   'font-size': 'data(label_size)',
                   'background-opacity': 'data(opacity)',
-                  'background-color': 'data(joint_community_color)',
-                  "border-color": "data(joint_community_color)",
+                  'background-color': 'data(community_color)',
+                  "border-color": "data(community_color)",
                   "border-width": 2,
                   "border-opacity": 1,
                   'min-zoomed-font-size': '22px',
@@ -61,8 +63,8 @@ DEFAULT_STYLESHEET = [
                   'font-family': 'News Cycle, Arial Narrow Bold, sans-serif',
                   'font-weight': 900,
                   'text-opacity': 1,
-                  'line-color': "data(joint_community_color)",
-                  'color': 'data(joint_community_color)',
+                  'line-color': "data(community_color)",
+                  'color': 'data(community_color)',
                   'text-outline-color': "black",
                   'text-outline-opacity': 1,
                   'text-outline-width': 2,
@@ -82,7 +84,7 @@ DEFAULT_STYLESHEET = [
     },
 ]
 
-DEFAULT_STYLESHEET_DICT = {selector['selector']:selector for selector in DEFAULT_STYLESHEET }
+DEFAULT_STYLESHEET_DICT = {selector['selector']: selector for selector in DEFAULT_STYLESHEET}
 
 COSE_BILKENT_LAYOUT_OPTIONS = {
     'name': 'cose-bilkent',
@@ -91,7 +93,7 @@ COSE_BILKENT_LAYOUT_OPTIONS = {
     ## - 'draft' fast cooling rate
     ## - 'default' moderate cooling rate
     ## - "proof" slow cooling rate
-    'quality': 'default',
+    'quality': 'draft',
     ## Whether to include labels in node dimensions. Useful for avoiding label overlap
     'nodeDimensionsIncludeLabels': 'true',
     ## number of ticks per frame; higher is faster but more jerky
@@ -99,7 +101,7 @@ COSE_BILKENT_LAYOUT_OPTIONS = {
     ## Whether to fit the network view after when done
     'fit': 'true',
     ## Padding on fit
-    'padding': 0,
+    'padding': 3,
     ## Whether to enable incremental mode
     'randomize': 'true',
     ## Node repulsion (non overlapping) multiplier
@@ -115,7 +117,7 @@ COSE_BILKENT_LAYOUT_OPTIONS = {
     ## Whether to tile disconnected nodes
     'tile': 'true',
     ## Type of layout animation. The option set is {'during', 'end', false}
-    'animate': 'end',
+    'animate': 'false',
     ## Duration for animate:end
     'animationDuration': 500,
     ## Amount of vertical space to put between degree zero nodes during tiling (can also be a function)
@@ -124,12 +126,12 @@ COSE_BILKENT_LAYOUT_OPTIONS = {
     'tilingPaddingHorizontal': 0,
     ## Gravity force (constant)
     'gravity': 0.5,
-    ## Gravity range (constant) for compounds
-    'gravityRangeCompound': 1.5,
-    ## Gravity force (constant) for compounds
-    'gravityCompound': 0.5,
     ## Gravity range (constant)
     'gravityRange': 3.8,
+    ## Gravity force (constant) for compounds
+    'gravityCompound': 10.0,
+    ## Gravity range (constant) for compounds
+    'gravityRangeCompound': 0.9,
     ## Initial cooling factor for incremental layout
     'initialEnergyOnIncremental': 0.5
 }

@@ -16,11 +16,15 @@ def cooccurrence_edgelist(df, on):
     return edgelist
 
 
-color_scale = ['rgb(228,26,28)', 'rgb(55,126,184)',
-               'rgb(77,175,74)', 'rgb(152,78,163)',
-               'rgb(255,127,0)', 'rgb(255,255,51)',
-               'rgb(166,86,40)'
-               ]
+# color_scale = ['rgb(228,26,28)', 'rgb(55,126,184)',
+#                'rgb(77,175,74)', 'rgb(152,78,163)',
+#                'rgb(255,127,0)', 'rgb(255,255,51)',
+#                'rgb(166,86,40)'
+#                ]
+color_scale = [
+    '#e31a1c', '#1f78b4', '#33a02c', '#ff7f00', '#6a3d9a', '#b15928',
+    '#fb9a99', '#a6cee3', '#b2df8a', '#fdbf6f', '#cab2d6', '#ffff99',
+]
 
 
 def get_color(i, n=len(color_scale)):
@@ -61,7 +65,7 @@ def set_node_community(G, name='community'):
         for v in v_c:
             # Add 1 to save 0 for external edges
             G.nodes[v][name] = c + 1
-            G.nodes[v][name + '_color'] = get_color(c, len(communities))
+            G.nodes[v][name + '_color'] = get_color(c, min(len(communities), len(color_scale)))
 
 
 def set_edge_community(G, name='community'):
@@ -77,16 +81,16 @@ def set_edge_community(G, name='community'):
             G.edges[v, w][name + '_color'] = 'grey'
 
 
-def add_zero_degree_nodes(g, node_df):
+def add_zero_degree_nodes(g, node_df, name_prefix):
     node_attr = node_df.set_index('id').to_dict('index')
     for node in node_attr:
         if node not in g:
             g.add_node(node)
             attr = node_attr[node]
-            attr['joint_degree'] = 0
-            attr['joint_pagerank'] = 0
-            attr['joint_community'] = 0
-            attr['joint_community_color'] = 'rgb(1,1,1)'
+            attr[name_prefix + 'degree'] = 0
+            attr[name_prefix + 'pagerank'] = 0
+            attr[name_prefix + 'community'] = 0
+            attr[name_prefix + 'community_color'] = 'rgb(1,1,1)'
             nx.set_node_attributes(g, {node: attr})
 
     return g
@@ -106,15 +110,15 @@ def get_node_edge_frame(node_df, edgelist_df, name_prefix=''):
     G = get_nx_graph(edgelist_df, node_df, create_using=nx.Graph)
 
     # Set node and edge communities
-    set_node_degree(G, name=name_prefix + '_degree')
-    set_node_pagerank(G, name=name_prefix + '_pagerank')
-    set_node_community(G, name=name_prefix + '_community')
-    set_edge_community(G, name=name_prefix + '_community')
+    set_node_degree(G, name=name_prefix + 'degree')
+    set_node_pagerank(G, name=name_prefix + 'pagerank')
+    set_node_community(G, name=name_prefix + 'community')
+    set_edge_community(G, name=name_prefix + 'community')
 
-    G = add_zero_degree_nodes(G, node_df)
+    G = add_zero_degree_nodes(G, node_df, name_prefix)
 
     # Create node and edge_frame
     node_frame, edge_frame = create_node_edge_frame(G)
-    node_frame['display'] = node_frame.joint_degree.apply(lambda x: 'element' if x > 0 else 'none')
+    node_frame['display'] = node_frame[name_prefix + 'degree'].apply(lambda x: 'element' if x > 0 else 'none')
 
     return node_frame, edge_frame

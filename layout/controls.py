@@ -27,7 +27,7 @@ click_controls = {
                             {'label': 'Expand Student Connections', 'value': 'expand_stu'},
                         ],
                         value='highlight',
-                        id='click_control'
+                        id='click_control', className="dash-bootstrap"
                     )
                 ]
             )
@@ -51,21 +51,19 @@ grouping_controls = {
                            ),
                     dcc.Dropdown(
                         id="groupby_dropdown",
-                        options=[{'label': 'Faculty',
-                                  'value': 'faculty'
-                                  },
+                        options=[
                                  {'label': 'Faculty Type',
-                                  'value': 'faculty_type'
+                                  'value': 'entity_type_node'
                                   },
                                  {'label': 'Student',
-                                  'value': 'student'
+                                  'value': 'student_root_node'
                                   },
                                  {'label': 'Student Type',
-                                  'value': 'student_type'
+                                  'value': 'student_type_node'
                                   },
                                  ],
-                        value=['faculty', 'faculty_type'],
-                        multi=True,
+                        value=['entity_type_node'],
+                        multi=True, className="dash-bootstrap"
                     )
                 ]
             )
@@ -93,7 +91,7 @@ coloring_controls = {
                                   'value': 'community'
                                   }
                                  ],
-                        value='community',
+                        value='community', className="dash-bootstrap"
                     )
                 ],
             )
@@ -134,16 +132,18 @@ filter_controls = {
                                   'value': 'unknown_faculty'
                                   },
                                  {'label': 'Alumni',
-                                  'value': 'alumni'
+                                  'value': 'alumni_student'
                                   },
                                  {'label': 'Current Students',
-                                  'value': 'current_students'
+                                  'value': 'current_student'
                                   },
                                  ],
+                        # value=['alumni_student', 'current_student'],
                         value=['core_faculty', 'affiliated_faculty',
                                'related_faculty', 'unknown_faculty'
                                ],
-                        multi=True,
+                        multi=True, className="dash-bootstrap"
+
                     ),
                     html.P(['Include Zero Degree Nodes'],
                            className='control-title'
@@ -151,7 +151,7 @@ filter_controls = {
                     daq.BooleanSwitch(
                         id='degree_zero_switch',
                         on=True,
-                        style={'align-itmes': 'baseline'}
+                        style={'align-itmes': 'baseline'}, className="dash-bootstrap"
                     ),
                     html.H6("Edges",
                             className="card-title",
@@ -168,7 +168,7 @@ filter_controls = {
                         id='edge_weight_slider_adv',
                         min=0,
                         step=1,
-                        value=0
+                        value=0, className="dash-bootstrap"
                     ),
                     html.P(['Thesis Committee Connections:'],
                            className='control-title'
@@ -177,7 +177,7 @@ filter_controls = {
                         id='edge_weight_slider_comm',
                         min=0,
                         step=1,
-                        value=0
+                        value=0, className="dash-bootstrap"
                     ),
                 ]
             )
@@ -186,7 +186,7 @@ filter_controls = {
 
 control_components = [
     click_controls,
-    grouping_controls,
+    # grouping_controls,
     coloring_controls,
     filter_controls
 ]

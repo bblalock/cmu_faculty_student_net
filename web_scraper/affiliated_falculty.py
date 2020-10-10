@@ -18,7 +18,7 @@ class AffiliatedFacultyScraper(CmuScraper):
         for faculty in mld_affiliated_fac:
             name = faculty.find('h2')
             if name:
-                faculty_row = {'entity_type': 'faculty', 'faculty_type': 'affiliated',
+                faculty_row = {'entity_type': 'faculty', 'entity_subtype': 'affiliated',
                                'name': re.sub('\s+', ' ', name.text.strip().replace('\n', ''))}
 
                 title = faculty.find('h3')
