@@ -3,7 +3,7 @@ import dash_html_components as html
 def get_children():
     children = html.Div(
         [
-            html.H1(
+            html.H2(
                 "CMU NET",
                 className="display-5",
             ),

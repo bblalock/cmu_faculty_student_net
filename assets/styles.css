@@ -4,6 +4,14 @@ html * {
     font-family: News Cycle, Arial Narrow Bold, sans-serif !important;
 }
 
+.my-2 {
+    border-color: white;
+}
+
+.my-1 {
+    border-color: white;
+}
+
 .pretty_card {
     border-radius: 10px;
     position: relative;
