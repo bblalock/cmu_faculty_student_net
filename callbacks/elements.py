@@ -44,11 +44,11 @@ def filter_graph(weight_filter_comm, weight_filter_adv,
         edges = edges + edge
 
     # I need the bipartite edges to still be here so connected components will not float away in the layout
-    # if (np.any(['faculty' in _ for _ in nodes_to_include])) & (np.any(['student' in _ for _ in nodes_to_include])):
-    bipartite_edges = [ele for ele in orig_elements
-                       if ele['classes'] == 'advised_edge'
-                       ]
-    edges = edges + bipartite_edges
+    if (np.any(['faculty' in _ for _ in nodes_to_include])) & (np.any(['student' in _ for _ in nodes_to_include])):
+        bipartite_edges = [ele for ele in orig_elements
+                           if ele['classes'] == 'advised_edge'
+                           ]
+        edges = edges + bipartite_edges
 
     non_zero_degree_nodes = set(list(reduce(lambda a, b: a + b,
                                             [

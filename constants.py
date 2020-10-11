@@ -131,7 +131,7 @@ COSE_BILKENT_LAYOUT_OPTIONS = {
     ## Padding on fit
     'padding': 3,
     ## Whether to enable incremental mode
-    'randomize': 'true',
+    'randomize': 'false',
     ## Node repulsion (non overlapping) multiplier
     'nodeRepulsion': 45,
     ## Ideal (intra-graph) edge length

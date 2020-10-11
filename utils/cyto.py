@@ -85,7 +85,7 @@ def cyto_network(elements, is_dict=True):
         style={'width': '100%', 'height': NETWORK_HEIGHT},
         stylesheet=DEFAULT_STYLESHEET,
         elements=elements,
-        autoRefreshLayout=True,
+        autoRefreshLayout=False,
         responsive=True
     )
 
