@@ -150,7 +150,7 @@ filter_controls = {
                            ),
                     daq.BooleanSwitch(
                         id='degree_zero_switch',
-                        on=False,
+                        on=True,
                         style={'align-itmes': 'baseline'}, className="dash-bootstrap"
                     ),
                     html.H6("Edges",
