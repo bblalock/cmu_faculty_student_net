@@ -120,30 +120,29 @@ filter_controls = {
                     dcc.Dropdown(
                         id="node_filter_dropdown",
                         options=[{'label': 'Core Faculty',
-                                  'value': 'core_faculty'
+                                  'value': 'entity_node faculty core'
                                   },
                                  {'label': 'Affiliated Faculty',
-                                  'value': 'affiliated_faculty'
+                                  'value': 'entity_node faculty affiliated'
                                   },
                                  {'label': 'Related Faculty',
-                                  'value': 'related_faculty'
+                                  'value': 'entity_node faculty related'
                                   },
                                  {'label': 'Other Faculty',
-                                  'value': 'unknown_faculty'
+                                  'value': 'entity_node faculty unknown'
                                   },
                                  {'label': 'Alumni',
-                                  'value': 'alumni_student'
+                                  'value': 'entity_node student alumni'
                                   },
                                  {'label': 'Current Students',
-                                  'value': 'current_student'
+                                  'value': 'entity_node student current'
                                   },
                                  ],
-                        value=['core_faculty', 'affiliated_faculty',
-                               'related_faculty', 'unknown_faculty',
-                               'alumni_student', 'current_student'
+                        value=['entity_node faculty core', 'entity_node faculty affiliated',
+                               'entity_node faculty related', 'entity_node faculty unknown',
+                               'entity_node student alumni', 'entity_node student current'
                                ],
                         multi=True, className="dash-bootstrap"
-
                     ),
                     html.P(['Include Zero Degree Nodes'],
                            className='control-title'

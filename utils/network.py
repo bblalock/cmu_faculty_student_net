@@ -119,6 +119,7 @@ def get_node_edge_frame(node_df, edgelist_df, name_prefix=''):
 
     # Create node and edge_frame
     node_frame, edge_frame = create_node_edge_frame(G)
-    node_frame['display'] = node_frame[name_prefix + 'degree'].apply(lambda x: 'element' if x > 0 else 'none')
+    # node_frame['display'] = node_frame[name_prefix + 'degree'].apply(lambda x: 'element' if x > 0 else 'none')
+    node_frame['display'] = 'element'
 
     return node_frame, edge_frame

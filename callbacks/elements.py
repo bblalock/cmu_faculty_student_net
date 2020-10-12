@@ -1,6 +1,45 @@
 from dash.dependencies import Input, Output, State
-from app_setup import app, cyto_elements
+from app_setup import app, orig_filter_edges, orig_bipartite_edges, orig_entity_nodes, orig_root_nodes, orig_type_nodes
 from functools import reduce
+import numpy as np
+from constants import FILTERABLE_EDGE_CLASSES
+
+
+def filter_edges_by_weight(current_elements,
+                           weight_filter_adv, weight_filter_comm,
+                           nodes_to_include
+                           ):
+    weight_filters = {cls: weight_filter_adv if 'advis' in cls else weight_filter_comm
+                      for cls in FILTERABLE_EDGE_CLASSES
+                      }
+
+    current_filterable_edges = [ele for ele in current_elements if ele['classes'] in FILTERABLE_EDGE_CLASSES]
+
+    min_weight = {e_type: min([ele['data']['weight']
+                               for ele in current_filterable_edges
+                               if ele['classes'] == e_type
+                               ]
+                              )
+                  for e_type in FILTERABLE_EDGE_CLASSES
+                  }
+
+    edges = []
+    for e_type in FILTERABLE_EDGE_CLASSES:
+        if weight_filters[e_type] < min_weight[e_type]:
+            edge = [ele for ele in orig_filter_edges
+                    if ele['classes'] == e_type and ele['data']['weight'] >= weight_filters[e_type]
+                    ]
+        else:
+            edge = [ele for ele in current_filterable_edges
+                    if ele['classes'] == e_type and ele['data']['weight'] >= weight_filters[e_type]
+                    ]
+        edges = edges + edge
+
+    if (np.any(['faculty' in _ for _ in nodes_to_include])) & (np.any(['student' in _ for _ in nodes_to_include])):
+        bipartite_edges = orig_bipartite_edges
+        edges = edges + bipartite_edges
+
+    return edges
 
 
 @app.callback(Output('cmu_net', 'elements'),
@@ -15,40 +54,13 @@ def filter_graph(weight_filter_comm, weight_filter_adv,
                  degree_switch, nodes_to_include,
                  elements
                  ):
-    edge_types = ['co_advised_edge', 'co_committee_edge']
+    edges = filter_edges_by_weight(current_elements=elements,
+                                   weight_filter_adv=weight_filter_adv,
+                                   weight_filter_comm=weight_filter_comm,
+                                   nodes_to_include=nodes_to_include
+                                   )
 
-    weight_filter = {'co_advised_edge': weight_filter_adv,
-                     'co_committee_edge': weight_filter_comm
-                     }
-
-    min_weight = {e_type: min([ele['data']['weight'] for ele in elements if e_type in ele['classes']])
-                  for e_type in edge_types
-                  }
-
-    import numpy as np
-    orig_elements = list(reduce(lambda a, b: a + b, cyto_elements.values()))
-    nodes = [ele for ele in orig_elements
-             if 'entity_node' in ele['classes']
-             ]
-
-    edges = []
-    for e_type in edge_types:
-        if weight_filter[e_type] < min_weight[e_type]:
-            edge = [ele for ele in orig_elements
-                    if e_type in ele['classes'] and ele['data']['weight'] >= weight_filter[e_type]  # and ele in edges
-                    ]
-        else:
-            edge = [ele for ele in elements
-                    if e_type in ele['classes'] and ele['data']['weight'] >= weight_filter[e_type]  # and ele in edges
-                    ]
-        edges = edges + edge
-
-    # I need the bipartite edges to still be here so connected components will not float away in the layout
-    if (np.any(['faculty' in _ for _ in nodes_to_include])) & (np.any(['student' in _ for _ in nodes_to_include])):
-        bipartite_edges = [ele for ele in orig_elements
-                           if ele['classes'] == 'advised_edge'
-                           ]
-        edges = edges + bipartite_edges
+    nodes = orig_entity_nodes
 
     non_zero_degree_nodes = set(list(reduce(lambda a, b: a + b,
                                             [
@@ -61,7 +73,7 @@ def filter_graph(weight_filter_comm, weight_filter_adv,
 
     for node in nodes:
         if 'entity_node' in node['classes']:
-            if node['classes'].split(' ')[1] in nodes_to_include:
+            if node['classes'] in nodes_to_include:
                 if node['data']['id'] not in non_zero_degree_nodes:
                     if degree_switch:
                         node['data']['display'] = 'element'
@@ -74,15 +86,4 @@ def filter_graph(weight_filter_comm, weight_filter_adv,
         else:
             node['data']['display'] = 'element'
 
-    root_nodes = [ele for ele in orig_elements
-                  if 'entity_root_node' in ele['classes']
-                  ]
-
-    type_nodes = [ele for ele in orig_elements
-                  if 'entity_type_node' in ele['classes']
-                  ]
-
-    cmp_root_nodes = root_nodes
-    cmp_type_nodes = type_nodes
-
-    return cmp_root_nodes + cmp_type_nodes + nodes + edges
+    return orig_root_nodes + orig_type_nodes + nodes + edges

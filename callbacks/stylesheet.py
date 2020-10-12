@@ -1,7 +1,6 @@
 from constants import DEFAULT_STYLESHEET
 from dash.dependencies import Input, Output
-from app_setup import app, cyto_elements
-from functools import reduce
+from app_setup import app
 import numpy as np
 
 
@@ -11,7 +10,7 @@ import numpy as np
                ]
               )
 def generate_stylesheet(node, nodes_to_include):
-    if node:
+    if node and not node['selected']:
         if ('entity_node' in node['classes']):
             stylesheet = [
                 {
@@ -94,7 +93,7 @@ def generate_stylesheet(node, nodes_to_include):
                     'style': {'line-style': 'dashed'}
                 },
                 {
-                    'selector': '.advised_edge',
+                    'selector': '.bipartite_advised_edge',
                     'style': {'line-style': 'solid',
                               'line-color': "#A9A9A9",
                               'color': 'white',

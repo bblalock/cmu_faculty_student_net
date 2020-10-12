@@ -4,6 +4,12 @@ ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 NETWORK_HEIGHT = '1100px'
 
+FILTERABLE_EDGE_CLASSES = ['co_advised_edge faculty',
+                           'co_committee_edge faculty',
+                           'co_advised_edge student',
+                           # 'co_committee_edge student'
+                           ]
+
 DEFAULT_STYLESHEET = [
     {
         'selector': 'node',
@@ -93,7 +99,7 @@ DEFAULT_STYLESHEET = [
         'style': {'line-style': 'dashed'}
     },
     {
-        'selector': '.advised_edge',
+        'selector': '.bipartite_advised_edge',
         'style': {'line-style': 'solid',
                   'width': 3,
                   'opacity': 0.2,
@@ -121,7 +127,7 @@ COSE_BILKENT_LAYOUT_OPTIONS = {
     ## - 'draft' fast cooling rate
     ## - 'default' moderate cooling rate
     ## - "proof" slow cooling rate
-    'quality': 'draft',
+    'quality': 'proof',
     ## Whether to include labels in node dimensions. Useful for avoiding label overlap
     'nodeDimensionsIncludeLabels': 'true',
     ## number of ticks per frame; higher is faster but more jerky
@@ -131,9 +137,9 @@ COSE_BILKENT_LAYOUT_OPTIONS = {
     ## Padding on fit
     'padding': 3,
     ## Whether to enable incremental mode
-    'randomize': 'false',
+    'randomize': 'true',
     ## Node repulsion (non overlapping) multiplier
-    'nodeRepulsion': 45,
+    'nodeRepulsion': 4500,
     ## Ideal (intra-graph) edge length
     'idealEdgeLength': 0,
     ## Divisor to compute edge forces
@@ -141,11 +147,11 @@ COSE_BILKENT_LAYOUT_OPTIONS = {
     ## Nesting factor (multiplier) to compute ideal edge length for inter-graph edges
     'nestingFactor': 0.0,
     ## Maximum number of iterations to perform
-    'numIter': 250,
+    'numIter': 500,
     ## Whether to tile disconnected nodes
-    'tile': 'False',
+    'tile': 'true',
     ## Type of layout animation. The option set is {'during', 'end', false}
-    'animate': 'false',
+    'animate': 'true',
     ## Duration for animate:end
     'animationDuration': 500,
     ## Amount of vertical space to put between degree zero nodes during tiling (can also be a function)
