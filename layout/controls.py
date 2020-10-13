@@ -140,7 +140,7 @@ filter_controls = {
                                  ],
                         value=['entity_node faculty core', 'entity_node faculty affiliated',
                                'entity_node faculty related', 'entity_node faculty unknown',
-                               'entity_node student alumni', 'entity_node student current'
+                               # 'entity_node student alumni', 'entity_node student current'
                                ],
                         multi=True, className="dash-bootstrap"
                     ),
@@ -156,6 +156,26 @@ filter_controls = {
                             className="card-title",
                             ),
                     html.Hr(className="my-1"),
+                    html.P(['Include Edge Types:'],
+                           className='control-title'
+                           ),
+                    dcc.Dropdown(
+                        id="edge_filter_dropdown",
+                        options=[{'label': 'Co-Advisor',
+                                  'value': 'entity_node faculty core'
+                                  },
+                                 {'label': 'Co-Committee',
+                                  'value': 'entity_node faculty affiliated'
+                                  },
+                                 {'label': 'Advisor-Advisee',
+                                  'value': 'entity_node faculty related'
+                                  }
+                                 ],
+                        value=['entity_node faculty core', 'entity_node faculty affiliated',
+                               'entity_node faculty related',
+                               ],
+                        multi=True, className="dash-bootstrap"
+                    ),
                     html.H6("Set Minimum Edge Weight:",
                             className="card-title",
                             style={'margin-left': '1.0rem'}
