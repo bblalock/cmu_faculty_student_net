@@ -26,4 +26,10 @@ metastore_db
 # Unit tests
 .pytest_cache
 
+# assets
+theme/
+
+# bootstrap
+bootstrap-4.0.0/
+
 

@@ -140,7 +140,7 @@ filter_controls = {
                                  ],
                         value=['entity_node faculty core', 'entity_node faculty affiliated',
                                'entity_node faculty related', 'entity_node faculty unknown',
-                               # 'entity_node student alumni', 'entity_node student current'
+                               'entity_node student alumni', 'entity_node student current'
                                ],
                         multi=True, className="dash-bootstrap"
                     ),
