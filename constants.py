@@ -63,9 +63,9 @@ DEFAULT_STYLESHEET = [
                   'font-size': 'data(label_size)',
                   'background-opacity': 'data(opacity)',
                   'background-color': 'data(community_color)',
-                  "border-color": "data(community_color)",
-                  "border-width": 2,
-                  "border-opacity": 1,
+                  # "border-color": "data(community_color)",
+                  # "border-width": 2,
+                  # "border-opacity": 1,
                   'min-zoomed-font-size': '22px',
                   'display': 'data(display)'
                   }
@@ -74,19 +74,18 @@ DEFAULT_STYLESHEET = [
         'selector': 'edge',
         'style': {'width': 'data(width)',
                   'opacity': 'data(opacity)',
-                  'curve-style': 'bezier',
+                  # 'curve-style': 'bezier',
                   'text-transform': 'uppercase',
                   'font-family': 'News Cycle, Arial Narrow Bold, sans-serif',
                   'font-weight': 900,
                   'text-opacity': 1,
                   'line-color': "data(community_color)",
                   'color': 'data(community_color)',
-                  'text-outline-color': "black",
-                  'text-outline-opacity': 1,
-                  'text-outline-width': 2,
-                  'font-size': '24px',
+                  # 'text-outline-color': "black",
+                  # 'text-outline-opacity': 1,
+                  # 'text-outline-width': 2,
                   'text-rotation': 'autorotate',
-                  'label': 'data(relationship)',
+                  # 'label': 'data(relationship)',
                   'min-zoomed-font-size': '36px'
                   }
     },
@@ -96,23 +95,28 @@ DEFAULT_STYLESHEET = [
     },
     {
         'selector': '.co_committee_edge',
-        'style': {'line-style': 'dashed'}
+        'style': {'line-style': 'dashed',
+                  # 'line-dash-pattern': [6,3],
+                  # 'line-dash-offset':  24
+                  }
     },
     {
         'selector': '.bipartite_advised_edge',
         'style': {'line-style': 'solid',
+                  'curve-style': 'haystack',
+                  'haystack-radius': 0,
                   'width': 3,
                   'opacity': 0.2,
                   'line-color': 'data(community_color)',
                   'color': 'data(community_color)',
-                  'text-outline-color': 'data(community_color)',
-                  'text-outline-opacity': 1,
-                  'text-outline-width': 1,
+                  # 'text-outline-color': 'data(community_color)',
+                  # 'text-outline-opacity': 1,
+                  # 'text-outline-width': 1,
                   'min-zoomed-font-size': '30px',
                   'target-arrow-shape': 'triangle',
                   'target-arrow-color': 'data(community_color)',
                   'target-arrow-fill': 'filled',
-                  'arrow-scale': 3,
+                  'arrow-scale': 5,
                   }
     },
 

@@ -61,12 +61,12 @@ if __name__ == "__main__":
         [
             faculty_cooccurrence,
             student_cooccurrence[student_cooccurrence['relationship'] == 'Co-Advised'],
-            bipartite_edges
+            bipartite_edges[bipartite_edges.relationship == 'Advisor']
         ]
     ).drop_duplicates().reset_index()
 
-    f = lambda x: pd.factorize(x)[0]
-    node_master['rank'] = node_master.groupby('id')['entity_type'].transform(f) + 1
+    f = lambda x: pd.factorize(sorted(x))[0]
+    node_master['rank'] = node_master.groupby('id', sort=True)['entity_type'].transform(f) + 1
     node_master = node_master[node_master['rank'] == 1]
     node_master = node_master.drop(columns=['rank'])
 

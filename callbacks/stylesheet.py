@@ -10,6 +10,7 @@ import numpy as np
                ]
               )
 def generate_stylesheet(node, nodes_to_include):
+    # print(node)
     if node and not node['selected']:
         if ('entity_node' in node['classes']):
             stylesheet = [
@@ -109,7 +110,7 @@ def generate_stylesheet(node, nodes_to_include):
                         'background-opacity': 'data(opacity)',
                         'background-color': 'data(community_color)',
                         "border-color": "data(community_color)",
-                        "border-width": 2,
+                        "border-width": 3,
                         "border-opacity": 1,
                     }
                 }

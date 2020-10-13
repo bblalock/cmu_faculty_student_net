@@ -30,7 +30,7 @@ if __name__ == "__main__":
     new_faculty = new_faculty[['id', 'entity_type', 'entity_subtype', 'title', 'research_interests']].drop_duplicates()
     faculty_master = pd.concat([faculty_master, new_faculty])
     f = lambda x: pd.factorize(x)[0]
-    faculty_master['rank'] = faculty_master.groupby('id')['entity_subtype'].transform(f) + 1
+    faculty_master['rank'] = faculty_master.groupby('id', sort=True)['entity_subtype'].transform(f) + 1
     faculty_master = faculty_master[faculty_master['rank'] == 1]
     faculty_master = faculty_master.drop(columns=['rank'])
     faculty_master.to_csv(ROOT_DIR + '/data/transformed/faculty_master.csv', index=False)

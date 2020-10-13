@@ -1,5 +1,6 @@
 import pandas as pd
 import networkx as nx
+import plotly.express as px
 
 
 def cooccurrence_edgelist(df, on):
@@ -15,20 +16,10 @@ def cooccurrence_edgelist(df, on):
     edgelist = edgelist.groupby(['source', 'target', 'relationship']).size().reset_index(name='weight')
     return edgelist
 
-
-# color_scale = ['rgb(228,26,28)', 'rgb(55,126,184)',
-#                'rgb(77,175,74)', 'rgb(152,78,163)',
-#                'rgb(255,127,0)', 'rgb(255,255,51)',
-#                'rgb(166,86,40)'
-#                ]
-color_scale = [
-    '#e31a1c', '#1f78b4', '#33a02c', '#ff7f00', '#6a3d9a', '#b15928',
-    '#fb9a99', '#a6cee3', '#b2df8a', '#fdbf6f', '#cab2d6', '#ffff99',
-]
-
+color_scale = px.colors.qualitative.Alphabet + px.colors.qualitative.Pastel1 #+ px.colors.qualitative.Pastel2
 
 def get_color(i, n=len(color_scale)):
-    return color_scale[i] if i < n else 'rgb(1,1,1)'
+    return color_scale[i - 1] if i < n else 'rgb(1,1,1)'
 
 
 def get_nx_graph(edge_file, node_file, create_using=nx.DiGraph):
@@ -58,14 +49,29 @@ def set_node_pagerank(G, name='pagerank', **kwargs):
 
 
 def set_node_community(G, name='community'):
-    communities = sorted(nx.community.greedy_modularity_communities(G), key=len, reverse=True)
+    # communities = sorted(nx.community.greedy_modularity_communities(G), key=len, reverse=True)
+    # communities = sorted(next(nx.community.girvan_newman(G)), key=len, reverse=True)
+    communities = nx.community.label_propagation_communities(G)
+    communities = sorted(communities, key=len, reverse=True)
+
+    # degrees = nx.get_node_attributes(G, 'degree')
+    degrees = G.degree
 
     '''Add community to node attributes'''
-    for c, v_c in enumerate(communities):
-        for v in v_c:
-            # Add 1 to save 0 for external edges
-            G.nodes[v][name] = c + 1
-            G.nodes[v][name + '_color'] = get_color(c, min(len(communities), len(color_scale)))
+    i = 0
+    for v_c in communities:
+        valid_community = False
+        if len(v_c) > 1:
+            valid_community = True
+            for v in v_c:
+                # Add 1 to save 0 for external edges
+                G.nodes[v][name] = i + 1
+                G.nodes[v][name + '_color'] = get_color(i, min(len(communities), len(color_scale)))
+        if len(v_c) <= 1:
+            print('here')
+        if valid_community:
+            i = i + 1
+
 
 
 def set_edge_community(G, name='community'):

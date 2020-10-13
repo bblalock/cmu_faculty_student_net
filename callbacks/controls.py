@@ -8,9 +8,10 @@ from app_setup import app
                Output('edge_weight_slider_adv', 'marks')
                ],
               [
-               Input('edge_weight_slider_comm', 'value'),
-               Input('edge_weight_slider_adv', 'value'),
-               ],
+                  Input('edge_weight_slider_comm', 'value'),
+                  Input('edge_weight_slider_adv', 'value'),
+                  # Input('cmu_net', 'autoRefreshLayout')
+              ],
               [State('cmu_net', 'elements')]
               )
 def set_max_edge_weight(comm_value, adv_value, elements):
