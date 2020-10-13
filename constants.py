@@ -103,14 +103,14 @@ DEFAULT_STYLESHEET = [
         'style': {'line-style': 'solid',
                   'width': 3,
                   'opacity': 0.2,
-                  'line-color': "#A9A9A9",
-                  'color': 'white',
-                  'text-outline-color': "black",
+                  'line-color': 'data(community_color)',
+                  'color': 'data(community_color)',
+                  'text-outline-color': 'data(community_color)',
                   'text-outline-opacity': 1,
                   'text-outline-width': 1,
                   'min-zoomed-font-size': '30px',
                   'target-arrow-shape': 'triangle',
-                  'target-arrow-color': 'white',
+                  'target-arrow-color': 'data(community_color)',
                   'target-arrow-fill': 'filled',
                   'arrow-scale': 3,
                   }
@@ -123,11 +123,12 @@ DEFAULT_STYLESHEET_DICT = {selector['selector']: selector for selector in DEFAUL
 COSE_BILKENT_LAYOUT_OPTIONS = {
     'name': 'cose-bilkent',
     'animationEasing': 'ease-out',
+    'zoom': 0,
     ## 'draft', 'default' or 'proof"
     ## - 'draft' fast cooling rate
     ## - 'default' moderate cooling rate
     ## - "proof" slow cooling rate
-    'quality': 'proof',
+    'quality': 'draft',
     ## Whether to include labels in node dimensions. Useful for avoiding label overlap
     'nodeDimensionsIncludeLabels': 'true',
     ## number of ticks per frame; higher is faster but more jerky
@@ -135,11 +136,11 @@ COSE_BILKENT_LAYOUT_OPTIONS = {
     ## Whether to fit the network view after when done
     'fit': 'true',
     ## Padding on fit
-    'padding': 3,
+    'padding': 1,
     ## Whether to enable incremental mode
-    'randomize': 'true',
+    'randomize': 'false',
     ## Node repulsion (non overlapping) multiplier
-    'nodeRepulsion': 4500,
+    'nodeRepulsion': 0,
     ## Ideal (intra-graph) edge length
     'idealEdgeLength': 0,
     ## Divisor to compute edge forces
@@ -151,7 +152,7 @@ COSE_BILKENT_LAYOUT_OPTIONS = {
     ## Whether to tile disconnected nodes
     'tile': 'true',
     ## Type of layout animation. The option set is {'during', 'end', false}
-    'animate': 'true',
+    'animate': 'false',
     ## Duration for animate:end
     'animationDuration': 500,
     ## Amount of vertical space to put between degree zero nodes during tiling (can also be a function)

@@ -10,8 +10,9 @@ if __name__ == "__main__":
 
     bipartite_edges['weight'] = 1
 
-    bipartite_edges[['source', 'target', 'relationship', 'weight']].to_csv(
-        ROOT_DIR + '/data/app/bipartite_edge_frame.csv', index=False)
+    bipartite_edges = bipartite_edges[['source', 'target', 'relationship', 'weight']]
+
+    bipartite_edges.to_csv(ROOT_DIR + '/data/app/bipartite_edge_frame.csv', index=False)
 
     ########################
     # Co-Occurrence Graphs #
@@ -28,10 +29,7 @@ if __name__ == "__main__":
     # Faculty Graph #
     #################
     faculty_master = pd.read_csv(ROOT_DIR + '/data/transformed/faculty_master.csv')
-    faculty_master['label'] = faculty_master['id']
-    faculty_master['parent'] = faculty_master['entity_subtype']
-    faculty_master = faculty_master.drop_duplicates()
-    faculty_master.head()
+    faculty_master = faculty_master[['id', 'entity_type', 'entity_subtype']].drop_duplicates()
 
     faculty_node_frame, faculty_edge_frame = get_node_edge_frame(faculty_master,
                                                                  faculty_cooccurrence,
@@ -45,10 +43,7 @@ if __name__ == "__main__":
     # Student Graph #
     #################
     student_master = pd.read_csv(ROOT_DIR + '/data/transformed/student_master.csv')
-    student_master['label'] = student_master['id']
-    student_master['parent'] = student_master['entity_subtype']
-    student_master = student_master.drop_duplicates()
-    student_master.head()
+    student_master = student_master[['id', 'entity_type', 'entity_subtype']].drop_duplicates()
 
     student_node_frame, student_edge_frame = get_node_edge_frame(student_master,
                                                                  student_cooccurrence,
@@ -57,3 +52,35 @@ if __name__ == "__main__":
 
     student_node_frame.to_csv(ROOT_DIR + '/data/app/student_node_frame.csv', index=False)
     student_edge_frame.to_csv(ROOT_DIR + '/data/app/student_edge_frame.csv', index=False)
+
+    ################
+    # Master Graph #
+    ################
+    node_master = pd.concat([faculty_master, student_master]).drop_duplicates().reset_index()
+    edge_master = pd.concat(
+        [
+            faculty_cooccurrence,
+            student_cooccurrence[student_cooccurrence['relationship'] == 'Co-Advised'],
+            bipartite_edges
+        ]
+    ).drop_duplicates().reset_index()
+
+    f = lambda x: pd.factorize(x)[0]
+    node_master['rank'] = node_master.groupby('id')['entity_type'].transform(f) + 1
+    node_master = node_master[node_master['rank'] == 1]
+    node_master = node_master.drop(columns=['rank'])
+
+    node_master, edge_master = get_node_edge_frame(node_master,
+                                                   edge_master,
+                                                   # name_prefix='faculty_'
+                                                   )
+
+    # print(edge_master.head())
+    # edge_master = pd.merge(edge_master,
+    #                        faculty_edge_frame[['source', 'target', 'relationship']],
+    #
+    #                        )
+    # print(edge_master.head())
+
+    node_master.to_csv(ROOT_DIR + '/data/app/master_node_frame.csv', index=False)
+    edge_master.to_csv(ROOT_DIR + '/data/app/master_edge_frame.csv', index=False)

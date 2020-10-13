@@ -1,213 +1,213 @@
-id,entity_type,entity_subtype,label,parent,degree,pagerank,community,community_color,display
- Ifigeneia Apostolopoulou,student,current_student, Ifigeneia Apostolopoulou,current_student,6,0.006666666666666669,6,#b15928,element
-Cristian Challu,student,current_student,Cristian Challu,current_student,6,0.006666666666666669,6,#b15928,element
-Dallas Card,student,alumni,Dallas Card,alumni,6,0.006666666666666669,6,#b15928,element
-Eric Lei,student,alumni,Eric Lei,alumni,6,0.006666666666666668,6,#b15928,element
-Kin Gutierrez Olivares,student,current_student,Kin Gutierrez Olivares,current_student,6,0.006666666666666668,6,#b15928,element
-Madalina Fiterau-Brostean,student,alumni,Madalina Fiterau-Brostean,alumni,6,0.006666666666666668,6,#b15928,element
-Sebastian Caldas,student,current_student,Sebastian Caldas,current_student,6,0.006666666666666668,6,#b15928,element
-Aaditya Ramdas,student,alumni,Aaditya Ramdas,alumni,10,0.008211625002133897,1,#e31a1c,element
-Ivan Stelmakh,student,current_student,Ivan Stelmakh,current_student,9,0.006805019675890395,1,#e31a1c,element
-James Sharpnack,student,alumni,James Sharpnack,alumni,2,0.0029537265775431464,1,#e31a1c,element
-Kirthevasan Kandasamy,student,alumni,Kirthevasan Kandasamy,alumni,27,0.01566886738793725,1,#e31a1c,element
-Min Xu,student,alumni,Min Xu,alumni,8,0.005783942710945983,1,#e31a1c,element
-Ojash Neopane,student,current_student,Ojash Neopane,current_student,9,0.007147506916234195,1,#e31a1c,element
-Simon Du,student,alumni,Simon Du,alumni,18,0.010724027375032827,1,#e31a1c,element
-Stefani Karp,student,current_student,Stefani Karp,current_student,8,0.005783942710945983,1,#e31a1c,element
-Stephen Hanneke,student,alumni,Stephen Hanneke,alumni,2,0.0029537265775431464,1,#e31a1c,element
-Yining Wang,student,alumni,Yining Wang,alumni,8,0.005783942710945983,1,#e31a1c,element
-Yusha Liu,student,current_student,Yusha Liu,current_student,8,0.005783942710945983,1,#e31a1c,element
-Aaron Rumack,student,current_student,Aaron Rumack,current_student,1,0.0027775893631172685,3,#33a02c,element
-Amanda Coston,student,current_student,Amanda Coston,current_student,2,0.00418119687867717,3,#33a02c,element
-Abulhair Saparov,student,current_student,Abulhair Saparov,current_student,11,0.006252087899557909,1,#e31a1c,element
-Alona Fyshe,student,alumni,Alona Fyshe,alumni,11,0.006252087899557909,1,#e31a1c,element
-Andy Carlson,student,alumni,Andy Carlson,alumni,11,0.006252087899557909,1,#e31a1c,element
-Joseph Bradley,student,alumni,Joseph Bradley,alumni,11,0.006252087899557908,1,#e31a1c,element
-Leila Wehbe,student,alumni,Leila Wehbe,alumni,11,0.006252087899557908,1,#e31a1c,element
-Mariya Toneva,student,current_student,Mariya Toneva,current_student,12,0.007405763612642353,1,#e31a1c,element
-Nicole Rafidi,student,alumni,Nicole Rafidi,alumni,11,0.006252087899557909,1,#e31a1c,element
-Otilia Stretcu,student,current_student,Otilia Stretcu,current_student,22,0.01115802899869932,1,#e31a1c,element
-Shashank Srivastava,student,alumni,Shashank Srivastava,alumni,11,0.006252087899557909,1,#e31a1c,element
-Tara Pirnia,student,current_student,Tara Pirnia,current_student,11,0.006252087899557908,1,#e31a1c,element
-Théophile Gervet,student,current_student,Théophile Gervet,current_student,22,0.011187854589326729,1,#e31a1c,element
-Xi Chen,student,alumni,Xi Chen,alumni,11,0.006252087899557908,1,#e31a1c,element
-Adams Wei Yu,student,alumni,Adams Wei Yu,alumni,13,0.006649317320158481,2,#1f78b4,element
-Ben Eysenbach,student,current_student,Ben Eysenbach,current_student,13,0.006649317320158481,2,#1f78b4,element
-Carl Doersch,student,alumni,Carl Doersch,alumni,14,0.007862334741137513,2,#1f78b4,element
-Devendra Chaplot,student,current_student,Devendra Chaplot,current_student,13,0.006649317320158481,2,#1f78b4,element
-Emilio Parisotto,student,current_student,Emilio Parisotto,current_student,13,0.006649317320158481,2,#1f78b4,element
-Hanzhang Hu,student,alumni,Hanzhang Hu,alumni,13,0.00664931732015848,2,#1f78b4,element
-Hongyang Zhang,student,alumni,Hongyang Zhang,alumni,14,0.007862334741137513,2,#1f78b4,element
-Junier Oliva,student,alumni,Junier Oliva,alumni,32,0.016485220927708256,1,#e31a1c,element
-Lisa Lee,student,current_student,Lisa Lee,current_student,27,0.01269085774653464,2,#1f78b4,element
-Manzil Zaheer,student,alumni,Manzil Zaheer,alumni,23,0.011550929530177953,1,#e31a1c,element
-Paul Liang,student,current_student,Paul Liang,current_student,13,0.0066493173201584805,2,#1f78b4,element
-So Yeon (Tiffany) Min,student,current_student,So Yeon (Tiffany) Min,current_student,21,0.010948976866995315,2,#1f78b4,element
-William Guss,student,current_student,William Guss,current_student,13,0.0066493173201584805,2,#1f78b4,element
-Yao-Hung (Hubert) Tsai,student,current_student,Yao-Hung (Hubert) Tsai,current_student,13,0.0066493173201584805,2,#1f78b4,element
-Adarsh Prasad,student,current_student,Adarsh Prasad,current_student,8,0.005198853914741669,2,#1f78b4,element
-Arun Sai Suggala,student,current_student,Arun Sai Suggala,current_student,8,0.005198853914741669,2,#1f78b4,element
-Bingbin Liu,student,current_student,Bingbin Liu,current_student,9,0.00590852350288848,2,#1f78b4,element
-Chih-Kuan Yeh,student,current_student,Chih-Kuan Yeh,current_student,8,0.005198853914741669,2,#1f78b4,element
-Elan Rosenfeld,student,current_student,Elan Rosenfeld,current_student,8,0.005198853914741669,2,#1f78b4,element
-Juyong Kim,student,current_student,Juyong Kim,current_student,8,0.005198853914741669,2,#1f78b4,element
-Kartik Gupta,student,current_student,Kartik Gupta,current_student,8,0.00519885391474167,2,#1f78b4,element
-Xun Zheng,student,alumni,Xun Zheng,alumni,22,0.01128504557760524,2,#1f78b4,element
-Addison Hu,student,current_student,Addison Hu,current_student,7,0.006728578846726941,5,#6a3d9a,element
-Alnur Ali,student,alumni,Alnur Ali,alumni,8,0.007769354575499841,5,#6a3d9a,element
-Maria Jahja,student,current_student,Maria Jahja,current_student,7,0.006728578846726941,5,#6a3d9a,element
-Matthew Wytock,student,alumni,Matthew Wytock,alumni,7,0.00672857884672694,5,#6a3d9a,element
-Natalia L. de Oliveira,student,current_student,Natalia L. de Oliveira,current_student,7,0.006728578846726941,5,#6a3d9a,element
-Pratik Patil,student,current_student,Pratik Patil,current_student,7,0.006728578846726941,5,#6a3d9a,element
-Veeranjaneyulu Sadhanala,student,alumni,Veeranjaneyulu Sadhanala,alumni,7,0.006728578846726941,5,#6a3d9a,element
-Yu-Xiang Wang,student,alumni,Yu-Xiang Wang,alumni,7,0.006728578846726941,5,#6a3d9a,element
-Ahmed Hefny,student,alumni,Ahmed Hefny,alumni,10,0.0070736812787333125,4,#ff7f00,element
-Ajit Singh,student,alumni,Ajit Singh,alumni,10,0.0070736812787333125,4,#ff7f00,element
-Benjamin Cowley,student,alumni,Benjamin Cowley,alumni,10,0.0070736812787333125,4,#ff7f00,element
-Byron Boots,student,alumni,Byron Boots,alumni,10,0.007073681278733312,4,#ff7f00,element
-Carlton Downey,student,alumni,Carlton Downey,alumni,10,0.007073681278733312,4,#ff7f00,element
-Han Zhao,student,alumni,Han Zhao,alumni,10,0.007073681278733312,4,#ff7f00,element
-Mary McGlohon,student,alumni,Mary McGlohon,alumni,14,0.010912481116291768,4,#ff7f00,element
-Purnamrita Sarkar,student,alumni,Purnamrita Sarkar,alumni,10,0.007073681278733312,4,#ff7f00,element
-Renato Negrinho,student,current_student,Renato Negrinho,current_student,10,0.007073681278733312,4,#ff7f00,element
-Sashank Jakkam Reddi,student,alumni,Sashank Jakkam Reddi,alumni,10,0.007073681278733312,4,#ff7f00,element
-Wooyoung Lee,student,alumni,Wooyoung Lee,alumni,10,0.007073681278733312,4,#ff7f00,element
-Akash Umakantha,student,current_student,Akash Umakantha,current_student,4,0.006144393241167437,8,#a6cee3,element
-Darby Losey,student,current_student,Darby Losey,current_student,4,0.007450076804915518,8,#a6cee3,element
-Jay Hennig,student,current_student,Jay Hennig,current_student,4,0.007450076804915518,8,#a6cee3,element
-Shenghao Wu,student,current_student,Shenghao Wu,current_student,4,0.006144393241167437,8,#a6cee3,element
-Will Bishop,student,alumni,Will Bishop,alumni,4,0.006144393241167437,8,#a6cee3,element
-Aleksandr (Sasha) Podkopaev,student,current_student,Aleksandr (Sasha) Podkopaev,current_student,4,0.006314818780009678,7,#fb9a99,element
-Lucia Castellanos,student,alumni,Lucia Castellanos,alumni,4,0.006314818780009678,7,#fb9a99,element
-Motolani Olarinre,student,current_student,Motolani Olarinre,current_student,4,0.006314818780009678,7,#fb9a99,element
-Yang Xu,student,alumni,Yang Xu,alumni,5,0.00756577249978165,7,#fb9a99,element
-Yu (Albert) Chen,student,current_student,Yu (Albert) Chen,current_student,4,0.006314818780009677,7,#fb9a99,element
-Charvi Rastogi,student,current_student,Charvi Rastogi,current_student,2,0.002468447282270598,5,#6a3d9a,element
-Nil-Jana Akpinar,student,current_student,Nil-Jana Akpinar,current_student,9,0.008688047705215302,3,#33a02c,element
-Andrew Arnold,student,alumni,Andrew Arnold,alumni,1,0.006666666666666667,10,#fdbf6f,element
-Zhenzhen Kou,student,alumni,Zhenzhen Kou,alumni,1,0.006666666666666667,10,#fdbf6f,element
-Ankur Parikh,student,alumni,Ankur Parikh,alumni,14,0.006981929073640964,2,#1f78b4,element
-Bin Zhao,student,alumni,Bin Zhao,alumni,14,0.006981929073640964,2,#1f78b4,element
-Jisu Kim,student,alumni,Jisu Kim,alumni,14,0.006981929073640964,2,#1f78b4,element
-Maruan Al-Shedivat,student,current_student,Maruan Al-Shedivat,current_student,14,0.006981929073640964,2,#1f78b4,element
-Mladen Kolar,student,alumni,Mladen Kolar,alumni,14,0.006981929073640964,2,#1f78b4,element
-Mrinmaya Sachan,student,alumni,Mrinmaya Sachan,alumni,14,0.006981929073640964,2,#1f78b4,element
-Pengtao Xie,student,alumni,Pengtao Xie,alumni,14,0.006981929073640964,2,#1f78b4,element
-Pradeep Ravikumar,student,alumni,Pradeep Ravikumar,alumni,16,0.009115421066251241,2,#1f78b4,element
-Qirong Ho,student,alumni,Qirong Ho,alumni,14,0.006981929073640964,2,#1f78b4,element
-Suyash Shringarpure,student,alumni,Suyash Shringarpure,alumni,14,0.006981929073640964,2,#1f78b4,element
-Wei (David) Dai,student,alumni,Wei (David) Dai,alumni,14,0.006981929073640964,2,#1f78b4,element
-Willie Neiswanger,student,alumni,Willie Neiswanger,alumni,14,0.006981929073640964,2,#1f78b4,element
-Zhiting Hu,student,current_student,Zhiting Hu,current_student,14,0.006981929073640964,2,#1f78b4,element
-Aria Yuan Wang,student,current_student,Aria Yuan Wang,current_student,2,0.0028113933127306184,7,#fb9a99,element
-Arundhati Banerjee,student,current_student,Arundhati Banerjee,current_student,11,0.005864036731962914,1,#e31a1c,element
-Biswajit Paria,student,current_student,Biswajit Paria,current_student,20,0.010769977831104324,1,#e31a1c,element
-Brent Bryan,student,alumni,Brent Bryan,alumni,11,0.0058640367319629134,1,#e31a1c,element
-Ian Char,student,current_student,Ian Char,current_student,11,0.0058640367319629134,1,#e31a1c,element
-Kaustav Das,student,alumni,Kaustav Das,alumni,11,0.0058640367319629134,1,#e31a1c,element
-Liang Xiong,student,alumni,Liang Xiong,alumni,11,0.0058640367319629134,1,#e31a1c,element
-Tzu-Kuo Huang,student,alumni,Tzu-Kuo Huang,alumni,11,0.0058640367319629134,1,#e31a1c,element
-Yi Zhang,student,alumni,Yi Zhang,alumni,11,0.0058640367319629134,1,#e31a1c,element
-Yifei Ma,student,alumni,Yifei Ma,alumni,11,0.0058640367319629134,1,#e31a1c,element
-Ashwini Pokle,student,current_student,Ashwini Pokle,current_student,6,0.006071818568094533,3,#33a02c,element
-Ezra Winston,student,current_student,Ezra Winston,current_student,6,0.006071818568094533,3,#33a02c,element
-Jeremiah Cohen,student,current_student,Jeremiah Cohen,current_student,10,0.010477990114234875,3,#33a02c,element
-Po-Wei Wang,student,current_student,Po-Wei Wang,current_student,6,0.006071818568094533,3,#33a02c,element
-Saurabh Garg,student,current_student,Saurabh Garg,current_student,14,0.012183523440617901,3,#33a02c,element
-Shaojie Bai,student,current_student,Shaojie Bai,current_student,6,0.006071818568094532,3,#33a02c,element
-Zhili Feng,student,current_student,Zhili Feng,current_student,6,0.006071818568094532,3,#33a02c,element
-Tanya Marwah,student,current_student,Tanya Marwah,current_student,9,0.007573667479313592,3,#33a02c,element
-Chenghui Zhou,student,current_student,Chenghui Zhou,current_student,11,0.005834211141335504,1,#e31a1c,element
-Christoph Dann,student,alumni,Christoph Dann,alumni,11,0.005834211141335504,1,#e31a1c,element
-Chun-Liang Li,student,alumni,Chun-Liang Li,alumni,11,0.005834211141335504,1,#e31a1c,element
-Eric Wong,student,alumni,Eric Wong,alumni,11,0.005834211141335504,1,#e31a1c,element
-Kirstin Early,student,alumni,Kirstin Early,alumni,11,0.005834211141335504,1,#e31a1c,element
-Shashank Singh,student,alumni,Shashank Singh,alumni,11,0.005834211141335504,1,#e31a1c,element
-Bryan Hooi,student,alumni,Bryan Hooi,alumni,4,0.004587676524093788,4,#ff7f00,element
-Deepayan Chakrabarti,student,alumni,Deepayan Chakrabarti,alumni,4,0.004587676524093788,4,#ff7f00,element
-Hyun Ah Song,student,alumni,Hyun Ah Song,alumni,4,0.004587676524093788,4,#ff7f00,element
-Jurij Leskovec,student,alumni,Jurij Leskovec,alumni,4,0.004587676524093788,4,#ff7f00,element
-Calvin McCarter,student,alumni,Calvin McCarter,alumni,2,0.002581123248650153,2,#1f78b4,element
-Jing Xiang,student,alumni,Jing Xiang,alumni,2,0.002581123248650153,2,#1f78b4,element
-Kenneth Marino,student,current_student,Kenneth Marino,current_student,1,0.001477281879547897,2,#1f78b4,element
-Cheng Cheng,student,current_student,Cheng Cheng,current_student,8,0.006988427077470215,3,#33a02c,element
-Helen Zhou,student,current_student,Helen Zhou,current_student,8,0.006988427077470215,3,#33a02c,element
-Jacob Tyo,student,current_student,Jacob Tyo,current_student,8,0.006988427077470215,3,#33a02c,element
-Jonathon Byrd,student,current_student,Jonathon Byrd,current_student,8,0.006988427077470215,3,#33a02c,element
-Leqi Liu,student,current_student,Leqi Liu,current_student,8,0.006988427077470215,3,#33a02c,element
-Yifan Wu,student,current_student,Yifan Wu,current_student,8,0.006988427077470215,3,#33a02c,element
-Chieh Lin,student,alumni,Chieh Lin,alumni,2,0.006666666666666667,9,#b2df8a,element
-Hai-Son Le,student,alumni,Hai-Son Le,alumni,2,0.006666666666666667,9,#b2df8a,element
-Jason Ernst,student,alumni,Jason Ernst,alumni,2,0.006666666666666667,9,#b2df8a,element
-Chirag Gupta,student,current_student,Chirag Gupta,current_student,1,0.0016751804910860263,1,#e31a1c,element
-Don Dennis,student,current_student,Don Dennis,current_student,1,0.006666666666666667,11,#cab2d6,element
-Oscar Li,student,current_student,Oscar Li,current_student,1,0.006666666666666667,11,#cab2d6,element
-Felipe Trevizan,student,alumni,Felipe Trevizan,alumni,1,0.006666666666666667,12,#ffff99,element
-Nicholay Topin,student,current_student,Nicholay Topin,current_student,1,0.006666666666666667,12,#ffff99,element
-Gregory Plumb,student,current_student,Gregory Plumb,current_student,4,0.005218335356795817,3,#33a02c,element
-Joon Sik Kim,student,current_student,Joon Sik Kim,current_student,4,0.005218335356795817,3,#33a02c,element
-Liam Li,student,alumni,Liam Li,alumni,4,0.005218335356795817,3,#33a02c,element
-Valerie Chen,student,current_student,Valerie Chen,current_student,4,0.005218335356795817,3,#33a02c,element
-Ritesh Noothigattu,student,alumni,Ritesh Noothigattu,alumni,1,0.0014772818795478972,2,#1f78b4,element
-Pranjal Awasthi,student,alumni,Pranjal Awasthi,alumni,0,0.0,0,"rgb(1,1,1)",element
-Hao Cen,student,alumni,Hao Cen,alumni,0,0.0,0,"rgb(1,1,1)",element
-Duen Horng (Polo) Chau,student,alumni,Duen Horng (Polo) Chau,alumni,0,0.0,0,"rgb(1,1,1)",element
-Maria De Arteaga Gonzalez,student,alumni,Maria De Arteaga Gonzalez,alumni,0,0.0,0,"rgb(1,1,1)",element
-Kumar Avinava Dubey,student,alumni,Kumar Avinava Dubey,alumni,0,0.0,0,"rgb(1,1,1)",element
-Robert Fisher,student,alumni,Robert Fisher,alumni,0,0.0,0,"rgb(1,1,1)",element
-Dylan Fitzpatrick,student,alumni,Dylan Fitzpatrick,alumni,0,0.0,0,"rgb(1,1,1)",element
-Seth Flaxman,student,alumni,Seth Flaxman,alumni,0,0.0,0,"rgb(1,1,1)",element
-Anna Goldenberg,student,alumni,Anna Goldenberg,alumni,0,0.0,0,"rgb(1,1,1)",element
-Joseph Gonzalez,student,alumni,Joseph Gonzalez,alumni,0,0.0,0,"rgb(1,1,1)",element
-Rob Hall,student,alumni,Rob Hall,alumni,0,0.0,0,"rgb(1,1,1)",element
-Jingrui He,student,alumni,Jingrui He,alumni,0,0.0,0,"rgb(1,1,1)",element
-Yotam Hechtlinger,student,alumni,Yotam Hechtlinger,alumni,0,0.0,0,"rgb(1,1,1)",element
-William Herlands,student,alumni,William Herlands,alumni,0,0.0,0,"rgb(1,1,1)",element
-Kwhangho Kim,student,alumni,Kwhangho Kim,alumni,0,0.0,0,"rgb(1,1,1)",element
-Natalie Klein,student,alumni,Natalie Klein,alumni,0,0.0,0,"rgb(1,1,1)",element
-Aryeh Kontorovich,student,alumni,Aryeh Kontorovich,alumni,0,0.0,0,"rgb(1,1,1)",element
-Shing-hon Lau,student,alumni,Shing-hon Lau,alumni,0,0.0,0,"rgb(1,1,1)",element
-Edith Law,student,alumni,Edith Law,alumni,0,0.0,0,"rgb(1,1,1)",element
-Yuanning Li,student,alumni,Yuanning Li,alumni,0,0.0,0,"rgb(1,1,1)",element
-Han Liu,student,alumni,Han Liu,alumni,0,0.0,0,"rgb(1,1,1)",element
-Yucheng Low,student,alumni,Yucheng Low,alumni,0,0.0,0,"rgb(1,1,1)",element
-Micol Marchetti-Bowick,student,alumni,Micol Marchetti-Bowick,alumni,0,0.0,0,"rgb(1,1,1)",element
-George Montañez,student,alumni,George Montañez,alumni,0,0.0,0,"rgb(1,1,1)",element
-Calvin Murdock,student,alumni,Calvin Murdock,alumni,0,0.0,0,"rgb(1,1,1)",element
-Brendan O'Connor,student,alumni,Brendan O'Connor,alumni,0,0.0,0,"rgb(1,1,1)",element
-Josue Orellana Arreaga,student,alumni,Josue Orellana Arreaga,alumni,0,0.0,0,"rgb(1,1,1)",element
-Anthony Platanios,student,alumni,Anthony Platanios,alumni,0,0.0,0,"rgb(1,1,1)",element
-Collin Politsch,student,alumni,Collin Politsch,alumni,0,0.0,0,"rgb(1,1,1)",element
-Prashant Reddy,student,alumni,Prashant Reddy,alumni,0,0.0,0,"rgb(1,1,1)",element
-Benjamin Shih,student,alumni,Benjamin Shih,alumni,0,0.0,0,"rgb(1,1,1)",element
-Ricardo Silva,student,alumni,Ricardo Silva,alumni,0,0.0,0,"rgb(1,1,1)",element
-Michael Spece-Ibanez,student,alumni,Michael Spece-Ibanez,alumni,0,0.0,0,"rgb(1,1,1)",element
-Hanghang Tong,student,alumni,Hanghang Tong,alumni,0,0.0,0,"rgb(1,1,1)",element
-Ryan Williamson,student,alumni,Ryan Williamson,alumni,0,0.0,0,"rgb(1,1,1)",element
-Guangyu (Gus) Xia,student,alumni,Guangyu (Gus) Xia,alumni,0,0.0,0,"rgb(1,1,1)",element
-Yichong Xu,student,alumni,Yichong Xu,alumni,0,0.0,0,"rgb(1,1,1)",element
-Enxu Yen,student,alumni,Enxu Yen,alumni,0,0.0,0,"rgb(1,1,1)",element
-Liu Yang,student,alumni,Liu Yang,alumni,0,0.0,0,"rgb(1,1,1)",element
-Ying Yang,student,alumni,Ying Yang,alumni,0,0.0,0,"rgb(1,1,1)",element
-Qiong Zhang,student,alumni,Qiong Zhang,alumni,0,0.0,0,"rgb(1,1,1)",element
-Pengcheng Zhou,student,alumni,Pengcheng Zhou,alumni,0,0.0,0,"rgb(1,1,1)",element
-Brian Ziebart,student,alumni,Brian Ziebart,alumni,0,0.0,0,"rgb(1,1,1)",element
-Arish Alreja,student,current_student,Arish Alreja,current_student,0,0.0,0,"rgb(1,1,1)",element
-Siddharth Ancha,student,current_student,Siddharth Ancha,current_student,0,0.0,0,"rgb(1,1,1)",element
-Anna Bair,student,current_student,Anna Bair,current_student,0,0.0,0,"rgb(1,1,1)",element
-Shengyuan Hu,student,current_student,Shengyuan Hu,current_student,0,0.0,0,"rgb(1,1,1)",element
-Conor Igoe,student,current_student,Conor Igoe,current_student,0,0.0,0,"rgb(1,1,1)",element
-Elias Jaasaari,student,current_student,Elias Jaasaari,current_student,0,0.0,0,"rgb(1,1,1)",element
-Yiding Jiang,student,current_student,Yiding Jiang,current_student,0,0.0,0,"rgb(1,1,1)",element
-Alex Li,student,current_student,Alex Li,current_student,0,0.0,0,"rgb(1,1,1)",element
-Yuchen Li,student,current_student,Yuchen Li,current_student,0,0.0,0,"rgb(1,1,1)",element
-Abhinav Maurya,student,current_student,Abhinav Maurya,current_student,0,0.0,0,"rgb(1,1,1)",element
-Stephanie Milani,student,current_student,Stephanie Milani,current_student,0,0.0,0,"rgb(1,1,1)",element
-Inioluwa Oguntola,student,current_student,Inioluwa Oguntola,current_student,0,0.0,0,"rgb(1,1,1)",element
-Robin Schmucker,student,current_student,Robin Schmucker,current_student,0,0.0,0,"rgb(1,1,1)",element
-Shubhranshu Shekhar,student,current_student,Shubhranshu Shekhar,current_student,0,0.0,0,"rgb(1,1,1)",element
-Samuel Sokota,student,current_student,Samuel Sokota,current_student,0,0.0,0,"rgb(1,1,1)",element
-Che-Ping Tsai,student,current_student,Che-Ping Tsai,current_student,0,0.0,0,"rgb(1,1,1)",element
-Hsiao-Yu Tung,student,current_student,Hsiao-Yu Tung,current_student,0,0.0,0,"rgb(1,1,1)",element
-Qizhe Xie,student,current_student,Qizhe Xie,current_student,0,0.0,0,"rgb(1,1,1)",element
-Tom Yan,student,current_student,Tom Yan,current_student,0,0.0,0,"rgb(1,1,1)",element
+id,entity_type,entity_subtype,degree,pagerank,community,community_color,display
+ Ifigeneia Apostolopoulou,student,current_student,6,0.005906129636967006,2,#1f78b4,element
+Cristian Challu,student,current_student,6,0.005906129636967006,2,#1f78b4,element
+Eric Lei,student,alumni,6,0.005906129636967006,2,#1f78b4,element
+Kin Gutierrez Olivares,student,current_student,6,0.005906129636967005,2,#1f78b4,element
+Madalina Fiterau-Brostean,student,alumni,6,0.005906129636967005,2,#1f78b4,element
+Maria De Arteaga Gonzalez,student,alumni,8,0.007647995555152809,2,#1f78b4,element
+Sebastian Caldas,student,current_student,6,0.005906129636967005,2,#1f78b4,element
+Aaditya Ramdas,student,alumni,11,0.009841785305811673,1,#e31a1c,element
+Collin Politsch,student,alumni,4,0.0046118786540721565,1,#e31a1c,element
+Han Liu,student,alumni,6,0.00744291859237135,1,#e31a1c,element
+Ivan Stelmakh,student,current_student,8,0.0073362724980478395,1,#e31a1c,element
+James Sharpnack,student,alumni,8,0.006869102807021604,1,#e31a1c,element
+Jisu Kim,student,alumni,5,0.005403479516156484,1,#e31a1c,element
+Kwhangho Kim,student,alumni,5,0.0056914405844580435,1,#e31a1c,element
+Ojash Neopane,student,current_student,8,0.0073362724980478395,1,#e31a1c,element
+Simon Du,student,alumni,16,0.010347936809208223,1,#e31a1c,element
+Stefani Karp,student,current_student,7,0.005956630318197441,1,#e31a1c,element
+Yining Wang,student,alumni,7,0.005956630318197441,1,#e31a1c,element
+Yusha Liu,student,current_student,7,0.005956630318197441,1,#e31a1c,element
+Aaron Rumack,student,current_student,1,0.0019761355397542855,2,#1f78b4,element
+Amanda Coston,student,current_student,4,0.005020453504756704,2,#1f78b4,element
+Abulhair Saparov,student,current_student,11,0.005864349389445575,1,#e31a1c,element
+Alona Fyshe,student,alumni,11,0.005864349389445575,1,#e31a1c,element
+Andy Carlson,student,alumni,11,0.005864349389445575,1,#e31a1c,element
+Anthony Platanios,student,alumni,11,0.005864349389445575,1,#e31a1c,element
+Edith Law,student,alumni,11,0.005864349389445575,1,#e31a1c,element
+Leila Wehbe,student,alumni,11,0.005864349389445575,1,#e31a1c,element
+Mariya Toneva,student,current_student,12,0.0068442234614246285,1,#e31a1c,element
+Nicole Rafidi,student,alumni,11,0.005864349389445575,1,#e31a1c,element
+Otilia Stretcu,student,current_student,20,0.010216543868438174,1,#e31a1c,element
+Shashank Srivastava,student,alumni,11,0.005864349389445575,1,#e31a1c,element
+Tara Pirnia,student,current_student,11,0.005864349389445575,1,#e31a1c,element
+Théophile Gervet,student,current_student,22,0.010676502252647851,1,#e31a1c,element
+Adarsh Prasad,student,current_student,8,0.004972077424016415,3,#33a02c,element
+Arun Sai Suggala,student,current_student,8,0.004972077424016415,3,#33a02c,element
+Bingbin Liu,student,current_student,9,0.005573886485999951,3,#33a02c,element
+Chih-Kuan Yeh,student,current_student,8,0.004972077424016415,3,#33a02c,element
+Elan Rosenfeld,student,current_student,8,0.004972077424016415,3,#33a02c,element
+Juyong Kim,student,current_student,8,0.004972077424016415,3,#33a02c,element
+Kartik Gupta,student,current_student,8,0.004972077424016415,3,#33a02c,element
+So Yeon (Tiffany) Min,student,current_student,16,0.008963773037924153,3,#33a02c,element
+Xun Zheng,student,alumni,21,0.010354769261965692,3,#33a02c,element
+Addison Hu,student,current_student,6,0.005194476830250483,2,#1f78b4,element
+Alnur Ali,student,alumni,15,0.010690990346284734,2,#1f78b4,element
+Maria Jahja,student,current_student,6,0.005194476830250483,2,#1f78b4,element
+Natalia L. de Oliveira,student,current_student,6,0.005194476830250483,2,#1f78b4,element
+Pratik Patil,student,current_student,6,0.005194476830250483,2,#1f78b4,element
+Veeranjaneyulu Sadhanala,student,alumni,6,0.005194476830250483,2,#1f78b4,element
+Yu-Xiang Wang,student,alumni,6,0.005194476830250484,2,#1f78b4,element
+Ahmed Hefny,student,alumni,4,0.0060606060606060615,7,#fb9a99,element
+Ajit Singh,student,alumni,4,0.0060606060606060615,7,#fb9a99,element
+Carlton Downey,student,alumni,4,0.0060606060606060615,7,#fb9a99,element
+Han Zhao,student,alumni,4,0.0060606060606060615,7,#fb9a99,element
+Renato Negrinho,student,current_student,4,0.006060606060606061,7,#fb9a99,element
+Akash Umakantha,student,current_student,5,0.005443658138268916,5,#6a3d9a,element
+Benjamin Cowley,student,alumni,5,0.006369080021774632,5,#6a3d9a,element
+Darby Losey,student,current_student,5,0.006369080021774632,5,#6a3d9a,element
+Jay Hennig,student,current_student,5,0.006369080021774631,5,#6a3d9a,element
+Shenghao Wu,student,current_student,5,0.006369080021774631,5,#6a3d9a,element
+Will Bishop,student,alumni,5,0.005443658138268915,5,#6a3d9a,element
+Aleksandr (Sasha) Podkopaev,student,current_student,5,0.00592626450574915,4,#ff7f00,element
+Lucia Castellanos,student,alumni,5,0.00592626450574915,4,#ff7f00,element
+Motolani Olarinre,student,current_student,5,0.00592626450574915,4,#ff7f00,element
+Natalie Klein,student,alumni,5,0.00592626450574915,4,#ff7f00,element
+Yang Xu,student,alumni,6,0.006959383290610632,4,#ff7f00,element
+Yu (Albert) Chen,student,current_student,5,0.00592626450574915,4,#ff7f00,element
+Ashwini Pokle,student,current_student,9,0.006287536202133338,2,#1f78b4,element
+Eric Wong,student,alumni,9,0.006287536202133338,2,#1f78b4,element
+Ezra Winston,student,current_student,9,0.006287536202133338,2,#1f78b4,element
+Jeremiah Cohen,student,current_student,13,0.009882834545829614,2,#1f78b4,element
+Matthew Wytock,student,alumni,9,0.006287536202133337,2,#1f78b4,element
+Po-Wei Wang,student,current_student,9,0.006287536202133337,2,#1f78b4,element
+Saurabh Garg,student,current_student,17,0.011271526663175213,2,#1f78b4,element
+Shaojie Bai,student,current_student,9,0.006287536202133336,2,#1f78b4,element
+Zhili Feng,student,current_student,9,0.006287536202133336,2,#1f78b4,element
+Nil-Jana Akpinar,student,current_student,10,0.007655447910174502,2,#1f78b4,element
+Andrew Arnold,student,alumni,1,0.006060606060606061,10,#fdbf6f,element
+Zhenzhen Kou,student,alumni,1,0.006060606060606061,10,#fdbf6f,element
+Ankur Parikh,student,alumni,13,0.006196569347966868,3,#33a02c,element
+Bin Zhao,student,alumni,13,0.006196569347966868,3,#33a02c,element
+Lisa Lee,student,current_student,21,0.010192449549242373,3,#33a02c,element
+Maruan Al-Shedivat,student,current_student,13,0.006196569347966869,3,#33a02c,element
+Micol Marchetti-Bowick,student,alumni,13,0.006196569347966869,3,#33a02c,element
+Mladen Kolar,student,alumni,13,0.006196569347966869,3,#33a02c,element
+Mrinmaya Sachan,student,alumni,13,0.006196569347966869,3,#33a02c,element
+Pengtao Xie,student,alumni,13,0.006196569347966869,3,#33a02c,element
+Qirong Ho,student,alumni,13,0.006196569347966869,3,#33a02c,element
+Suyash Shringarpure,student,alumni,13,0.006196569347966869,3,#33a02c,element
+Wei (David) Dai,student,alumni,13,0.006196569347966869,3,#33a02c,element
+Willie Neiswanger,student,alumni,13,0.006196569347966869,3,#33a02c,element
+Zhiting Hu,student,current_student,13,0.006196569347966869,3,#33a02c,element
+Anna Goldenberg,student,alumni,1,0.006060606060606061,11,#cab2d6,element
+Purnamrita Sarkar,student,alumni,1,0.006060606060606061,11,#cab2d6,element
+Aria Yuan Wang,student,current_student,2,0.0023799315004832604,4,#ff7f00,element
+Arish Alreja,student,current_student,1,0.006060606060606061,12,#ffff99,element
+Yuanning Li,student,alumni,1,0.006060606060606061,12,#ffff99,element
+Arundhati Banerjee,student,current_student,11,0.005656034719742359,1,#e31a1c,element
+Biswajit Paria,student,current_student,18,0.010009710895575428,1,#e31a1c,element
+Brent Bryan,student,alumni,11,0.005656034719742359,1,#e31a1c,element
+Ian Char,student,current_student,11,0.005656034719742359,1,#e31a1c,element
+Junier Oliva,student,alumni,18,0.010009710895575426,1,#e31a1c,element
+Kaustav Das,student,alumni,11,0.005656034719742359,1,#e31a1c,element
+Kirthevasan Kandasamy,student,alumni,18,0.010009710895575426,1,#e31a1c,element
+Liang Xiong,student,alumni,11,0.005656034719742359,1,#e31a1c,element
+Tzu-Kuo Huang,student,alumni,11,0.005656034719742359,1,#e31a1c,element
+Yi Zhang,student,alumni,11,0.0056560347197423585,1,#e31a1c,element
+Yifei Ma,student,alumni,11,0.0056560347197423585,1,#e31a1c,element
+Aryeh Kontorovich,student,alumni,2,0.003416769130121221,1,#e31a1c,element
+Min Xu,student,alumni,2,0.0034167691301212216,1,#e31a1c,element
+Ben Eysenbach,student,current_student,8,0.004813472706871273,3,#33a02c,element
+Devendra Chaplot,student,current_student,8,0.0048134727068712725,3,#33a02c,element
+Emilio Parisotto,student,current_student,8,0.004813472706871273,3,#33a02c,element
+Manzil Zaheer,student,alumni,17,0.009174854203889159,3,#33a02c,element
+Paul Liang,student,current_student,8,0.004813472706871273,3,#33a02c,element
+William Guss,student,current_student,8,0.0048134727068712725,3,#33a02c,element
+Yao-Hung (Hubert) Tsai,student,current_student,8,0.0048134727068712725,3,#33a02c,element
+Tanya Marwah,student,current_student,9,0.006352824352734853,2,#1f78b4,element
+Chenghui Zhou,student,current_student,9,0.005186674188120086,1,#e31a1c,element
+Chun-Liang Li,student,alumni,9,0.005186674188120086,1,#e31a1c,element
+Sashank Jakkam Reddi,student,alumni,11,0.007495093589166234,1,#e31a1c,element
+Shashank Singh,student,alumni,9,0.005186674188120086,1,#e31a1c,element
+Brendan O'Connor,student,alumni,1,0.006060606060606061,13,"rgb(1,1,1)",element
+Dallas Card,student,alumni,1,0.006060606060606061,13,"rgb(1,1,1)",element
+Bryan Hooi,student,alumni,5,0.006060606060606062,6,#b15928,element
+Deepayan Chakrabarti,student,alumni,5,0.006060606060606062,6,#b15928,element
+Duen Horng (Polo) Chau,student,alumni,5,0.006060606060606062,6,#b15928,element
+Hyun Ah Song,student,alumni,5,0.0060606060606060615,6,#b15928,element
+Jurij Leskovec,student,alumni,5,0.0060606060606060615,6,#b15928,element
+Mary McGlohon,student,alumni,5,0.0060606060606060615,6,#b15928,element
+Calvin McCarter,student,alumni,1,0.006060606060606061,14,"rgb(1,1,1)",element
+Jing Xiang,student,alumni,1,0.006060606060606061,14,"rgb(1,1,1)",element
+Carl Doersch,student,alumni,1,0.006060606060606061,15,"rgb(1,1,1)",element
+Kenneth Marino,student,current_student,1,0.006060606060606061,15,"rgb(1,1,1)",element
+Charvi Rastogi,student,current_student,1,0.0016888532578268286,1,#e31a1c,element
+Cheng Cheng,student,current_student,8,0.005809186910576388,2,#1f78b4,element
+Helen Zhou,student,current_student,8,0.005809186910576388,2,#1f78b4,element
+Jacob Tyo,student,current_student,8,0.005809186910576388,2,#1f78b4,element
+Jonathon Byrd,student,current_student,8,0.005809186910576388,2,#1f78b4,element
+Leqi Liu,student,current_student,8,0.005809186910576388,2,#1f78b4,element
+Yifan Wu,student,current_student,8,0.005809186910576388,2,#1f78b4,element
+Chieh Lin,student,alumni,2,0.0060606060606060615,8,#a6cee3,element
+Hai-Son Le,student,alumni,2,0.0060606060606060615,8,#a6cee3,element
+Jason Ernst,student,alumni,2,0.006060606060606061,8,#a6cee3,element
+Chirag Gupta,student,current_student,1,0.0016888532578268286,1,#e31a1c,element
+Don Dennis,student,current_student,1,0.006060606060606061,16,"rgb(1,1,1)",element
+Oscar Li,student,current_student,1,0.006060606060606061,16,"rgb(1,1,1)",element
+Dylan Fitzpatrick,student,alumni,2,0.003736451844180223,1,#e31a1c,element
+Seth Flaxman,student,alumni,4,0.005825344619197307,1,#e31a1c,element
+William Herlands,student,alumni,2,0.0037364518441802236,1,#e31a1c,element
+Felipe Trevizan,student,alumni,1,0.006060606060606061,17,"rgb(1,1,1)",element
+Nicholay Topin,student,current_student,1,0.006060606060606061,17,"rgb(1,1,1)",element
+Gregory Plumb,student,current_student,4,0.004291059882085415,2,#1f78b4,element
+Joon Sik Kim,student,current_student,4,0.004291059882085415,2,#1f78b4,element
+Liam Li,student,alumni,4,0.004291059882085415,2,#1f78b4,element
+Valerie Chen,student,current_student,4,0.004291059882085415,2,#1f78b4,element
+Hsiao-Yu Tung,student,current_student,2,0.002726850836082866,1,#e31a1c,element
+Jingrui He,student,alumni,1,0.006060606060606061,18,"rgb(1,1,1)",element
+Xi Chen,student,alumni,1,0.006060606060606061,18,"rgb(1,1,1)",element
+Joseph Bradley,student,alumni,2,0.0060606060606060615,9,#b2df8a,element
+Joseph Gonzalez,student,alumni,2,0.0060606060606060615,9,#b2df8a,element
+Yucheng Low,student,alumni,2,0.006060606060606061,9,#b2df8a,element
+Kirstin Early,student,alumni,1,0.006060606060606061,19,"rgb(1,1,1)",element
+Rob Hall,student,alumni,1,0.006060606060606061,19,"rgb(1,1,1)",element
+Ritesh Noothigattu,student,alumni,1,0.006060606060606061,20,"rgb(1,1,1)",element
+Tom Yan,student,current_student,1,0.006060606060606061,20,"rgb(1,1,1)",element
+Pranjal Awasthi,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Byron Boots,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Hao Cen,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Christoph Dann,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Kumar Avinava Dubey,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Robert Fisher,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Stephen Hanneke,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Yotam Hechtlinger,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Hanzhang Hu,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Shing-hon Lau,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Wooyoung Lee,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+George Montañez,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Calvin Murdock,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Josue Orellana Arreaga,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Pradeep Ravikumar,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Prashant Reddy,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Benjamin Shih,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Ricardo Silva,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Michael Spece-Ibanez,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Hanghang Tong,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Ryan Williamson,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Guangyu (Gus) Xia,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Yichong Xu,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Enxu Yen,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Liu Yang,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Ying Yang,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Adams Wei Yu,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Hongyang Zhang,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Qiong Zhang,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Pengcheng Zhou,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Brian Ziebart,student,alumni,0,0.0,0,"rgb(1,1,1)",element
+Siddharth Ancha,student,current_student,0,0.0,0,"rgb(1,1,1)",element
+Anna Bair,student,current_student,0,0.0,0,"rgb(1,1,1)",element
+Shengyuan Hu,student,current_student,0,0.0,0,"rgb(1,1,1)",element
+Conor Igoe,student,current_student,0,0.0,0,"rgb(1,1,1)",element
+Elias Jaasaari,student,current_student,0,0.0,0,"rgb(1,1,1)",element
+Yiding Jiang,student,current_student,0,0.0,0,"rgb(1,1,1)",element
+Alex Li,student,current_student,0,0.0,0,"rgb(1,1,1)",element
+Yuchen Li,student,current_student,0,0.0,0,"rgb(1,1,1)",element
+Abhinav Maurya,student,current_student,0,0.0,0,"rgb(1,1,1)",element
+Stephanie Milani,student,current_student,0,0.0,0,"rgb(1,1,1)",element
+Inioluwa Oguntola,student,current_student,0,0.0,0,"rgb(1,1,1)",element
+Robin Schmucker,student,current_student,0,0.0,0,"rgb(1,1,1)",element
+Shubhranshu Shekhar,student,current_student,0,0.0,0,"rgb(1,1,1)",element
+Samuel Sokota,student,current_student,0,0.0,0,"rgb(1,1,1)",element
+Che-Ping Tsai,student,current_student,0,0.0,0,"rgb(1,1,1)",element
+Qizhe Xie,student,current_student,0,0.0,0,"rgb(1,1,1)",element

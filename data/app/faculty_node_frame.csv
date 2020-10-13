@@ -1,112 +1,261 @@
-id,entity_type,entity_subtype,title,research_interests,label,parent,degree,pagerank,community,community_color,display
-Aaditya Ramdas,faculty,core,"Assistant Professor, Statistics & Machine Learning, Dietrich College of Humanities and Social Sciences & School of Computer Science","Multiple Hypothesis Testing, Sequential Estimation, Interactive Statistics, Nonparametric Inference",Aaditya Ramdas,core,1,0.003710518523832521,1,#e31a1c,element
-Aarti Singh,faculty,core,"Associate Professor, Machine Learning, School of Computer Science",,Aarti Singh,core,14,0.037036638820948306,1,#e31a1c,element
-Barnabás Póczos,faculty,core,"(ON LEAVE) Associate Professor Machine Learning, School of Computer Science","Machine Learning in Scientific Applications, Optimization, Statistical Machine Learning",Barnabás Póczos,core,14,0.036095670057314275,1,#e31a1c,element
-Eric Xing,faculty,core,"Professor, Machine Learning & Language Technologies Institute & Computational Biology/Associate Head for Research, Machine Learning, School of Computer Science",,Eric Xing,core,18,0.04282301670369788,1,#e31a1c,element
-Jeff Schneider,faculty,core,"Research Professor, Robotics Institute, School of Computer Science","Bayesian Optimization, Reinforcement Learning, Self-driving Cars",Jeff Schneider,core,13,0.025462527203539753,1,#e31a1c,element
-Larry Wasserman,faculty,core,"UPMC Professor, Statistics & Machine Learning, Dietrich College of Humanities and Social Sciences & School of Computer Science","Nonparametric Inference, Statistical Learning",Larry Wasserman,core,8,0.026477560873466952,1,#e31a1c,element
-Manuela Veloso,faculty,core,"(ON LEAVE) Herbert A. Simon University Professor, Computer Science & Machine Learning, School of Computer Science","AI Planning and Learning, Multiagent Systems",Manuela Veloso,core,16,0.03707269849293797,1,#e31a1c,element
-Michael Tarr,faculty,related,"Professor & Department Head, Psychology, Dietrich College of Humanities and Social Sciences",,Michael Tarr,related,3,0.008042525803655769,1,#e31a1c,element
-Nihar Shah,faculty,core,"Assistant Professor, Machine Learning & Computer Science, School of Computer Science","Fairness, Game Theory, Learning Theory",Nihar Shah,core,4,0.0072349431262817045,1,#e31a1c,element
-Robert Kass,faculty,core,"Professor, Center for the Neural Basis of Cognition & Statistics & Machine Learning, Dietrich College of Humanities and Social Sciences & School of Computer Science","ML in the Brain Sciences, Statistics in Neuroscience",Robert Kass,core,4,0.01270810343736457,1,#e31a1c,element
-Roni Rosenfeld,faculty,core,"Department Head, Machine Learning Department/Professor, Machine Learning, Language Technologies Institute, Computer Science, Computational Biology, School of Computer Science",Forecasting Epidemics,Roni Rosenfeld,core,28,0.11450837446990361,1,#e31a1c,element
-Ruslan Salakhutdinov,faculty,core,"UPMC Professor, Machine Learning, School of Computer Science",,Ruslan Salakhutdinov,core,15,0.047243460620465,1,#e31a1c,element
-Ryan Tibshirani,faculty,core,"Associate Department Head for Faculty and Climate, Machine Learning/Associate Professor, Statistics & Machine Learning, Dietrich College of Humanities and Social Sciences & School of Computer Science","Convex Optimization, Forecasting Epidemics, High-dimensional Statistics, Nonparametric Statistics",Ryan Tibshirani,core,10,0.02455025395402635,1,#e31a1c,element
-Sivaraman Balakrishnan,faculty,affiliated,"Assistant Professor, Statistics, Dietrich College of Humanities and Social Sciences",,Sivaraman Balakrishnan,affiliated,7,0.013219106154127469,1,#e31a1c,element
-Tom Mitchell,faculty,core,"Founders University Professor/Director of ML PhD Programs, Computer Science & Machine Learning, School of Computer Science","Conversational Machine Learning, Deep Learning Models of Human Neural Activity",Tom Mitchell,core,30,0.0976081599749851,1,#e31a1c,element
-Abhinav Gupta,faculty,affiliated,"Associate Professor, Robotics Institute, School of Computer Science",,Abhinav Gupta,affiliated,2,0.004640477958009349,1,#e31a1c,element
-Alex Hauptmann,faculty,related,"Research Professor, Language Technologies Institute, School of Computer Science",,Alex Hauptmann,related,3,0.006542707076544574,1,#e31a1c,element
-Ding Zhao,faculty,related,"Assistant Professor, Mechanical Engineering Department",,Ding Zhao,related,3,0.006542707076544573,1,#e31a1c,element
-Alex Smola,faculty,unknown,,,Alex Smola,unknown,1,0.00584359428383058,1,#e31a1c,element
-Katerina Fragkiadaki,faculty,core,"Assistant Professor/Director of ML Master's Programs, Machine Learning, School of Computer Science","Active Vision, Computer Vision",Katerina Fragkiadaki,core,3,0.011497123623725996,1,#e31a1c,element
-Alexandra Chouldechova,faculty,unknown,,,Alexandra Chouldechova,unknown,3,0.010003337280267819,1,#e31a1c,element
-Edward Kennedy,faculty,unknown,,,Edward Kennedy,unknown,2,0.006446262626639353,1,#e31a1c,element
-Zachary Lipton,faculty,core,Assistant Professor of Business Technologies and Machine Learning,"Machine Learning for Healthcare, Robustness under distribution shift, Ethics of Technology, Deep Learning",Zachary Lipton,core,4,0.017199832358271203,1,#e31a1c,element
-Ameet Talwalkar,faculty,core,"Assistant Professor, Machine Learning, School of Computer Science","Explainable ML, Auto ML, Meta Learning, Fairness, Parallel and Distributed Machine Learning, Systems and Machine Learning",Ameet Talwalkar,core,7,0.013688203686653752,1,#e31a1c,element
-Maria-Florina Balcan,faculty,core,"Professor, Computer Science & Machine Learning, School of Computer Science","Foundations of Machine Learning, Data Driven Algorithm Design, Computational and Data-driven approaches in game theory and economics, Interactive Learning, Lifelong Learning",Maria-Florina Balcan,core,6,0.011777594466539351,1,#e31a1c,element
-Zico Kolter,faculty,affiliated,"Assistant Professor, Computer Science, School of Computer Science",,Zico Kolter,affiliated,2,0.007693854635293694,1,#e31a1c,element
-Andrej Risteski,faculty,core,"Assistant Professor, Machine Learning, School of Computer Science","Machine Learning Theory, Theory of Unsupervised Learning, Theory of Deep Learning",Andrej Risteski,core,2,0.007526367968435247,1,#e31a1c,element
-Pradeep Ravikumar,faculty,core,"Associate Professor, Machine Learning, School of Computer Science","Explainable, Robust, Graceful AI, Statisical Machine Learning, Learning Theory",Pradeep Ravikumar,core,8,0.015139357419556214,1,#e31a1c,element
-Artur Dubrawski,faculty,affiliated,"Research Professor, Robotics Institute, School of Computer Science",,Artur Dubrawski,affiliated,5,0.009724000903869132,1,#e31a1c,element
-Geoffrey Gordon,faculty,core,"Professor, Machine Learning, School of Computer Science","Reinforcement Learning, Statistical Machine Learning, Optimization, Spectral Methods",Geoffrey Gordon,core,17,0.054326153917645455,1,#e31a1c,element
-Avniel S. Ghuman,faculty,unknown,,,Avniel S. Ghuman,unknown,1,0.017241379310344827,3,#33a02c,element
-Max G'Sell,faculty,affiliated,"Assistant Professor, Statistics, Dietrich College of Humanities and Social Sciences",,Max G'Sell,affiliated,1,0.017241379310344827,3,#33a02c,element
-Clark Glymour,faculty,affiliated,"Alumni University Professor, Philosophy, Dietrich College of Humanities and Social Sciences",,Clark Glymour,affiliated,10,0.01622535438560074,1,#e31a1c,element
-Kun Zhang,faculty,affiliated,"Assistant Professor, Philosophy, Dietrich College of Humanities and Social Sciences",,Kun Zhang,affiliated,10,0.01622535438560074,1,#e31a1c,element
-Seyoung Kim,faculty,affiliated,"Assistant Professor, Computational Biology, School of Computer Science",,Seyoung Kim,affiliated,10,0.01730922533265693,1,#e31a1c,element
-Brent Doiron ,faculty,unknown,,,Brent Doiron ,unknown,2,0.008442225082185834,2,#1f78b4,element
-Byron Yu,faculty,affiliated,"Associate Professor, Electrical & Computer Engineering & Biomedical Engineering, College of Engineering",,Byron Yu,affiliated,7,0.029345802160957574,2,#1f78b4,element
-Matthew Smith,faculty,unknown,,,Matthew Smith,unknown,2,0.008442225082185834,2,#1f78b4,element
-Marcel Just,faculty,related,"Director, Center for Cognitive Brain Imaging/ D O Hebb Professor, Psychology, Dietrich College of Humanities and Social Sciences",,Marcel Just,related,2,0.005945632363104697,2,#1f78b4,element
-Matthew Smith ,faculty,unknown,,,Matthew Smith ,unknown,1,0.004853961923177097,2,#1f78b4,element
-Steve Chase,faculty,unknown,,,Steve Chase,unknown,1,0.0071217169498024695,2,#1f78b4,element
-Christos Faloutsos,faculty,core,"Professor, Computer Science, School of Computer Science","Data Mining, Social Networks, Anomaly Detection",Christos Faloutsos,core,7,0.013818196027773457,1,#e31a1c,element
-Leman Akoglu,faculty,affiliated,"Assistant Professor, Information Systems, Heinz College of Information Systems and Public Policy",,Leman Akoglu,affiliated,3,0.005876944060971253,1,#e31a1c,element
-William Cohen,faculty,core,"(ON LEAVE) Professor, Machine Learning & Language Technologies Institute, School of Computer Science",,William Cohen,core,4,0.009071367897328304,1,#e31a1c,element
-Cosma Shalizi,faculty,core,"Associate Professor, Statistics, Dietrich College of Humanities and Social Sciences","Causal Inference, Network Analysis, Time Series",Cosma Shalizi,core,5,0.008967591180914013,1,#e31a1c,element
-Eduard Hovy,faculty,affiliated,"Research Professor, Language Technologies Institute, School of Computer Science",,Eduard Hovy,affiliated,2,0.005202348055422017,1,#e31a1c,element
-David Held,faculty,affiliated,"Assistant Professor, Robotics Institute, School of Computer Science",,David Held,affiliated,1,0.017241379310344827,4,#ff7f00,element
-Srinivasa Narasimhan,faculty,unknown,,,Srinivasa Narasimhan,unknown,1,0.017241379310344827,4,#ff7f00,element
-Ziv Bar-Joseph,faculty,core,"Professor, Computational Biology & Machine Learning, School of Computer Science","Computational Biology, Graphical Models, Time Series Analysis, Single Cell",Ziv Bar-Joseph,core,4,0.007680817824641001,1,#e31a1c,element
-Gary Miller,faculty,affiliated,"Professor, Computer Science, School of Computer Science",,Gary Miller,affiliated,1,0.0037114820150001135,1,#e31a1c,element
-Matt Gormley,faculty,core,"Assistant Teaching Professor/Director of ML Undergraduate Programs, Machine Learning, School of Computer Science","Deep Learning for Structured Prediction, Graphical Models, NLP",Matt Gormley,core,1,0.0035900347670015796,1,#e31a1c,element
-Reid Simmons,faculty,affiliated,"Research Professor, Robotics Institute & Computer Science, School of Computer Science",,Reid Simmons,affiliated,2,0.005690766413764127,1,#e31a1c,element
-Jeremy Weiss,faculty,affiliated,"Assistant Professor, Health Informatics, Heinz College of Information Systems and Public Policy",,Jeremy Weiss,affiliated,1,0.006239675719237599,1,#e31a1c,element
-Jing Lei,faculty,unknown,,,Jing Lei,unknown,1,0.0037455261306122275,1,#e31a1c,element
-Simon Lucey,faculty,affiliated,"Associate Research Professor, Robotics Institute, School of Computer Science",,Simon Lucey,affiliated,2,0.006868134890915329,1,#e31a1c,element
-Leila Wehbe,faculty,core,"Assistant Professor, Machine Learning, School of Computer Science","Computational Cognitive Neuroscience, Natural Language Processing, ML for Science",Leila Wehbe,core,2,0.005956611316905428,1,#e31a1c,element
-Louis-Philippe Morency,faculty,affiliated,"Assistant Professor, Language Technologies Institute, School of Computer Science",,Louis-Philippe Morency,affiliated,1,0.0035901121346280747,1,#e31a1c,element
-Roy Maxion,faculty,core,"Research Professor, Computer Science, School of Computer Science","Biometrics, Forensics, Keystroke Dynamics, Research Methods",Roy Maxion,core,2,0.004728243159860599,1,#e31a1c,element
-Tianqi Chen,faculty,core,"Assistant Professor, Machine Learning & Computer Science, School of Computer Science","Machine Learning Systems, Large-scale machine learning, Knowledge Transfer",Tianqi Chen,core,0,0.0,0,"rgb(1,1,1)",element
-Rayid Ghani,faculty,core,"Distinguished Career Professor, Machine Learning, School of Computer Science","Machine Learning for Social Good, Fairness, Bias, Equity, Interpretability, Explainable Machine Learning, Public Policy",Rayid Ghani,core,0,0.0,0,"rgb(1,1,1)",element
-Hoda Heidari,faculty,core,"Assistant Professor, Machine Learning, School of Computer Science",,Hoda Heidari,core,0,0.0,0,"rgb(1,1,1)",element
-Ann Lee,faculty,core,"(Associate Professor, Statistics & Machine, Dietrich College of Humanities and Social Sciences & School of Computer Science","Statistical Learning, Nonparametric Inference, Physical Sciences",Ann Lee,core,0,0.0,0,"rgb(1,1,1)",element
-Yuanzhi Li,faculty,core,"Assistant Professor, Machine Learning, School of Computer Science",,Yuanzhi Li,core,0,0.0,0,"rgb(1,1,1)",element
-Alan Montgomery,faculty,core,"Professor, Marketing, Tepper School of Business","Bayesian Methods, Gaussian Processes, Priors with Domain Knowledge",Alan Montgomery,core,0,0.0,0,"rgb(1,1,1)",element
-Virginia Smith,faculty,core,"Assistant Professor, Machine Learning, School of Computer Science/ECE: Electrical & Computer Engineering","Large Scale Machine Learning, Optimization, Robust Machine Learning, Privacy-preserving ML",Virginia Smith,core,0,0.0,0,"rgb(1,1,1)",element
-Pat Virtue,faculty,core,"Assistant Teaching Professor, School of Computer Science","Active Learning Teaching Methods, ML/AI Curriculum Development, AI Educational Outreach",Pat Virtue,core,0,0.0,0,"rgb(1,1,1)",element
-Yiming Yang,faculty,core,"Professor, Language Technologies Institute & Machine Learning, School of Computer Science","Graph-based Learning, Deep Representation Learning/Architecture Search, Time Series",Yiming Yang,core,0,0.0,0,"rgb(1,1,1)",element
-Chris Atkeson,faculty,affiliated,"Professor,  Robotics Institute & Human-Computer Interaction Institute, School of Computer Science",,Chris Atkeson,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Drew Bagnell,faculty,affiliated,"(ON-LEAVE) Associate Professor, Robotics Institute, School of Computer Science",,Drew Bagnell,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Kathleen Carley,faculty,affiliated,"Professor, Institute for Software Research, School of Computer Science",,Kathleen Carley,affiliated,0,0.0,0,"rgb(1,1,1)",element
-George Chen,faculty,affiliated,"Assistant Professor, Information Systems, Heinz College of Information Systems and Public Policy",,George Chen,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Yuejie Chi,faculty,affiliated,"Associate Professor, Electrical & Computer Engineering, College of Engineering",,Yuejie Chi,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Roger Dannenberg,faculty,affiliated,"Professor, Computer Science, School of Computer Science",,Roger Dannenberg,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Fernando De la Torre,faculty,affiliated,"Associate Research Professor, Robotics Institute, School of Computer Science",,Fernando De la Torre,affiliated,0,0.0,0,"rgb(1,1,1)",element
-William Eddy,faculty,affiliated,"John C. Warner Professor Emeritus, Statistics, Dietrich College of Humanities and Social Sciences",,William Eddy,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Fei Fang,faculty,affiliated,"Assistant Professor, Institute for Software Research, School of Computer Science",,Fei Fang,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Chris Genovese,faculty,affiliated,"Professor/Department Head, Statistics, Dietrich College of Humanities and Social Sciences",,Chris Genovese,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Seth Goldstein,faculty,affiliated,"Associate Professor, Computer Science, School of Computer Science",,Seth Goldstein,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Jiashun Jin,faculty,affiliated,"Professor, Statistics, Dietrich College of Humanities and Social Sciences",,Jiashun Jin,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Ken Koedinger,faculty,affiliated,"Hillman Professor, Human-Computer Interaction Institute, School of Computer Science",,Ken Koedinger,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Tai Sing Lee,faculty,affiliated,"Professor, Computer Science & Center for the Neural Basis of Cognition, School of Computer Science & Dietrich College of Humanities and Social Sciences",,Tai Sing Lee,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Jian Ma,faculty,affiliated,"Associate Professor, Computational Biology, School of Computer Science",,Jian Ma,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Deepak Pathak,faculty,affiliated,"Assistant Professor, Robotics Institute, School of Computer Science",,Deepak Pathak,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Benjamin Moseley,faculty,affiliated,"Assistant Professor, Operations Research, Tepper School of Business",,Benjamin Moseley,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Robert Murphy,faculty,affiliated,"Lane Professor of Computational Biology, Biological Sciences & Biomedical Engineering & Machine Learning, Mellon College of Science & School of Computer Science",,Robert Murphy,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Graham Neubig,faculty,affiliated,"Assistant Professor, Language Technology Institute, School of Computer Science",,Graham Neubig,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Bhiksha Raj,faculty,affiliated,"Professor, Language Technologies Institute, School of Computer Science",,Bhiksha Raj,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Alessandro Rinaldo,faculty,affiliated,"Associate Professor, Statistics, Dietrich College of Humanities and Social Sciences",,Alessandro Rinaldo,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Tuomas Sandholm,faculty,affiliated,"Professor, Computer Science, School of Computer Science",,Tuomas Sandholm,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Richard Scheines,faculty,affiliated,"Dean, Dietrich College/Professor, Philosophy, Dietrich College of Humanities & Social Sciences",,Richard Scheines,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Russell Schwartz,faculty,affiliated,"Professor and Head, Computational Biology Department Professor, Department of Biological Sciences Carnegie Mellon University",,Russell Schwartz,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Teddy Seidenfeld,faculty,affiliated,"Herbert A. Simon University Professor, Philosophy, Dietrich College of Humanities and Social Sciences",,Teddy Seidenfeld,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Katia Sycara,faculty,affiliated,"Research Professor, Robotics Institute, School of Computer Science",,Katia Sycara,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Conrad Tucker,faculty,affiliated,"Arthur Hamerschlag Career Development Professor, Mechanical Engineering",,Conrad Tucker,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Steven Wu,faculty,affiliated,"Assistant Professor, Institute for Software Research",,Steven Wu,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Jun-Yan Zhu,faculty,affiliated,"Assistant Professor, Robotics Institute, School of Computer Science",,Jun-Yan Zhu,affiliated,0,0.0,0,"rgb(1,1,1)",element
-Amir Barati Farimani,faculty,related,"Assistant Professor, Mechanical Engineering",,Amir Barati Farimani,related,0,0.0,0,"rgb(1,1,1)",element
-Alfred Blumstein,faculty,related,"J. Erik Jonsson University Professor Emeritus, Urban Systems & Operations Research, Heinz College of Information Systems and Public Policy",,Alfred Blumstein,related,0,0.0,0,"rgb(1,1,1)",element
-Hartmut Geyer,faculty,related,"Associate Professor, Robotics Institute, School of Computer Science",,Hartmut Geyer,related,0,0.0,0,"rgb(1,1,1)",element
-Joel Greenhouse,faculty,related,"Professor, Statistics, Dietrich College of Humanities and Social Sciences",,Joel Greenhouse,related,0,0.0,0,"rgb(1,1,1)",element
-Brian Junker,faculty,related,"Professor, Statistics, Dietrich College of Humanities and Social Sciences",,Brian Junker,related,0,0.0,0,"rgb(1,1,1)",element
-Jay Kadane,faculty,related,"Leonard J. Savage Professor Emeritus, Statistics, Dietrich College of Humanities and Social Sciences",,Jay Kadane,related,0,0.0,0,"rgb(1,1,1)",element
-Ramayya Krishnan,faculty,related,"Professor & Dean, Engineering & Public Policy, Heinz College of Information Systems and Public Policy",,Ramayya Krishnan,related,0,0.0,0,"rgb(1,1,1)",element
-Mark Schervish,faculty,related,"Professor, Statistics, Dietrich College of Humanities and Social Sciences",,Mark Schervish,related,0,0.0,0,"rgb(1,1,1)",element
-Dave Touretzky,faculty,related,"Research Professor, Computer Science & Center for the Neural Basis of Cognition, School of Computer Science",,Dave Touretzky,related,0,0.0,0,"rgb(1,1,1)",element
-Isabella Verdinelli,faculty,related,"Professor in Residence, Statistics, Dietrich College of Humanities and Social Sciences",,Isabella Verdinelli,related,0,0.0,0,"rgb(1,1,1)",element
-Joel Welling,faculty,related,"Senior Scientific Specialist, Pittsburgh Supercomputing Center",,Joel Welling,related,0,0.0,0,"rgb(1,1,1)",element
-Alex Waibel,faculty,related,"Professor, Language Technologies Institute, School of Computer Science",,Alex Waibel,related,0,0.0,0,"rgb(1,1,1)",element
-Stephen Smith,faculty,unknown,,,Stephen Smith,unknown,0,0.0,0,"rgb(1,1,1)",element
-Rahul Telang,faculty,unknown,,,Rahul Telang,unknown,0,0.0,0,"rgb(1,1,1)",element
-Ariel Procaccia,faculty,unknown,,,Ariel Procaccia,unknown,0,0.0,0,"rgb(1,1,1)",element
+id,entity_type,entity_subtype,degree,pagerank,community,community_color,display
+Aaditya Ramdas,faculty,core,1,0.0011771184771181217,1,#e31a1c,element
+Aarti Singh,faculty,core,24,0.018787386225383434,1,#e31a1c,element
+Alessandro Rinaldo,faculty,affiliated,12,0.008276810151849903,1,#e31a1c,element
+Arthur Gretton,faculty,unknown,9,0.005537320269017815,1,#e31a1c,element
+Avniel Ghuman,faculty,unknown,5,0.004658501624948772,2,#1f78b4,element
+Barnabás Póczos,faculty,core,30,0.020739420304393977,1,#e31a1c,element
+Dejan Slepcev,faculty,unknown,4,0.002656715277675148,1,#e31a1c,element
+Eric Xing,faculty,core,43,0.029971659077840905,1,#e31a1c,element
+Ery Arias-Castro,faculty,unknown,4,0.002666668804011252,1,#e31a1c,element
+Francis Bach,faculty,unknown,3,0.0021213254355673854,1,#e31a1c,element
+Gary Miller,faculty,affiliated,4,0.002666668804011252,1,#e31a1c,element
+James Sharpnack,faculty,unknown,4,0.002656715277675148,1,#e31a1c,element
+Jeff Schneider,faculty,core,22,0.017542996525992973,1,#e31a1c,element
+John Lafferty,faculty,unknown,18,0.012023064850406955,1,#e31a1c,element
+Larry Wasserman,faculty,core,37,0.028874886892516285,1,#e31a1c,element
+Michael Jordan,faculty,unknown,6,0.004023534340275837,1,#e31a1c,element
+Michael Tarr,faculty,related,4,0.0032661581715642376,2,#1f78b4,element
+Ming Yuan,faculty,unknown,3,0.0021179640772192344,1,#e31a1c,element
+Nihar Shah,faculty,core,5,0.0038546438465094273,1,#e31a1c,element
+Robert Kass,faculty,core,11,0.010214739530224204,2,#1f78b4,element
+Robert Nowak,faculty,unknown,3,0.00210867234752924,1,#e31a1c,element
+Ruslan Salakhutdinov,faculty,core,28,0.023005367293308543,1,#e31a1c,element
+Ryan Tibshirani,faculty,core,22,0.014103611292772558,1,#e31a1c,element
+Sivaraman Balakrishnan,faculty,affiliated,14,0.009548915545400584,1,#e31a1c,element
+Zoubin Ghahramani,faculty,unknown,14,0.007853865702545489,1,#e31a1c,element
+Abhinav Gupta,faculty,affiliated,3,0.0027899487791647635,1,#e31a1c,element
+Alexei Efros,faculty,unknown,3,0.0027899487791647635,1,#e31a1c,element
+Trevor Darrell,faculty,unknown,3,0.0027899487791647635,1,#e31a1c,element
+Adam Kalai,faculty,unknown,3,0.002423721805711451,1,#e31a1c,element
+Alexandra Chouldechova,faculty,unknown,5,0.003881324863996157,1,#e31a1c,element
+Artur Dubrawski,faculty,affiliated,14,0.009742152296694862,1,#e31a1c,element
+Roni Rosenfeld,faculty,core,21,0.015205017122788156,1,#e31a1c,element
+Adam Kohn,faculty,unknown,4,0.003095692149538923,2,#1f78b4,element
+Byron Yu,faculty,affiliated,12,0.01240592600546261,2,#1f78b4,element
+Geoffrey Gordon,faculty,core,54,0.04415450544275813,1,#e31a1c,element
+Maneesh Sahani,faculty,unknown,5,0.004374761021702136,2,#1f78b4,element
+Matthew Smith,faculty,unknown,5,0.004566788437070713,2,#1f78b4,element
+Adam Smith,faculty,unknown,6,0.004120948431234065,1,#e31a1c,element
+Alex Smola,faculty,unknown,22,0.014883744474910067,1,#e31a1c,element
+Jing Lei,faculty,unknown,4,0.002654457867144027,1,#e31a1c,element
+Stephen Fienberg,faculty,unknown,18,0.011853711275155738,1,#e31a1c,element
+Akshaya Jha,faculty,unknown,4,0.003123335434403776,1,#e31a1c,element
+Andrew Wilson,faculty,unknown,4,0.0031233354344037765,1,#e31a1c,element
+Daniel Neill,faculty,unknown,9,0.006893721221101358,1,#e31a1c,element
+Leman Akoglu,faculty,affiliated,7,0.005166013439765612,1,#e31a1c,element
+Alan Montgomery,faculty,core,3,0.002311325773330406,1,#e31a1c,element
+Christos Faloutsos,faculty,core,26,0.018107971193737995,1,#e31a1c,element
+David Jensen,faculty,unknown,6,0.00404138375837546,1,#e31a1c,element
+Aleksander Madry,faculty,unknown,3,0.002441728445668913,1,#e31a1c,element
+Matt Fredrikson,faculty,unknown,3,0.002441728445668913,1,#e31a1c,element
+Zico Kolter,faculty,affiliated,11,0.007153722263097458,1,#e31a1c,element
+Ashley Naimi,faculty,unknown,5,0.003180979895618919,1,#e31a1c,element
+Edward Kennedy,faculty,unknown,7,0.004387581113925984,1,#e31a1c,element
+Frederic Chazal,faculty,unknown,4,0.002609474346616148,1,#e31a1c,element
+Jessi Cisewski,faculty,unknown,7,0.004723222697468605,1,#e31a1c,element
+Jose Zubizarreta,faculty,unknown,5,0.003180979895618918,1,#e31a1c,element
+Alex Hauptmann,faculty,related,3,0.002367982563118197,1,#e31a1c,element
+Kristen Grauman,faculty,unknown,3,0.002367982563118197,1,#e31a1c,element
+Tom Mitchell,faculty,core,48,0.03703211515666996,1,#e31a1c,element
+Andreas Krause,faculty,unknown,3,0.0022316232897085213,1,#e31a1c,element
+Andrew Gelman,faculty,unknown,3,0.0023366706949344957,1,#e31a1c,element
+Andrew McCallum,faculty,unknown,7,0.004216864568216594,1,#e31a1c,element
+Carlos Guestrin,faculty,unknown,12,0.008657629805204126,1,#e31a1c,element
+Christopher Manning,faculty,unknown,3,0.00239302767186099,1,#e31a1c,element
+Cosma Shalizi,faculty,core,12,0.008212805439059171,1,#e31a1c,element
+David O'Hallaron,faculty,unknown,4,0.002917792778529374,1,#e31a1c,element
+Guy Blelloch,faculty,unknown,10,0.007228500664885605,1,#e31a1c,element
+Jeff Bilmes,faculty,unknown,4,0.0029177927785293736,1,#e31a1c,element
+Katerina Fragkiadaki,faculty,core,4,0.0044822710507756635,6,#b15928,element
+Quoc Le,faculty,unknown,3,0.00239302767186099,1,#e31a1c,element
+Stephen Boyd,faculty,unknown,7,0.004878477285810191,1,#e31a1c,element
+Suvrit Sra,faculty,unknown,4,0.0027219983160320354,1,#e31a1c,element
+Zachary Lipton,faculty,core,4,0.004230330457336581,3,#33a02c,element
+Ali Shojaie,faculty,unknown,3,0.0021969693339505656,1,#e31a1c,element
+Ziv Bar-Joseph,faculty,core,11,0.007383843492071315,1,#e31a1c,element
+Ameet Talwalkar,faculty,core,7,0.004541974970343625,1,#e31a1c,element
+John Duchi,faculty,unknown,4,0.0027499174809456142,1,#e31a1c,element
+Kavin Jamieson,faculty,unknown,3,0.0023519054853647237,1,#e31a1c,element
+Maria-Florina Balcan,faculty,core,8,0.0059013944710594145,1,#e31a1c,element
+Andrej Risteski,faculty,core,2,0.0022189486547386818,3,#33a02c,element
+Pradeep Ravikumar,faculty,core,11,0.007932159101724016,3,#33a02c,element
+Andrew Moore,faculty,unknown,9,0.005441559486538627,1,#e31a1c,element
+Anupam Gupta,faculty,unknown,6,0.0044547803255099395,1,#e31a1c,element
+Chris Genovese,faculty,affiliated,6,0.004276654170308833,1,#e31a1c,element
+Christopher Miller,faculty,unknown,3,0.002194810460752869,1,#e31a1c,element
+Jon Kleinberg,faculty,unknown,8,0.00575420286981903,1,#e31a1c,element
+Mark Handcock,faculty,unknown,6,0.0041797775762412144,1,#e31a1c,element
+Andrew Ng,faculty,unknown,4,0.0031159029669643777,1,#e31a1c,element
+David Anderson,faculty,unknown,4,0.0031159029669643777,1,#e31a1c,element
+Joseph Hellerstein,faculty,unknown,4,0.0031159029669643777,1,#e31a1c,element
+Andrew Pavlo,faculty,unknown,3,0.0027632718491771464,7,#fb9a99,element
+Gregory Ganger,faculty,unknown,3,0.0027632718491771464,7,#fb9a99,element
+Joseph Gonzalez,faculty,unknown,3,0.0027632718491771464,7,#fb9a99,element
+Andrew Schwartz,faculty,unknown,3,0.0024482214482216243,2,#1f78b4,element
+Aniket Kittur,faculty,unknown,3,0.002858338175384293,8,#a6cee3,element
+Jason Hong,faculty,unknown,3,0.002858338175384293,8,#a6cee3,element
+Jiawei Han,faculty,unknown,3,0.0028583381753842932,8,#a6cee3,element
+Avrim Blum,faculty,unknown,6,0.004457443263892297,1,#e31a1c,element
+Ravindran Kanna,faculty,unknown,3,0.002749178724950039,1,#e31a1c,element
+Ryan O'Connel,faculty,unknown,3,0.002749178724950039,1,#e31a1c,element
+Ariel Procaccia,faculty,unknown,3,0.002776421373375056,1,#e31a1c,element
+Milind Tambe,faculty,unknown,3,0.002776421373375056,1,#e31a1c,element
+Byron Boots,faculty,unknown,5,0.0037360897303868636,1,#e31a1c,element
+Dan Jurafsky,faculty,unknown,3,0.002222483323939896,1,#e31a1c,element
+Mario Berges,faculty,unknown,3,0.002392631169398387,1,#e31a1c,element
+Noah Smith,faculty,unknown,11,0.008184763471144812,1,#e31a1c,element
+Simon Labov,faculty,unknown,3,0.002392631169398387,1,#e31a1c,element
+Xiaojin Zhu,faculty,unknown,4,0.0026911504259414954,1,#e31a1c,element
+Arunava Majumdar,faculty,unknown,4,0.0027400230270182265,1,#e31a1c,element
+Christopher Baker,faculty,unknown,3,0.002753752050656419,2,#1f78b4,element
+Max G'Sell,faculty,affiliated,6,0.00629899927609829,2,#1f78b4,element
+Avniel S. Ghuman,faculty,unknown,1,0.001472933759080038,2,#1f78b4,element
+Benjamin Recht,faculty,unknown,3,0.0026484272674370327,4,#ff7f00,element
+Benjamin Van Roy,faculty,unknown,3,0.0026484272674370327,4,#ff7f00,element
+Bharath Sriperumbudur,faculty,unknown,3,0.002112424637248073,1,#e31a1c,element
+Emma Brunskill,faculty,unknown,6,0.004944999017102214,4,#ff7f00,element
+Jared Murray,faculty,unknown,4,0.0029158560096661265,1,#e31a1c,element
+Jennifer Mankoff,faculty,unknown,4,0.0029158560096661265,1,#e31a1c,element
+John Abowd,faculty,unknown,4,0.002915856009666126,1,#e31a1c,element
+Le Song,faculty,unknown,8,0.004694283870315276,1,#e31a1c,element
+Phillip Isola,faculty,unknown,3,0.002630482243792493,1,#e31a1c,element
+Tommi Jaakkola,faculty,unknown,3,0.002199021617825153,1,#e31a1c,element
+Bart Selman,faculty,unknown,3,0.002847907181301124,4,#ff7f00,element
+Manuela Veloso,faculty,core,3,0.002847907181301124,4,#ff7f00,element
+Reid Simmons,faculty,affiliated,6,0.006693761568526649,4,#ff7f00,element
+Bin Yu,faculty,unknown,4,0.002644243120647452,1,#e31a1c,element
+Brent Doiron ,faculty,unknown,2,0.0019752359449341666,2,#1f78b4,element
+Brian Junker,faculty,related,3,0.002788116974419895,9,#b2df8a,element
+Kenneth Koedinger,faculty,unknown,3,0.002788116974419895,9,#b2df8a,element
+Noel Walkington,faculty,unknown,3,0.002788116974419895,9,#b2df8a,element
+Brian Murphy,faculty,unknown,4,0.00303339144503657,1,#e31a1c,element
+Eduard Hovy,faculty,affiliated,4,0.00303339144503657,1,#e31a1c,element
+Jack Gallant,faculty,unknown,4,0.00303339144503657,1,#e31a1c,element
+Bruno Olshausen,faculty,unknown,3,0.002788116974419895,10,#fdbf6f,element
+Michael Lewicki,faculty,unknown,3,0.002788116974419895,10,#fdbf6f,element
+Yaser Sheikh,faculty,unknown,3,0.002788116974419895,10,#fdbf6f,element
+Martial Hebert,faculty,unknown,6,0.003993920138934639,1,#e31a1c,element
+Marcel Just,faculty,related,3,0.0025504628122592515,2,#1f78b4,element
+Matthew Smith ,faculty,unknown,1,0.001328046793413788,2,#1f78b4,element
+Mirella Lapata,faculty,unknown,3,0.0025504628122592515,2,#1f78b4,element
+Steve Chase,faculty,unknown,1,0.0019485464170162555,2,#1f78b4,element
+Carl Kingsford,faculty,unknown,3,0.002550090170609579,3,#33a02c,element
+Seyoung Kim,faculty,affiliated,9,0.006558144772022917,3,#33a02c,element
+Steffi Oesterreich,faculty,unknown,3,0.002550090170609579,3,#33a02c,element
+Martin Wainwright,faculty,unknown,3,0.00220955932299415,1,#e31a1c,element
+Carolyn Rose,faculty,unknown,3,0.003140375517826275,4,#ff7f00,element
+Dieter Fox,faculty,unknown,3,0.003140375517826275,4,#ff7f00,element
+Christopher Olston,faculty,unknown,3,0.00234033673031687,1,#e31a1c,element
+Daniel Neil,faculty,unknown,4,0.0027996938373897,1,#e31a1c,element
+David Choi,faculty,unknown,3,0.002603470121355927,1,#e31a1c,element
+Gregory Cooper,faculty,unknown,4,0.002799693837389699,1,#e31a1c,element
+Nicholas Sidiropoulos,faculty,unknown,3,0.00247945244510324,1,#e31a1c,element
+Pedro Domingos,faculty,unknown,3,0.0022384274952232212,1,#e31a1c,element
+Vipin Kumar,faculty,unknown,3,0.002603470121355927,1,#e31a1c,element
+Vladimir Zadorozhny,faculty,unknown,3,0.00247945244510324,1,#e31a1c,element
+William Cohen,faculty,core,11,0.008263025150599778,1,#e31a1c,element
+Clark Glymour,faculty,affiliated,4,0.00314877430204518,3,#33a02c,element
+Kun Zhang,faculty,affiliated,4,0.0031487743020451797,3,#33a02c,element
+Raquel Urtasun,faculty,unknown,4,0.0031487743020451797,3,#33a02c,element
+Gary King,faculty,unknown,3,0.0022411350600949694,1,#e31a1c,element
+Milos Hauskrecht,faculty,unknown,3,0.0022835600414604943,1,#e31a1c,element
+Dan Roth,faculty,unknown,5,0.003983088294879689,1,#e31a1c,element
+Jamie Carbonell,faculty,unknown,3,0.002261325097831157,1,#e31a1c,element
+Taylor Berg-Kirkpatrick,faculty,unknown,3,0.0022730986286844746,1,#e31a1c,element
+Dan Siewiorek,faculty,unknown,5,0.0037731492813608773,5,#6a3d9a,element
+David Banks,faculty,unknown,5,0.0037731492813608777,5,#6a3d9a,element
+Mark Wetherell,faculty,unknown,5,0.0037731492813608773,5,#6a3d9a,element
+Peter Strick,faculty,unknown,5,0.0037731492813608777,5,#6a3d9a,element
+Roy Maxion,faculty,core,5,0.0037731492813608773,5,#6a3d9a,element
+Rayid Ghani,faculty,core,3,0.0025565826489231747,1,#e31a1c,element
+Wilpen Gorr,faculty,unknown,3,0.0025565826489231747,1,#e31a1c,element
+Darrel Kotton,faculty,unknown,4,0.0029914851825181797,1,#e31a1c,element
+Jian Ma,faculty,affiliated,7,0.004830966326453042,1,#e31a1c,element
+Killian Hurley,faculty,unknown,4,0.0029914851825181797,1,#e31a1c,element
+David Held,faculty,affiliated,1,0.0047169811320754715,11,#cab2d6,element
+Srinivasa Narasimhan,faculty,unknown,1,0.0047169811320754715,11,#cab2d6,element
+Robert Murphy,faculty,affiliated,3,0.0022813934166809957,1,#e31a1c,element
+David Sontag,faculty,unknown,4,0.0028370154794355494,1,#e31a1c,element
+Ryan Adams,faculty,unknown,6,0.004943500658535697,1,#e31a1c,element
+David Woodruff,faculty,unknown,2,0.001835932588513085,1,#e31a1c,element
+Deva Ramanan,faculty,unknown,3,0.0038403083600474204,6,#b15928,element
+James Hays,faculty,unknown,3,0.0038403083600474204,6,#b15928,element
+Simon Lucey,faculty,affiliated,3,0.0038403083600474204,6,#b15928,element
+Dietrich Stephan,faculty,unknown,3,0.002707162602182121,3,#33a02c,element
+Kathryn Roader,faculty,unknown,3,0.002707162602182121,3,#33a02c,element
+Eric Horvitz,faculty,unknown,6,0.00474200872771424,1,#e31a1c,element
+Graham Neubig,faculty,affiliated,3,0.0023771596665837402,1,#e31a1c,element
+Jaime Carbonell,faculty,unknown,8,0.006156031117180045,1,#e31a1c,element
+Luis von Ahn,faculty,unknown,4,0.002928242417875873,1,#e31a1c,element
+Rich Caruana,faculty,unknown,6,0.004194761514731862,1,#e31a1c,element
+Rob Miller,faculty,unknown,4,0.002928242417875873,1,#e31a1c,element
+John Platt,faculty,unknown,5,0.0031932161203205222,1,#e31a1c,element
+Kathryn Roeder,faculty,unknown,3,0.002340013194347454,1,#e31a1c,element
+Martin Kreitman,faculty,unknown,3,0.002340013194347454,1,#e31a1c,element
+Naftali Kaminski,faculty,unknown,4,0.002789977798341289,1,#e31a1c,element
+Su-In Lee,faculty,unknown,3,0.0024035628625031042,3,#33a02c,element
+Yee Whye Teh,faculty,unknown,4,0.00269002923634022,1,#e31a1c,element
+Zoltan Oltvai,faculty,unknown,4,0.002789977798341289,1,#e31a1c,element
+Foster Provost,faculty,unknown,3,0.002171529813714523,1,#e31a1c,element
+Matt Gormley,faculty,core,1,0.0012079991055412046,1,#e31a1c,element
+Gideon Schechtman,faculty,unknown,3,0.002299798445841203,1,#e31a1c,element
+Kavita Ramanan,faculty,unknown,3,0.002299798445841203,1,#e31a1c,element
+J. Andrew Bagnell,faculty,unknown,3,0.002368937279784065,1,#e31a1c,element
+Robert Tibshirani,faculty,unknown,3,0.0021846488020301116,1,#e31a1c,element
+Jeremy Weiss,faculty,affiliated,1,0.0016060061307947402,3,#33a02c,element
+Peter Freeman,faculty,unknown,4,0.002697292408092528,1,#e31a1c,element
+Rupert Croft,faculty,unknown,4,0.002697292408092528,1,#e31a1c,element
+Leila Wehbe,faculty,core,2,0.001901435974004,2,#1f78b4,element
+Louis-Philippe Morency,faculty,affiliated,1,0.0012089318124517863,1,#e31a1c,element
+Tobias Teichert,faculty,unknown,3,0.002921865578544454,2,#1f78b4,element
+Valerie Ventura,faculty,unknown,3,0.0029218655785444537,2,#1f78b4,element
+Oren Etzioni,faculty,unknown,3,0.0022057843174208237,1,#e31a1c,element
+Tianqi Chen,faculty,core,0,0.0,0,"rgb(1,1,1)",element
+Hoda Heidari,faculty,core,0,0.0,0,"rgb(1,1,1)",element
+Ann Lee,faculty,core,0,0.0,0,"rgb(1,1,1)",element
+Yuanzhi Li,faculty,core,0,0.0,0,"rgb(1,1,1)",element
+Virginia Smith,faculty,core,0,0.0,0,"rgb(1,1,1)",element
+Pat Virtue,faculty,core,0,0.0,0,"rgb(1,1,1)",element
+Yiming Yang,faculty,core,0,0.0,0,"rgb(1,1,1)",element
+Chris Atkeson,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Drew Bagnell,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Kathleen Carley,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+George Chen,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Yuejie Chi,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Roger Dannenberg,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Fernando De la Torre,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+William Eddy,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Fei Fang,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Seth Goldstein,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Jiashun Jin,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Ken Koedinger,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Tai Sing Lee,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Deepak Pathak,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Benjamin Moseley,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Bhiksha Raj,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Tuomas Sandholm,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Richard Scheines,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Russell Schwartz,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Teddy Seidenfeld,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Katia Sycara,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Conrad Tucker,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Steven Wu,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Jun-Yan Zhu,faculty,affiliated,0,0.0,0,"rgb(1,1,1)",element
+Amir Barati Farimani,faculty,related,0,0.0,0,"rgb(1,1,1)",element
+Alfred Blumstein,faculty,related,0,0.0,0,"rgb(1,1,1)",element
+Hartmut Geyer,faculty,related,0,0.0,0,"rgb(1,1,1)",element
+Joel Greenhouse,faculty,related,0,0.0,0,"rgb(1,1,1)",element
+Jay Kadane,faculty,related,0,0.0,0,"rgb(1,1,1)",element
+Ramayya Krishnan,faculty,related,0,0.0,0,"rgb(1,1,1)",element
+Mark Schervish,faculty,related,0,0.0,0,"rgb(1,1,1)",element
+Dave Touretzky,faculty,related,0,0.0,0,"rgb(1,1,1)",element
+Isabella Verdinelli,faculty,related,0,0.0,0,"rgb(1,1,1)",element
+Joel Welling,faculty,related,0,0.0,0,"rgb(1,1,1)",element
+Alex Waibel,faculty,related,0,0.0,0,"rgb(1,1,1)",element
+Ding Zhao,faculty,related,0,0.0,0,"rgb(1,1,1)",element
+Stephen Smith,faculty,unknown,0,0.0,0,"rgb(1,1,1)",element
+Rahul Telang,faculty,unknown,0,0.0,0,"rgb(1,1,1)",element
+J. Zico Kolter,faculty,unknown,0,0.0,0,"rgb(1,1,1)",element
+Alexander Smola,faculty,unknown,0,0.0,0,"rgb(1,1,1)",element
+Christopher Genovese,faculty,unknown,0,0.0,0,"rgb(1,1,1)",element

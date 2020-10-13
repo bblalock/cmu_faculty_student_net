@@ -86,7 +86,7 @@ def cyto_network(elements, is_dict=True):
         stylesheet=DEFAULT_STYLESHEET,
         elements=elements,
         autoRefreshLayout=False,
-        responsive=True
+        # responsive=True,
     )
 
     return g

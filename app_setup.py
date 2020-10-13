@@ -7,13 +7,7 @@ import pandas as pd
 
 pd.set_option('mode.chained_assignment', None)
 
-app = dash.Dash(__name__,
-                # external_stylesheets=[dbc.themes.CYBORG]
-                )
-
-
-# app.config['suppress_callback_exceptions'] = True
-
+app = dash.Dash(__name__)
 
 @app.server.route('/resumeDownload')
 def download_csv():
@@ -23,8 +17,17 @@ def download_csv():
                      )
 
 
-faculty_node_frame = pd.read_csv(ROOT_DIR + '/data/app/faculty_node_frame.csv')
+node_master = pd.read_csv(ROOT_DIR + '/data/app/master_node_frame.csv')
+edge_master = pd.read_csv(ROOT_DIR + '/data/app/master_edge_frame.csv')
+
+# faculty_node_frame = pd.read_csv(ROOT_DIR + '/data/app/faculty_node_frame.csv')
+faculty_node_frame = node_master[node_master['entity_type'] == 'faculty']
 faculty_edge_frame = pd.read_csv(ROOT_DIR + '/data/app/faculty_edge_frame.csv')
+faculty_edge_frame = pd.merge(faculty_edge_frame[['source', 'target', 'relationship']],
+                              edge_master,
+                              on=['source', 'target', 'relationship'],
+                              how='inner'
+                              )
 
 faculty_root_nodes = format_cyto_nodes(faculty_node_frame[['entity_type']].drop_duplicates(),
                                        classes='entity_root_node faculty',
@@ -97,8 +100,17 @@ faculty_co_committee_relations = format_cyto_edges(
     font_max_size=16,
 )
 
-student_node_frame = pd.read_csv(ROOT_DIR + '/data/app/student_node_frame.csv')
+# student_node_frame = pd.read_csv(ROOT_DIR + '/data/app/student_node_frame.csv')
+# student_edge_frame = pd.read_csv(ROOT_DIR + '/data/app/student_edge_frame.csv')
+
+student_node_frame = node_master[node_master['entity_type'] == 'student']
 student_edge_frame = pd.read_csv(ROOT_DIR + '/data/app/student_edge_frame.csv')
+student_edge_frame = student_edge_frame[['source', 'target', 'relationship']]
+student_edge_frame = pd.merge(student_edge_frame,
+                              edge_master,
+                              on=['source', 'target', 'relationship'],
+                              how='inner'
+                              )
 
 student_root_nodes = format_cyto_nodes(student_node_frame[['entity_type']].drop_duplicates(),
                                        classes='entity_root_node student',
@@ -162,6 +174,11 @@ student_co_advise_relations = format_cyto_edges(student_edge_frame[student_edge_
 # )
 
 bipartite_edge_frame = pd.read_csv(ROOT_DIR + '/data/app/bipartite_edge_frame.csv')
+bipartite_edge_frame = pd.merge(bipartite_edge_frame[['source', 'target', 'relationship']],
+                                edge_master,
+                                on=['source', 'target', 'relationship'],
+                                how='inner'
+                                )
 bipartite_advisor_relations = format_cyto_edges(
     bipartite_edge_frame[bipartite_edge_frame.relationship == 'Advisor'],
     classes='bipartite_advised_edge',

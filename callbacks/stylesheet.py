@@ -95,8 +95,8 @@ def generate_stylesheet(node, nodes_to_include):
                 {
                     'selector': '.bipartite_advised_edge',
                     'style': {'line-style': 'solid',
-                              'line-color': "#A9A9A9",
-                              'color': 'white',
+                              # 'line-color': "#A9A9A9",
+                              # 'color': 'white',
                               }
                 },
                 {
