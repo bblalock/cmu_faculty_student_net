@@ -9,6 +9,7 @@ pd.set_option('mode.chained_assignment', None)
 
 app = dash.Dash(__name__)
 
+
 @app.server.route('/resumeDownload')
 def download_csv():
     return send_file(ROOT_DIR + '/data/pdf/bblalock_resume.pdf',
@@ -20,7 +21,14 @@ def download_csv():
 node_master = pd.read_csv(ROOT_DIR + '/data/app/master_node_frame.csv')
 edge_master = pd.read_csv(ROOT_DIR + '/data/app/master_edge_frame.csv')
 
-# faculty_node_frame = pd.read_csv(ROOT_DIR + '/data/app/faculty_node_frame.csv')
+community_df = node_master \
+    .groupby(['community', 'community_color'], as_index=False)['id'] \
+    .count() \
+    .rename(columns={'id': 'count'})\
+    .sort_values(['count'], ascending=False)\
+    .reset_index(drop=True)
+communities = community_df.community.tolist()
+
 faculty_node_frame = node_master[node_master['entity_type'] == 'faculty']
 faculty_edge_frame = pd.read_csv(ROOT_DIR + '/data/app/faculty_edge_frame.csv')
 faculty_edge_frame = pd.merge(faculty_edge_frame[['source', 'target', 'relationship']],
@@ -99,9 +107,6 @@ faculty_co_committee_relations = format_cyto_edges(
     font_min_size=12,
     font_max_size=16,
 )
-
-# student_node_frame = pd.read_csv(ROOT_DIR + '/data/app/student_node_frame.csv')
-# student_edge_frame = pd.read_csv(ROOT_DIR + '/data/app/student_edge_frame.csv')
 
 student_node_frame = node_master[node_master['entity_type'] == 'student']
 student_edge_frame = pd.read_csv(ROOT_DIR + '/data/app/student_edge_frame.csv')
@@ -193,8 +198,6 @@ bipartite_advisor_relations = format_cyto_edges(
     font_max_size=26,
 )
 
-# print(bipartite_advisor_relations)
-
 cyto_elements = {
     # faculty
     'entity_root_node faculty': faculty_root_nodes,
@@ -223,4 +226,7 @@ orig_root_nodes = flatten([cyto_elements[cls] for cls in cyto_elements if 'entit
 orig_type_nodes = flatten([cyto_elements[cls] for cls in cyto_elements if 'entity_type_node' in cls])
 orig_entity_nodes = flatten([cyto_elements[cls] for cls in cyto_elements if 'entity_node' in cls])
 orig_filter_edges = flatten([cyto_elements[cls] for cls in cyto_elements if cls in FILTERABLE_EDGE_CLASSES])
+max_weight = {e_type: max([ele['data']['weight'] for ele in orig_filter_edges if e_type in ele['classes']])
+              for e_type in ['co_advised_edge', 'co_committee_edge']
+              }
 orig_bipartite_edges = flatten([cyto_elements[cls] for cls in cyto_elements if cls in ['bipartite_advised_edge']])

@@ -1,5 +1,6 @@
 from dash.dependencies import Input, Output, State
-from app_setup import app
+from constants import FILTERABLE_EDGE_CLASSES
+from app_setup import app, max_weight
 
 
 @app.callback([Output('edge_weight_slider_comm', 'max'),
@@ -10,21 +11,23 @@ from app_setup import app
               [
                   Input('edge_weight_slider_comm', 'value'),
                   Input('edge_weight_slider_adv', 'value'),
-                  # Input('cmu_net', 'autoRefreshLayout')
               ],
-              [State('cmu_net', 'elements')]
+              # [State('cmu_net', 'elements')]
               )
-def set_max_edge_weight(comm_value, adv_value, elements):
-    max_weight = {e_type: max([ele['data']['weight'] for ele in elements if e_type in ele['classes']])
-                  for e_type in ['co_advised_edge', 'co_committee_edge']
-                  }
-
-    marks = {'co_advised_edge': {0: {'label': '0', 'style': {'color': 'white'}},
-                                 adv_value: {'label': str(adv_value), 'style': {'color': 'white'}},
+def set_max_edge_weight(comm_value, adv_value):
+    marks = {'co_advised_edge': {1: {'label': '1',
+                                     'style': {'color': 'white'}
+                                     },
+                                 adv_value: {'label': str(adv_value),
+                                             'style': {'color': 'white'}
+                                             },
                                  max_weight['co_advised_edge']: {'label': str(max_weight['co_advised_edge']),
-                                                                 'style': {'color': 'white'}}
+                                                                 'style': {'color': 'white'}
+                                                                 }
                                  },
-             'co_committee_edge': {0: {'label': '0', 'style': {'color': 'white'}},
+             'co_committee_edge': {1: {'label': '1',
+                                       'style': {'color': 'white'}
+                                       },
                                    comm_value: {'label': str(comm_value), 'style': {'color': 'white'}},
                                    max_weight['co_committee_edge']: {'label': str(max_weight['co_committee_edge']),
                                                                      'style': {'color': 'white'}}

@@ -16,7 +16,8 @@ def cooccurrence_edgelist(df, on):
     edgelist = edgelist.groupby(['source', 'target', 'relationship']).size().reset_index(name='weight')
     return edgelist
 
-color_scale = px.colors.qualitative.Alphabet + px.colors.qualitative.Pastel1 #+ px.colors.qualitative.Pastel2
+color_scale = px.colors.qualitative.Dark24 + px.colors.qualitative.Light24
+
 
 def get_color(i, n=len(color_scale)):
     return color_scale[i - 1] if i < n else 'rgb(1,1,1)'
@@ -55,23 +56,23 @@ def set_node_community(G, name='community'):
     communities = sorted(communities, key=len, reverse=True)
 
     # degrees = nx.get_node_attributes(G, 'degree')
-    degrees = G.degree
-
+    # degrees = G.degree
     '''Add community to node attributes'''
     i = 0
     for v_c in communities:
         valid_community = False
-        if len(v_c) > 1:
+        if len(v_c) > 2:
             valid_community = True
             for v in v_c:
                 # Add 1 to save 0 for external edges
                 G.nodes[v][name] = i + 1
                 G.nodes[v][name + '_color'] = get_color(i, min(len(communities), len(color_scale)))
-        if len(v_c) <= 1:
-            print('here')
+        else:
+            for v in v_c:
+                G.nodes[v][name] = 0
+                G.nodes[v][name + '_color'] = 'rgb(1,1,1)'
         if valid_community:
             i = i + 1
-
 
 
 def set_edge_community(G, name='community'):

@@ -2,7 +2,9 @@ import dash_html_components as html
 import dash_core_components as dcc
 import dash_bootstrap_components as dbc
 import dash_daq as daq
+import dash_table
 from functools import reduce
+from app_setup import communities, community_df
 
 click_controls = {
     'header':
@@ -70,31 +72,33 @@ grouping_controls = {
         ]
 }
 
-coloring_controls = {
+community_controls = {
     'header':
         [
-            html.H5("Coloring",
+            html.H5("Communities",
                     className="card-title",
                     ),
             html.Hr(className="my-2"),
         ],
     'body':
         [
-            dbc.CardBody(
-                [
-                    html.P(['Color Nodes and Edges By:'],
-                           className='control-title'
-                           ),
-                    dcc.Dropdown(
-                        id="color_by",
-                        options=[{'label': 'Community',
-                                  'value': 'community'
-                                  }
-                                 ],
-                        value='community', className="dash-bootstrap"
-                    )
-                ],
-            )
+            html.P(['Include Communities:'],
+                   className='control-title'
+                   ),
+            dcc.Dropdown(
+                id="community_dropdown",
+                options=[{'label': 'All Communities',
+                          'value': 'all'
+                          },
+                         ] + [{'label': 'Community ' + str(comm_label),
+                               'value': comm_label
+                               }
+                              for comm_label in sorted(communities)
+                              ]
+                ,
+                value=['all'],
+                multi=True, className="dash-bootstrap"
+            ),
         ]
 }
 
@@ -161,18 +165,21 @@ filter_controls = {
                            ),
                     dcc.Dropdown(
                         id="edge_filter_dropdown",
-                        options=[{'label': 'Co-Advisor',
-                                  'value': 'entity_node faculty core'
+                        options=[{'label': 'Co-Advised Student',
+                                  'value': 'co_advised_edge faculty'
                                   },
-                                 {'label': 'Co-Committee',
-                                  'value': 'entity_node faculty affiliated'
+                                 {'label': 'Co-Advised By Faculty',
+                                  'value': 'co_advised_edge student'
+                                  },
+                                 {'label': 'Co-Served on Committee',
+                                  'value': 'co_committee_edge faculty'
                                   },
                                  {'label': 'Advisor-Advisee',
-                                  'value': 'entity_node faculty related'
+                                  'value': 'bipartite_advised_edge'
                                   }
                                  ],
-                        value=['entity_node faculty core', 'entity_node faculty affiliated',
-                               'entity_node faculty related',
+                        value=['co_advised_edge faculty', 'co_advised_edge student',
+                               'co_committee_edge faculty', 'bipartite_advised_edge'
                                ],
                         multi=True, className="dash-bootstrap"
                     ),
@@ -185,18 +192,19 @@ filter_controls = {
                            ),
                     dcc.Slider(
                         id='edge_weight_slider_adv',
-                        min=0,
+                        min=1,
                         step=1,
-                        value=0, className="dash-bootstrap"
+                        value=1,
+                        className="dash-bootstrap"
                     ),
                     html.P(['Thesis Committee Connections:'],
                            className='control-title'
                            ),
                     dcc.Slider(
                         id='edge_weight_slider_comm',
-                        min=0,
+                        min=1,
                         step=1,
-                        value=0, className="dash-bootstrap"
+                        value=3, className="dash-bootstrap"
                     ),
                 ]
             )
@@ -204,9 +212,9 @@ filter_controls = {
 }
 
 control_components = [
-    click_controls,
+    # click_controls,
     # grouping_controls,
-    coloring_controls,
+    community_controls,
     filter_controls
 ]
 
