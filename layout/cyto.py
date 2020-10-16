@@ -4,6 +4,7 @@ import dash_core_components as dcc
 import dash_bootstrap_components as dbc
 
 from utils.cyto import cyto_network
+
 from layout.controls import controls_children
 from layout.table import initialize_tables
 from constants import NETWORK_HEIGHT
@@ -13,14 +14,27 @@ cyto.load_extra_layouts()
 
 def initialize_cyto_children(elements, node_master=None):
     children = [
-        dbc.CardHeader(html.H3("Advisor-Advisee Social Network Relationships",
-                               className="card-title"
-                               )
+        dbc.CardHeader([html.H3("Advisor-Advisee Social Network Relationships",
+                                className="card-title"
+                                )
+                        ]
                        ),
         dbc.CardBody(
             [
                 html.Div(
                     [
+                        dcc.Markdown(
+                            """
+                    ##### Filter / Explore Graph
+                    Clear instructions will go here
+                    Use these filters to highlight papers with:
+                    * bullet 1
+                    * bullet 2
+                    
+                    Try doing bla bla bla
+                    """
+                        ),
+                        html.Hr(className="my-2"),
                         html.Div(
                             [
                                 html.Div(
@@ -33,6 +47,7 @@ def initialize_cyto_children(elements, node_master=None):
                             style={'display': 'inline-block',
                                    'verticalAlign': 'top',
                                    'padding': '0',
+                                   'height': '100%'
                                    }
                         ),
                         html.Div(
@@ -48,7 +63,7 @@ def initialize_cyto_children(elements, node_master=None):
                     ],
                     className="col-12",
                 )
-            ] + initialize_tables(node_master)
+            ] + initialize_tables()
         )
     ]
 

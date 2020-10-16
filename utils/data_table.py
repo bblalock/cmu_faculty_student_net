@@ -47,3 +47,35 @@ def community_colors(community_color_dict):
         })
 
     return styles
+
+
+def create_community_color_dict(node_master):
+    community_color_dict = node_master[['community', 'community_color']].drop_duplicates()
+    community_color_dict = community_color_dict.set_index('community').to_dict('index')
+    return community_color_dict
+
+
+def create_faculty_student_table_dfs(node_master):
+    faculty_df = node_master[node_master['entity_type'] == 'faculty']
+    faculty_df = faculty_df[['id', 'entity_subtype', 'community', 'degree', 'pagerank']] \
+        .rename(columns={'id': 'Name',
+                         'entity_subtype': 'Type',
+                         'community': 'Community',
+                         'degree': 'Degree',
+                         'pagerank': 'Pagerank'
+                         }
+                ) \
+        .sort_values(['Degree'], ascending=False)
+
+    student_df = node_master[node_master['entity_type'] == 'student']
+    student_df = student_df[['id', 'entity_subtype', 'community', 'degree', 'pagerank']] \
+        .rename(columns={'id': 'Name',
+                         'entity_subtype': 'Type',
+                         'community': 'Community',
+                         'degree': 'Degree',
+                         'pagerank': 'Pagerank'
+                         }
+                ) \
+        .sort_values(['Degree'], ascending=False)
+
+    return faculty_df, student_df

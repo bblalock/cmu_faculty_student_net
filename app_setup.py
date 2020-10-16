@@ -1,6 +1,7 @@
 import dash
 from flask import send_file
 from utils.cyto import format_cyto_edges, format_cyto_nodes, add_node_formatting
+from utils.data_table import create_faculty_student_table_dfs, create_community_color_dict
 from constants import ROOT_DIR, FILTERABLE_EDGE_CLASSES
 from functools import reduce
 import pandas as pd
@@ -19,13 +20,17 @@ def download_csv():
 
 
 node_master = pd.read_csv(ROOT_DIR + '/data/app/master_node_frame.csv')
+# node_master = node_master[node_master['degree']>0]
 edge_master = pd.read_csv(ROOT_DIR + '/data/app/master_edge_frame.csv')
+
+faculty_df, student_df = create_faculty_student_table_dfs(node_master=node_master)
+community_color_dict = create_community_color_dict(node_master=node_master)
 
 community_df = node_master \
     .groupby(['community', 'community_color'], as_index=False)['id'] \
     .count() \
-    .rename(columns={'id': 'count'})\
-    .sort_values(['count'], ascending=False)\
+    .rename(columns={'id': 'count'}) \
+    .sort_values(['count'], ascending=False) \
     .reset_index(drop=True)
 communities = community_df.community.tolist()
 
@@ -132,13 +137,13 @@ student_node_frame = add_node_formatting(student_node_frame,
                                          label='id',
                                          size_by='pagerank',
                                          min_size=20,
-                                         max_size=120,
+                                         max_size=20,
                                          opacity_by='pagerank',
                                          min_opacity=0.3,
                                          max_opacity=0.8,
                                          font_size_by='pagerank',
                                          font_min_size=20,
-                                         font_max_size=34,
+                                         font_max_size=20,
                                          )
 
 current_student_nodes = format_cyto_nodes(student_node_frame[student_node_frame['entity_subtype'] == 'current_student'],
@@ -184,6 +189,8 @@ bipartite_edge_frame = pd.merge(bipartite_edge_frame[['source', 'target', 'relat
                                 on=['source', 'target', 'relationship'],
                                 how='inner'
                                 )
+# print(bipartite_edge_frame.head())
+
 bipartite_advisor_relations = format_cyto_edges(
     bipartite_edge_frame[bipartite_edge_frame.relationship == 'Advisor'],
     classes='bipartite_advised_edge',

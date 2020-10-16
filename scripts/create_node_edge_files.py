@@ -10,18 +10,24 @@ if __name__ == "__main__":
 
     bipartite_edges['weight'] = 1
 
-    bipartite_edges = bipartite_edges[['source', 'target', 'relationship', 'weight']]
+    bipartite_edges = bipartite_edges[['source', 'target', 'weight', 'relationship']]
 
     bipartite_edges.to_csv(ROOT_DIR + '/data/app/bipartite_edge_frame.csv', index=False)
+    bipartite_edges = pd.read_csv(ROOT_DIR + '/data/app/bipartite_edge_frame.csv')
 
     ########################
     # Co-Occurrence Graphs #
     ########################
     faculty_cooccurrence = cooccurrence_edgelist(student_faculty_connections, on='student').dropna()
+    faculty_cooccurrence = faculty_cooccurrence[(faculty_cooccurrence['relationship'] == 'Co-Advised') |
+                                                ((faculty_cooccurrence['weight'] > 2) &
+                                                 (faculty_cooccurrence['relationship'] == 'Co-Committee')
+                                                 )
+                                                ].dropna()
 
     student_cooccurrence = cooccurrence_edgelist(student_faculty_connections, on='faculty')
     student_cooccurrence = student_cooccurrence[(student_cooccurrence['relationship'] == 'Co-Advised') &
-                                                (student_cooccurrence['weight'] > 1)
+                                                (student_cooccurrence['weight'] > 0)
                                                 ].dropna()
     # student_cooccurrence = student_cooccurrence[student_cooccurrence.relationship == 'Co-Advised']
 
@@ -56,24 +62,27 @@ if __name__ == "__main__":
     ################
     # Master Graph #
     ################
-    node_master = pd.concat([faculty_master, student_master]).drop_duplicates().reset_index()
+    node_master = pd.concat([faculty_master, student_master]).drop_duplicates().reset_index(drop=True)
     edge_master = pd.concat(
         [
             faculty_cooccurrence,
             student_cooccurrence[student_cooccurrence['relationship'] == 'Co-Advised'],
             bipartite_edges[bipartite_edges.relationship == 'Advisor']
         ]
-    ).drop_duplicates().reset_index()
+    ).drop_duplicates().reset_index(drop=True)
+    # print(edge_master[edge_master['source'] == 'Manuela Veloso'])
 
     f = lambda x: pd.factorize(sorted(x))[0]
     node_master['rank'] = node_master.groupby('id', sort=True)['entity_type'].transform(f) + 1
     node_master = node_master[node_master['rank'] == 1]
     node_master = node_master.drop(columns=['rank'])
 
-    node_master, edge_master = get_node_edge_frame(node_master,
-                                                   edge_master,
+    node_master, edge_master = get_node_edge_frame(node_df=node_master,
+                                                   edgelist_df=edge_master,
                                                    # name_prefix='faculty_'
                                                    )
+
+    # print(edge_master[edge_master['source'] == 'Manuela Veloso'])
 
     # print(edge_master.head())
     # edge_master = pd.merge(edge_master,

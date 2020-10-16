@@ -1,6 +1,6 @@
-from dash.dependencies import Input, Output, State
-from constants import FILTERABLE_EDGE_CLASSES
+from dash.dependencies import Input, Output
 from app_setup import app, max_weight
+import dash
 
 
 @app.callback([Output('edge_weight_slider_comm', 'max'),
@@ -11,8 +11,7 @@ from app_setup import app, max_weight
               [
                   Input('edge_weight_slider_comm', 'value'),
                   Input('edge_weight_slider_adv', 'value'),
-              ],
-              # [State('cmu_net', 'elements')]
+              ]
               )
 def set_max_edge_weight(comm_value, adv_value):
     marks = {'co_advised_edge': {1: {'label': '1',
@@ -37,3 +36,8 @@ def set_max_edge_weight(comm_value, adv_value):
     return [max_weight['co_committee_edge'], marks['co_committee_edge'],
             max_weight['co_advised_edge'], marks['co_advised_edge'],
             ]
+
+
+# @app.callback(Output('cmu_net', 'autoRefreshLayout'),
+#               []
+#               )

@@ -16,8 +16,7 @@ def cooccurrence_edgelist(df, on):
     edgelist = edgelist.groupby(['source', 'target', 'relationship']).size().reset_index(name='weight')
     return edgelist
 
-color_scale = px.colors.qualitative.Dark24 + px.colors.qualitative.Light24
-
+color_scale = px.colors.qualitative.Light24
 
 def get_color(i, n=len(color_scale)):
     return color_scale[i - 1] if i < n else 'rgb(1,1,1)'
@@ -31,6 +30,9 @@ def get_nx_graph(edge_file, node_file, create_using=nx.DiGraph):
         edge_attr=['weight', 'relationship'],
         create_using=create_using
     )
+
+    # print('')
+    # print([edge for edge in g.edges if 'Manuela Veloso' in edge])
 
     node_attr = node_file.set_index('id').to_dict('index')
     nx.set_node_attributes(g, node_attr)
@@ -52,7 +54,8 @@ def set_node_pagerank(G, name='pagerank', **kwargs):
 def set_node_community(G, name='community'):
     # communities = sorted(nx.community.greedy_modularity_communities(G), key=len, reverse=True)
     # communities = sorted(next(nx.community.girvan_newman(G)), key=len, reverse=True)
-    communities = nx.community.label_propagation_communities(G)
+    communities = nx.community.label_propagation_communities(G.to_undirected())
+    # communities = nx.community.asyn_lpa_communities(G, weight='weight')
     communities = sorted(communities, key=len, reverse=True)
 
     # degrees = nx.get_node_attributes(G, 'degree')
@@ -107,6 +110,7 @@ def create_node_edge_frame(G):
     node_attr = {node: G.nodes[node] for node in G.nodes}
     edge_attr = {edge: G.edges[edge[0], edge[1]] for edge in G.edges}
 
+
     node_frame = pd.DataFrame.from_dict(node_attr, orient='index').rename_axis('id').reset_index()
     edge_frame = pd.DataFrame.from_dict(edge_attr, orient='index').rename_axis(['source', 'target']).reset_index()
 
@@ -114,7 +118,7 @@ def create_node_edge_frame(G):
 
 
 def get_node_edge_frame(node_df, edgelist_df, name_prefix=''):
-    G = get_nx_graph(edgelist_df, node_df, create_using=nx.Graph)
+    G = get_nx_graph(edgelist_df, node_df, create_using=nx.DiGraph)
 
     # Set node and edge communities
     set_node_degree(G, name=name_prefix + 'degree')
@@ -124,9 +128,13 @@ def get_node_edge_frame(node_df, edgelist_df, name_prefix=''):
 
     G = add_zero_degree_nodes(G, node_df, name_prefix)
 
+    # print(G.edges('Manuela Veloso'))
+
+    # print(edgelist_df[edgelist_df['source'] == 'Manuela Veloso'])
     # Create node and edge_frame
     node_frame, edge_frame = create_node_edge_frame(G)
-    # node_frame['display'] = node_frame[name_prefix + 'degree'].apply(lambda x: 'element' if x > 0 else 'none')
     node_frame['display'] = 'element'
+
+    # print(edge_frame[edge_frame['source'] == 'Manuela Veloso'])
 
     return node_frame, edge_frame

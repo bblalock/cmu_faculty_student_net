@@ -82,11 +82,21 @@ def cyto_network(elements, is_dict=True):
     g = cyto.Cytoscape(
         id='cmu_net',
         layout=COSE_BILKENT_LAYOUT_OPTIONS,
-        style={'width': '100%', 'height': NETWORK_HEIGHT},
+        style={'width': '100%',
+               'height': NETWORK_HEIGHT
+               },
         stylesheet=DEFAULT_STYLESHEET,
         elements=elements,
+        # minZoom=1e20,
+        # maxZoom=1e20,
+        boxSelectionEnabled=True,
+        panningEnabled=True,
+        userPanningEnabled=True,
         autoRefreshLayout=False,
-        # responsive=True,
+        autounselectify=False,
+        autolock=False,
+        autoungrabify=False,
+        responsive=False,
     )
 
     return g

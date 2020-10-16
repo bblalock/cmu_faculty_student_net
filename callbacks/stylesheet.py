@@ -4,271 +4,289 @@ from app_setup import app
 import numpy as np
 
 
+def get_clicked_node_stylesheet(node):
+    stylesheet = [
+        {
+            'selector': 'node',
+            'style': {
+                'text-transform': 'uppercase',
+                'font-family': 'News Cycle, Arial Narrow Bold, sans-serif',
+                'font-weight': 700,
+                "border-width": 2,
+                "border-opacity": 1,
+                'color': 'white',
+                'content': '',  # No labels
+                'display': 'data(display)'
+            }
+        },
+        {
+            'selector': '.entity_root_node',
+            'style': {'compound-sizing-wrt-labels': 'include',
+                      'font-size': '50px',
+                      "border-color": "white",
+                      'background-color': 'white',
+                      "background-opacity": 0.0,
+                      }
+        },
+        {
+            'selector': '.entity_type_node',
+            'style': {'compound-sizing-wrt-labels': 'include',
+                      'font-size': '30px',
+                      "border-color": "white",
+                      'background-color': 'white',
+                      "background-opacity": 0.2,
+                      }
+        },
+        {
+            'selector': '.entity_node',
+            'style': {
+                'background-opacity': 0.1,
+            }
+        },
+        {
+            'selector': 'edge',
+            'style': {'label': '',  # No Labels
+                      'width': 'data(width)',
+                      'curve-style': 'bezier',
+                      'text-transform': 'uppercase',
+                      'font-family': 'News Cycle, Arial Narrow Bold, sans-serif',
+                      'font-weight': 900,
+                      'text-opacity': 1,
+                      'line-color': "data(community_color)",
+                      'color': 'data(community_color)',
+                      'opacity': 0.1
+                      }
+        },
+        {
+            'selector': '.co_advised_edge',
+            'style': {'line-style': 'solid'}
+        },
+        {
+            'selector': '.co_committee_edge',
+            'style': {'line-style': 'dashed'}
+        },
+        {
+            'selector': '.bipartite_advised_edge',
+            'style': {'line-style': 'solid',
+                      'source-arrow-shape': 'tee',
+                      'source-arrow-color': 'data(community_color)',
+                      'source-arrow-fill': 'filled',
+                      'target-arrow-shape': 'triangle',
+                      'target-arrow-color': 'data(community_color)',
+                      'target-arrow-fill': 'filled',
+                      'arrow-scale': 5,
+                      }
+        },
+        {
+            "selector": 'node[id = "{}"]'.format(node['data']['id']),
+            "style": {
+                'content': 'data(label)',
+                'width': 'data(size)',
+                'height': 'data(size)',
+                'font-size': '40px',
+                'background-opacity': 'data(opacity)',
+                'background-color': 'data(community_color)',
+                "border-color": "data(community_color)",
+            }
+        }
+    ]
+    for edge in node['edgesData']:
+        if edge['source'] == node['data']['id']:
+            stylesheet.append({
+                "selector": 'node[id = "{}"]'.format(edge['target']),
+                "style": {
+                    'content': 'data(label)',
+                    'width': 'data(size)',
+                    'height': 'data(size)',
+                    'font-size': 'data(label_size)',
+                    'background-opacity': 'data(opacity)',
+                    'background-color': 'data(community_color)',
+                    "border-color": "data(community_color)",
+                    "text-opacity": 1,
+                }
+            })
+
+            stylesheet.append({
+                "selector": 'edge[id= "{}"]'.format(edge['id']),
+                "style": {
+                    'label': 'data(relationship)',
+                    'width': 'data(width)',
+                    'curve-style': 'bezier',
+                    'text-transform': 'uppercase',
+                    'font-family': 'News Cycle, Arial Narrow Bold, sans-serif',
+                    'font-weight': 900,
+                    'text-opacity': 1,
+                    'opacity': 1,
+                    'line-color': "data(community_color)",
+                    'color': 'white',
+                    'font-size': 26,
+                    'text-outline-color': 'black',
+                    'text-outline-opacity': 1,
+                    'text-outline-width': 5,
+                    'text-rotation': 'autorotate',
+                }
+            })
+
+            stylesheet.append({
+                "selector": '.co_advised_edge[id= "{}"]'.format(edge['id']),
+                "style": {
+                    'line-style': 'solid'
+                }
+            })
+
+            stylesheet.append({
+                "selector": '.co_committee_edge[id= "{}"]'.format(edge['id']),
+                "style": {
+                    'line-style': 'dashed'
+                }
+            })
+
+            stylesheet.append({
+                "selector": '.bipartite_advised_edge[id= "{}"]'.format(edge['id']),
+                "style": {
+                    'line-style': 'solid',
+                    'source-arrow-shape': 'tee',
+                    'source-arrow-color': 'data(community_color)',
+                    'source-arrow-fill': 'filled',
+                    'target-arrow-shape': 'triangle',
+                    'target-arrow-color': 'data(community_color)',
+                    'target-arrow-fill': 'filled',
+                    'arrow-scale': 5,
+                }
+            })
+        if edge['target'] == node['data']['id']:
+            stylesheet.append({
+                "selector": 'node[id = "{}"]'.format(edge['source']),
+                "style": {
+                    'content': 'data(label)',
+                    'width': 'data(size)',
+                    'height': 'data(size)',
+                    'font-size': 'data(label_size)',
+                    'background-opacity': 'data(opacity)',
+                    'background-color': 'data(community_color)',
+                    "border-color": "data(community_color)",
+                    "text-opacity": 1,
+                }
+            })
+            stylesheet.append({
+                "selector": 'edge[id= "{}"]'.format(edge['id']),
+                "style": {
+                    'label': 'data(relationship)',
+                    'width': 'data(width)',
+                    'curve-style': 'bezier',
+                    'text-transform': 'uppercase',
+                    'font-family': 'News Cycle, Arial Narrow Bold, sans-serif',
+                    'font-weight': 900,
+                    'text-opacity': 1,
+                    'opacity': 1,
+                    'line-color': "data(community_color)",
+                    'color': 'white',
+                    'font-size': 26,
+                    'text-outline-color': 'black',
+                    'text-outline-opacity': 1,
+                    'text-outline-width': 5,
+                    'text-rotation': 'autorotate',
+                }
+            })
+
+            stylesheet.append({
+                "selector": '.co_advised_edge[id= "{}"]'.format(edge['id']),
+                "style": {
+                    'line-style': 'solid'
+                }
+            })
+
+            stylesheet.append({
+                "selector": '.co_committee_edge[id= "{}"]'.format(edge['id']),
+                "style": {
+                    'line-style': 'dashed'
+                }
+            })
+
+            stylesheet.append({
+                "selector": '.bipartite_advised_edge[id= "{}"]'.format(edge['id']),
+                "style": {
+                    'line-style': 'solid',
+                    'source-arrow-shape': 'tee',
+                    'source-arrow-color': 'data(community_color)',
+                    'source-arrow-fill': 'filled',
+                    'target-arrow-shape': 'triangle',
+                    'target-arrow-color': 'data(community_color)',
+                    'target-arrow-fill': 'filled',
+                    'arrow-scale': 5,
+                }
+            })
+
+    return stylesheet
+
+
 @app.callback(Output('cmu_net', 'stylesheet'),
               [Input('cmu_net', 'tapNode'),
                Input('node_filter_dropdown', 'value'),
                ]
               )
 def generate_stylesheet(node, nodes_to_include):
-    # print(node)
+    stylesheet = DEFAULT_STYLESHEET
+
     if node and not node['selected']:
         if ('entity_node' in node['classes']):
-            stylesheet = [
+            stylesheet = get_clicked_node_stylesheet(node)
+
+    for entity_type in ['faculty', 'student']:
+        if not np.any([entity_type in _ for _ in nodes_to_include]):
+            stylesheet.append(
                 {
-                    'selector': 'node',
+                    'selector': '.entity_root_node.{}'.format(entity_type),
                     'style': {
-                        'text-transform': 'uppercase',
-                        'font-family': 'News Cycle, Arial Narrow Bold, sans-serif',
-                        'font-weight': 700,
-                        'color': 'white',
-                    }
-                },
-                {
-                    'selector': '.entity_root_node',
-                    'style': {
-                        'font-size': '50px',
-                        'compound-sizing-wrt-labels': 'include',
-                        "border-color": "white",
-                        'background-color': 'white',
-                        "background-opacity": 0.0
-                    }
-                },
-                {
-                    'selector': '.entity_root_node.faculty',
-                    'style': {
-                        'content': 'data(label)',
-                        "border-width": 2,
-                        "border-opacity": 1,
-                    }
-                },
-                {
-                    'selector': '.entity_root_node.student',
-                    'style': {
-                        'content': 'data(label)',
-                        "border-width": 2,
-                        "border-opacity": 1,
-                    }
-                },
-                {
-                    'selector': '.entity_type_node',
-                    'style': {
-                        'content': 'data(label)',
-                        'font-size': '30px',
-                        'text-transform': 'uppercase',
-                        'compound-sizing-wrt-labels': 'include',
-                        "background-opacity": 0.2
-                    }
-                },
-                {
-                    'selector': '.entity_node',
-                    'style': {
-                        'background-opacity': 0.1,
-                    }
-                },
-                {
-                    'selector': 'edge',
-                    'style': {'width': 1,
-                              'opacity': 0.1,
-                              'curve-style': 'bezier',
-                              'text-transform': 'uppercase',
-                              'font-family': 'News Cycle, Arial Narrow Bold, sans-serif',
-                              'font-weight': 900,
-                              'text-opacity': 0.1,
-                              'line-color': "data(community_color)",
-                              'color': 'data(community_color)',
-                              'text-outline-color': "black",
-                              'text-outline-opacity': 1,
-                              'text-outline-width': 2,
-                              'font-size': '24px',
-                              'text-rotation': 'autorotate',
-                              'label': 'data(relationship)',
-                              'min-zoomed-font-size': '36px'
-                              }
-                },
-                {
-                    'selector': '.co_advised_edge',
-                    'style': {'line-style': 'solid'}
-                },
-                {
-                    'selector': '.co_committee_edge',
-                    'style': {'line-style': 'dashed'}
-                },
-                {
-                    'selector': '.bipartite_advised_edge',
-                    'style': {'line-style': 'solid',
-                              # 'line-color': "#A9A9A9",
-                              # 'color': 'white',
-                              }
-                },
-                {
-                    "selector": 'node[id = "{}"]'.format(node['data']['id']),
-                    "style": {
-                        'content': 'data(label)',
-                        'width': 'data(size)',
-                        'height': 'data(size)',
-                        'font-size': 'data(label_size)',
-                        'background-opacity': 'data(opacity)',
-                        'background-color': 'data(community_color)',
-                        "border-color": "data(community_color)",
-                        "border-width": 3,
-                        "border-opacity": 1,
+                        'border-width': 0,
+                        'border-opacity': 0,
+                        'content': '',
+                        'display': 'none'
+
                     }
                 }
-            ]
-
-            for edge in node['edgesData']:
-                if edge['source'] == node['data']['id']:
-                    stylesheet.append({
-                        "selector": 'node[id = "{}"]'.format(edge['target']),
-                        "style": {
-                            'content': 'data(label)',
-                            'width': 'data(size)',
-                            'height': 'data(size)',
-                            'font-size': 'data(label_size)',
-                            'background-opacity': 'data(opacity)',
-                            'background-color': 'data(community_color)',
-                            "border-color": "data(community_color)",
-                            "border-width": 2,
-                            "border-opacity": 1,
-                            "text-opacity": 1,
-                        }
-                    })
-                    if 'Advis' in edge['relationship']:
-                        stylesheet.append({
-                            "selector": 'edge[id= "{}"]'.format(edge['id']),
-                            "style": {
-                                'width': 'data(width)',
-                                'curve-style': 'bezier',
-                                'line-color': "data(community_color)",
-                                'opacity': 0.6,
-                                'text-transform': 'uppercase',
-                                'font-family': 'News Cycle, Arial Narrow Bold, sans-serif',
-                                'font-weight': 900,
-                                'text-opacity': 1,
-                                'color': 'data(community_color)',
-                                'text-outline-color': "black",
-                                'text-outline-opacity': 1,
-                                'text-outline-width': 2,
-                                'font-size': 'data(label_size)',
-                                'text-rotation': 'autorotate',
-                                'label': 'data(relationship)',
-                                # 'min-zoomed-font-size': '30px'
-                            }
-                        })
-                    else:
-                        stylesheet.append({
-                            "selector": 'edge[id= "{}"]'.format(edge['id']),
-                            "style": {
-                                'line-style': 'dashed',
-                                'width': 'data(width)',
-                                'curve-style': 'bezier',
-                                'line-color': "data(community_color)",
-                                'opacity': 0.6,
-                                'text-transform': 'uppercase',
-                                'font-family': 'News Cycle, Arial Narrow Bold, sans-serif',
-                                'font-weight': 900,
-                                'text-opacity': 1,
-                                'color': 'data(community_color)',
-                                'text-outline-color': "black",
-                                'text-outline-opacity': 1,
-                                'text-outline-width': 2,
-                                'font-size': 'data(label_size)',
-                                'text-rotation': 'autorotate',
-                                'label': 'data(relationship)',
-                                # 'min-zoomed-font-size': '30px'
-                            }
-                        })
-
-                if edge['target'] == node['data']['id']:
-                    stylesheet.append({
-                        "selector": 'node[id = "{}"]'.format(edge['source']),
-                        "style": {
-                            'content': 'data(label)',
-                            'width': 'data(size)',
-                            'height': 'data(size)',
-                            'font-size': 'data(label_size)',
-                            'background-opacity': 'data(opacity)',
-                            'background-color': 'data(community_color)',
-                            "border-color": "data(community_color)",
-                            "border-width": 2,
-                            "border-opacity": 1,
-                            "text-opacity": 1,
-                        }
-                    })
-                    if 'Advise' in edge['relationship']:
-                        stylesheet.append({
-                            "selector": 'edge[id= "{}"]'.format(edge['id']),
-                            "style": {
-                                'width': 'data(width)',
-                                'curve-style': 'bezier',
-                                'line-color': "data(community_color)",
-                                'opacity': 0.6,
-                                'text-transform': 'uppercase',
-                                'font-family': 'News Cycle, Arial Narrow Bold, sans-serif',
-                                'font-weight': 900,
-                                'text-opacity': 1,
-                                'color': 'data(community_color)',
-                                'text-outline-color': "black",
-                                'text-outline-opacity': 1,
-                                'text-outline-width': 2,
-                                'font-size': 'data(label_size)',
-                                'text-rotation': 'autorotate',
-                                'label': 'data(relationship)',
-                                # 'min-zoomed-font-size': '30px'
-                            }
-                        })
-                    else:
-                        stylesheet.append({
-                            "selector": 'edge[id= "{}"]'.format(edge['id']),
-                            "style": {
-                                'line-style': 'dashed',
-                                'width': 'data(width)',
-                                'curve-style': 'bezier',
-                                'line-color': "data(community_color)",
-                                'opacity': 0.6,
-                                'text-transform': 'uppercase',
-                                'font-family': 'News Cycle, Arial Narrow Bold, sans-serif',
-                                'font-weight': 900,
-                                'text-opacity': 1,
-                                'color': 'data(community_color)',
-                                'text-outline-color': "black",
-                                'text-outline-opacity': 1,
-                                'text-outline-width': 2,
-                                'font-size': 'data(label_size)',
-                                'text-rotation': 'autorotate',
-                                'label': 'data(relationship)',
-                                # 'min-zoomed-font-size': '30px'
-                            }
-                        })
-
-            stylesheet_dict = {selector['selector']: selector for selector in stylesheet}
+            )
         else:
-            stylesheet_dict = {selector['selector']: selector for selector in DEFAULT_STYLESHEET}
-    else:
-        stylesheet_dict = {selector['selector']: selector for selector in DEFAULT_STYLESHEET}
+            stylesheet.append(
+                {
+                    'selector': '.entity_root_node.{}'.format(entity_type),
+                    'style': {
+                        'border-width': 2,
+                        'border-opacity': 1,
+                        'content': 'data(label)',
+                        'display': 'element'
 
-    stylesheet_dict['.entity_node']['style']['display'] = 'data(display)'
+                    }
+                }
+            )
 
-    if not np.any(['faculty' in _ for _ in nodes_to_include]):
-        stylesheet_dict['.entity_root_node.faculty']['style']['border-width'] = 0
-        stylesheet_dict['.entity_root_node.faculty']['style']['border-opacity'] = 0
-        stylesheet_dict['.entity_root_node.faculty']['style']['content'] = ''
-        stylesheet_dict['.entity_root_node.faculty']['style']['visibility'] = 'hidden'
-    else:
-        stylesheet_dict['.entity_root_node.faculty']['style']['border-width'] = 2
-        stylesheet_dict['.entity_root_node.faculty']['style']['border-opacity'] = 1
-        stylesheet_dict['.entity_root_node.faculty']['style']['content'] = 'data(label)'
-        stylesheet_dict['.entity_root_node.faculty']['style']['visibility'] = 'visible'
 
-    if not np.any(['student' in _ for _ in nodes_to_include]):
-        stylesheet_dict['.entity_root_node.student']['style']['border-width'] = 0
-        stylesheet_dict['.entity_root_node.student']['style']['border-opacity'] = 0
-        stylesheet_dict['.entity_root_node.student']['style']['content'] = ''
-        stylesheet_dict['.entity_root_node.student']['style']['visibility'] = 'hidden'
-    else:
-        stylesheet_dict['.entity_root_node.student']['style']['border-width'] = 2
-        stylesheet_dict['.entity_root_node.student']['style']['border-opacity'] = 1
-        stylesheet_dict['.entity_root_node.student']['style']['content'] = 'data(label)'
-        stylesheet_dict['.entity_root_node.student']['style']['visibility'] = 'visible'
+    for fac_type in ['core', 'affiliated', 'related', 'unknown']:
+        if not np.any(['entity_node faculty {}'.format(fac_type) == _ for _ in nodes_to_include]):
+            stylesheet.append(
+                {
+                    'selector': '.entity_type_node[id = "{}"]'.format(fac_type),
+                    'style': {
+                        'border-width': 0,
+                        'border-opacity': 0,
+                        'content': '',
+                        'display': 'none'
 
-    return list(stylesheet_dict.values())
+                    }
+                },
+            )
+        else:
+            stylesheet.append(
+                {
+                    'selector': '.entity_type_node[id = "{}"]'.format(fac_type),
+                    'style': {
+                        'border-width': 2,
+                        'border-opacity': 1,
+                        'content': 'data(label)',
+                        'display': 'element'
+
+                    }
+                },
+            )
+
+    return stylesheet

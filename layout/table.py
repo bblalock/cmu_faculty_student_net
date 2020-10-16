@@ -2,35 +2,11 @@ import dash_html_components as html
 import dash_bootstrap_components as dbc
 import dash_table
 
-from utils.cond_format import data_bars, community_colors
+from utils.data_table import data_bars, community_colors
+from app_setup import faculty_df, student_df, community_color_dict
 
 
-def initialize_tables(node_master):
-    faculty_df = node_master[node_master['entity_type'] == 'faculty']
-    faculty_df = faculty_df[['id', 'entity_subtype', 'community', 'degree', 'pagerank']] \
-        .rename(columns={'id': 'Name',
-                         'entity_subtype': 'Type',
-                         'community': 'Community',
-                         'degree': 'Degree',
-                         'pagerank': 'Pagerank'
-                         }
-                )\
-        .sort_values(['Degree'], ascending=False)
-
-    student_df = node_master[node_master['entity_type'] == 'student']
-    student_df = student_df[['id', 'entity_subtype', 'community', 'degree', 'pagerank']] \
-        .rename(columns={'id': 'Name',
-                         'entity_subtype': 'Type',
-                         'community': 'Community',
-                         'degree': 'Degree',
-                         'pagerank': 'Pagerank'
-                         }
-                )\
-        .sort_values(['Degree'], ascending=False)
-
-    community_color_dict = node_master[['community', 'community_color']].drop_duplicates()
-    community_color_dict = community_color_dict.set_index('community').to_dict('index')
-
+def initialize_tables():
     children = [
         html.Div(
             [

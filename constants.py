@@ -14,163 +14,158 @@ DEFAULT_STYLESHEET = [
     {
         'selector': 'node',
         'style': {
+            'color': 'white',
             'text-transform': 'uppercase',
             'font-family': 'News Cycle, Arial Narrow Bold, sans-serif',
             'font-weight': 700,
-            'color': 'white',
+            "border-width": 2,
+            "border-opacity": 1,
+            'content': 'data(label)',
+            'display': 'data(display)'
         }
     },
     {
         'selector': '.entity_root_node',
-        'style': {'font-size': '50px',
-                  'compound-sizing-wrt-labels': 'include',
+        'style': {'compound-sizing-wrt-labels': 'include',
+                  'font-size': '50px',
                   "border-color": "white",
                   'background-color': 'white',
-                  "background-opacity": 0.0
-                  }
-    },
-    {
-        'selector': '.entity_root_node.faculty',
-        'style': {'content': 'data(label)',
-                  "border-width": 2,
-                  "border-opacity": 1,
-                  }
-    },
-    {
-        'selector': '.entity_root_node.student',
-        'style': {'content': 'data(label)',
-                  "border-width": 2,
-                  "border-opacity": 1,
+                  "background-opacity": 0.0,
                   }
     },
     {
         'selector': '.entity_type_node',
-        'style': {'content': 'data(label)',
+        'style': {'compound-sizing-wrt-labels': 'include',
                   'font-size': '30px',
-                  'compound-sizing-wrt-labels': 'include',
                   "border-color": "white",
-                  "border-width": 2,
-                  "border-opacity": 1,
-                  'background-color': 'grey',
-                  "background-opacity": 0.2
+                  'background-color': 'white',
+                  "background-opacity": 0.2,
                   }
     },
     {
         'selector': '.entity_node',
-        'style': {'content': 'data(label)',
-                  'width': 'data(size)',
+        'style': {'width': 'data(size)',
                   'height': 'data(size)',
                   'font-size': 'data(label_size)',
                   'background-opacity': 'data(opacity)',
                   'background-color': 'data(community_color)',
-                  # "border-color": "data(community_color)",
-                  # "border-width": 2,
-                  # "border-opacity": 1,
-                  'min-zoomed-font-size': '22px',
-                  'display': 'data(display)'
+                  "border-color": "data(community_color)",
                   }
     },
     {
+        'selector': '.entity_node.faculty',
+        'style': {'min-zoomed-font-size': '22px'}
+    },
+    {
+        'selector': '.entity_node.student',
+        'style': {'min-zoomed-font-size': '36px'}
+    },
+    {
         'selector': 'edge',
-        'style': {'width': 'data(width)',
-                  'opacity': 'data(opacity)',
-                  # 'curve-style': 'bezier',
+        'style': {'label': 'data(relationship)',
+                  'width': 'data(width)',
+                  'curve-style': 'bezier',
                   'text-transform': 'uppercase',
                   'font-family': 'News Cycle, Arial Narrow Bold, sans-serif',
                   'font-weight': 900,
                   'text-opacity': 1,
+                  # 'opacity': 'data(opacity)',
                   'line-color': "data(community_color)",
-                  'color': 'data(community_color)',
-                  # 'text-outline-color': "black",
-                  # 'text-outline-opacity': 1,
-                  # 'text-outline-width': 2,
+                  'color': 'white',
+                  'font-size': 22,
+                  'text-outline-color': 'black',
+                  'text-outline-opacity': 1,
+                  'text-outline-width': 5,
                   'text-rotation': 'autorotate',
-                  # 'label': 'data(relationship)',
-                  'min-zoomed-font-size': '36px'
                   }
     },
     {
         'selector': '.co_advised_edge',
-        'style': {'line-style': 'solid'}
+        'style': {'line-style': 'solid',
+                  'opacity': 0.5,
+                  'min-zoomed-font-size': '34px'
+                  }
     },
     {
         'selector': '.co_committee_edge',
         'style': {'line-style': 'dashed',
-                  # 'line-dash-pattern': [6,3],
-                  # 'line-dash-offset':  24
+                  'opacity': 0.3,
+                  'min-zoomed-font-size': '40px'
                   }
     },
     {
         'selector': '.bipartite_advised_edge',
         'style': {'line-style': 'solid',
-                  'curve-style': 'haystack',
-                  'haystack-radius': 0,
                   'width': 3,
                   'opacity': 0.2,
-                  'line-color': 'data(community_color)',
-                  'color': 'data(community_color)',
-                  # 'text-outline-color': 'data(community_color)',
-                  # 'text-outline-opacity': 1,
-                  # 'text-outline-width': 1,
-                  'min-zoomed-font-size': '30px',
+                  'source-arrow-shape': 'tee',
+                  'source-arrow-color': 'data(community_color)',
+                  'source-arrow-fill': 'filled',
                   'target-arrow-shape': 'triangle',
                   'target-arrow-color': 'data(community_color)',
                   'target-arrow-fill': 'filled',
                   'arrow-scale': 5,
+                  'min-zoomed-font-size': '24px'
                   }
     },
-
+    {
+        "selector": '.entity_node[degree = 0]',
+        "style": {
+            'content': '',
+            'font-size': 0,
+        }
+    }
 ]
 
 DEFAULT_STYLESHEET_DICT = {selector['selector']: selector for selector in DEFAULT_STYLESHEET}
 
 COSE_BILKENT_LAYOUT_OPTIONS = {
     'name': 'cose-bilkent',
-    'animationEasing': 'ease-out',
-    'zoom': 0,
+    # 'animationEasing': 'ease-out',
+    # 'zoom': 0,
     ## 'draft', 'default' or 'proof"
     ## - 'draft' fast cooling rate
     ## - 'default' moderate cooling rate
     ## - "proof" slow cooling rate
-    'quality': 'draft',
+    'quality': 'proof',
     ## Whether to include labels in node dimensions. Useful for avoiding label overlap
-    'nodeDimensionsIncludeLabels': 'true',
+    'nodeDimensionsIncludeLabels': True,
     ## number of ticks per frame; higher is faster but more jerky
-    'refresh': 30,
+    'refresh': 200,
     ## Whether to fit the network view after when done
-    'fit': 'true',
+    'fit': True,
     ## Padding on fit
     'padding': 1,
     ## Whether to enable incremental mode
-    'randomize': 'false',
+    'randomize': True,
     ## Node repulsion (non overlapping) multiplier
-    'nodeRepulsion': 0,
-    ## Ideal (intra-graph) edge length
-    'idealEdgeLength': 0,
-    ## Divisor to compute edge forces
-    'edgeElasticity': 0.02,
-    ## Nesting factor (multiplier) to compute ideal edge length for inter-graph edges
-    'nestingFactor': 0.0,
-    ## Maximum number of iterations to perform
-    'numIter': 500,
+    'nodeRepulsion': 50000,
+    # ## Ideal (intra-graph) edge length
+    'idealEdgeLength': 200,
+    # Divisor to compute edge forces
+    'edgeElasticity': 0.3,
+    # ## Nesting factor (multiplier) to compute ideal edge length for inter-graph edges
+    # 'nestingFactor': 0.01,
+    # ## Maximum number of iterations to perform
+    # 'numIter': 200,
     ## Whether to tile disconnected nodes
-    'tile': 'true',
+    'tile': True,
     ## Type of layout animation. The option set is {'during', 'end', false}
-    'animate': 'false',
-    ## Duration for animate:end
-    'animationDuration': 500,
+    'animate': 'during',
+    # ## Duration for animate:end
+    'animationDuration': 100,
     ## Amount of vertical space to put between degree zero nodes during tiling (can also be a function)
     'tilingPaddingVertical': 0,
     ## Amount of horizontal space to put between degree zero nodes during tiling (can also be a function)
     'tilingPaddingHorizontal': 0,
-    ## Gravity force (constant)
+    # ## Gravity force (constant)
     'gravity': 0.5,
-    ## Gravity range (constant)
-    'gravityRange': 3.8,
-    ## Gravity force (constant) for compounds
-    'gravityCompound': 10.0,
-    ## Gravity range (constant) for compounds
-    'gravityRangeCompound': 0.9,
-    ## Initial cooling factor for incremental layout
+    # ## Gravity range (constant)
+    'gravityRange': 2.5,
+    # # Gravity force (constant) for compounds
+    'gravityCompound': 5.0,
+    # ## Gravity range (constant) for compounds
+    'gravityRangeCompound': 0.7,
+    # ## Initial cooling factor for incremental layout
     'initialEnergyOnIncremental': 0.5
 }

@@ -5,6 +5,7 @@ import dash_daq as daq
 import dash_table
 from functools import reduce
 from app_setup import communities, community_df
+from utils.plots import community_bar
 
 click_controls = {
     'header':
@@ -82,6 +83,18 @@ community_controls = {
         ],
     'body':
         [
+            html.P(['Communities by Size:'],
+                   className='control-title'
+                   ),
+            html.Div(children=[
+                dcc.Graph(
+                    id="community_bar",
+                    figure=community_bar(community_df),
+                    config={"displayModeBar": False},
+                )
+            ],
+                id='community_bar_container'
+            ),
             html.P(['Include Communities:'],
                    className='control-title'
                    ),
@@ -154,7 +167,7 @@ filter_controls = {
                     daq.BooleanSwitch(
                         id='degree_zero_switch',
                         on=True,
-                        style={'align-itmes': 'baseline'}, className="dash-bootstrap"
+                        style={'align-items': 'baseline'}, className="dash-bootstrap"
                     ),
                     html.H6("Edges",
                             className="card-title",
@@ -226,8 +239,18 @@ control_components = reduce(lambda a, b: a + b,
                             )
 
 controls_children = [
-    dbc.CardHeader(html.H4("Controls", className="card-title")),
+    dbc.CardHeader([html.Div([html.H4("Controls", className="card-title", style={'display': 'inline-block'}),
+                              html.Button('Redraw Graph', id='redraw_button', n_clicks=0)
+                              ],
+                             style={'width': '100%',
+                                    'display':'flex',
+                                    'align-items': 'center',
+                                    'justify-content': 'space-between'
+                                    }
+                             )
+                    ]
+                   ),
     dbc.CardBody(
-        control_components
+        children=control_components
     ),
 ]

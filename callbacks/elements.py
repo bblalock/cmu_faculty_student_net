@@ -1,6 +1,7 @@
+import dash
 from dash.dependencies import Input, Output, State
 from app_setup import app, orig_filter_edges, orig_bipartite_edges, orig_entity_nodes, orig_root_nodes, orig_type_nodes, \
-    communities
+    communities, faculty_df, student_df
 from functools import reduce
 import numpy as np
 from constants import FILTERABLE_EDGE_CLASSES
@@ -47,13 +48,18 @@ def filter_edges_by_weight(current_elements,
     return edges
 
 
-@app.callback(Output('cmu_net', 'elements'),
+@app.callback([Output('cmu_net', 'elements'),
+               Output('faculty_table', 'data'),
+               Output('students_table', 'data'),
+               Output('cmu_net', 'autoRefreshLayout')
+               ],
               [Input('edge_weight_slider_comm', 'value'),
                Input('edge_weight_slider_adv', 'value'),
                Input('degree_zero_switch', 'on'),
                Input('node_filter_dropdown', 'value'),
                Input('edge_filter_dropdown', 'value'),
                Input('community_dropdown', 'value'),
+               Input('redraw_button', 'n_clicks')
                ],
               [State('cmu_net', 'elements')]
               )
@@ -62,6 +68,7 @@ def filter_graph(weight_filter_comm, weight_filter_adv,
                  nodes_to_include,
                  edges_to_include,
                  communities_to_include,
+                 redraw_clicks,
                  elements
                  ):
     edges = filter_edges_by_weight(current_elements=elements,
@@ -95,6 +102,12 @@ def filter_graph(weight_filter_comm, weight_filter_adv,
         else:
             node['data']['display'] = 'none'
 
+    node_ids = [node['data']['id'] for node in nodes if node['data']['display'] == 'element']
+    faculty_table_data = faculty_df[faculty_df['Name'].isin(node_ids)].sort_values(['Degree'], ascending=False).to_dict(
+        'records')
+    student_table_data = student_df[student_df['Name'].isin(node_ids)].sort_values(['Degree'], ascending=False).to_dict(
+        'records')
+
     # for node in nodes:
     #     if 'entity_node' in node['classes']:
     #         if node['classes'] in nodes_to_include:
@@ -115,4 +128,8 @@ def filter_graph(weight_filter_comm, weight_filter_adv,
         if edge['classes'] in edges_to_include:
             filtered_edges.append(edge)
 
-    return orig_root_nodes + orig_type_nodes + nodes + filtered_edges
+    return [orig_root_nodes + orig_type_nodes + nodes + filtered_edges,
+            faculty_table_data,
+            student_table_data,
+            True if [p['prop_id'] for p in dash.callback_context.triggered][0] == 'redraw_button.n_clicks' else False
+            ]
