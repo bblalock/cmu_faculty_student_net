@@ -41,6 +41,9 @@ def get_clicked_node_stylesheet(node):
             'selector': '.entity_node',
             'style': {
                 'background-opacity': 0.1,
+                'width': 20,
+                "border-color": "black",
+                "border-width": 0,
             }
         },
         {
