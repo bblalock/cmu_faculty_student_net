@@ -240,7 +240,13 @@ control_components = reduce(lambda a, b: a + b,
 
 controls_children = [
     dbc.CardHeader([html.Div([html.H4("Controls", className="card-title", style={'display': 'inline-block'}),
-                              dbc.Button('Redraw Graph', id='redraw_button', n_clicks=0)
+                              dbc.Button('Redraw Graph',
+                                         id='redraw_button',
+                                         n_clicks=0,
+                                         outline=True,
+                                         color='dark',
+                                         size='sm'
+                                         )
                               ],
                              style={'width': '100%',
                                     'display': 'flex',

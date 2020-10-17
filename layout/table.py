@@ -54,8 +54,7 @@ def initialize_tables():
                                     )
                                 ]
                             )
-                        ],
-                        className='pretty_container card',
+                        ]
                     )
                 ),
                 dbc.Col(
@@ -102,8 +101,7 @@ def initialize_tables():
                                     )
                                 ]
                             )
-                        ],
-                        className='pretty_container card',
+                        ]
                     )
                 )
             ]
