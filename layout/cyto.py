@@ -31,7 +31,8 @@ def initialize_cyto_children(elements):
                             dbc.Card(controls_children,
                                      style={'height': NETWORK_HEIGHT}
                                      ),
-                            lg=3,
+                            md=3,
+                            style={'overflow': 'auto'}
                         ),
                         dbc.Col(
                             dbc.Card(
@@ -40,7 +41,7 @@ def initialize_cyto_children(elements):
                                     id='cmu_net_loading'
                                 )
                             ),
-                            lg=9,
+                            md=9,
                         )
                     ]
                 )
