@@ -200,7 +200,7 @@ filter_controls = {
                             className="card-title",
                             style={'margin-left': '1.0rem'}
                             ),
-                    html.P(['Advising Connections:'],
+                    html.P(['Co-Advisor/Adivsee Connections:'],
                            className='control-title'
                            ),
                     dcc.Slider(
@@ -210,12 +210,12 @@ filter_controls = {
                         value=1,
                         className="dash-bootstrap"
                     ),
-                    html.P(['Thesis Committee Connections:'],
+                    html.P(['Co-Committee Connections:'],
                            className='control-title'
                            ),
                     dcc.Slider(
                         id='edge_weight_slider_comm',
-                        min=1,
+                        min=3,
                         step=1,
                         value=3, className="dash-bootstrap"
                     ),
@@ -240,10 +240,10 @@ control_components = reduce(lambda a, b: a + b,
 
 controls_children = [
     dbc.CardHeader([html.Div([html.H4("Controls", className="card-title", style={'display': 'inline-block'}),
-                              html.Button('Redraw Graph', id='redraw_button', n_clicks=0)
+                              dbc.Button('Redraw Graph', id='redraw_button', n_clicks=0)
                               ],
                              style={'width': '100%',
-                                    'display':'flex',
+                                    'display': 'flex',
                                     'align-items': 'center',
                                     'justify-content': 'space-between'
                                     }
