@@ -21,7 +21,7 @@ DEFAULT_STYLESHEET = [
             "border-width": 2,
             "border-opacity": 1,
             'content': 'data(label)',
-            'display': 'data(display)'
+            'display': 'element'
         }
     },
     {
@@ -54,11 +54,11 @@ DEFAULT_STYLESHEET = [
     },
     {
         'selector': '.entity_node.faculty',
-        'style': {'min-zoomed-font-size': '22px'}
+        'style': {'min-zoomed-font-size': '18px'}
     },
     {
         'selector': '.entity_node.student',
-        'style': {'min-zoomed-font-size': '36px'}
+        'style': {'min-zoomed-font-size': '32px'}
     },
     {
         'selector': 'edge',
@@ -83,14 +83,14 @@ DEFAULT_STYLESHEET = [
         'selector': '.co_advised_edge',
         'style': {'line-style': 'solid',
                   'opacity': 0.5,
-                  'min-zoomed-font-size': '34px'
+                  'min-zoomed-font-size': '40px'
                   }
     },
     {
         'selector': '.co_committee_edge',
         'style': {'line-style': 'dashed',
                   'opacity': 0.3,
-                  'min-zoomed-font-size': '40px'
+                  'min-zoomed-font-size': '50px'
                   }
     },
     {
@@ -105,7 +105,7 @@ DEFAULT_STYLESHEET = [
                   'target-arrow-color': 'data(community_color)',
                   'target-arrow-fill': 'filled',
                   'arrow-scale': 5,
-                  'min-zoomed-font-size': '24px'
+                  'min-zoomed-font-size': '40px'
                   }
     },
     {

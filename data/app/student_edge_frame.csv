@@ -1,661 +1,661 @@
-source,target,weight,relationship,community,community_color
- Ifigeneia Apostolopoulou,Cristian Challu,2,Co-Advised,1,#E48F72
- Ifigeneia Apostolopoulou,Eric Lei,2,Co-Advised,1,#E48F72
- Ifigeneia Apostolopoulou,Kin Gutierrez Olivares,2,Co-Advised,1,#E48F72
- Ifigeneia Apostolopoulou,Madalina Fiterau-Brostean,2,Co-Advised,1,#E48F72
- Ifigeneia Apostolopoulou,Maria De Arteaga Gonzalez,2,Co-Advised,1,#E48F72
- Ifigeneia Apostolopoulou,Sebastian Caldas,2,Co-Advised,1,#E48F72
- Ifigeneia Apostolopoulou,Yichong Xu,2,Co-Advised,1,#E48F72
-Cristian Challu,Eric Lei,2,Co-Advised,1,#E48F72
-Cristian Challu,Kin Gutierrez Olivares,2,Co-Advised,1,#E48F72
-Cristian Challu,Madalina Fiterau-Brostean,2,Co-Advised,1,#E48F72
-Cristian Challu,Maria De Arteaga Gonzalez,2,Co-Advised,1,#E48F72
-Cristian Challu,Sebastian Caldas,2,Co-Advised,1,#E48F72
-Cristian Challu,Yichong Xu,2,Co-Advised,1,#E48F72
-Eric Lei,Kin Gutierrez Olivares,2,Co-Advised,1,#E48F72
-Eric Lei,Madalina Fiterau-Brostean,2,Co-Advised,1,#E48F72
-Eric Lei,Maria De Arteaga Gonzalez,2,Co-Advised,1,#E48F72
-Eric Lei,Sebastian Caldas,2,Co-Advised,1,#E48F72
-Eric Lei,Yichong Xu,2,Co-Advised,1,#E48F72
-Kin Gutierrez Olivares,Madalina Fiterau-Brostean,2,Co-Advised,1,#E48F72
-Kin Gutierrez Olivares,Maria De Arteaga Gonzalez,2,Co-Advised,1,#E48F72
-Kin Gutierrez Olivares,Sebastian Caldas,2,Co-Advised,1,#E48F72
-Kin Gutierrez Olivares,Yichong Xu,2,Co-Advised,1,#E48F72
-Madalina Fiterau-Brostean,Maria De Arteaga Gonzalez,2,Co-Advised,1,#E48F72
-Madalina Fiterau-Brostean,Sebastian Caldas,2,Co-Advised,1,#E48F72
-Madalina Fiterau-Brostean,Yichong Xu,2,Co-Advised,1,#E48F72
-Maria De Arteaga Gonzalez,Nil-Jana Akpinar,2,Co-Advised,0,grey
-Maria De Arteaga Gonzalez,Sebastian Caldas,2,Co-Advised,1,#E48F72
-Maria De Arteaga Gonzalez,Yichong Xu,2,Co-Advised,1,#E48F72
-Sebastian Caldas,Yichong Xu,2,Co-Advised,1,#E48F72
-Yichong Xu,Yining Wang,2,Co-Advised,1,#E48F72
-Yichong Xu,Yusha Liu,2,Co-Advised,1,#E48F72
-Aaditya Ramdas,Collin Politsch,2,Co-Advised,0,grey
-Aaditya Ramdas,Han Liu,2,Co-Advised,0,grey
-Aaditya Ramdas,Ivan Stelmakh,2,Co-Advised,1,#E48F72
-Aaditya Ramdas,James Sharpnack,2,Co-Advised,1,#E48F72
-Aaditya Ramdas,Jisu Kim,2,Co-Advised,0,grey
-Aaditya Ramdas,Kwhangho Kim,2,Co-Advised,0,grey
-Aaditya Ramdas,Ojash Neopane,2,Co-Advised,1,#E48F72
-Aaditya Ramdas,Simon Du,2,Co-Advised,1,#E48F72
-Aaditya Ramdas,Stefani Karp,2,Co-Advised,1,#E48F72
-Aaditya Ramdas,Yichong Xu,2,Co-Advised,1,#E48F72
-Aaditya Ramdas,Yining Wang,2,Co-Advised,1,#E48F72
-Aaditya Ramdas,Yusha Liu,2,Co-Advised,1,#E48F72
-Collin Politsch,Han Liu,2,Co-Advised,10,#479B55
-Collin Politsch,Jisu Kim,2,Co-Advised,10,#479B55
-Collin Politsch,Kwhangho Kim,2,Co-Advised,10,#479B55
-Han Liu,Jisu Kim,2,Co-Advised,10,#479B55
-Han Liu,Kwhangho Kim,2,Co-Advised,10,#479B55
-Han Liu,Min Xu,2,Co-Advised,10,#479B55
-Ivan Stelmakh,James Sharpnack,2,Co-Advised,1,#E48F72
-Ivan Stelmakh,Ojash Neopane,2,Co-Advised,1,#E48F72
-Ivan Stelmakh,Simon Du,2,Co-Advised,1,#E48F72
-Ivan Stelmakh,Stefani Karp,2,Co-Advised,1,#E48F72
-Ivan Stelmakh,Yichong Xu,2,Co-Advised,1,#E48F72
-Ivan Stelmakh,Yining Wang,2,Co-Advised,1,#E48F72
-Ivan Stelmakh,Yusha Liu,2,Co-Advised,1,#E48F72
-James Sharpnack,Jisu Kim,2,Co-Advised,0,grey
-James Sharpnack,Ojash Neopane,2,Co-Advised,1,#E48F72
-James Sharpnack,Simon Du,2,Co-Advised,1,#E48F72
-James Sharpnack,Stefani Karp,2,Co-Advised,1,#E48F72
-James Sharpnack,Yichong Xu,2,Co-Advised,1,#E48F72
-James Sharpnack,Yining Wang,2,Co-Advised,1,#E48F72
-James Sharpnack,Yusha Liu,2,Co-Advised,1,#E48F72
-Jisu Kim,Kwhangho Kim,2,Co-Advised,10,#479B55
-Ojash Neopane,Simon Du,2,Co-Advised,1,#E48F72
-Ojash Neopane,Stefani Karp,2,Co-Advised,1,#E48F72
-Ojash Neopane,Yichong Xu,2,Co-Advised,1,#E48F72
-Ojash Neopane,Yining Wang,2,Co-Advised,1,#E48F72
-Ojash Neopane,Yusha Liu,2,Co-Advised,1,#E48F72
-Simon Du,Stefani Karp,2,Co-Advised,1,#E48F72
-Simon Du,Yichong Xu,2,Co-Advised,1,#E48F72
-Simon Du,Yining Wang,2,Co-Advised,1,#E48F72
-Simon Du,Yusha Liu,2,Co-Advised,1,#E48F72
-Stefani Karp,Yichong Xu,2,Co-Advised,1,#E48F72
-Stefani Karp,Yining Wang,2,Co-Advised,1,#E48F72
-Stefani Karp,Yusha Liu,2,Co-Advised,1,#E48F72
-Yining Wang,Yusha Liu,2,Co-Advised,1,#E48F72
-Aaron Rumack,Amanda Coston,2,Co-Advised,0,"rgb(1,1,1)"
-Amanda Coston,Kwhangho Kim,2,Co-Advised,0,grey
-Amanda Coston,Maria De Arteaga Gonzalez,2,Co-Advised,0,grey
-Amanda Coston,Nil-Jana Akpinar,2,Co-Advised,0,grey
-Abulhair Saparov,Alona Fyshe,2,Co-Advised,1,#E48F72
-Abulhair Saparov,Andy Carlson,2,Co-Advised,1,#E48F72
-Abulhair Saparov,Anthony Platanios,2,Co-Advised,1,#E48F72
-Abulhair Saparov,Edith Law,2,Co-Advised,1,#E48F72
-Abulhair Saparov,Leila Wehbe,2,Co-Advised,1,#E48F72
-Abulhair Saparov,Mariya Toneva,2,Co-Advised,1,#E48F72
-Abulhair Saparov,Nicole Rafidi,2,Co-Advised,1,#E48F72
-Abulhair Saparov,Otilia Stretcu,2,Co-Advised,1,#E48F72
-Abulhair Saparov,Shashank Srivastava,2,Co-Advised,1,#E48F72
-Abulhair Saparov,Tara Pirnia,2,Co-Advised,1,#E48F72
-Abulhair Saparov,Théophile Gervet,2,Co-Advised,1,#E48F72
-Alona Fyshe,Andy Carlson,2,Co-Advised,1,#E48F72
-Alona Fyshe,Anthony Platanios,2,Co-Advised,1,#E48F72
-Alona Fyshe,Edith Law,2,Co-Advised,1,#E48F72
-Alona Fyshe,Leila Wehbe,2,Co-Advised,1,#E48F72
-Alona Fyshe,Mariya Toneva,2,Co-Advised,1,#E48F72
-Alona Fyshe,Nicole Rafidi,2,Co-Advised,1,#E48F72
-Alona Fyshe,Otilia Stretcu,2,Co-Advised,1,#E48F72
-Alona Fyshe,Shashank Srivastava,2,Co-Advised,1,#E48F72
-Alona Fyshe,Tara Pirnia,2,Co-Advised,1,#E48F72
-Alona Fyshe,Théophile Gervet,2,Co-Advised,1,#E48F72
-Andy Carlson,Anthony Platanios,2,Co-Advised,1,#E48F72
-Andy Carlson,Edith Law,2,Co-Advised,1,#E48F72
-Andy Carlson,Leila Wehbe,2,Co-Advised,1,#E48F72
-Andy Carlson,Mariya Toneva,2,Co-Advised,1,#E48F72
-Andy Carlson,Nicole Rafidi,2,Co-Advised,1,#E48F72
-Andy Carlson,Otilia Stretcu,2,Co-Advised,1,#E48F72
-Andy Carlson,Shashank Srivastava,2,Co-Advised,1,#E48F72
-Andy Carlson,Tara Pirnia,2,Co-Advised,1,#E48F72
-Andy Carlson,Théophile Gervet,2,Co-Advised,1,#E48F72
-Anthony Platanios,Edith Law,2,Co-Advised,1,#E48F72
-Anthony Platanios,Leila Wehbe,2,Co-Advised,1,#E48F72
-Anthony Platanios,Mariya Toneva,2,Co-Advised,1,#E48F72
-Anthony Platanios,Nicole Rafidi,2,Co-Advised,1,#E48F72
-Anthony Platanios,Otilia Stretcu,2,Co-Advised,1,#E48F72
-Anthony Platanios,Shashank Srivastava,2,Co-Advised,1,#E48F72
-Anthony Platanios,Tara Pirnia,2,Co-Advised,1,#E48F72
-Anthony Platanios,Théophile Gervet,2,Co-Advised,1,#E48F72
-Edith Law,Leila Wehbe,2,Co-Advised,1,#E48F72
-Edith Law,Mariya Toneva,2,Co-Advised,1,#E48F72
-Edith Law,Nicole Rafidi,2,Co-Advised,1,#E48F72
-Edith Law,Otilia Stretcu,2,Co-Advised,1,#E48F72
-Edith Law,Shashank Srivastava,2,Co-Advised,1,#E48F72
-Edith Law,Tara Pirnia,2,Co-Advised,1,#E48F72
-Edith Law,Théophile Gervet,2,Co-Advised,1,#E48F72
-Leila Wehbe,Mariya Toneva,2,Co-Advised,1,#E48F72
-Leila Wehbe,Nicole Rafidi,2,Co-Advised,1,#E48F72
-Leila Wehbe,Otilia Stretcu,2,Co-Advised,1,#E48F72
-Leila Wehbe,Shashank Srivastava,2,Co-Advised,1,#E48F72
-Leila Wehbe,Tara Pirnia,2,Co-Advised,1,#E48F72
-Leila Wehbe,Théophile Gervet,2,Co-Advised,1,#E48F72
-Mariya Toneva,Nicole Rafidi,2,Co-Advised,1,#E48F72
-Mariya Toneva,Otilia Stretcu,2,Co-Advised,1,#E48F72
-Mariya Toneva,Shashank Srivastava,2,Co-Advised,1,#E48F72
-Mariya Toneva,Tara Pirnia,2,Co-Advised,1,#E48F72
-Mariya Toneva,Théophile Gervet,2,Co-Advised,1,#E48F72
-Nicole Rafidi,Otilia Stretcu,2,Co-Advised,1,#E48F72
-Nicole Rafidi,Shashank Srivastava,2,Co-Advised,1,#E48F72
-Nicole Rafidi,Tara Pirnia,2,Co-Advised,1,#E48F72
-Nicole Rafidi,Théophile Gervet,2,Co-Advised,1,#E48F72
-Otilia Stretcu,Sashank Jakkam Reddi,2,Co-Advised,1,#E48F72
-Otilia Stretcu,Shashank Singh,2,Co-Advised,1,#E48F72
-Otilia Stretcu,Shashank Srivastava,2,Co-Advised,1,#E48F72
-Otilia Stretcu,Simon Du,2,Co-Advised,1,#E48F72
-Otilia Stretcu,Tara Pirnia,2,Co-Advised,1,#E48F72
-Otilia Stretcu,Théophile Gervet,2,Co-Advised,1,#E48F72
-Shashank Srivastava,Tara Pirnia,2,Co-Advised,1,#E48F72
-Shashank Srivastava,Théophile Gervet,2,Co-Advised,1,#E48F72
-Tara Pirnia,Théophile Gervet,2,Co-Advised,1,#E48F72
-Théophile Gervet,Tzu-Kuo Huang,2,Co-Advised,1,#E48F72
-Théophile Gervet,Yi Zhang,2,Co-Advised,1,#E48F72
-Théophile Gervet,Yifei Ma,2,Co-Advised,1,#E48F72
-Adarsh Prasad,Arun Sai Suggala,2,Co-Advised,5,#FED4C4
-Adarsh Prasad,Bingbin Liu,2,Co-Advised,5,#FED4C4
-Adarsh Prasad,Chih-Kuan Yeh,2,Co-Advised,5,#FED4C4
-Adarsh Prasad,Elan Rosenfeld,2,Co-Advised,5,#FED4C4
-Adarsh Prasad,Enxu Yen,2,Co-Advised,5,#FED4C4
-Adarsh Prasad,Juyong Kim,2,Co-Advised,5,#FED4C4
-Adarsh Prasad,Kartik Gupta,2,Co-Advised,5,#FED4C4
-Adarsh Prasad,So Yeon (Tiffany) Min,2,Co-Advised,5,#FED4C4
-Adarsh Prasad,Xun Zheng,2,Co-Advised,0,grey
-Arun Sai Suggala,Bingbin Liu,2,Co-Advised,5,#FED4C4
-Arun Sai Suggala,Chih-Kuan Yeh,2,Co-Advised,5,#FED4C4
-Arun Sai Suggala,Elan Rosenfeld,2,Co-Advised,5,#FED4C4
-Arun Sai Suggala,Enxu Yen,2,Co-Advised,5,#FED4C4
-Arun Sai Suggala,Juyong Kim,2,Co-Advised,5,#FED4C4
-Arun Sai Suggala,Kartik Gupta,2,Co-Advised,5,#FED4C4
-Arun Sai Suggala,So Yeon (Tiffany) Min,2,Co-Advised,5,#FED4C4
-Arun Sai Suggala,Xun Zheng,2,Co-Advised,0,grey
-Bingbin Liu,Chih-Kuan Yeh,2,Co-Advised,5,#FED4C4
-Bingbin Liu,Elan Rosenfeld,2,Co-Advised,5,#FED4C4
-Bingbin Liu,Enxu Yen,2,Co-Advised,5,#FED4C4
-Bingbin Liu,Juyong Kim,2,Co-Advised,5,#FED4C4
-Bingbin Liu,Kartik Gupta,2,Co-Advised,5,#FED4C4
-Bingbin Liu,So Yeon (Tiffany) Min,2,Co-Advised,5,#FED4C4
-Bingbin Liu,Tanya Marwah,2,Co-Advised,0,grey
-Bingbin Liu,Xun Zheng,2,Co-Advised,0,grey
-Chih-Kuan Yeh,Elan Rosenfeld,2,Co-Advised,5,#FED4C4
-Chih-Kuan Yeh,Enxu Yen,2,Co-Advised,5,#FED4C4
-Chih-Kuan Yeh,Juyong Kim,2,Co-Advised,5,#FED4C4
-Chih-Kuan Yeh,Kartik Gupta,2,Co-Advised,5,#FED4C4
-Chih-Kuan Yeh,So Yeon (Tiffany) Min,2,Co-Advised,5,#FED4C4
-Chih-Kuan Yeh,Xun Zheng,2,Co-Advised,0,grey
-Elan Rosenfeld,Enxu Yen,2,Co-Advised,5,#FED4C4
-Elan Rosenfeld,Juyong Kim,2,Co-Advised,5,#FED4C4
-Elan Rosenfeld,Kartik Gupta,2,Co-Advised,5,#FED4C4
-Elan Rosenfeld,So Yeon (Tiffany) Min,2,Co-Advised,5,#FED4C4
-Elan Rosenfeld,Xun Zheng,2,Co-Advised,0,grey
-Enxu Yen,Juyong Kim,2,Co-Advised,5,#FED4C4
-Enxu Yen,Kartik Gupta,2,Co-Advised,5,#FED4C4
-Enxu Yen,So Yeon (Tiffany) Min,2,Co-Advised,5,#FED4C4
-Enxu Yen,Xun Zheng,2,Co-Advised,0,grey
-Juyong Kim,Kartik Gupta,2,Co-Advised,5,#FED4C4
-Juyong Kim,So Yeon (Tiffany) Min,2,Co-Advised,5,#FED4C4
-Juyong Kim,Xun Zheng,2,Co-Advised,0,grey
-Kartik Gupta,So Yeon (Tiffany) Min,2,Co-Advised,5,#FED4C4
-Kartik Gupta,Xun Zheng,2,Co-Advised,0,grey
-So Yeon (Tiffany) Min,William Guss,2,Co-Advised,0,grey
-So Yeon (Tiffany) Min,Xun Zheng,2,Co-Advised,0,grey
-So Yeon (Tiffany) Min,Yao-Hung (Hubert) Tsai,2,Co-Advised,0,grey
-Xun Zheng,Zhiting Hu,2,Co-Advised,3,#00FE35
-Addison Hu,Alnur Ali,2,Co-Advised,0,grey
-Addison Hu,Maria Jahja,2,Co-Advised,8,#F6F926
-Addison Hu,Natalia L. de Oliveira,2,Co-Advised,8,#F6F926
-Addison Hu,Pratik Patil,2,Co-Advised,8,#F6F926
-Addison Hu,Veeranjaneyulu Sadhanala,2,Co-Advised,8,#F6F926
-Addison Hu,Yu-Xiang Wang,2,Co-Advised,8,#F6F926
-Alnur Ali,Ashwini Pokle,2,Co-Advised,2,#FD3216
-Alnur Ali,Eric Wong,2,Co-Advised,2,#FD3216
-Alnur Ali,Ezra Winston,2,Co-Advised,2,#FD3216
-Alnur Ali,Jeremiah Cohen,2,Co-Advised,2,#FD3216
-Alnur Ali,Maria Jahja,2,Co-Advised,0,grey
-Alnur Ali,Matthew Wytock,2,Co-Advised,2,#FD3216
-Alnur Ali,Natalia L. de Oliveira,2,Co-Advised,0,grey
-Alnur Ali,Po-Wei Wang,2,Co-Advised,2,#FD3216
-Alnur Ali,Pratik Patil,2,Co-Advised,0,grey
-Alnur Ali,Saurabh Garg,2,Co-Advised,2,#FD3216
-Alnur Ali,Shaojie Bai,2,Co-Advised,2,#FD3216
-Alnur Ali,Veeranjaneyulu Sadhanala,2,Co-Advised,0,grey
-Alnur Ali,Yu-Xiang Wang,2,Co-Advised,0,grey
-Alnur Ali,Zhili Feng,2,Co-Advised,2,#FD3216
-Maria Jahja,Natalia L. de Oliveira,2,Co-Advised,8,#F6F926
-Maria Jahja,Pratik Patil,2,Co-Advised,8,#F6F926
-Maria Jahja,Veeranjaneyulu Sadhanala,2,Co-Advised,8,#F6F926
-Maria Jahja,Yu-Xiang Wang,2,Co-Advised,8,#F6F926
-Natalia L. de Oliveira,Pratik Patil,2,Co-Advised,8,#F6F926
-Natalia L. de Oliveira,Veeranjaneyulu Sadhanala,2,Co-Advised,8,#F6F926
-Natalia L. de Oliveira,Yu-Xiang Wang,2,Co-Advised,8,#F6F926
-Pratik Patil,Veeranjaneyulu Sadhanala,2,Co-Advised,8,#F6F926
-Pratik Patil,Yu-Xiang Wang,2,Co-Advised,8,#F6F926
-Veeranjaneyulu Sadhanala,Yu-Xiang Wang,2,Co-Advised,8,#F6F926
-Ahmed Hefny,Ajit Singh,2,Co-Advised,12,#DC587D
-Ahmed Hefny,Carlton Downey,2,Co-Advised,12,#DC587D
-Ahmed Hefny,Han Zhao,2,Co-Advised,12,#DC587D
-Ahmed Hefny,Renato Negrinho,2,Co-Advised,12,#DC587D
-Ajit Singh,Carlton Downey,2,Co-Advised,12,#DC587D
-Ajit Singh,Han Zhao,2,Co-Advised,12,#DC587D
-Ajit Singh,Renato Negrinho,2,Co-Advised,12,#DC587D
-Carlton Downey,Han Zhao,2,Co-Advised,12,#DC587D
-Carlton Downey,Renato Negrinho,2,Co-Advised,12,#DC587D
-Han Zhao,Renato Negrinho,2,Co-Advised,12,#DC587D
-Akash Umakantha,Benjamin Cowley,2,Co-Advised,9,#FF9616
-Akash Umakantha,Darby Losey,2,Co-Advised,9,#FF9616
-Akash Umakantha,Jay Hennig,2,Co-Advised,9,#FF9616
-Akash Umakantha,Shenghao Wu,2,Co-Advised,9,#FF9616
-Akash Umakantha,Will Bishop,2,Co-Advised,9,#FF9616
-Benjamin Cowley,Darby Losey,2,Co-Advised,9,#FF9616
-Benjamin Cowley,Jay Hennig,2,Co-Advised,9,#FF9616
-Benjamin Cowley,Shenghao Wu,4,Co-Advised,9,#FF9616
-Benjamin Cowley,Will Bishop,2,Co-Advised,9,#FF9616
-Darby Losey,Jay Hennig,4,Co-Advised,9,#FF9616
-Darby Losey,Shenghao Wu,2,Co-Advised,9,#FF9616
-Darby Losey,Will Bishop,2,Co-Advised,9,#FF9616
-Jay Hennig,Shenghao Wu,2,Co-Advised,9,#FF9616
-Jay Hennig,Will Bishop,2,Co-Advised,9,#FF9616
-Shenghao Wu,Will Bishop,2,Co-Advised,9,#FF9616
-Aleksandr (Sasha) Podkopaev,Lucia Castellanos,2,Co-Advised,4,#6A76FC
-Aleksandr (Sasha) Podkopaev,Motolani Olarinre,2,Co-Advised,4,#6A76FC
-Aleksandr (Sasha) Podkopaev,Natalie Klein,2,Co-Advised,4,#6A76FC
-Aleksandr (Sasha) Podkopaev,Pengcheng Zhou,2,Co-Advised,4,#6A76FC
-Aleksandr (Sasha) Podkopaev,Qiong Zhang,2,Co-Advised,4,#6A76FC
-Aleksandr (Sasha) Podkopaev,Yang Xu,2,Co-Advised,4,#6A76FC
-Aleksandr (Sasha) Podkopaev,Ying Yang,2,Co-Advised,4,#6A76FC
-Aleksandr (Sasha) Podkopaev,Yu (Albert) Chen,2,Co-Advised,4,#6A76FC
-Lucia Castellanos,Motolani Olarinre,2,Co-Advised,4,#6A76FC
-Lucia Castellanos,Natalie Klein,2,Co-Advised,4,#6A76FC
-Lucia Castellanos,Pengcheng Zhou,2,Co-Advised,4,#6A76FC
-Lucia Castellanos,Qiong Zhang,2,Co-Advised,4,#6A76FC
-Lucia Castellanos,Yang Xu,2,Co-Advised,4,#6A76FC
-Lucia Castellanos,Ying Yang,2,Co-Advised,4,#6A76FC
-Lucia Castellanos,Yu (Albert) Chen,2,Co-Advised,4,#6A76FC
-Motolani Olarinre,Natalie Klein,2,Co-Advised,4,#6A76FC
-Motolani Olarinre,Pengcheng Zhou,2,Co-Advised,4,#6A76FC
-Motolani Olarinre,Qiong Zhang,2,Co-Advised,4,#6A76FC
-Motolani Olarinre,Yang Xu,2,Co-Advised,4,#6A76FC
-Motolani Olarinre,Ying Yang,2,Co-Advised,4,#6A76FC
-Motolani Olarinre,Yu (Albert) Chen,2,Co-Advised,4,#6A76FC
-Natalie Klein,Pengcheng Zhou,2,Co-Advised,4,#6A76FC
-Natalie Klein,Qiong Zhang,2,Co-Advised,4,#6A76FC
-Natalie Klein,Yang Xu,2,Co-Advised,4,#6A76FC
-Natalie Klein,Ying Yang,2,Co-Advised,4,#6A76FC
-Natalie Klein,Yu (Albert) Chen,2,Co-Advised,4,#6A76FC
-Pengcheng Zhou,Qiong Zhang,2,Co-Advised,4,#6A76FC
-Pengcheng Zhou,Yang Xu,2,Co-Advised,4,#6A76FC
-Pengcheng Zhou,Ying Yang,2,Co-Advised,4,#6A76FC
-Pengcheng Zhou,Yu (Albert) Chen,2,Co-Advised,4,#6A76FC
-Qiong Zhang,Yang Xu,2,Co-Advised,4,#6A76FC
-Qiong Zhang,Ying Yang,2,Co-Advised,4,#6A76FC
-Qiong Zhang,Yu (Albert) Chen,2,Co-Advised,4,#6A76FC
-Yang Xu,Ying Yang,4,Co-Advised,4,#6A76FC
-Yang Xu,Yu (Albert) Chen,2,Co-Advised,4,#6A76FC
-Ying Yang,Yu (Albert) Chen,2,Co-Advised,4,#6A76FC
-Ashwini Pokle,Eric Wong,2,Co-Advised,2,#FD3216
-Ashwini Pokle,Ezra Winston,2,Co-Advised,2,#FD3216
-Ashwini Pokle,Jeremiah Cohen,2,Co-Advised,2,#FD3216
-Ashwini Pokle,Matthew Wytock,2,Co-Advised,2,#FD3216
-Ashwini Pokle,Po-Wei Wang,2,Co-Advised,2,#FD3216
-Ashwini Pokle,Saurabh Garg,2,Co-Advised,2,#FD3216
-Ashwini Pokle,Shaojie Bai,2,Co-Advised,2,#FD3216
-Ashwini Pokle,Zhili Feng,2,Co-Advised,2,#FD3216
-Eric Wong,Ezra Winston,2,Co-Advised,2,#FD3216
-Eric Wong,Jeremiah Cohen,2,Co-Advised,2,#FD3216
-Eric Wong,Matthew Wytock,2,Co-Advised,2,#FD3216
-Eric Wong,Po-Wei Wang,2,Co-Advised,2,#FD3216
-Eric Wong,Saurabh Garg,2,Co-Advised,2,#FD3216
-Eric Wong,Shaojie Bai,2,Co-Advised,2,#FD3216
-Eric Wong,Zhili Feng,2,Co-Advised,2,#FD3216
-Ezra Winston,Jeremiah Cohen,2,Co-Advised,2,#FD3216
-Ezra Winston,Matthew Wytock,2,Co-Advised,2,#FD3216
-Ezra Winston,Po-Wei Wang,2,Co-Advised,2,#FD3216
-Ezra Winston,Saurabh Garg,2,Co-Advised,2,#FD3216
-Ezra Winston,Shaojie Bai,2,Co-Advised,2,#FD3216
-Ezra Winston,Zhili Feng,2,Co-Advised,2,#FD3216
-Jeremiah Cohen,Joon Sik Kim,2,Co-Advised,2,#FD3216
-Jeremiah Cohen,Liam Li,2,Co-Advised,2,#FD3216
-Jeremiah Cohen,Matthew Wytock,2,Co-Advised,2,#FD3216
-Jeremiah Cohen,Po-Wei Wang,2,Co-Advised,2,#FD3216
-Jeremiah Cohen,Saurabh Garg,2,Co-Advised,2,#FD3216
-Jeremiah Cohen,Shaojie Bai,2,Co-Advised,2,#FD3216
-Jeremiah Cohen,Valerie Chen,2,Co-Advised,2,#FD3216
-Jeremiah Cohen,Zhili Feng,2,Co-Advised,2,#FD3216
-Matthew Wytock,Po-Wei Wang,2,Co-Advised,2,#FD3216
-Matthew Wytock,Saurabh Garg,2,Co-Advised,2,#FD3216
-Matthew Wytock,Shaojie Bai,2,Co-Advised,2,#FD3216
-Matthew Wytock,Zhili Feng,2,Co-Advised,2,#FD3216
-Po-Wei Wang,Saurabh Garg,2,Co-Advised,2,#FD3216
-Po-Wei Wang,Shaojie Bai,2,Co-Advised,2,#FD3216
-Po-Wei Wang,Zhili Feng,2,Co-Advised,2,#FD3216
-Saurabh Garg,Shaojie Bai,2,Co-Advised,2,#FD3216
-Saurabh Garg,Tanya Marwah,2,Co-Advised,0,grey
-Saurabh Garg,Yifan Wu,2,Co-Advised,0,grey
-Saurabh Garg,Zhili Feng,2,Co-Advised,2,#FD3216
-Shaojie Bai,Zhili Feng,2,Co-Advised,2,#FD3216
-Nil-Jana Akpinar,Saurabh Garg,2,Co-Advised,0,grey
-Nil-Jana Akpinar,Tanya Marwah,2,Co-Advised,6,#FE00CE
-Nil-Jana Akpinar,Yifan Wu,2,Co-Advised,6,#FE00CE
-Andrew Arnold,Zhenzhen Kou,2,Co-Advised,0,"rgb(1,1,1)"
-Ankur Parikh,Bin Zhao,2,Co-Advised,3,#00FE35
-Ankur Parikh,Lisa Lee,2,Co-Advised,3,#00FE35
-Ankur Parikh,Maruan Al-Shedivat,2,Co-Advised,3,#00FE35
-Ankur Parikh,Micol Marchetti-Bowick,2,Co-Advised,3,#00FE35
-Ankur Parikh,Mladen Kolar,2,Co-Advised,3,#00FE35
-Ankur Parikh,Mrinmaya Sachan,2,Co-Advised,3,#00FE35
-Ankur Parikh,Pengtao Xie,2,Co-Advised,3,#00FE35
-Ankur Parikh,Qirong Ho,2,Co-Advised,3,#00FE35
-Ankur Parikh,Suyash Shringarpure,2,Co-Advised,3,#00FE35
-Ankur Parikh,Wei (David) Dai,2,Co-Advised,3,#00FE35
-Ankur Parikh,Willie Neiswanger,2,Co-Advised,3,#00FE35
-Ankur Parikh,Xun Zheng,2,Co-Advised,3,#00FE35
-Ankur Parikh,Zhiting Hu,2,Co-Advised,3,#00FE35
-Bin Zhao,Lisa Lee,2,Co-Advised,3,#00FE35
-Bin Zhao,Maruan Al-Shedivat,2,Co-Advised,3,#00FE35
-Bin Zhao,Micol Marchetti-Bowick,2,Co-Advised,3,#00FE35
-Bin Zhao,Mladen Kolar,2,Co-Advised,3,#00FE35
-Bin Zhao,Mrinmaya Sachan,2,Co-Advised,3,#00FE35
-Bin Zhao,Pengtao Xie,2,Co-Advised,3,#00FE35
-Bin Zhao,Qirong Ho,2,Co-Advised,3,#00FE35
-Bin Zhao,Suyash Shringarpure,2,Co-Advised,3,#00FE35
-Bin Zhao,Wei (David) Dai,2,Co-Advised,3,#00FE35
-Bin Zhao,Willie Neiswanger,2,Co-Advised,3,#00FE35
-Bin Zhao,Xun Zheng,2,Co-Advised,3,#00FE35
-Bin Zhao,Zhiting Hu,2,Co-Advised,3,#00FE35
-Lisa Lee,Manzil Zaheer,2,Co-Advised,0,grey
-Lisa Lee,Maruan Al-Shedivat,2,Co-Advised,3,#00FE35
-Lisa Lee,Micol Marchetti-Bowick,2,Co-Advised,3,#00FE35
-Lisa Lee,Mladen Kolar,2,Co-Advised,3,#00FE35
-Lisa Lee,Mrinmaya Sachan,2,Co-Advised,3,#00FE35
-Lisa Lee,Paul Liang,2,Co-Advised,0,grey
-Lisa Lee,Pengtao Xie,2,Co-Advised,3,#00FE35
-Lisa Lee,Qirong Ho,2,Co-Advised,3,#00FE35
-Lisa Lee,So Yeon (Tiffany) Min,2,Co-Advised,0,grey
-Lisa Lee,Suyash Shringarpure,2,Co-Advised,3,#00FE35
-Lisa Lee,Wei (David) Dai,2,Co-Advised,3,#00FE35
-Lisa Lee,William Guss,2,Co-Advised,0,grey
-Lisa Lee,Willie Neiswanger,2,Co-Advised,3,#00FE35
-Lisa Lee,Xun Zheng,2,Co-Advised,3,#00FE35
-Lisa Lee,Yao-Hung (Hubert) Tsai,2,Co-Advised,0,grey
-Lisa Lee,Zhiting Hu,2,Co-Advised,3,#00FE35
-Maruan Al-Shedivat,Micol Marchetti-Bowick,2,Co-Advised,3,#00FE35
-Maruan Al-Shedivat,Mladen Kolar,2,Co-Advised,3,#00FE35
-Maruan Al-Shedivat,Mrinmaya Sachan,2,Co-Advised,3,#00FE35
-Maruan Al-Shedivat,Pengtao Xie,2,Co-Advised,3,#00FE35
-Maruan Al-Shedivat,Qirong Ho,2,Co-Advised,3,#00FE35
-Maruan Al-Shedivat,Suyash Shringarpure,2,Co-Advised,3,#00FE35
-Maruan Al-Shedivat,Wei (David) Dai,2,Co-Advised,3,#00FE35
-Maruan Al-Shedivat,Willie Neiswanger,2,Co-Advised,3,#00FE35
-Maruan Al-Shedivat,Xun Zheng,2,Co-Advised,3,#00FE35
-Maruan Al-Shedivat,Zhiting Hu,2,Co-Advised,3,#00FE35
-Micol Marchetti-Bowick,Mladen Kolar,2,Co-Advised,3,#00FE35
-Micol Marchetti-Bowick,Mrinmaya Sachan,2,Co-Advised,3,#00FE35
-Micol Marchetti-Bowick,Pengtao Xie,2,Co-Advised,3,#00FE35
-Micol Marchetti-Bowick,Qirong Ho,2,Co-Advised,3,#00FE35
-Micol Marchetti-Bowick,Suyash Shringarpure,2,Co-Advised,3,#00FE35
-Micol Marchetti-Bowick,Wei (David) Dai,2,Co-Advised,3,#00FE35
-Micol Marchetti-Bowick,Willie Neiswanger,2,Co-Advised,3,#00FE35
-Micol Marchetti-Bowick,Xun Zheng,2,Co-Advised,3,#00FE35
-Micol Marchetti-Bowick,Zhiting Hu,2,Co-Advised,3,#00FE35
-Mladen Kolar,Mrinmaya Sachan,2,Co-Advised,3,#00FE35
-Mladen Kolar,Pengtao Xie,2,Co-Advised,3,#00FE35
-Mladen Kolar,Qirong Ho,2,Co-Advised,3,#00FE35
-Mladen Kolar,Suyash Shringarpure,2,Co-Advised,3,#00FE35
-Mladen Kolar,Wei (David) Dai,2,Co-Advised,3,#00FE35
-Mladen Kolar,Willie Neiswanger,2,Co-Advised,3,#00FE35
-Mladen Kolar,Xun Zheng,2,Co-Advised,3,#00FE35
-Mladen Kolar,Zhiting Hu,2,Co-Advised,3,#00FE35
-Mrinmaya Sachan,Pengtao Xie,2,Co-Advised,3,#00FE35
-Mrinmaya Sachan,Qirong Ho,2,Co-Advised,3,#00FE35
-Mrinmaya Sachan,Suyash Shringarpure,2,Co-Advised,3,#00FE35
-Mrinmaya Sachan,Wei (David) Dai,2,Co-Advised,3,#00FE35
-Mrinmaya Sachan,Willie Neiswanger,2,Co-Advised,3,#00FE35
-Mrinmaya Sachan,Xun Zheng,2,Co-Advised,3,#00FE35
-Mrinmaya Sachan,Zhiting Hu,2,Co-Advised,3,#00FE35
-Pengtao Xie,Qirong Ho,2,Co-Advised,3,#00FE35
-Pengtao Xie,Suyash Shringarpure,2,Co-Advised,3,#00FE35
-Pengtao Xie,Wei (David) Dai,2,Co-Advised,3,#00FE35
-Pengtao Xie,Willie Neiswanger,2,Co-Advised,3,#00FE35
-Pengtao Xie,Xun Zheng,2,Co-Advised,3,#00FE35
-Pengtao Xie,Zhiting Hu,2,Co-Advised,3,#00FE35
-Qirong Ho,Suyash Shringarpure,2,Co-Advised,3,#00FE35
-Qirong Ho,Wei (David) Dai,2,Co-Advised,3,#00FE35
-Qirong Ho,Willie Neiswanger,2,Co-Advised,3,#00FE35
-Qirong Ho,Xun Zheng,2,Co-Advised,3,#00FE35
-Qirong Ho,Zhiting Hu,2,Co-Advised,3,#00FE35
-Suyash Shringarpure,Wei (David) Dai,2,Co-Advised,3,#00FE35
-Suyash Shringarpure,Willie Neiswanger,2,Co-Advised,3,#00FE35
-Suyash Shringarpure,Xun Zheng,2,Co-Advised,3,#00FE35
-Suyash Shringarpure,Zhiting Hu,2,Co-Advised,3,#00FE35
-Wei (David) Dai,Willie Neiswanger,2,Co-Advised,3,#00FE35
-Wei (David) Dai,Xun Zheng,2,Co-Advised,3,#00FE35
-Wei (David) Dai,Zhiting Hu,2,Co-Advised,3,#00FE35
-Willie Neiswanger,Xun Zheng,2,Co-Advised,3,#00FE35
-Willie Neiswanger,Zhiting Hu,2,Co-Advised,3,#00FE35
-Anna Goldenberg,Purnamrita Sarkar,2,Co-Advised,0,"rgb(1,1,1)"
-Aria Yuan Wang,Mariya Toneva,2,Co-Advised,0,grey
-Aria Yuan Wang,Yang Xu,2,Co-Advised,4,#6A76FC
-Aria Yuan Wang,Ying Yang,2,Co-Advised,4,#6A76FC
-Arish Alreja,Yuanning Li,2,Co-Advised,0,"rgb(1,1,1)"
-Arundhati Banerjee,Biswajit Paria,2,Co-Advised,1,#E48F72
-Arundhati Banerjee,Brent Bryan,2,Co-Advised,1,#E48F72
-Arundhati Banerjee,Ian Char,2,Co-Advised,1,#E48F72
-Arundhati Banerjee,Junier Oliva,2,Co-Advised,1,#E48F72
-Arundhati Banerjee,Kaustav Das,2,Co-Advised,1,#E48F72
-Arundhati Banerjee,Kirthevasan Kandasamy,2,Co-Advised,1,#E48F72
-Arundhati Banerjee,Liang Xiong,2,Co-Advised,1,#E48F72
-Arundhati Banerjee,Théophile Gervet,2,Co-Advised,1,#E48F72
-Arundhati Banerjee,Tzu-Kuo Huang,2,Co-Advised,1,#E48F72
-Arundhati Banerjee,Yi Zhang,2,Co-Advised,1,#E48F72
-Arundhati Banerjee,Yifei Ma,2,Co-Advised,1,#E48F72
-Biswajit Paria,Brent Bryan,2,Co-Advised,1,#E48F72
-Biswajit Paria,Chenghui Zhou,2,Co-Advised,1,#E48F72
-Biswajit Paria,Chun-Liang Li,2,Co-Advised,1,#E48F72
-Biswajit Paria,Ian Char,2,Co-Advised,1,#E48F72
-Biswajit Paria,Junier Oliva,4,Co-Advised,1,#E48F72
-Biswajit Paria,Kaustav Das,2,Co-Advised,1,#E48F72
-Biswajit Paria,Kirthevasan Kandasamy,4,Co-Advised,1,#E48F72
-Biswajit Paria,Liang Xiong,2,Co-Advised,1,#E48F72
-Biswajit Paria,Manzil Zaheer,2,Co-Advised,1,#E48F72
-Biswajit Paria,Otilia Stretcu,2,Co-Advised,1,#E48F72
-Biswajit Paria,Sashank Jakkam Reddi,2,Co-Advised,1,#E48F72
-Biswajit Paria,Shashank Singh,2,Co-Advised,1,#E48F72
-Biswajit Paria,Simon Du,2,Co-Advised,1,#E48F72
-Biswajit Paria,Théophile Gervet,2,Co-Advised,1,#E48F72
-Biswajit Paria,Tzu-Kuo Huang,2,Co-Advised,1,#E48F72
-Biswajit Paria,Yi Zhang,2,Co-Advised,1,#E48F72
-Biswajit Paria,Yifei Ma,2,Co-Advised,1,#E48F72
-Brent Bryan,Ian Char,2,Co-Advised,1,#E48F72
-Brent Bryan,Junier Oliva,2,Co-Advised,1,#E48F72
-Brent Bryan,Kaustav Das,2,Co-Advised,1,#E48F72
-Brent Bryan,Kirthevasan Kandasamy,2,Co-Advised,1,#E48F72
-Brent Bryan,Liang Xiong,2,Co-Advised,1,#E48F72
-Brent Bryan,Théophile Gervet,2,Co-Advised,1,#E48F72
-Brent Bryan,Tzu-Kuo Huang,2,Co-Advised,1,#E48F72
-Brent Bryan,Yi Zhang,2,Co-Advised,1,#E48F72
-Brent Bryan,Yifei Ma,2,Co-Advised,1,#E48F72
-Ian Char,Junier Oliva,2,Co-Advised,1,#E48F72
-Ian Char,Kaustav Das,2,Co-Advised,1,#E48F72
-Ian Char,Kirthevasan Kandasamy,2,Co-Advised,1,#E48F72
-Ian Char,Liang Xiong,2,Co-Advised,1,#E48F72
-Ian Char,Théophile Gervet,2,Co-Advised,1,#E48F72
-Ian Char,Tzu-Kuo Huang,2,Co-Advised,1,#E48F72
-Ian Char,Yi Zhang,2,Co-Advised,1,#E48F72
-Ian Char,Yifei Ma,2,Co-Advised,1,#E48F72
-Junier Oliva,Kaustav Das,2,Co-Advised,1,#E48F72
-Junier Oliva,Kirthevasan Kandasamy,4,Co-Advised,1,#E48F72
-Junier Oliva,Liang Xiong,2,Co-Advised,1,#E48F72
-Junier Oliva,Manzil Zaheer,2,Co-Advised,1,#E48F72
-Junier Oliva,Otilia Stretcu,2,Co-Advised,1,#E48F72
-Junier Oliva,Sashank Jakkam Reddi,2,Co-Advised,1,#E48F72
-Junier Oliva,Shashank Singh,2,Co-Advised,1,#E48F72
-Junier Oliva,Simon Du,2,Co-Advised,1,#E48F72
-Junier Oliva,Théophile Gervet,2,Co-Advised,1,#E48F72
-Junier Oliva,Tzu-Kuo Huang,2,Co-Advised,1,#E48F72
-Junier Oliva,Yi Zhang,2,Co-Advised,1,#E48F72
-Junier Oliva,Yifei Ma,2,Co-Advised,1,#E48F72
-Kaustav Das,Kirthevasan Kandasamy,2,Co-Advised,1,#E48F72
-Kaustav Das,Liang Xiong,2,Co-Advised,1,#E48F72
-Kaustav Das,Théophile Gervet,2,Co-Advised,1,#E48F72
-Kaustav Das,Tzu-Kuo Huang,2,Co-Advised,1,#E48F72
-Kaustav Das,Yi Zhang,2,Co-Advised,1,#E48F72
-Kaustav Das,Yifei Ma,2,Co-Advised,1,#E48F72
-Kirthevasan Kandasamy,Liang Xiong,2,Co-Advised,1,#E48F72
-Kirthevasan Kandasamy,Manzil Zaheer,2,Co-Advised,1,#E48F72
-Kirthevasan Kandasamy,Otilia Stretcu,2,Co-Advised,1,#E48F72
-Kirthevasan Kandasamy,Sashank Jakkam Reddi,2,Co-Advised,1,#E48F72
-Kirthevasan Kandasamy,Shashank Singh,2,Co-Advised,1,#E48F72
-Kirthevasan Kandasamy,Simon Du,2,Co-Advised,1,#E48F72
-Kirthevasan Kandasamy,Théophile Gervet,2,Co-Advised,1,#E48F72
-Kirthevasan Kandasamy,Tzu-Kuo Huang,2,Co-Advised,1,#E48F72
-Kirthevasan Kandasamy,Yi Zhang,2,Co-Advised,1,#E48F72
-Kirthevasan Kandasamy,Yifei Ma,2,Co-Advised,1,#E48F72
-Liang Xiong,Théophile Gervet,2,Co-Advised,1,#E48F72
-Liang Xiong,Tzu-Kuo Huang,2,Co-Advised,1,#E48F72
-Liang Xiong,Yi Zhang,2,Co-Advised,1,#E48F72
-Liang Xiong,Yifei Ma,2,Co-Advised,1,#E48F72
-Tzu-Kuo Huang,Yi Zhang,2,Co-Advised,1,#E48F72
-Tzu-Kuo Huang,Yifei Ma,2,Co-Advised,1,#E48F72
-Yi Zhang,Yifei Ma,2,Co-Advised,1,#E48F72
-Aryeh Kontorovich,Han Liu,2,Co-Advised,10,#479B55
-Aryeh Kontorovich,Min Xu,2,Co-Advised,10,#479B55
-Ben Eysenbach,Devendra Chaplot,2,Co-Advised,11,#EEA6FB
-Ben Eysenbach,Emilio Parisotto,2,Co-Advised,11,#EEA6FB
-Ben Eysenbach,Lisa Lee,2,Co-Advised,0,grey
-Ben Eysenbach,Manzil Zaheer,2,Co-Advised,0,grey
-Ben Eysenbach,Paul Liang,2,Co-Advised,11,#EEA6FB
-Ben Eysenbach,So Yeon (Tiffany) Min,2,Co-Advised,0,grey
-Ben Eysenbach,William Guss,2,Co-Advised,11,#EEA6FB
-Ben Eysenbach,Yao-Hung (Hubert) Tsai,2,Co-Advised,11,#EEA6FB
-Devendra Chaplot,Emilio Parisotto,2,Co-Advised,11,#EEA6FB
-Devendra Chaplot,Lisa Lee,2,Co-Advised,0,grey
-Devendra Chaplot,Manzil Zaheer,2,Co-Advised,0,grey
-Devendra Chaplot,Paul Liang,2,Co-Advised,11,#EEA6FB
-Devendra Chaplot,So Yeon (Tiffany) Min,2,Co-Advised,0,grey
-Devendra Chaplot,William Guss,2,Co-Advised,11,#EEA6FB
-Devendra Chaplot,Yao-Hung (Hubert) Tsai,2,Co-Advised,11,#EEA6FB
-Emilio Parisotto,Lisa Lee,2,Co-Advised,0,grey
-Emilio Parisotto,Manzil Zaheer,2,Co-Advised,0,grey
-Emilio Parisotto,Paul Liang,2,Co-Advised,11,#EEA6FB
-Emilio Parisotto,So Yeon (Tiffany) Min,2,Co-Advised,0,grey
-Emilio Parisotto,William Guss,2,Co-Advised,11,#EEA6FB
-Emilio Parisotto,Yao-Hung (Hubert) Tsai,2,Co-Advised,11,#EEA6FB
-Manzil Zaheer,Otilia Stretcu,2,Co-Advised,1,#E48F72
-Manzil Zaheer,Paul Liang,2,Co-Advised,0,grey
-Manzil Zaheer,Sashank Jakkam Reddi,2,Co-Advised,1,#E48F72
-Manzil Zaheer,Shashank Singh,2,Co-Advised,1,#E48F72
-Manzil Zaheer,Simon Du,2,Co-Advised,1,#E48F72
-Manzil Zaheer,So Yeon (Tiffany) Min,2,Co-Advised,0,grey
-Manzil Zaheer,William Guss,2,Co-Advised,0,grey
-Manzil Zaheer,Yao-Hung (Hubert) Tsai,2,Co-Advised,0,grey
-Paul Liang,So Yeon (Tiffany) Min,2,Co-Advised,0,grey
-Paul Liang,William Guss,2,Co-Advised,11,#EEA6FB
-Paul Liang,Yao-Hung (Hubert) Tsai,2,Co-Advised,11,#EEA6FB
-William Guss,Yao-Hung (Hubert) Tsai,2,Co-Advised,11,#EEA6FB
-Benjamin Shih,Ricardo Silva,2,Co-Advised,0,"rgb(1,1,1)"
-Tanya Marwah,Yifan Wu,2,Co-Advised,6,#FE00CE
-Chenghui Zhou,Chun-Liang Li,2,Co-Advised,1,#E48F72
-Chenghui Zhou,Junier Oliva,2,Co-Advised,1,#E48F72
-Chenghui Zhou,Kirthevasan Kandasamy,2,Co-Advised,1,#E48F72
-Chenghui Zhou,Manzil Zaheer,2,Co-Advised,1,#E48F72
-Chenghui Zhou,Otilia Stretcu,2,Co-Advised,1,#E48F72
-Chenghui Zhou,Sashank Jakkam Reddi,2,Co-Advised,1,#E48F72
-Chenghui Zhou,Shashank Singh,2,Co-Advised,1,#E48F72
-Chenghui Zhou,Simon Du,2,Co-Advised,1,#E48F72
-Chun-Liang Li,Junier Oliva,2,Co-Advised,1,#E48F72
-Chun-Liang Li,Kirthevasan Kandasamy,2,Co-Advised,1,#E48F72
-Chun-Liang Li,Manzil Zaheer,2,Co-Advised,1,#E48F72
-Chun-Liang Li,Otilia Stretcu,2,Co-Advised,1,#E48F72
-Chun-Liang Li,Sashank Jakkam Reddi,2,Co-Advised,1,#E48F72
-Chun-Liang Li,Shashank Singh,2,Co-Advised,1,#E48F72
-Chun-Liang Li,Simon Du,2,Co-Advised,1,#E48F72
-Sashank Jakkam Reddi,Seth Flaxman,2,Co-Advised,0,grey
-Sashank Jakkam Reddi,Shashank Singh,2,Co-Advised,1,#E48F72
-Sashank Jakkam Reddi,Simon Du,2,Co-Advised,1,#E48F72
-Shashank Singh,Simon Du,2,Co-Advised,1,#E48F72
-Brendan O'Connor,Dallas Card,2,Co-Advised,0,"rgb(1,1,1)"
-Brian Ziebart,Hanzhang Hu,2,Co-Advised,0,"rgb(1,1,1)"
-Bryan Hooi,Deepayan Chakrabarti,2,Co-Advised,7,#0DF9FF
-Bryan Hooi,Duen Horng (Polo) Chau,2,Co-Advised,7,#0DF9FF
-Bryan Hooi,Hanghang Tong,2,Co-Advised,7,#0DF9FF
-Bryan Hooi,Hyun Ah Song,2,Co-Advised,7,#0DF9FF
-Bryan Hooi,Jurij Leskovec,2,Co-Advised,7,#0DF9FF
-Bryan Hooi,Mary McGlohon,2,Co-Advised,7,#0DF9FF
-Deepayan Chakrabarti,Duen Horng (Polo) Chau,2,Co-Advised,7,#0DF9FF
-Deepayan Chakrabarti,Hanghang Tong,2,Co-Advised,7,#0DF9FF
-Deepayan Chakrabarti,Hyun Ah Song,2,Co-Advised,7,#0DF9FF
-Deepayan Chakrabarti,Jurij Leskovec,2,Co-Advised,7,#0DF9FF
-Deepayan Chakrabarti,Mary McGlohon,2,Co-Advised,7,#0DF9FF
-Duen Horng (Polo) Chau,Hanghang Tong,2,Co-Advised,7,#0DF9FF
-Duen Horng (Polo) Chau,Hyun Ah Song,2,Co-Advised,7,#0DF9FF
-Duen Horng (Polo) Chau,Jurij Leskovec,2,Co-Advised,7,#0DF9FF
-Duen Horng (Polo) Chau,Mary McGlohon,2,Co-Advised,7,#0DF9FF
-Hanghang Tong,Hyun Ah Song,2,Co-Advised,7,#0DF9FF
-Hanghang Tong,Jurij Leskovec,2,Co-Advised,7,#0DF9FF
-Hanghang Tong,Mary McGlohon,2,Co-Advised,7,#0DF9FF
-Hyun Ah Song,Jurij Leskovec,2,Co-Advised,7,#0DF9FF
-Hyun Ah Song,Mary McGlohon,2,Co-Advised,7,#0DF9FF
-Jurij Leskovec,Mary McGlohon,2,Co-Advised,7,#0DF9FF
-Calvin McCarter,Jing Xiang,2,Co-Advised,0,"rgb(1,1,1)"
-Carl Doersch,Kenneth Marino,2,Co-Advised,0,"rgb(1,1,1)"
-Charvi Rastogi,Ivan Stelmakh,2,Co-Advised,1,#E48F72
-Cheng Cheng,Helen Zhou,2,Co-Advised,6,#FE00CE
-Cheng Cheng,Jacob Tyo,2,Co-Advised,6,#FE00CE
-Cheng Cheng,Jonathon Byrd,2,Co-Advised,6,#FE00CE
-Cheng Cheng,Leqi Liu,2,Co-Advised,6,#FE00CE
-Cheng Cheng,Nil-Jana Akpinar,2,Co-Advised,6,#FE00CE
-Cheng Cheng,Saurabh Garg,2,Co-Advised,0,grey
-Cheng Cheng,Tanya Marwah,2,Co-Advised,6,#FE00CE
-Cheng Cheng,Yifan Wu,2,Co-Advised,6,#FE00CE
-Helen Zhou,Jacob Tyo,2,Co-Advised,6,#FE00CE
-Helen Zhou,Jonathon Byrd,2,Co-Advised,6,#FE00CE
-Helen Zhou,Leqi Liu,2,Co-Advised,6,#FE00CE
-Helen Zhou,Nil-Jana Akpinar,2,Co-Advised,6,#FE00CE
-Helen Zhou,Saurabh Garg,2,Co-Advised,0,grey
-Helen Zhou,Tanya Marwah,2,Co-Advised,6,#FE00CE
-Helen Zhou,Yifan Wu,2,Co-Advised,6,#FE00CE
-Jacob Tyo,Jonathon Byrd,2,Co-Advised,6,#FE00CE
-Jacob Tyo,Leqi Liu,2,Co-Advised,6,#FE00CE
-Jacob Tyo,Nil-Jana Akpinar,2,Co-Advised,6,#FE00CE
-Jacob Tyo,Saurabh Garg,2,Co-Advised,0,grey
-Jacob Tyo,Tanya Marwah,2,Co-Advised,6,#FE00CE
-Jacob Tyo,Yifan Wu,2,Co-Advised,6,#FE00CE
-Jonathon Byrd,Leqi Liu,2,Co-Advised,6,#FE00CE
-Jonathon Byrd,Nil-Jana Akpinar,2,Co-Advised,6,#FE00CE
-Jonathon Byrd,Saurabh Garg,2,Co-Advised,0,grey
-Jonathon Byrd,Tanya Marwah,2,Co-Advised,6,#FE00CE
-Jonathon Byrd,Yifan Wu,2,Co-Advised,6,#FE00CE
-Leqi Liu,Nil-Jana Akpinar,2,Co-Advised,6,#FE00CE
-Leqi Liu,Saurabh Garg,2,Co-Advised,0,grey
-Leqi Liu,Tanya Marwah,2,Co-Advised,6,#FE00CE
-Leqi Liu,Yifan Wu,2,Co-Advised,6,#FE00CE
-Chieh Lin,Hai-Son Le,2,Co-Advised,15,#00B5F7
-Chieh Lin,Jason Ernst,2,Co-Advised,15,#00B5F7
-Hai-Son Le,Jason Ernst,2,Co-Advised,15,#00B5F7
-Chirag Gupta,Ojash Neopane,2,Co-Advised,1,#E48F72
-Don Dennis,Oscar Li,2,Co-Advised,0,"rgb(1,1,1)"
-Dylan Fitzpatrick,Seth Flaxman,2,Co-Advised,13,#D626FF
-Dylan Fitzpatrick,William Herlands,2,Co-Advised,13,#D626FF
-Seth Flaxman,William Herlands,2,Co-Advised,13,#D626FF
-Felipe Trevizan,Nicholay Topin,2,Co-Advised,16,#B68E00
-Felipe Trevizan,Prashant Reddy,2,Co-Advised,16,#B68E00
-Nicholay Topin,Prashant Reddy,2,Co-Advised,16,#B68E00
-George Montañez,Michael Spece-Ibanez,2,Co-Advised,0,"rgb(1,1,1)"
-Gregory Plumb,Jeremiah Cohen,2,Co-Advised,2,#FD3216
-Gregory Plumb,Joon Sik Kim,2,Co-Advised,2,#FD3216
-Gregory Plumb,Liam Li,2,Co-Advised,2,#FD3216
-Gregory Plumb,Valerie Chen,2,Co-Advised,2,#FD3216
-Joon Sik Kim,Liam Li,2,Co-Advised,2,#FD3216
-Joon Sik Kim,Valerie Chen,2,Co-Advised,2,#FD3216
-Liam Li,Valerie Chen,2,Co-Advised,2,#FD3216
-Hsiao-Yu Tung,Sashank Jakkam Reddi,2,Co-Advised,0,grey
-Hsiao-Yu Tung,Seth Flaxman,2,Co-Advised,13,#D626FF
-Jingrui He,Liu Yang,2,Co-Advised,14,#6E899C
-Jingrui He,Xi Chen,2,Co-Advised,14,#6E899C
-Liu Yang,Pranjal Awasthi,2,Co-Advised,14,#6E899C
-Liu Yang,Xi Chen,2,Co-Advised,14,#6E899C
-Joseph Bradley,Joseph Gonzalez,2,Co-Advised,17,#C9FBE5
-Joseph Bradley,Yucheng Low,2,Co-Advised,17,#C9FBE5
-Joseph Gonzalez,Yucheng Low,2,Co-Advised,17,#C9FBE5
-Kirstin Early,Rob Hall,2,Co-Advised,0,"rgb(1,1,1)"
-Ritesh Noothigattu,Tom Yan,2,Co-Advised,0,"rgb(1,1,1)"
+source,target,other,weight,relationship,community,community_color
+ Ifigeneia Apostolopoulou,Cristian Challu,0,2,Co-Advised,8,#F6F926
+ Ifigeneia Apostolopoulou,Eric Lei,0,2,Co-Advised,8,#F6F926
+ Ifigeneia Apostolopoulou,Kin Gutierrez Olivares,0,2,Co-Advised,8,#F6F926
+ Ifigeneia Apostolopoulou,Madalina Fiterau-Brostean,0,2,Co-Advised,8,#F6F926
+ Ifigeneia Apostolopoulou,Maria De Arteaga Gonzalez,0,2,Co-Advised,8,#F6F926
+ Ifigeneia Apostolopoulou,Sebastian Caldas,0,2,Co-Advised,8,#F6F926
+ Ifigeneia Apostolopoulou,Yichong Xu,0,2,Co-Advised,8,#F6F926
+Cristian Challu,Eric Lei,0,2,Co-Advised,8,#F6F926
+Cristian Challu,Kin Gutierrez Olivares,0,2,Co-Advised,8,#F6F926
+Cristian Challu,Madalina Fiterau-Brostean,0,2,Co-Advised,8,#F6F926
+Cristian Challu,Maria De Arteaga Gonzalez,0,2,Co-Advised,8,#F6F926
+Cristian Challu,Sebastian Caldas,0,2,Co-Advised,8,#F6F926
+Cristian Challu,Yichong Xu,0,2,Co-Advised,8,#F6F926
+Eric Lei,Kin Gutierrez Olivares,0,2,Co-Advised,8,#F6F926
+Eric Lei,Madalina Fiterau-Brostean,0,2,Co-Advised,8,#F6F926
+Eric Lei,Maria De Arteaga Gonzalez,0,2,Co-Advised,8,#F6F926
+Eric Lei,Sebastian Caldas,0,2,Co-Advised,8,#F6F926
+Eric Lei,Yichong Xu,0,2,Co-Advised,8,#F6F926
+Kin Gutierrez Olivares,Madalina Fiterau-Brostean,0,2,Co-Advised,8,#F6F926
+Kin Gutierrez Olivares,Maria De Arteaga Gonzalez,0,2,Co-Advised,8,#F6F926
+Kin Gutierrez Olivares,Sebastian Caldas,0,2,Co-Advised,8,#F6F926
+Kin Gutierrez Olivares,Yichong Xu,0,2,Co-Advised,8,#F6F926
+Madalina Fiterau-Brostean,Maria De Arteaga Gonzalez,0,2,Co-Advised,8,#F6F926
+Madalina Fiterau-Brostean,Sebastian Caldas,0,2,Co-Advised,8,#F6F926
+Madalina Fiterau-Brostean,Yichong Xu,0,2,Co-Advised,8,#F6F926
+Maria De Arteaga Gonzalez,Amanda Coston,0,2,Co-Advised,0,grey
+Maria De Arteaga Gonzalez,Nil-Jana Akpinar,0,2,Co-Advised,0,grey
+Maria De Arteaga Gonzalez,Sebastian Caldas,0,2,Co-Advised,8,#F6F926
+Maria De Arteaga Gonzalez,Yichong Xu,0,2,Co-Advised,8,#F6F926
+Sebastian Caldas,Yichong Xu,0,2,Co-Advised,8,#F6F926
+Yichong Xu,Aaditya Ramdas,0,2,Co-Advised,0,grey
+Yichong Xu,Ivan Stelmakh,0,2,Co-Advised,0,grey
+Yichong Xu,James Sharpnack,0,2,Co-Advised,0,grey
+Yichong Xu,Ojash Neopane,0,2,Co-Advised,0,grey
+Yichong Xu,Simon Du,0,2,Co-Advised,0,grey
+Yichong Xu,Stefani Karp,0,2,Co-Advised,0,grey
+Yichong Xu,Yining Wang,0,2,Co-Advised,0,grey
+Yichong Xu,Yusha Liu,0,2,Co-Advised,0,grey
+Aaditya Ramdas,Collin Politsch,0,2,Co-Advised,0,grey
+Aaditya Ramdas,Han Liu,0,2,Co-Advised,0,grey
+Aaditya Ramdas,Ivan Stelmakh,0,2,Co-Advised,6,#FE00CE
+Aaditya Ramdas,James Sharpnack,0,2,Co-Advised,6,#FE00CE
+Aaditya Ramdas,Jisu Kim,0,2,Co-Advised,0,grey
+Aaditya Ramdas,Kwhangho Kim,0,2,Co-Advised,0,grey
+Aaditya Ramdas,Ojash Neopane,0,2,Co-Advised,6,#FE00CE
+Aaditya Ramdas,Simon Du,0,2,Co-Advised,0,grey
+Aaditya Ramdas,Stefani Karp,0,2,Co-Advised,6,#FE00CE
+Aaditya Ramdas,Yining Wang,0,2,Co-Advised,6,#FE00CE
+Aaditya Ramdas,Yusha Liu,0,2,Co-Advised,6,#FE00CE
+Collin Politsch,Han Liu,0,2,Co-Advised,15,#00B5F7
+Collin Politsch,Jisu Kim,0,2,Co-Advised,15,#00B5F7
+Collin Politsch,Kwhangho Kim,0,2,Co-Advised,15,#00B5F7
+Han Liu,Aryeh Kontorovich,0,2,Co-Advised,0,grey
+Han Liu,Jisu Kim,0,2,Co-Advised,15,#00B5F7
+Han Liu,Kwhangho Kim,0,2,Co-Advised,15,#00B5F7
+Han Liu,Min Xu,0,2,Co-Advised,0,grey
+Ivan Stelmakh,Charvi Rastogi,0,2,Co-Advised,6,#FE00CE
+Ivan Stelmakh,James Sharpnack,0,2,Co-Advised,6,#FE00CE
+Ivan Stelmakh,Ojash Neopane,0,2,Co-Advised,6,#FE00CE
+Ivan Stelmakh,Simon Du,0,2,Co-Advised,0,grey
+Ivan Stelmakh,Stefani Karp,0,2,Co-Advised,6,#FE00CE
+Ivan Stelmakh,Yining Wang,0,2,Co-Advised,6,#FE00CE
+Ivan Stelmakh,Yusha Liu,0,2,Co-Advised,6,#FE00CE
+James Sharpnack,Jisu Kim,0,2,Co-Advised,0,grey
+James Sharpnack,Ojash Neopane,0,2,Co-Advised,6,#FE00CE
+James Sharpnack,Simon Du,0,2,Co-Advised,0,grey
+James Sharpnack,Stefani Karp,0,2,Co-Advised,6,#FE00CE
+James Sharpnack,Yining Wang,0,2,Co-Advised,6,#FE00CE
+James Sharpnack,Yusha Liu,0,2,Co-Advised,6,#FE00CE
+Jisu Kim,Kwhangho Kim,0,2,Co-Advised,15,#00B5F7
+Kwhangho Kim,Amanda Coston,0,2,Co-Advised,0,grey
+Ojash Neopane,Chirag Gupta,0,2,Co-Advised,6,#FE00CE
+Ojash Neopane,Simon Du,0,2,Co-Advised,0,grey
+Ojash Neopane,Stefani Karp,0,2,Co-Advised,6,#FE00CE
+Ojash Neopane,Yining Wang,0,2,Co-Advised,6,#FE00CE
+Ojash Neopane,Yusha Liu,0,2,Co-Advised,6,#FE00CE
+Simon Du,Biswajit Paria,0,2,Co-Advised,1,#E48F72
+Simon Du,Chenghui Zhou,0,2,Co-Advised,1,#E48F72
+Simon Du,Chun-Liang Li,0,2,Co-Advised,1,#E48F72
+Simon Du,Junier Oliva,0,2,Co-Advised,1,#E48F72
+Simon Du,Kirthevasan Kandasamy,0,2,Co-Advised,1,#E48F72
+Simon Du,Manzil Zaheer,0,2,Co-Advised,1,#E48F72
+Simon Du,Otilia Stretcu,0,2,Co-Advised,1,#E48F72
+Simon Du,Sashank Jakkam Reddi,0,2,Co-Advised,1,#E48F72
+Simon Du,Shashank Singh,0,2,Co-Advised,1,#E48F72
+Simon Du,Stefani Karp,0,2,Co-Advised,0,grey
+Simon Du,Yining Wang,0,2,Co-Advised,0,grey
+Simon Du,Yusha Liu,0,2,Co-Advised,0,grey
+Stefani Karp,Yining Wang,0,2,Co-Advised,6,#FE00CE
+Stefani Karp,Yusha Liu,0,2,Co-Advised,6,#FE00CE
+Yining Wang,Yusha Liu,0,2,Co-Advised,6,#FE00CE
+Aaron Rumack,Amanda Coston,0,2,Co-Advised,0,"rgb(1,1,1)"
+Amanda Coston,Nil-Jana Akpinar,0,2,Co-Advised,0,grey
+Abulhair Saparov,Alona Fyshe,0,2,Co-Advised,3,#00FE35
+Abulhair Saparov,Andy Carlson,0,2,Co-Advised,3,#00FE35
+Abulhair Saparov,Anthony Platanios,0,2,Co-Advised,3,#00FE35
+Abulhair Saparov,Edith Law,0,2,Co-Advised,3,#00FE35
+Abulhair Saparov,Leila Wehbe,0,2,Co-Advised,3,#00FE35
+Abulhair Saparov,Mariya Toneva,0,2,Co-Advised,3,#00FE35
+Abulhair Saparov,Nicole Rafidi,0,2,Co-Advised,3,#00FE35
+Abulhair Saparov,Otilia Stretcu,0,2,Co-Advised,0,grey
+Abulhair Saparov,Shashank Srivastava,0,2,Co-Advised,3,#00FE35
+Abulhair Saparov,Tara Pirnia,0,2,Co-Advised,3,#00FE35
+Abulhair Saparov,Théophile Gervet,0,2,Co-Advised,0,grey
+Alona Fyshe,Andy Carlson,0,2,Co-Advised,3,#00FE35
+Alona Fyshe,Anthony Platanios,0,2,Co-Advised,3,#00FE35
+Alona Fyshe,Edith Law,0,2,Co-Advised,3,#00FE35
+Alona Fyshe,Leila Wehbe,0,2,Co-Advised,3,#00FE35
+Alona Fyshe,Mariya Toneva,0,2,Co-Advised,3,#00FE35
+Alona Fyshe,Nicole Rafidi,0,2,Co-Advised,3,#00FE35
+Alona Fyshe,Otilia Stretcu,0,2,Co-Advised,0,grey
+Alona Fyshe,Shashank Srivastava,0,2,Co-Advised,3,#00FE35
+Alona Fyshe,Tara Pirnia,0,2,Co-Advised,3,#00FE35
+Alona Fyshe,Théophile Gervet,0,2,Co-Advised,0,grey
+Andy Carlson,Anthony Platanios,0,2,Co-Advised,3,#00FE35
+Andy Carlson,Edith Law,0,2,Co-Advised,3,#00FE35
+Andy Carlson,Leila Wehbe,0,2,Co-Advised,3,#00FE35
+Andy Carlson,Mariya Toneva,0,2,Co-Advised,3,#00FE35
+Andy Carlson,Nicole Rafidi,0,2,Co-Advised,3,#00FE35
+Andy Carlson,Otilia Stretcu,0,2,Co-Advised,0,grey
+Andy Carlson,Shashank Srivastava,0,2,Co-Advised,3,#00FE35
+Andy Carlson,Tara Pirnia,0,2,Co-Advised,3,#00FE35
+Andy Carlson,Théophile Gervet,0,2,Co-Advised,0,grey
+Anthony Platanios,Edith Law,0,2,Co-Advised,3,#00FE35
+Anthony Platanios,Leila Wehbe,0,2,Co-Advised,3,#00FE35
+Anthony Platanios,Mariya Toneva,0,2,Co-Advised,3,#00FE35
+Anthony Platanios,Nicole Rafidi,0,2,Co-Advised,3,#00FE35
+Anthony Platanios,Otilia Stretcu,0,2,Co-Advised,0,grey
+Anthony Platanios,Shashank Srivastava,0,2,Co-Advised,3,#00FE35
+Anthony Platanios,Tara Pirnia,0,2,Co-Advised,3,#00FE35
+Anthony Platanios,Théophile Gervet,0,2,Co-Advised,0,grey
+Edith Law,Leila Wehbe,0,2,Co-Advised,3,#00FE35
+Edith Law,Mariya Toneva,0,2,Co-Advised,3,#00FE35
+Edith Law,Nicole Rafidi,0,2,Co-Advised,3,#00FE35
+Edith Law,Otilia Stretcu,0,2,Co-Advised,0,grey
+Edith Law,Shashank Srivastava,0,2,Co-Advised,3,#00FE35
+Edith Law,Tara Pirnia,0,2,Co-Advised,3,#00FE35
+Edith Law,Théophile Gervet,0,2,Co-Advised,0,grey
+Leila Wehbe,Mariya Toneva,0,2,Co-Advised,3,#00FE35
+Leila Wehbe,Nicole Rafidi,0,2,Co-Advised,3,#00FE35
+Leila Wehbe,Otilia Stretcu,0,2,Co-Advised,0,grey
+Leila Wehbe,Shashank Srivastava,0,2,Co-Advised,3,#00FE35
+Leila Wehbe,Tara Pirnia,0,2,Co-Advised,3,#00FE35
+Leila Wehbe,Théophile Gervet,0,2,Co-Advised,0,grey
+Mariya Toneva,Aria Yuan Wang,0,2,Co-Advised,0,grey
+Mariya Toneva,Nicole Rafidi,0,2,Co-Advised,3,#00FE35
+Mariya Toneva,Otilia Stretcu,0,2,Co-Advised,0,grey
+Mariya Toneva,Shashank Srivastava,0,2,Co-Advised,3,#00FE35
+Mariya Toneva,Tara Pirnia,0,2,Co-Advised,3,#00FE35
+Mariya Toneva,Théophile Gervet,0,2,Co-Advised,0,grey
+Nicole Rafidi,Otilia Stretcu,0,2,Co-Advised,0,grey
+Nicole Rafidi,Shashank Srivastava,0,2,Co-Advised,3,#00FE35
+Nicole Rafidi,Tara Pirnia,0,2,Co-Advised,3,#00FE35
+Nicole Rafidi,Théophile Gervet,0,2,Co-Advised,0,grey
+Otilia Stretcu,Biswajit Paria,0,2,Co-Advised,1,#E48F72
+Otilia Stretcu,Chenghui Zhou,0,2,Co-Advised,1,#E48F72
+Otilia Stretcu,Chun-Liang Li,0,2,Co-Advised,1,#E48F72
+Otilia Stretcu,Junier Oliva,0,2,Co-Advised,1,#E48F72
+Otilia Stretcu,Kirthevasan Kandasamy,0,2,Co-Advised,1,#E48F72
+Otilia Stretcu,Manzil Zaheer,0,2,Co-Advised,1,#E48F72
+Otilia Stretcu,Sashank Jakkam Reddi,0,2,Co-Advised,1,#E48F72
+Otilia Stretcu,Shashank Singh,0,2,Co-Advised,1,#E48F72
+Otilia Stretcu,Shashank Srivastava,0,2,Co-Advised,0,grey
+Otilia Stretcu,Tara Pirnia,0,2,Co-Advised,0,grey
+Otilia Stretcu,Théophile Gervet,0,2,Co-Advised,1,#E48F72
+Shashank Srivastava,Tara Pirnia,0,2,Co-Advised,3,#00FE35
+Shashank Srivastava,Théophile Gervet,0,2,Co-Advised,0,grey
+Tara Pirnia,Théophile Gervet,0,2,Co-Advised,0,grey
+Théophile Gervet,Arundhati Banerjee,0,2,Co-Advised,1,#E48F72
+Théophile Gervet,Biswajit Paria,0,2,Co-Advised,1,#E48F72
+Théophile Gervet,Brent Bryan,0,2,Co-Advised,1,#E48F72
+Théophile Gervet,Ian Char,0,2,Co-Advised,1,#E48F72
+Théophile Gervet,Junier Oliva,0,2,Co-Advised,1,#E48F72
+Théophile Gervet,Kaustav Das,0,2,Co-Advised,1,#E48F72
+Théophile Gervet,Kirthevasan Kandasamy,0,2,Co-Advised,1,#E48F72
+Théophile Gervet,Liang Xiong,0,2,Co-Advised,1,#E48F72
+Théophile Gervet,Tzu-Kuo Huang,0,2,Co-Advised,1,#E48F72
+Théophile Gervet,Yi Zhang,0,2,Co-Advised,1,#E48F72
+Théophile Gervet,Yifei Ma,0,2,Co-Advised,1,#E48F72
+Adarsh Prasad,Arun Sai Suggala,0,2,Co-Advised,7,#0DF9FF
+Adarsh Prasad,Bingbin Liu,0,2,Co-Advised,7,#0DF9FF
+Adarsh Prasad,Chih-Kuan Yeh,0,2,Co-Advised,7,#0DF9FF
+Adarsh Prasad,Elan Rosenfeld,0,2,Co-Advised,7,#0DF9FF
+Adarsh Prasad,Enxu Yen,0,2,Co-Advised,7,#0DF9FF
+Adarsh Prasad,Juyong Kim,0,2,Co-Advised,7,#0DF9FF
+Adarsh Prasad,Kartik Gupta,0,2,Co-Advised,7,#0DF9FF
+Adarsh Prasad,So Yeon (Tiffany) Min,0,2,Co-Advised,7,#0DF9FF
+Adarsh Prasad,Xun Zheng,0,2,Co-Advised,0,grey
+Arun Sai Suggala,Bingbin Liu,0,2,Co-Advised,7,#0DF9FF
+Arun Sai Suggala,Chih-Kuan Yeh,0,2,Co-Advised,7,#0DF9FF
+Arun Sai Suggala,Elan Rosenfeld,0,2,Co-Advised,7,#0DF9FF
+Arun Sai Suggala,Enxu Yen,0,2,Co-Advised,7,#0DF9FF
+Arun Sai Suggala,Juyong Kim,0,2,Co-Advised,7,#0DF9FF
+Arun Sai Suggala,Kartik Gupta,0,2,Co-Advised,7,#0DF9FF
+Arun Sai Suggala,So Yeon (Tiffany) Min,0,2,Co-Advised,7,#0DF9FF
+Arun Sai Suggala,Xun Zheng,0,2,Co-Advised,0,grey
+Bingbin Liu,Chih-Kuan Yeh,0,2,Co-Advised,7,#0DF9FF
+Bingbin Liu,Elan Rosenfeld,0,2,Co-Advised,7,#0DF9FF
+Bingbin Liu,Enxu Yen,0,2,Co-Advised,7,#0DF9FF
+Bingbin Liu,Juyong Kim,0,2,Co-Advised,7,#0DF9FF
+Bingbin Liu,Kartik Gupta,0,2,Co-Advised,7,#0DF9FF
+Bingbin Liu,So Yeon (Tiffany) Min,0,2,Co-Advised,7,#0DF9FF
+Bingbin Liu,Tanya Marwah,0,2,Co-Advised,0,grey
+Bingbin Liu,Xun Zheng,0,2,Co-Advised,0,grey
+Chih-Kuan Yeh,Elan Rosenfeld,0,2,Co-Advised,7,#0DF9FF
+Chih-Kuan Yeh,Enxu Yen,0,2,Co-Advised,7,#0DF9FF
+Chih-Kuan Yeh,Juyong Kim,0,2,Co-Advised,7,#0DF9FF
+Chih-Kuan Yeh,Kartik Gupta,0,2,Co-Advised,7,#0DF9FF
+Chih-Kuan Yeh,So Yeon (Tiffany) Min,0,2,Co-Advised,7,#0DF9FF
+Chih-Kuan Yeh,Xun Zheng,0,2,Co-Advised,0,grey
+Elan Rosenfeld,Enxu Yen,0,2,Co-Advised,7,#0DF9FF
+Elan Rosenfeld,Juyong Kim,0,2,Co-Advised,7,#0DF9FF
+Elan Rosenfeld,Kartik Gupta,0,2,Co-Advised,7,#0DF9FF
+Elan Rosenfeld,So Yeon (Tiffany) Min,0,2,Co-Advised,7,#0DF9FF
+Elan Rosenfeld,Xun Zheng,0,2,Co-Advised,0,grey
+Enxu Yen,Juyong Kim,0,2,Co-Advised,7,#0DF9FF
+Enxu Yen,Kartik Gupta,0,2,Co-Advised,7,#0DF9FF
+Enxu Yen,So Yeon (Tiffany) Min,0,2,Co-Advised,7,#0DF9FF
+Enxu Yen,Xun Zheng,0,2,Co-Advised,0,grey
+Juyong Kim,Kartik Gupta,0,2,Co-Advised,7,#0DF9FF
+Juyong Kim,So Yeon (Tiffany) Min,0,2,Co-Advised,7,#0DF9FF
+Juyong Kim,Xun Zheng,0,2,Co-Advised,0,grey
+Kartik Gupta,So Yeon (Tiffany) Min,0,2,Co-Advised,7,#0DF9FF
+Kartik Gupta,Xun Zheng,0,2,Co-Advised,0,grey
+So Yeon (Tiffany) Min,Ben Eysenbach,0,2,Co-Advised,0,grey
+So Yeon (Tiffany) Min,Devendra Chaplot,0,2,Co-Advised,0,grey
+So Yeon (Tiffany) Min,Emilio Parisotto,0,2,Co-Advised,0,grey
+So Yeon (Tiffany) Min,Lisa Lee,0,2,Co-Advised,0,grey
+So Yeon (Tiffany) Min,Manzil Zaheer,0,2,Co-Advised,0,grey
+So Yeon (Tiffany) Min,Paul Liang,0,2,Co-Advised,0,grey
+So Yeon (Tiffany) Min,William Guss,0,2,Co-Advised,0,grey
+So Yeon (Tiffany) Min,Xun Zheng,0,2,Co-Advised,0,grey
+So Yeon (Tiffany) Min,Yao-Hung (Hubert) Tsai,0,2,Co-Advised,0,grey
+Xun Zheng,Ankur Parikh,0,2,Co-Advised,2,#FD3216
+Xun Zheng,Bin Zhao,0,2,Co-Advised,2,#FD3216
+Xun Zheng,Lisa Lee,0,2,Co-Advised,2,#FD3216
+Xun Zheng,Maruan Al-Shedivat,0,2,Co-Advised,2,#FD3216
+Xun Zheng,Micol Marchetti-Bowick,0,2,Co-Advised,2,#FD3216
+Xun Zheng,Mladen Kolar,0,2,Co-Advised,2,#FD3216
+Xun Zheng,Mrinmaya Sachan,0,2,Co-Advised,2,#FD3216
+Xun Zheng,Pengtao Xie,0,2,Co-Advised,2,#FD3216
+Xun Zheng,Qirong Ho,0,2,Co-Advised,2,#FD3216
+Xun Zheng,Suyash Shringarpure,0,2,Co-Advised,2,#FD3216
+Xun Zheng,Wei (David) Dai,0,2,Co-Advised,2,#FD3216
+Xun Zheng,Willie Neiswanger,0,2,Co-Advised,2,#FD3216
+Xun Zheng,Zhiting Hu,0,2,Co-Advised,2,#FD3216
+Addison Hu,Alnur Ali,0,2,Co-Advised,0,grey
+Addison Hu,Maria Jahja,0,2,Co-Advised,11,#EEA6FB
+Addison Hu,Natalia L. de Oliveira,0,2,Co-Advised,11,#EEA6FB
+Addison Hu,Pratik Patil,0,2,Co-Advised,11,#EEA6FB
+Addison Hu,Veeranjaneyulu Sadhanala,0,2,Co-Advised,11,#EEA6FB
+Addison Hu,Yu-Xiang Wang,0,2,Co-Advised,11,#EEA6FB
+Alnur Ali,Ashwini Pokle,0,2,Co-Advised,4,#6A76FC
+Alnur Ali,Eric Wong,0,2,Co-Advised,4,#6A76FC
+Alnur Ali,Ezra Winston,0,2,Co-Advised,4,#6A76FC
+Alnur Ali,Jeremiah Cohen,0,2,Co-Advised,4,#6A76FC
+Alnur Ali,Maria Jahja,0,2,Co-Advised,0,grey
+Alnur Ali,Matthew Wytock,0,2,Co-Advised,4,#6A76FC
+Alnur Ali,Natalia L. de Oliveira,0,2,Co-Advised,0,grey
+Alnur Ali,Po-Wei Wang,0,2,Co-Advised,4,#6A76FC
+Alnur Ali,Pratik Patil,0,2,Co-Advised,0,grey
+Alnur Ali,Saurabh Garg,0,2,Co-Advised,4,#6A76FC
+Alnur Ali,Shaojie Bai,0,2,Co-Advised,4,#6A76FC
+Alnur Ali,Veeranjaneyulu Sadhanala,0,2,Co-Advised,0,grey
+Alnur Ali,Yu-Xiang Wang,0,2,Co-Advised,0,grey
+Alnur Ali,Zhili Feng,0,2,Co-Advised,4,#6A76FC
+Maria Jahja,Natalia L. de Oliveira,0,2,Co-Advised,11,#EEA6FB
+Maria Jahja,Pratik Patil,0,2,Co-Advised,11,#EEA6FB
+Maria Jahja,Veeranjaneyulu Sadhanala,0,2,Co-Advised,11,#EEA6FB
+Maria Jahja,Yu-Xiang Wang,0,2,Co-Advised,11,#EEA6FB
+Natalia L. de Oliveira,Pratik Patil,0,2,Co-Advised,11,#EEA6FB
+Natalia L. de Oliveira,Veeranjaneyulu Sadhanala,0,2,Co-Advised,11,#EEA6FB
+Natalia L. de Oliveira,Yu-Xiang Wang,0,2,Co-Advised,11,#EEA6FB
+Pratik Patil,Veeranjaneyulu Sadhanala,0,2,Co-Advised,11,#EEA6FB
+Pratik Patil,Yu-Xiang Wang,0,2,Co-Advised,11,#EEA6FB
+Veeranjaneyulu Sadhanala,Yu-Xiang Wang,0,2,Co-Advised,11,#EEA6FB
+Ahmed Hefny,Ajit Singh,0,2,Co-Advised,14,#6E899C
+Ahmed Hefny,Carlton Downey,0,2,Co-Advised,14,#6E899C
+Ahmed Hefny,Han Zhao,0,2,Co-Advised,14,#6E899C
+Ahmed Hefny,Renato Negrinho,0,2,Co-Advised,14,#6E899C
+Ajit Singh,Carlton Downey,0,2,Co-Advised,14,#6E899C
+Ajit Singh,Han Zhao,0,2,Co-Advised,14,#6E899C
+Ajit Singh,Renato Negrinho,0,2,Co-Advised,14,#6E899C
+Carlton Downey,Han Zhao,0,2,Co-Advised,14,#6E899C
+Carlton Downey,Renato Negrinho,0,2,Co-Advised,14,#6E899C
+Han Zhao,Renato Negrinho,0,2,Co-Advised,14,#6E899C
+Akash Umakantha,Benjamin Cowley,0,2,Co-Advised,12,#DC587D
+Akash Umakantha,Darby Losey,0,2,Co-Advised,12,#DC587D
+Akash Umakantha,Jay Hennig,0,2,Co-Advised,12,#DC587D
+Akash Umakantha,Shenghao Wu,0,2,Co-Advised,12,#DC587D
+Akash Umakantha,Will Bishop,0,2,Co-Advised,12,#DC587D
+Benjamin Cowley,Darby Losey,0,2,Co-Advised,12,#DC587D
+Benjamin Cowley,Jay Hennig,0,2,Co-Advised,12,#DC587D
+Benjamin Cowley,Shenghao Wu,0,4,Co-Advised,12,#DC587D
+Benjamin Cowley,Will Bishop,0,2,Co-Advised,12,#DC587D
+Darby Losey,Jay Hennig,0,4,Co-Advised,12,#DC587D
+Darby Losey,Shenghao Wu,0,2,Co-Advised,12,#DC587D
+Darby Losey,Will Bishop,0,2,Co-Advised,12,#DC587D
+Jay Hennig,Shenghao Wu,0,2,Co-Advised,12,#DC587D
+Jay Hennig,Will Bishop,0,2,Co-Advised,12,#DC587D
+Shenghao Wu,Will Bishop,0,2,Co-Advised,12,#DC587D
+Aleksandr (Sasha) Podkopaev,Lucia Castellanos,0,2,Co-Advised,5,#FED4C4
+Aleksandr (Sasha) Podkopaev,Motolani Olarinre,0,2,Co-Advised,5,#FED4C4
+Aleksandr (Sasha) Podkopaev,Natalie Klein,0,2,Co-Advised,5,#FED4C4
+Aleksandr (Sasha) Podkopaev,Pengcheng Zhou,0,2,Co-Advised,5,#FED4C4
+Aleksandr (Sasha) Podkopaev,Qiong Zhang,0,2,Co-Advised,5,#FED4C4
+Aleksandr (Sasha) Podkopaev,Yang Xu,0,2,Co-Advised,5,#FED4C4
+Aleksandr (Sasha) Podkopaev,Ying Yang,0,2,Co-Advised,5,#FED4C4
+Aleksandr (Sasha) Podkopaev,Yu (Albert) Chen,0,2,Co-Advised,5,#FED4C4
+Lucia Castellanos,Motolani Olarinre,0,2,Co-Advised,5,#FED4C4
+Lucia Castellanos,Natalie Klein,0,2,Co-Advised,5,#FED4C4
+Lucia Castellanos,Pengcheng Zhou,0,2,Co-Advised,5,#FED4C4
+Lucia Castellanos,Qiong Zhang,0,2,Co-Advised,5,#FED4C4
+Lucia Castellanos,Yang Xu,0,2,Co-Advised,5,#FED4C4
+Lucia Castellanos,Ying Yang,0,2,Co-Advised,5,#FED4C4
+Lucia Castellanos,Yu (Albert) Chen,0,2,Co-Advised,5,#FED4C4
+Motolani Olarinre,Natalie Klein,0,2,Co-Advised,5,#FED4C4
+Motolani Olarinre,Pengcheng Zhou,0,2,Co-Advised,5,#FED4C4
+Motolani Olarinre,Qiong Zhang,0,2,Co-Advised,5,#FED4C4
+Motolani Olarinre,Yang Xu,0,2,Co-Advised,5,#FED4C4
+Motolani Olarinre,Ying Yang,0,2,Co-Advised,5,#FED4C4
+Motolani Olarinre,Yu (Albert) Chen,0,2,Co-Advised,5,#FED4C4
+Natalie Klein,Pengcheng Zhou,0,2,Co-Advised,5,#FED4C4
+Natalie Klein,Qiong Zhang,0,2,Co-Advised,5,#FED4C4
+Natalie Klein,Yang Xu,0,2,Co-Advised,5,#FED4C4
+Natalie Klein,Ying Yang,0,2,Co-Advised,5,#FED4C4
+Natalie Klein,Yu (Albert) Chen,0,2,Co-Advised,5,#FED4C4
+Pengcheng Zhou,Qiong Zhang,0,2,Co-Advised,5,#FED4C4
+Pengcheng Zhou,Yang Xu,0,2,Co-Advised,5,#FED4C4
+Pengcheng Zhou,Ying Yang,0,2,Co-Advised,5,#FED4C4
+Pengcheng Zhou,Yu (Albert) Chen,0,2,Co-Advised,5,#FED4C4
+Qiong Zhang,Yang Xu,0,2,Co-Advised,5,#FED4C4
+Qiong Zhang,Ying Yang,0,2,Co-Advised,5,#FED4C4
+Qiong Zhang,Yu (Albert) Chen,0,2,Co-Advised,5,#FED4C4
+Yang Xu,Aria Yuan Wang,0,2,Co-Advised,5,#FED4C4
+Yang Xu,Ying Yang,0,4,Co-Advised,5,#FED4C4
+Yang Xu,Yu (Albert) Chen,0,2,Co-Advised,5,#FED4C4
+Ying Yang,Aria Yuan Wang,0,2,Co-Advised,5,#FED4C4
+Ying Yang,Yu (Albert) Chen,0,2,Co-Advised,5,#FED4C4
+Ashwini Pokle,Eric Wong,0,2,Co-Advised,4,#6A76FC
+Ashwini Pokle,Ezra Winston,0,2,Co-Advised,4,#6A76FC
+Ashwini Pokle,Jeremiah Cohen,0,2,Co-Advised,4,#6A76FC
+Ashwini Pokle,Matthew Wytock,0,2,Co-Advised,4,#6A76FC
+Ashwini Pokle,Po-Wei Wang,0,2,Co-Advised,4,#6A76FC
+Ashwini Pokle,Saurabh Garg,0,2,Co-Advised,4,#6A76FC
+Ashwini Pokle,Shaojie Bai,0,2,Co-Advised,4,#6A76FC
+Ashwini Pokle,Zhili Feng,0,2,Co-Advised,4,#6A76FC
+Eric Wong,Ezra Winston,0,2,Co-Advised,4,#6A76FC
+Eric Wong,Jeremiah Cohen,0,2,Co-Advised,4,#6A76FC
+Eric Wong,Matthew Wytock,0,2,Co-Advised,4,#6A76FC
+Eric Wong,Po-Wei Wang,0,2,Co-Advised,4,#6A76FC
+Eric Wong,Saurabh Garg,0,2,Co-Advised,4,#6A76FC
+Eric Wong,Shaojie Bai,0,2,Co-Advised,4,#6A76FC
+Eric Wong,Zhili Feng,0,2,Co-Advised,4,#6A76FC
+Ezra Winston,Jeremiah Cohen,0,2,Co-Advised,4,#6A76FC
+Ezra Winston,Matthew Wytock,0,2,Co-Advised,4,#6A76FC
+Ezra Winston,Po-Wei Wang,0,2,Co-Advised,4,#6A76FC
+Ezra Winston,Saurabh Garg,0,2,Co-Advised,4,#6A76FC
+Ezra Winston,Shaojie Bai,0,2,Co-Advised,4,#6A76FC
+Ezra Winston,Zhili Feng,0,2,Co-Advised,4,#6A76FC
+Jeremiah Cohen,Gregory Plumb,0,2,Co-Advised,0,grey
+Jeremiah Cohen,Joon Sik Kim,0,2,Co-Advised,0,grey
+Jeremiah Cohen,Liam Li,0,2,Co-Advised,0,grey
+Jeremiah Cohen,Matthew Wytock,0,2,Co-Advised,4,#6A76FC
+Jeremiah Cohen,Po-Wei Wang,0,2,Co-Advised,4,#6A76FC
+Jeremiah Cohen,Saurabh Garg,0,2,Co-Advised,4,#6A76FC
+Jeremiah Cohen,Shaojie Bai,0,2,Co-Advised,4,#6A76FC
+Jeremiah Cohen,Valerie Chen,0,2,Co-Advised,0,grey
+Jeremiah Cohen,Zhili Feng,0,2,Co-Advised,4,#6A76FC
+Matthew Wytock,Po-Wei Wang,0,2,Co-Advised,4,#6A76FC
+Matthew Wytock,Saurabh Garg,0,2,Co-Advised,4,#6A76FC
+Matthew Wytock,Shaojie Bai,0,2,Co-Advised,4,#6A76FC
+Matthew Wytock,Zhili Feng,0,2,Co-Advised,4,#6A76FC
+Po-Wei Wang,Saurabh Garg,0,2,Co-Advised,4,#6A76FC
+Po-Wei Wang,Shaojie Bai,0,2,Co-Advised,4,#6A76FC
+Po-Wei Wang,Zhili Feng,0,2,Co-Advised,4,#6A76FC
+Saurabh Garg,Cheng Cheng,0,2,Co-Advised,0,grey
+Saurabh Garg,Helen Zhou,0,2,Co-Advised,0,grey
+Saurabh Garg,Jacob Tyo,0,2,Co-Advised,0,grey
+Saurabh Garg,Jonathon Byrd,0,2,Co-Advised,0,grey
+Saurabh Garg,Leqi Liu,0,2,Co-Advised,0,grey
+Saurabh Garg,Nil-Jana Akpinar,0,2,Co-Advised,0,grey
+Saurabh Garg,Shaojie Bai,0,2,Co-Advised,4,#6A76FC
+Saurabh Garg,Tanya Marwah,0,2,Co-Advised,0,grey
+Saurabh Garg,Yifan Wu,0,2,Co-Advised,0,grey
+Saurabh Garg,Zhili Feng,0,2,Co-Advised,4,#6A76FC
+Shaojie Bai,Zhili Feng,0,2,Co-Advised,4,#6A76FC
+Nil-Jana Akpinar,Cheng Cheng,0,2,Co-Advised,9,#FF9616
+Nil-Jana Akpinar,Helen Zhou,0,2,Co-Advised,9,#FF9616
+Nil-Jana Akpinar,Jacob Tyo,0,2,Co-Advised,9,#FF9616
+Nil-Jana Akpinar,Jonathon Byrd,0,2,Co-Advised,9,#FF9616
+Nil-Jana Akpinar,Leqi Liu,0,2,Co-Advised,9,#FF9616
+Nil-Jana Akpinar,Tanya Marwah,0,2,Co-Advised,9,#FF9616
+Nil-Jana Akpinar,Yifan Wu,0,2,Co-Advised,9,#FF9616
+Andrew Arnold,Zhenzhen Kou,0,2,Co-Advised,0,"rgb(1,1,1)"
+Ankur Parikh,Bin Zhao,0,2,Co-Advised,2,#FD3216
+Ankur Parikh,Lisa Lee,0,2,Co-Advised,2,#FD3216
+Ankur Parikh,Maruan Al-Shedivat,0,2,Co-Advised,2,#FD3216
+Ankur Parikh,Micol Marchetti-Bowick,0,2,Co-Advised,2,#FD3216
+Ankur Parikh,Mladen Kolar,0,2,Co-Advised,2,#FD3216
+Ankur Parikh,Mrinmaya Sachan,0,2,Co-Advised,2,#FD3216
+Ankur Parikh,Pengtao Xie,0,2,Co-Advised,2,#FD3216
+Ankur Parikh,Qirong Ho,0,2,Co-Advised,2,#FD3216
+Ankur Parikh,Suyash Shringarpure,0,2,Co-Advised,2,#FD3216
+Ankur Parikh,Wei (David) Dai,0,2,Co-Advised,2,#FD3216
+Ankur Parikh,Willie Neiswanger,0,2,Co-Advised,2,#FD3216
+Ankur Parikh,Zhiting Hu,0,2,Co-Advised,2,#FD3216
+Bin Zhao,Lisa Lee,0,2,Co-Advised,2,#FD3216
+Bin Zhao,Maruan Al-Shedivat,0,2,Co-Advised,2,#FD3216
+Bin Zhao,Micol Marchetti-Bowick,0,2,Co-Advised,2,#FD3216
+Bin Zhao,Mladen Kolar,0,2,Co-Advised,2,#FD3216
+Bin Zhao,Mrinmaya Sachan,0,2,Co-Advised,2,#FD3216
+Bin Zhao,Pengtao Xie,0,2,Co-Advised,2,#FD3216
+Bin Zhao,Qirong Ho,0,2,Co-Advised,2,#FD3216
+Bin Zhao,Suyash Shringarpure,0,2,Co-Advised,2,#FD3216
+Bin Zhao,Wei (David) Dai,0,2,Co-Advised,2,#FD3216
+Bin Zhao,Willie Neiswanger,0,2,Co-Advised,2,#FD3216
+Bin Zhao,Zhiting Hu,0,2,Co-Advised,2,#FD3216
+Lisa Lee,Ben Eysenbach,0,2,Co-Advised,0,grey
+Lisa Lee,Devendra Chaplot,0,2,Co-Advised,0,grey
+Lisa Lee,Emilio Parisotto,0,2,Co-Advised,0,grey
+Lisa Lee,Manzil Zaheer,0,2,Co-Advised,0,grey
+Lisa Lee,Maruan Al-Shedivat,0,2,Co-Advised,2,#FD3216
+Lisa Lee,Micol Marchetti-Bowick,0,2,Co-Advised,2,#FD3216
+Lisa Lee,Mladen Kolar,0,2,Co-Advised,2,#FD3216
+Lisa Lee,Mrinmaya Sachan,0,2,Co-Advised,2,#FD3216
+Lisa Lee,Paul Liang,0,2,Co-Advised,0,grey
+Lisa Lee,Pengtao Xie,0,2,Co-Advised,2,#FD3216
+Lisa Lee,Qirong Ho,0,2,Co-Advised,2,#FD3216
+Lisa Lee,Suyash Shringarpure,0,2,Co-Advised,2,#FD3216
+Lisa Lee,Wei (David) Dai,0,2,Co-Advised,2,#FD3216
+Lisa Lee,William Guss,0,2,Co-Advised,0,grey
+Lisa Lee,Willie Neiswanger,0,2,Co-Advised,2,#FD3216
+Lisa Lee,Yao-Hung (Hubert) Tsai,0,2,Co-Advised,0,grey
+Lisa Lee,Zhiting Hu,0,2,Co-Advised,2,#FD3216
+Maruan Al-Shedivat,Micol Marchetti-Bowick,0,2,Co-Advised,2,#FD3216
+Maruan Al-Shedivat,Mladen Kolar,0,2,Co-Advised,2,#FD3216
+Maruan Al-Shedivat,Mrinmaya Sachan,0,2,Co-Advised,2,#FD3216
+Maruan Al-Shedivat,Pengtao Xie,0,2,Co-Advised,2,#FD3216
+Maruan Al-Shedivat,Qirong Ho,0,2,Co-Advised,2,#FD3216
+Maruan Al-Shedivat,Suyash Shringarpure,0,2,Co-Advised,2,#FD3216
+Maruan Al-Shedivat,Wei (David) Dai,0,2,Co-Advised,2,#FD3216
+Maruan Al-Shedivat,Willie Neiswanger,0,2,Co-Advised,2,#FD3216
+Maruan Al-Shedivat,Zhiting Hu,0,2,Co-Advised,2,#FD3216
+Micol Marchetti-Bowick,Mladen Kolar,0,2,Co-Advised,2,#FD3216
+Micol Marchetti-Bowick,Mrinmaya Sachan,0,2,Co-Advised,2,#FD3216
+Micol Marchetti-Bowick,Pengtao Xie,0,2,Co-Advised,2,#FD3216
+Micol Marchetti-Bowick,Qirong Ho,0,2,Co-Advised,2,#FD3216
+Micol Marchetti-Bowick,Suyash Shringarpure,0,2,Co-Advised,2,#FD3216
+Micol Marchetti-Bowick,Wei (David) Dai,0,2,Co-Advised,2,#FD3216
+Micol Marchetti-Bowick,Willie Neiswanger,0,2,Co-Advised,2,#FD3216
+Micol Marchetti-Bowick,Zhiting Hu,0,2,Co-Advised,2,#FD3216
+Mladen Kolar,Mrinmaya Sachan,0,2,Co-Advised,2,#FD3216
+Mladen Kolar,Pengtao Xie,0,2,Co-Advised,2,#FD3216
+Mladen Kolar,Qirong Ho,0,2,Co-Advised,2,#FD3216
+Mladen Kolar,Suyash Shringarpure,0,2,Co-Advised,2,#FD3216
+Mladen Kolar,Wei (David) Dai,0,2,Co-Advised,2,#FD3216
+Mladen Kolar,Willie Neiswanger,0,2,Co-Advised,2,#FD3216
+Mladen Kolar,Zhiting Hu,0,2,Co-Advised,2,#FD3216
+Mrinmaya Sachan,Pengtao Xie,0,2,Co-Advised,2,#FD3216
+Mrinmaya Sachan,Qirong Ho,0,2,Co-Advised,2,#FD3216
+Mrinmaya Sachan,Suyash Shringarpure,0,2,Co-Advised,2,#FD3216
+Mrinmaya Sachan,Wei (David) Dai,0,2,Co-Advised,2,#FD3216
+Mrinmaya Sachan,Willie Neiswanger,0,2,Co-Advised,2,#FD3216
+Mrinmaya Sachan,Zhiting Hu,0,2,Co-Advised,2,#FD3216
+Pengtao Xie,Qirong Ho,0,2,Co-Advised,2,#FD3216
+Pengtao Xie,Suyash Shringarpure,0,2,Co-Advised,2,#FD3216
+Pengtao Xie,Wei (David) Dai,0,2,Co-Advised,2,#FD3216
+Pengtao Xie,Willie Neiswanger,0,2,Co-Advised,2,#FD3216
+Pengtao Xie,Zhiting Hu,0,2,Co-Advised,2,#FD3216
+Qirong Ho,Suyash Shringarpure,0,2,Co-Advised,2,#FD3216
+Qirong Ho,Wei (David) Dai,0,2,Co-Advised,2,#FD3216
+Qirong Ho,Willie Neiswanger,0,2,Co-Advised,2,#FD3216
+Qirong Ho,Zhiting Hu,0,2,Co-Advised,2,#FD3216
+Suyash Shringarpure,Wei (David) Dai,0,2,Co-Advised,2,#FD3216
+Suyash Shringarpure,Willie Neiswanger,0,2,Co-Advised,2,#FD3216
+Suyash Shringarpure,Zhiting Hu,0,2,Co-Advised,2,#FD3216
+Wei (David) Dai,Willie Neiswanger,0,2,Co-Advised,2,#FD3216
+Wei (David) Dai,Zhiting Hu,0,2,Co-Advised,2,#FD3216
+Willie Neiswanger,Zhiting Hu,0,2,Co-Advised,2,#FD3216
+Anna Goldenberg,Purnamrita Sarkar,0,2,Co-Advised,0,"rgb(1,1,1)"
+Arish Alreja,Yuanning Li,0,2,Co-Advised,0,"rgb(1,1,1)"
+Arundhati Banerjee,Biswajit Paria,0,2,Co-Advised,1,#E48F72
+Arundhati Banerjee,Brent Bryan,0,2,Co-Advised,1,#E48F72
+Arundhati Banerjee,Ian Char,0,2,Co-Advised,1,#E48F72
+Arundhati Banerjee,Junier Oliva,0,2,Co-Advised,1,#E48F72
+Arundhati Banerjee,Kaustav Das,0,2,Co-Advised,1,#E48F72
+Arundhati Banerjee,Kirthevasan Kandasamy,0,2,Co-Advised,1,#E48F72
+Arundhati Banerjee,Liang Xiong,0,2,Co-Advised,1,#E48F72
+Arundhati Banerjee,Tzu-Kuo Huang,0,2,Co-Advised,1,#E48F72
+Arundhati Banerjee,Yi Zhang,0,2,Co-Advised,1,#E48F72
+Arundhati Banerjee,Yifei Ma,0,2,Co-Advised,1,#E48F72
+Biswajit Paria,Brent Bryan,0,2,Co-Advised,1,#E48F72
+Biswajit Paria,Chenghui Zhou,0,2,Co-Advised,1,#E48F72
+Biswajit Paria,Chun-Liang Li,0,2,Co-Advised,1,#E48F72
+Biswajit Paria,Ian Char,0,2,Co-Advised,1,#E48F72
+Biswajit Paria,Junier Oliva,0,4,Co-Advised,1,#E48F72
+Biswajit Paria,Kaustav Das,0,2,Co-Advised,1,#E48F72
+Biswajit Paria,Kirthevasan Kandasamy,0,4,Co-Advised,1,#E48F72
+Biswajit Paria,Liang Xiong,0,2,Co-Advised,1,#E48F72
+Biswajit Paria,Manzil Zaheer,0,2,Co-Advised,1,#E48F72
+Biswajit Paria,Sashank Jakkam Reddi,0,2,Co-Advised,1,#E48F72
+Biswajit Paria,Shashank Singh,0,2,Co-Advised,1,#E48F72
+Biswajit Paria,Tzu-Kuo Huang,0,2,Co-Advised,1,#E48F72
+Biswajit Paria,Yi Zhang,0,2,Co-Advised,1,#E48F72
+Biswajit Paria,Yifei Ma,0,2,Co-Advised,1,#E48F72
+Brent Bryan,Ian Char,0,2,Co-Advised,1,#E48F72
+Brent Bryan,Junier Oliva,0,2,Co-Advised,1,#E48F72
+Brent Bryan,Kaustav Das,0,2,Co-Advised,1,#E48F72
+Brent Bryan,Kirthevasan Kandasamy,0,2,Co-Advised,1,#E48F72
+Brent Bryan,Liang Xiong,0,2,Co-Advised,1,#E48F72
+Brent Bryan,Tzu-Kuo Huang,0,2,Co-Advised,1,#E48F72
+Brent Bryan,Yi Zhang,0,2,Co-Advised,1,#E48F72
+Brent Bryan,Yifei Ma,0,2,Co-Advised,1,#E48F72
+Ian Char,Junier Oliva,0,2,Co-Advised,1,#E48F72
+Ian Char,Kaustav Das,0,2,Co-Advised,1,#E48F72
+Ian Char,Kirthevasan Kandasamy,0,2,Co-Advised,1,#E48F72
+Ian Char,Liang Xiong,0,2,Co-Advised,1,#E48F72
+Ian Char,Tzu-Kuo Huang,0,2,Co-Advised,1,#E48F72
+Ian Char,Yi Zhang,0,2,Co-Advised,1,#E48F72
+Ian Char,Yifei Ma,0,2,Co-Advised,1,#E48F72
+Junier Oliva,Chenghui Zhou,0,2,Co-Advised,1,#E48F72
+Junier Oliva,Chun-Liang Li,0,2,Co-Advised,1,#E48F72
+Junier Oliva,Kaustav Das,0,2,Co-Advised,1,#E48F72
+Junier Oliva,Kirthevasan Kandasamy,0,4,Co-Advised,1,#E48F72
+Junier Oliva,Liang Xiong,0,2,Co-Advised,1,#E48F72
+Junier Oliva,Manzil Zaheer,0,2,Co-Advised,1,#E48F72
+Junier Oliva,Sashank Jakkam Reddi,0,2,Co-Advised,1,#E48F72
+Junier Oliva,Shashank Singh,0,2,Co-Advised,1,#E48F72
+Junier Oliva,Tzu-Kuo Huang,0,2,Co-Advised,1,#E48F72
+Junier Oliva,Yi Zhang,0,2,Co-Advised,1,#E48F72
+Junier Oliva,Yifei Ma,0,2,Co-Advised,1,#E48F72
+Kaustav Das,Kirthevasan Kandasamy,0,2,Co-Advised,1,#E48F72
+Kaustav Das,Liang Xiong,0,2,Co-Advised,1,#E48F72
+Kaustav Das,Tzu-Kuo Huang,0,2,Co-Advised,1,#E48F72
+Kaustav Das,Yi Zhang,0,2,Co-Advised,1,#E48F72
+Kaustav Das,Yifei Ma,0,2,Co-Advised,1,#E48F72
+Kirthevasan Kandasamy,Chenghui Zhou,0,2,Co-Advised,1,#E48F72
+Kirthevasan Kandasamy,Chun-Liang Li,0,2,Co-Advised,1,#E48F72
+Kirthevasan Kandasamy,Liang Xiong,0,2,Co-Advised,1,#E48F72
+Kirthevasan Kandasamy,Manzil Zaheer,0,2,Co-Advised,1,#E48F72
+Kirthevasan Kandasamy,Sashank Jakkam Reddi,0,2,Co-Advised,1,#E48F72
+Kirthevasan Kandasamy,Shashank Singh,0,2,Co-Advised,1,#E48F72
+Kirthevasan Kandasamy,Tzu-Kuo Huang,0,2,Co-Advised,1,#E48F72
+Kirthevasan Kandasamy,Yi Zhang,0,2,Co-Advised,1,#E48F72
+Kirthevasan Kandasamy,Yifei Ma,0,2,Co-Advised,1,#E48F72
+Liang Xiong,Tzu-Kuo Huang,0,2,Co-Advised,1,#E48F72
+Liang Xiong,Yi Zhang,0,2,Co-Advised,1,#E48F72
+Liang Xiong,Yifei Ma,0,2,Co-Advised,1,#E48F72
+Tzu-Kuo Huang,Yi Zhang,0,2,Co-Advised,1,#E48F72
+Tzu-Kuo Huang,Yifei Ma,0,2,Co-Advised,1,#E48F72
+Yi Zhang,Yifei Ma,0,2,Co-Advised,1,#E48F72
+Aryeh Kontorovich,Min Xu,0,2,Co-Advised,0,"rgb(1,1,1)"
+Ben Eysenbach,Devendra Chaplot,0,2,Co-Advised,13,#D626FF
+Ben Eysenbach,Emilio Parisotto,0,2,Co-Advised,13,#D626FF
+Ben Eysenbach,Manzil Zaheer,0,2,Co-Advised,0,grey
+Ben Eysenbach,Paul Liang,0,2,Co-Advised,13,#D626FF
+Ben Eysenbach,William Guss,0,2,Co-Advised,13,#D626FF
+Ben Eysenbach,Yao-Hung (Hubert) Tsai,0,2,Co-Advised,13,#D626FF
+Devendra Chaplot,Emilio Parisotto,0,2,Co-Advised,13,#D626FF
+Devendra Chaplot,Manzil Zaheer,0,2,Co-Advised,0,grey
+Devendra Chaplot,Paul Liang,0,2,Co-Advised,13,#D626FF
+Devendra Chaplot,William Guss,0,2,Co-Advised,13,#D626FF
+Devendra Chaplot,Yao-Hung (Hubert) Tsai,0,2,Co-Advised,13,#D626FF
+Emilio Parisotto,Manzil Zaheer,0,2,Co-Advised,0,grey
+Emilio Parisotto,Paul Liang,0,2,Co-Advised,13,#D626FF
+Emilio Parisotto,William Guss,0,2,Co-Advised,13,#D626FF
+Emilio Parisotto,Yao-Hung (Hubert) Tsai,0,2,Co-Advised,13,#D626FF
+Manzil Zaheer,Chenghui Zhou,0,2,Co-Advised,1,#E48F72
+Manzil Zaheer,Chun-Liang Li,0,2,Co-Advised,1,#E48F72
+Manzil Zaheer,Paul Liang,0,2,Co-Advised,0,grey
+Manzil Zaheer,Sashank Jakkam Reddi,0,2,Co-Advised,1,#E48F72
+Manzil Zaheer,Shashank Singh,0,2,Co-Advised,1,#E48F72
+Manzil Zaheer,William Guss,0,2,Co-Advised,0,grey
+Manzil Zaheer,Yao-Hung (Hubert) Tsai,0,2,Co-Advised,0,grey
+Paul Liang,William Guss,0,2,Co-Advised,13,#D626FF
+Paul Liang,Yao-Hung (Hubert) Tsai,0,2,Co-Advised,13,#D626FF
+William Guss,Yao-Hung (Hubert) Tsai,0,2,Co-Advised,13,#D626FF
+Benjamin Shih,Ricardo Silva,0,2,Co-Advised,0,"rgb(1,1,1)"
+Tanya Marwah,Cheng Cheng,0,2,Co-Advised,9,#FF9616
+Tanya Marwah,Helen Zhou,0,2,Co-Advised,9,#FF9616
+Tanya Marwah,Jacob Tyo,0,2,Co-Advised,9,#FF9616
+Tanya Marwah,Jonathon Byrd,0,2,Co-Advised,9,#FF9616
+Tanya Marwah,Leqi Liu,0,2,Co-Advised,9,#FF9616
+Tanya Marwah,Yifan Wu,0,2,Co-Advised,9,#FF9616
+Chenghui Zhou,Chun-Liang Li,0,2,Co-Advised,1,#E48F72
+Chenghui Zhou,Sashank Jakkam Reddi,0,2,Co-Advised,1,#E48F72
+Chenghui Zhou,Shashank Singh,0,2,Co-Advised,1,#E48F72
+Chun-Liang Li,Sashank Jakkam Reddi,0,2,Co-Advised,1,#E48F72
+Chun-Liang Li,Shashank Singh,0,2,Co-Advised,1,#E48F72
+Sashank Jakkam Reddi,Hsiao-Yu Tung,0,2,Co-Advised,0,grey
+Sashank Jakkam Reddi,Seth Flaxman,0,2,Co-Advised,0,grey
+Sashank Jakkam Reddi,Shashank Singh,0,2,Co-Advised,1,#E48F72
+Brendan O'Connor,Dallas Card,0,2,Co-Advised,0,"rgb(1,1,1)"
+Brian Ziebart,Hanzhang Hu,0,2,Co-Advised,0,"rgb(1,1,1)"
+Bryan Hooi,Deepayan Chakrabarti,0,2,Co-Advised,10,#479B55
+Bryan Hooi,Duen Horng (Polo) Chau,0,2,Co-Advised,10,#479B55
+Bryan Hooi,Hanghang Tong,0,2,Co-Advised,10,#479B55
+Bryan Hooi,Hyun Ah Song,0,2,Co-Advised,10,#479B55
+Bryan Hooi,Jurij Leskovec,0,2,Co-Advised,10,#479B55
+Bryan Hooi,Mary McGlohon,0,2,Co-Advised,10,#479B55
+Deepayan Chakrabarti,Duen Horng (Polo) Chau,0,2,Co-Advised,10,#479B55
+Deepayan Chakrabarti,Hanghang Tong,0,2,Co-Advised,10,#479B55
+Deepayan Chakrabarti,Hyun Ah Song,0,2,Co-Advised,10,#479B55
+Deepayan Chakrabarti,Jurij Leskovec,0,2,Co-Advised,10,#479B55
+Deepayan Chakrabarti,Mary McGlohon,0,2,Co-Advised,10,#479B55
+Duen Horng (Polo) Chau,Hanghang Tong,0,2,Co-Advised,10,#479B55
+Duen Horng (Polo) Chau,Hyun Ah Song,0,2,Co-Advised,10,#479B55
+Duen Horng (Polo) Chau,Jurij Leskovec,0,2,Co-Advised,10,#479B55
+Duen Horng (Polo) Chau,Mary McGlohon,0,2,Co-Advised,10,#479B55
+Hanghang Tong,Hyun Ah Song,0,2,Co-Advised,10,#479B55
+Hanghang Tong,Jurij Leskovec,0,2,Co-Advised,10,#479B55
+Hanghang Tong,Mary McGlohon,0,2,Co-Advised,10,#479B55
+Hyun Ah Song,Jurij Leskovec,0,2,Co-Advised,10,#479B55
+Hyun Ah Song,Mary McGlohon,0,2,Co-Advised,10,#479B55
+Jurij Leskovec,Mary McGlohon,0,2,Co-Advised,10,#479B55
+Calvin McCarter,Jing Xiang,0,2,Co-Advised,0,"rgb(1,1,1)"
+Carl Doersch,Kenneth Marino,0,2,Co-Advised,0,"rgb(1,1,1)"
+Cheng Cheng,Helen Zhou,0,2,Co-Advised,9,#FF9616
+Cheng Cheng,Jacob Tyo,0,2,Co-Advised,9,#FF9616
+Cheng Cheng,Jonathon Byrd,0,2,Co-Advised,9,#FF9616
+Cheng Cheng,Leqi Liu,0,2,Co-Advised,9,#FF9616
+Cheng Cheng,Yifan Wu,0,2,Co-Advised,9,#FF9616
+Helen Zhou,Jacob Tyo,0,2,Co-Advised,9,#FF9616
+Helen Zhou,Jonathon Byrd,0,2,Co-Advised,9,#FF9616
+Helen Zhou,Leqi Liu,0,2,Co-Advised,9,#FF9616
+Helen Zhou,Yifan Wu,0,2,Co-Advised,9,#FF9616
+Jacob Tyo,Jonathon Byrd,0,2,Co-Advised,9,#FF9616
+Jacob Tyo,Leqi Liu,0,2,Co-Advised,9,#FF9616
+Jacob Tyo,Yifan Wu,0,2,Co-Advised,9,#FF9616
+Jonathon Byrd,Leqi Liu,0,2,Co-Advised,9,#FF9616
+Jonathon Byrd,Yifan Wu,0,2,Co-Advised,9,#FF9616
+Leqi Liu,Yifan Wu,0,2,Co-Advised,9,#FF9616
+Chieh Lin,Hai-Son Le,0,2,Co-Advised,19,#22FFA7
+Chieh Lin,Jason Ernst,0,2,Co-Advised,19,#22FFA7
+Hai-Son Le,Jason Ernst,0,2,Co-Advised,19,#22FFA7
+Don Dennis,Oscar Li,0,2,Co-Advised,0,"rgb(1,1,1)"
+Dylan Fitzpatrick,Seth Flaxman,0,2,Co-Advised,16,#B68E00
+Dylan Fitzpatrick,William Herlands,0,2,Co-Advised,16,#B68E00
+Seth Flaxman,Hsiao-Yu Tung,0,2,Co-Advised,16,#B68E00
+Seth Flaxman,William Herlands,0,2,Co-Advised,16,#B68E00
+Felipe Trevizan,Nicholay Topin,0,2,Co-Advised,20,#E3EE9E
+Felipe Trevizan,Prashant Reddy,0,2,Co-Advised,20,#E3EE9E
+Nicholay Topin,Prashant Reddy,0,2,Co-Advised,20,#E3EE9E
+George Montañez,Michael Spece-Ibanez,0,2,Co-Advised,0,"rgb(1,1,1)"
+Gregory Plumb,Joon Sik Kim,0,2,Co-Advised,17,#C9FBE5
+Gregory Plumb,Liam Li,0,2,Co-Advised,17,#C9FBE5
+Gregory Plumb,Valerie Chen,0,2,Co-Advised,17,#C9FBE5
+Joon Sik Kim,Liam Li,0,2,Co-Advised,17,#C9FBE5
+Joon Sik Kim,Valerie Chen,0,2,Co-Advised,17,#C9FBE5
+Liam Li,Valerie Chen,0,2,Co-Advised,17,#C9FBE5
+Jingrui He,Liu Yang,0,2,Co-Advised,18,#FF0092
+Jingrui He,Xi Chen,0,2,Co-Advised,18,#FF0092
+Liu Yang,Pranjal Awasthi,0,2,Co-Advised,18,#FF0092
+Liu Yang,Xi Chen,0,2,Co-Advised,18,#FF0092
+Joseph Bradley,Joseph Gonzalez,0,2,Co-Advised,21,#86CE00
+Joseph Bradley,Yucheng Low,0,2,Co-Advised,21,#86CE00
+Joseph Gonzalez,Yucheng Low,0,2,Co-Advised,21,#86CE00
+Kirstin Early,Rob Hall,0,2,Co-Advised,0,"rgb(1,1,1)"
+Ritesh Noothigattu,Tom Yan,0,2,Co-Advised,0,"rgb(1,1,1)"

@@ -46,7 +46,7 @@ def set_node_degree(G, name='degree'):
 
 
 def set_node_pagerank(G, name='pagerank', **kwargs):
-    pr = nx.pagerank(G, **kwargs)
+    pr = nx.pagerank_scipy(G, **kwargs)
     for v in G:
         G.nodes[v][name] = pr[v]
 
@@ -54,9 +54,12 @@ def set_node_pagerank(G, name='pagerank', **kwargs):
 def set_node_community(G, name='community'):
     # communities = sorted(nx.community.greedy_modularity_communities(G), key=len, reverse=True)
     # communities = sorted(next(nx.community.girvan_newman(G)), key=len, reverse=True)
-    communities = nx.community.label_propagation_communities(G.to_undirected())
-    # communities = nx.community.asyn_lpa_communities(G, weight='weight')
+    # communities = nx.community.label_propagation_communities(G)
+    communities = nx.community.asyn_lpa_communities(G, weight='weight')
+    # print(communities)
     communities = sorted(communities, key=len, reverse=True)
+    # print(communities)
+
 
     # degrees = nx.get_node_attributes(G, 'degree')
     # degrees = G.degree
@@ -80,15 +83,15 @@ def set_node_community(G, name='community'):
 
 def set_edge_community(G, name='community'):
     '''Find internal edges and add their community to their attributes'''
-    for v, w, in G.edges:
+    for v, w, n in G.edges:
         if G.nodes[v][name] == G.nodes[w][name]:
             # Internal edge, mark with community
-            G.edges[v, w][name] = G.nodes[v][name]
-            G.edges[v, w][name + '_color'] = G.nodes[v][name + '_color']
+            G.edges[v, w, n][name] = G.nodes[v][name]
+            G.edges[v, w, n][name + '_color'] = G.nodes[v][name + '_color']
         else:
             # External edge, mark as 0
-            G.edges[v, w][name] = 0
-            G.edges[v, w][name + '_color'] = 'grey'
+            G.edges[v, w, n][name] = 0
+            G.edges[v, w, n][name + '_color'] = 'grey'
 
 
 def add_zero_degree_nodes(g, node_df, name_prefix):
@@ -108,17 +111,17 @@ def add_zero_degree_nodes(g, node_df, name_prefix):
 
 def create_node_edge_frame(G):
     node_attr = {node: G.nodes[node] for node in G.nodes}
-    edge_attr = {edge: G.edges[edge[0], edge[1]] for edge in G.edges}
+    edge_attr = {edge: G.edges[edge[0], edge[1], edge[2]] for edge in G.edges}
 
 
     node_frame = pd.DataFrame.from_dict(node_attr, orient='index').rename_axis('id').reset_index()
-    edge_frame = pd.DataFrame.from_dict(edge_attr, orient='index').rename_axis(['source', 'target']).reset_index()
+    edge_frame = pd.DataFrame.from_dict(edge_attr, orient='index').rename_axis(['source', 'target', 'other']).reset_index()
 
     return node_frame, edge_frame
 
 
 def get_node_edge_frame(node_df, edgelist_df, name_prefix=''):
-    G = get_nx_graph(edgelist_df, node_df, create_using=nx.DiGraph)
+    G = get_nx_graph(edgelist_df, node_df, create_using=nx.MultiGraph)
 
     # Set node and edge communities
     set_node_degree(G, name=name_prefix + 'degree')

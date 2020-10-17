@@ -20,7 +20,7 @@ if __name__ == "__main__":
     ########################
     faculty_cooccurrence = cooccurrence_edgelist(student_faculty_connections, on='student').dropna()
     faculty_cooccurrence = faculty_cooccurrence[(faculty_cooccurrence['relationship'] == 'Co-Advised') |
-                                                ((faculty_cooccurrence['weight'] > 2) &
+                                                ((faculty_cooccurrence['weight'] > 0) &
                                                  (faculty_cooccurrence['relationship'] == 'Co-Committee')
                                                  )
                                                 ].dropna()
