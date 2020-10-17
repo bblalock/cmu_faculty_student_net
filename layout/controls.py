@@ -125,102 +125,102 @@ filter_controls = {
         ],
     'body':
         [
-            dbc.CardBody(
-                [
-                    html.H6("Nodes",
-                            className="card-title",
-                            ),
-                    html.Hr(className="my-1"),
-                    html.P(['Include Nodes Types:'],
-                           className='control-title'
-                           ),
-                    dcc.Dropdown(
-                        id="node_filter_dropdown",
-                        options=[{'label': 'Core Faculty',
-                                  'value': 'entity_node faculty core'
-                                  },
-                                 {'label': 'Affiliated Faculty',
-                                  'value': 'entity_node faculty affiliated'
-                                  },
-                                 {'label': 'Related Faculty',
-                                  'value': 'entity_node faculty related'
-                                  },
-                                 {'label': 'Other Faculty',
-                                  'value': 'entity_node faculty unknown'
-                                  },
-                                 {'label': 'Alumni',
-                                  'value': 'entity_node student alumni'
-                                  },
-                                 {'label': 'Current Students',
-                                  'value': 'entity_node student current'
-                                  },
-                                 ],
-                        value=['entity_node faculty core', 'entity_node faculty affiliated',
-                               'entity_node faculty related', 'entity_node faculty unknown',
-                               'entity_node student alumni', 'entity_node student current'
-                               ],
-                        multi=True, className="dash-bootstrap"
+            # dbc.CardBody(
+            #     [
+            html.H6("Nodes",
+                    className="card-title",
                     ),
-                    html.P(['Include Zero Degree Nodes'],
-                           className='control-title'
-                           ),
-                    daq.BooleanSwitch(
-                        id='degree_zero_switch',
-                        on=True,
-                        style={'align-items': 'baseline'}, className="dash-bootstrap"
+            html.Hr(className="my-1"),
+            html.P(['Include Nodes Types:'],
+                   className='control-title'
+                   ),
+            dcc.Dropdown(
+                id="node_filter_dropdown",
+                options=[{'label': 'Core Faculty',
+                          'value': 'entity_node faculty core'
+                          },
+                         {'label': 'Affiliated Faculty',
+                          'value': 'entity_node faculty affiliated'
+                          },
+                         {'label': 'Related Faculty',
+                          'value': 'entity_node faculty related'
+                          },
+                         {'label': 'Other Faculty',
+                          'value': 'entity_node faculty unknown'
+                          },
+                         {'label': 'Alumni',
+                          'value': 'entity_node student alumni'
+                          },
+                         {'label': 'Current Students',
+                          'value': 'entity_node student current'
+                          },
+                         ],
+                value=['entity_node faculty core', 'entity_node faculty affiliated',
+                       'entity_node faculty related', 'entity_node faculty unknown',
+                       'entity_node student alumni', 'entity_node student current'
+                       ],
+                multi=True, className="dash-bootstrap"
+            ),
+            html.P(['Include Zero Degree Nodes'],
+                   className='control-title'
+                   ),
+            daq.BooleanSwitch(
+                id='degree_zero_switch',
+                on=True,
+                style={'align-items': 'baseline'}, className="dash-bootstrap"
+            ),
+            html.H6("Edges",
+                    className="card-title",
                     ),
-                    html.H6("Edges",
-                            className="card-title",
-                            ),
-                    html.Hr(className="my-1"),
-                    html.P(['Include Edge Types:'],
-                           className='control-title'
-                           ),
-                    dcc.Dropdown(
-                        id="edge_filter_dropdown",
-                        options=[{'label': 'Co-Advised Student',
-                                  'value': 'co_advised_edge faculty'
-                                  },
-                                 {'label': 'Co-Advised By Faculty',
-                                  'value': 'co_advised_edge student'
-                                  },
-                                 {'label': 'Co-Served on Committee',
-                                  'value': 'co_committee_edge faculty'
-                                  },
-                                 {'label': 'Advisor-Advisee',
-                                  'value': 'bipartite_advised_edge'
-                                  }
-                                 ],
-                        value=['co_advised_edge faculty', 'co_advised_edge student',
-                               'co_committee_edge faculty', 'bipartite_advised_edge'
-                               ],
-                        multi=True, className="dash-bootstrap"
+            html.Hr(className="my-1"),
+            html.P(['Include Edge Types:'],
+                   className='control-title'
+                   ),
+            dcc.Dropdown(
+                id="edge_filter_dropdown",
+                options=[{'label': 'Co-Advised Student',
+                          'value': 'co_advised_edge faculty'
+                          },
+                         {'label': 'Co-Advised By Faculty',
+                          'value': 'co_advised_edge student'
+                          },
+                         {'label': 'Co-Served on Committee',
+                          'value': 'co_committee_edge faculty'
+                          },
+                         {'label': 'Advisor-Advisee',
+                          'value': 'bipartite_advised_edge'
+                          }
+                         ],
+                value=['co_advised_edge faculty', 'co_advised_edge student',
+                       'co_committee_edge faculty', 'bipartite_advised_edge'
+                       ],
+                multi=True, className="dash-bootstrap"
+            ),
+            html.H6("Set Minimum Edge Weight:",
+                    className="card-title",
+                    style={'margin-left': '1.0rem'}
                     ),
-                    html.H6("Set Minimum Edge Weight:",
-                            className="card-title",
-                            style={'margin-left': '1.0rem'}
-                            ),
-                    html.P(['Co-Advisor/Adivsee Connections:'],
-                           className='control-title'
-                           ),
-                    dcc.Slider(
-                        id='edge_weight_slider_adv',
-                        min=1,
-                        step=1,
-                        value=1,
-                        className="dash-bootstrap"
-                    ),
-                    html.P(['Co-Committee Connections:'],
-                           className='control-title'
-                           ),
-                    dcc.Slider(
-                        id='edge_weight_slider_comm',
-                        min=3,
-                        step=1,
-                        value=3, className="dash-bootstrap"
-                    ),
-                ]
-            )
+            html.P(['Co-Advisor/Adivsee Connections:'],
+                   className='control-title'
+                   ),
+            dcc.Slider(
+                id='edge_weight_slider_adv',
+                min=1,
+                step=1,
+                value=1,
+                className="dash-bootstrap"
+            ),
+            html.P(['Co-Committee Connections:'],
+                   className='control-title'
+                   ),
+            dcc.Slider(
+                id='edge_weight_slider_comm',
+                min=3,
+                step=1,
+                value=3, className="dash-bootstrap"
+            ),
+            #     ]
+            # )
         ]
 }
 
