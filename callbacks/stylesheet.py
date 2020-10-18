@@ -42,8 +42,10 @@ def get_clicked_node_stylesheet(node):
             'style': {
                 'background-opacity': 0.1,
                 'width': 20,
+                'background-color': 'grey',
                 "border-color": "black",
                 "border-width": 0,
+                "border-opacity": 0,
             }
         },
         {
@@ -57,7 +59,7 @@ def get_clicked_node_stylesheet(node):
                       'text-opacity': 1,
                       'line-color': "data(community_color)",
                       'color': 'data(community_color)',
-                      'opacity': 0.1
+                      'opacity': 0.05
                       }
         },
         {
