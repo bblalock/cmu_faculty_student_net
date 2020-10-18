@@ -108,21 +108,6 @@ def filter_graph(weight_filter_comm, weight_filter_adv,
     student_table_data = student_df[student_df['Name'].isin(node_ids)].sort_values(['Degree'], ascending=False).to_dict(
         'records')
 
-    # for node in nodes:
-    #     if 'entity_node' in node['classes']:
-    #         if node['classes'] in nodes_to_include:
-    #             if node['data']['id'] not in non_zero_degree_nodes:
-    #                 if degree_switch:
-    #                     node['data']['display'] = 'element'
-    #                 else:
-    #                     node['data']['display'] = 'none'
-    #             else:
-    #                 node['data']['display'] = 'element'
-    #         else:
-    #             node['data']['display'] = 'none'
-    #     else:
-    #         node['data']['display'] = 'element'
-
     filtered_edges = []
     for edge in edges:
         if edge['classes'] in edges_to_include:

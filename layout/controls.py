@@ -2,7 +2,6 @@ import dash_html_components as html
 import dash_core_components as dcc
 import dash_bootstrap_components as dbc
 import dash_daq as daq
-import dash_table
 from functools import reduce
 from app_setup import communities, community_df
 from utils.plots import community_bar
@@ -123,10 +122,10 @@ community_controls = {
         ]
 }
 
-filter_controls = {
+node_controls = {
     'header':
         [
-            html.H5("Filtering",
+            html.H5("Nodes",
                     className="card-title",
                     ),
             html.Hr(className="my-2"),
@@ -135,10 +134,27 @@ filter_controls = {
         [
             dbc.CardBody(
                 [
-                    html.H6("Nodes",
-                            className="card-title",
-                            ),
-                    html.Hr(className="my-1"),
+                    html.P(['Include Zero Degree Nodes'],
+                           className='control-title'
+                           ),
+                    daq.BooleanSwitch(
+                        id='degree_zero_switch',
+                        on=True,
+                        style={'align-items': 'baseline'}, className="dash-bootstrap"
+                    ),
+                    html.P(['Size Nodes by:'],
+                           className='control-title'
+                           ),
+                    dcc.Dropdown(
+                        id="node_size_dropdown",
+                        options=[{'label': 'MultiGraph PageRank ',
+                                  'value': 'pagerank'
+                                  },
+                                 ],
+                        value='pagerank',
+                        multi=False,
+                        className="dash-bootstrap",
+                    ),
                     html.P(['Include Nodes Types:'],
                            className='control-title'
                            ),
@@ -169,19 +185,27 @@ filter_controls = {
                                ],
                         multi=True,
                         className="dash-bootstrap"
+                    )
+                ],
+                style={'padding-right': 0,
+                       'padding-left': 5
+                       }
+            )
+        ]
+}
+
+edge_controls = {
+    'header':
+        [
+            html.H5("Edges",
+                    className="card-title",
                     ),
-                    html.P(['Include Zero Degree Nodes'],
-                           className='control-title'
-                           ),
-                    daq.BooleanSwitch(
-                        id='degree_zero_switch',
-                        on=True,
-                        style={'align-items': 'baseline'}, className="dash-bootstrap"
-                    ),
-                    html.H6("Edges",
-                            className="card-title",
-                            ),
-                    html.Hr(className="my-1"),
+            html.Hr(className="my-2"),
+        ],
+    'body':
+        [
+            dbc.CardBody(
+                [
                     html.P(['Include Edge Types:'],
                            className='control-title'
                            ),
@@ -208,7 +232,7 @@ filter_controls = {
                     ),
                     html.H6("Set Minimum Edge Weight:",
                             className="card-title",
-                            style={'margin-left': '1.0rem'}
+                            # style={'margin-top': '1.0rem'}
                             ),
                     html.P(['Advising Connections:'],
                            className='control-title'
@@ -242,7 +266,8 @@ control_components = [
     # click_controls,
     # grouping_controls,
     community_controls,
-    filter_controls
+    node_controls,
+    edge_controls
 ]
 
 control_components = reduce(lambda a, b: a + b,

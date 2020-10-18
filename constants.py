@@ -21,7 +21,7 @@ DEFAULT_STYLESHEET = [
             "border-width": 2,
             "border-opacity": 1,
             'content': 'data(label)',
-            'display': 'element'
+            # 'display': 'element'
         }
     },
     {
@@ -31,6 +31,7 @@ DEFAULT_STYLESHEET = [
                   "border-color": "white",
                   'background-color': 'white',
                   "background-opacity": 0.0,
+                  'display': 'element'
                   }
     },
     {
@@ -40,6 +41,7 @@ DEFAULT_STYLESHEET = [
                   "border-color": "white",
                   'background-color': 'white',
                   "background-opacity": 0.2,
+                  'display': 'element'
                   }
     },
     {
@@ -50,6 +52,7 @@ DEFAULT_STYLESHEET = [
                   'background-opacity': 'data(opacity)',
                   'background-color': 'data(community_color)',
                   "border-color": "data(community_color)",
+                  "display": 'data(display)'
                   }
     },
     {
@@ -153,7 +156,7 @@ COSE_BILKENT_LAYOUT_OPTIONS = {
     ## Type of layout animation. The option set is {'during', 'end', false}
     'animate': 'during',
     # ## Duration for animate:end
-    'animationDuration': 100,
+    'animationDuration': 50,
     ## Amount of vertical space to put between degree zero nodes during tiling (can also be a function)
     'tilingPaddingVertical': 0,
     ## Amount of horizontal space to put between degree zero nodes during tiling (can also be a function)

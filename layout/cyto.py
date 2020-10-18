@@ -29,10 +29,12 @@ def initialize_cyto_children(elements):
                     [
                         dbc.Col(
                             dbc.Card(controls_children,
-                                     style={'height': NETWORK_HEIGHT}
+                                     style={'height': '100%'}
                                      ),
                             md=3,
-                            style={'overflow': 'auto'}
+                            style={'overflow': 'auto',
+                                   # 'height': NETWORK_HEIGHT
+                                   },
                         ),
                         dbc.Col(
                             dbc.Card(

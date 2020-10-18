@@ -1,3 +1,7 @@
+#react-select-7--value-item {
+    color: white;
+}
+
 #community_bar_container {
     width: 100%;
     overflow-x: auto;
@@ -19,8 +23,8 @@
 }
 
 .card-body {
-    padding-top: 0!important;
-    padding-bottom: 0!important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .my-2 {
@@ -117,8 +121,8 @@ label input {
     border-right-color: rgba(55, 55, 55, 0.25);
 }
 
-.dash-bootstrap .has-value.Select--single > .Select-control .Select-value .Select-value-label,
-.dash-bootstrap .has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
+.dash-bootstrap .Select.has-value.Select--single > .Select-control .Select-value .Select-value-label,
+.dash-bootstrap .Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
     color: #ffffff !important;
 }
 

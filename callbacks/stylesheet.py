@@ -16,7 +16,7 @@ def get_clicked_node_stylesheet(node):
                 "border-opacity": 1,
                 'color': 'white',
                 'content': '',  # No labels
-                'display': 'data(display)'
+                # 'display': 'data(display)'
             }
         },
         {
