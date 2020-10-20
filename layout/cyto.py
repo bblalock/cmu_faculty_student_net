@@ -41,7 +41,8 @@ def initialize_cyto_children(elements):
                                 dcc.Loading(
                                     children=[cyto_network(elements)],
                                     id='cmu_net_loading'
-                                )
+                                ),
+                                style={'height': '100%'}
                             ),
                             md=9,
                         )
