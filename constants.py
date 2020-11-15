@@ -57,11 +57,11 @@ DEFAULT_STYLESHEET = [
     },
     {
         'selector': '.entity_node.faculty',
-        'style': {'min-zoomed-font-size': '18px'}
+        'style': {'min-zoomed-font-size': '12px'}
     },
     {
         'selector': '.entity_node.student',
-        'style': {'min-zoomed-font-size': '32px'}
+        'style': {'min-zoomed-font-size': '12px'}
     },
     {
         'selector': 'edge',

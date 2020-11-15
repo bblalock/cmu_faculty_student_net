@@ -9,4 +9,4 @@ app.layout = html.Div(children=get_layout(cyto_elements))
 
 # Main
 if __name__ == "__main__":
-    app.run_server(debug=False)
+    app.run_server(debug=True)

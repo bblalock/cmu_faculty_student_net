@@ -251,7 +251,7 @@ edge_controls = {
                         id='edge_weight_slider_comm',
                         min=1,
                         step=1,
-                        value=1,
+                        value=3,
                         className="dash-bootstrap"
                     ),
                 ],
